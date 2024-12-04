@@ -7,6 +7,8 @@ const operations = {};
 (async () => {
     for (const operationType of ["client", "dedicated", "public"]) {
         operations[operationType] = {};
+        
+        if (!fs.existsSync(path.join(__dirname, "mcp", operationType))) continue;
 
         for (const operation of fs.readdirSync(path.join(__dirname, "mcp", operationType))) {
             const operationFile = require(path.join(__dirname, "mcp", operationType, operation));
