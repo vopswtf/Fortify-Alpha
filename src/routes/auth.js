@@ -28,7 +28,7 @@ const createProfiles = async (user) => {
     profile0.items[guid].attributes.completion_hbonboarding_watchsatellitecine = 1;
 
     quests.addQuest(profile0, "Quest.outpostquest_t1_l1");
-    quests.completeQuest(profile0, "Quest.outpostquest_t1_l1");
+    //quests.completeQuest(profile0, "Quest.outpostquest_t1_l1");
 
     // TODO: look into buildings more, i doubt each one is suppose to be added like this
     getAllItems("MyFortBuilding").forEach(item => {
