@@ -6,7 +6,6 @@ const ProfileModel = require('../model/profile');
 const quests = require('../util/quests');
 const { getAllItems, generateAttributes, getItem, getItemsStartingWith } = require('../util/gameData');
 const ProfileWrapper = require('../util/ProfileWrapper');
-const FriendsModel = require('../model/friends');
 
 const createUser = async (username, password) => {
     const user = new UserModel({
@@ -15,9 +14,6 @@ const createUser = async (username, password) => {
         password: await bcrypt.hash(password, 10)
     });
     await user.save();
-
-    const friends = new FriendsModel({ accountId: user.accountId });
-    await friends.save();
 
     return user;
 };
