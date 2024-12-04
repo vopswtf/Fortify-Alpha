@@ -9,7 +9,7 @@ module.exports = {
 
         const profileWrapper = new ProfileWrapper(profile);
         const targetItem = profile.items[buildingId];
-        if (!targetItem) return res.status(400).json({ error: "invalid_target_item" });
+        if (!targetItem || !targetItem.templateId.startsWith("MyFortBuilding.")) return res.status(400).json({ error: "invalid_target_item" });
         if (targetItem.attributes.level === 5) return res.status(400).json({ error: "max_level" }); // probably
 
         // TODO: validate if the item can be upgraded, take resources

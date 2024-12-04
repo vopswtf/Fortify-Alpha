@@ -10,7 +10,7 @@ module.exports = {
 
         const profileWrapper = new ProfileWrapper(profile);
         const targetItem = profile.items[targetItemId];
-        if (!targetItem) return res.status(400).json({ error: "invalid_target_item" });
+        if (!targetItem || !targetItem.templateId.startsWith("Schematic.")) return res.status(400).json({ error: "invalid_target_item" });
 
         const itemInfo = getItem(targetItem.templateId);
         if (!itemInfo) return res.status(400).json({ error: "missing_item_info" });
@@ -23,8 +23,6 @@ module.exports = {
 
         const requiredSchematicXP = Row.Keys[targetItem.attributes.level - 1];
         if (!requiredSchematicXP) return res.status(400).json({ error: "invalid_required_xp" });
-
-        console.log(requiredSchematicXP);
         
         const schematicXp = profileWrapper.getQuantity("AccountResource.schematicxp");
         if (schematicXp < requiredSchematicXP.Value) return res.status(400).json({ error: "insufficient_schematic_xp" });

@@ -9,7 +9,7 @@ module.exports = {
 
         const profileWrapper = new ProfileWrapper(profile);
         const targetItem = profile.items[targetWorkerId];
-        if (!targetItem) return res.status(400).json({ error: "invalid_target_item" });
+        if (!targetItem || !targetItem.templateId.startsWith("Worker.")) return res.status(400).json({ error: "invalid_target_item" });
 
         profileWrapper.updateAttribute(targetWorkerId, "level", targetItem.attributes.level + 1, req.mcp.profileChanges);
         await profile.save();

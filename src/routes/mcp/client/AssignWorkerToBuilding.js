@@ -17,7 +17,7 @@ module.exports = {
         const worker = profile.items[workerId];
         const building = profile.items[buildingId];
         let previousWorker;
-        if (!building) return res.status(400).json({ error: "invalid_worker_or_building" });
+        if (!building || !building.templateId.startsWith("MyFortBuilding.")) return res.status(400).json({ error: "invalid_worker_or_building" });
 
         if (slotIndexInt === 0) {
             previousWorker = building.attributes.managerInstanceId;
