@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_HeadshotDamage_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_HeadshotDamage_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_HeadshotDamage_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "805B101C40E77062A69D788792A755E6",
+        "SourceString": "Precision Targeting [Upgraded]",
+        "LocalizedString": "Precision Targeting [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "014B416A404232A1877C36B314F42BB4",
+        "SourceString": "+20% Headshot Damage",
+        "LocalizedString": "+20% Headshot Damage"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

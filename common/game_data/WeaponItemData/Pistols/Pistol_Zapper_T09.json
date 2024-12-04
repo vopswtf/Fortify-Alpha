@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Pistol_Zapper_T09",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "ProjectileTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'B_Prj_Zapper2_C'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Special/Blueprints/B_Prj_Zapper2.56"
+      },
+      "WeaponActorClass": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_Zapper.B_Pistol_Zapper_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Raygun_Pistol'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Pistols/Mesh/SK_Raygun_Pistol.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Pistol_Zapper_T09"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/Projectile/GA_Ranged_GenericProjectileExplosive.GA_Ranged_GenericProjectileExplosive_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataEnergyCell'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataEnergyCell.0"
+      },
+      "ReticleCornerAngles": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Pistol-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Pistol-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Pistols/Mesh/SK_Raygun_Pistol.SK_Raygun_Pistol",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pistol_Pickup_Cue.Pistol_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pistol_Drop_Cue.Pistol_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_09",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F828AF8E4E1094460E3340B57CABD06C",
+        "SourceString": "Zap Zapp",
+        "LocalizedString": "Zap Zapp"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "31ABE9B7469FEEF8F3153EA173E4ED6B",
+        "SourceString": "Pistol. Slowly fires powerful explosive blasts. Higher rate of fire than the normal version.",
+        "LocalizedString": "Pistol. Slowly fires powerful explosive blasts. Higher rate of fire than the normal version."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "0D457B4C417B96EFCAE4C08A1A9A0B7C",
+        "SourceString": "Guns Ranged Pistols EnergyCells SemiAuto",
+        "LocalizedString": "Guns Ranged Pistols EnergyCells SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.pistol",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Raygun_Pistol'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Pistols/SK_Raygun_Pistol.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::IX",
+      "Rarity": "EFortRarity::Badass"
+    }
+  }
+]

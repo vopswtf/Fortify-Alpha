@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "RetrieveTheData_Platinum",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T3__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T3__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "E68680064AE4967245C18C9529442BDC",
+        "SourceString": "100% of the files were successfully downloaded!",
+        "LocalizedString": "100% of the files were successfully downloaded!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "BC1E3C8345AC44F562EFD6A55AB0569D",
+        "SourceString": "At least 1 of the files was corrupted.",
+        "LocalizedString": "At least 1 of the files was corrupted."
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_RTD_Platinum"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9802DEE9495422DA022E7DBFADD577AA",
+        "SourceString": "100% Successful Download!",
+        "LocalizedString": "100% Successful Download!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1C76E94448EAFF0F070D4093B509E5AD",
+        "SourceString": "All of the files were succesfully downloaded!",
+        "LocalizedString": "All of the files were succesfully downloaded!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T3_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T3_.0"
+        }
+      }
+    }
+  }
+]

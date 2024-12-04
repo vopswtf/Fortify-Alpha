@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "S_FlowerPetals_Loot",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "AEAFA3694574557647A7F28B3245C578",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 20642,
+        "SizeOnDisk": 20642,
+        "OffsetInFile": "0x1068E"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_40",
+    "Outer": "S_FlowerPetals_Loot",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x15794"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_FlowerPetals_Loot",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FlowersPickup'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FlowersPickup.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.4975357,
+          "Y": 4.2448616,
+          "Z": -0.23472595
+        },
+        "BoxExtent": {
+          "X": 22.403326,
+          "Y": 24.962345,
+          "Z": 25.49802
+        },
+        "SphereRadius": 25.49802
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_FlowerPetals_Loot:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_FlowerPetals_Loot.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_FlowerPetals_Loot:NavCollision_40'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_FlowerPetals_Loot.1"
+    },
+    "LightingGuid": "4C8CEFD7-4BEFD11C-3DB0209C-5442E98F",
+    "RenderData": null
+  }
+]

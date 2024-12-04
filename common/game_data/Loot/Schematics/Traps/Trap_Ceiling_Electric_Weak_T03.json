@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Trap_Ceiling_Electric_Weak_T03",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 10,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Planks'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Planks.0"
+          },
+          "Count": 6,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Alloy'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Alloy.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Duct_Tape'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Duct_Tape.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortTrapItemDefinition'Trap_Ceiling_Electric_Weak_T03'",
+        "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Trap_Ceiling_Electric_Weak_T03.0"
+      },
+      "CraftingPoints": 200,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "NoScaling"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "3_Common"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "3_Common"
+      },
+      "MaxLevel": 5,
+      "GameplayTags": [
+        "trap.Ceiling"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Wood_ElectricCeiling'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_Wood_ElectricCeiling.0"
+        }
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

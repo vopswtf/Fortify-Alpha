@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_ReloadSpeed",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_ReloadSpeed'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_ReloadSpeed.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B19C871D48D0552934694AAB368ED748",
+        "SourceString": "Assisted Reload",
+        "LocalizedString": "Assisted Reload"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BCC4A0134E960382D2240389BC984126",
+        "SourceString": "+15% Reload Speed",
+        "LocalizedString": "+15% Reload Speed"
+      },
+      "IconBrush": {}
+    }
+  }
+]

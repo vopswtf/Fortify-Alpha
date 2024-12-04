@@ -1,0 +1,161 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_CommandCenter",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Fortification",
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_CommandCenter'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_CommandCenter.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.CommandCenter"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Command_WorkerRating_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Command_WorkerRating.0"
+      },
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter_Warehouse'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Core/Building_CommandCenter_Warehouse.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter_ManufacturingPlant'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Production/Building_CommandCenter_ManufacturingPlant.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter_PowerStation'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Production/Building_CommandCenter_PowerStation.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter_Farm'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Production/Building_CommandCenter_Farm.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter_ExpeditionTeam'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Production/Building_CommandCenter_ExpeditionTeam.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_CommandCenter_Main_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_CommandCenter_Main.9"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_CommandCenter_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_CommandCenter_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "94CBBBAE49E32A2348E5E08055E663BC",
+        "SourceString": "Command Center",
+        "LocalizedString": "Command Center"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "99A7C3AB4454BD6A346E3EAD34607245",
+        "SourceString": "Upgrade overall Home Base level to increase your power.",
+        "LocalizedString": "Upgrade overall Home Base level to increase your power."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-CommandCenter-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-CommandCenter-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-CommandCenter-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-CommandCenter-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

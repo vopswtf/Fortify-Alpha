@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_Resources_MTX_T13",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_Resources_MTX_T13",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7411FF9E40CCAC2F6B499ABCF219481A",
+        "SourceString": "V-bucks",
+        "LocalizedString": "V-bucks"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CFDEFAE14C49E684272752BE77C4E444",
+        "SourceString": "A bundle of v-bucks used to purchase items from the store. Harder missions give higher quantities of v-bucks!",
+        "LocalizedString": "A bundle of v-bucks used to purchase items from the store. Harder missions give higher quantities of v-bucks!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Gem-XXL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XXL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

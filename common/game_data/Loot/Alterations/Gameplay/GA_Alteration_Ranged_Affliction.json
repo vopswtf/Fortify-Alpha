@@ -1,0 +1,748 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "TC_AlreadyActive",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TC_IsGun",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:TC_AlreadyActive'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.0"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "GE_EnergyDOT",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'ClassProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:TC_IsGun'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "GE_LightningDOT",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'ClassProperty'",
+    "Next": {
+      "ObjectName": "ClassProperty'GA_Alteration_Ranged_Affliction_C:GE_EnergyDOT'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.2"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "GE_IceDOT",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'ClassProperty'",
+    "Next": {
+      "ObjectName": "ClassProperty'GA_Alteration_Ranged_Affliction_C:GE_LightningDOT'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.3"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "GE_FireDOT",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'ClassProperty'",
+    "Next": {
+      "ObjectName": "ClassProperty'GA_Alteration_Ranged_Affliction_C:GE_IceDOT'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.4"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "E_ElementalDamageType",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'ByteProperty'",
+    "Next": {
+      "ObjectName": "ClassProperty'GA_Alteration_Ranged_Affliction_C:GE_FireDOT'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.5"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Enum": {
+      "ObjectName": "Enum'EFortElementalDamageType'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TC_EnergyDamage",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "ByteProperty'GA_Alteration_Ranged_Affliction_C:E_ElementalDamageType'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.6"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TC_FireDamage",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:TC_EnergyDamage'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.7"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TC_LightningDamage",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:TC_FireDamage'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.8"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TC_IceDamage",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:TC_LightningDamage'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.9"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "GE_DOT",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'ClassProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:TC_IceDamage'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.10"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EventComplete",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "ClassProperty'GA_Alteration_Ranged_Affliction_C:GE_DOT'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.11"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EventActivation",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:EventComplete'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.12"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_ApplyGameplayEffectSpecToTarget_ReturnValue",
+    "Outer": "CallFunc_K2_ApplyGameplayEffectSpecToTarget_ReturnValue",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_K2_ApplyGameplayEffectSpecToTarget_ReturnValue",
+    "Outer": "ExecuteUbergraph_GA_Alteration_Ranged_Affliction",
+    "Class": "UScriptClass'ArrayProperty'",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction.CallFunc_K2_ApplyGameplayEffectSpecToTarget_ReturnValue.CallFunc_K2_ApplyGameplayEffectSpecToTarget_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.14"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_AbilityTargetDataFromActor_ReturnValue",
+    "Outer": "ExecuteUbergraph_GA_Alteration_Ranged_Affliction",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction.CallFunc_K2_ApplyGameplayEffectSpecToTarget_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.15"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeOutgoingGameplayEffectSpec_ReturnValue",
+    "Outer": "ExecuteUbergraph_GA_Alteration_Ranged_Affliction",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction.CallFunc_AbilityTargetDataFromActor_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.16"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEffectSpecHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_EventData",
+    "Outer": "ExecuteUbergraph_GA_Alteration_Ranged_Affliction",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction.CallFunc_MakeOutgoingGameplayEffectSpec_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.17"
+    },
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEventData'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_GA_Alteration_Ranged_Affliction",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction.K2Node_Event_EventData'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.18"
+    },
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_Alteration_Ranged_Affliction",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:EventActivation'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.13"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EventData",
+    "Outer": "K2_ActivateAbilityFromEvent",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "ConstParm | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEventData'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbilityFromEvent",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'GAT_GenericTriggeredAbility_C:K2_ActivateAbilityFromEvent'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_GenericTriggeredAbility.14"
+    },
+    "Next": {
+      "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.20"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GAT_GenericTriggeredAbility_C:K2_ActivateAbilityFromEvent'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_GenericTriggeredAbility.14"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:K2_ActivateAbilityFromEvent.EventData'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.21"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CanExecute",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "PropertyFlags": "Edit",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.CanExecute'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.23"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_GetTeamAffiliation_ReturnValue",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'ByteProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.K2Node_SwitchEnum_CmpSuccess'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.24"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortTeamAffiliation'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ByteProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.CallFunc_GetTeamAffiliation_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.25"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.CallFunc_BooleanAND_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.26"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Pawn",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.K2Node_DynamicCast_bSuccess'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.27"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.K2Node_DynamicCast_AsFort_Pawn'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.28"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue2",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.CallFunc_Not_PreBool_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.29"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.30"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.31"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Payload",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.32"
+    },
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEventData'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ActorInfo",
+    "Outer": "K2_ShouldAbilityRespondToEvent",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.Payload'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.33"
+    },
+    "PropertyFlags": "Parm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityActorInfo'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ShouldAbilityRespondToEvent",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:K2_ActivateAbilityFromEvent'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.22"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_ShouldAbilityRespondToEvent'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent.ActorInfo'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.34"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue4",
+    "Outer": "SetDamageType",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue3",
+    "Outer": "SetDamageType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:SetDamageType.CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue4'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.36"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue2",
+    "Outer": "SetDamageType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:SetDamageType.CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.37"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue",
+    "Outer": "SetDamageType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:SetDamageType.CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InstigatorTags",
+    "Outer": "SetDamageType",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'GA_Alteration_Ranged_Affliction_C:SetDamageType.CallFunc_DoesContainerMatchAllTagsInContainer_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.39"
+    },
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDamageType",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.35"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:SetDamageType.InstigatorTags'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.40"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:SetDamageType'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.41"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "GameplayAbilityBlueprintGeneratedClass",
+    "Name": "GA_Alteration_Ranged_Affliction_C",
+    "Class": "UScriptClass'GameplayAbilityBlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_GenericTriggeredAbility_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_GenericTriggeredAbility.16"
+    },
+    "Properties": {
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.42"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.20"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_GenericTriggeredAbility_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_GenericTriggeredAbility.16"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Alteration_Ranged_Affliction_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.42"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_Alteration_Ranged_Affliction": {
+        "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:ExecuteUbergraph_GA_Alteration_Ranged_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.20"
+      },
+      "K2_ActivateAbilityFromEvent": {
+        "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:K2_ActivateAbilityFromEvent'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.22"
+      },
+      "K2_ShouldAbilityRespondToEvent": {
+        "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:K2_ShouldAbilityRespondToEvent'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.35"
+      },
+      "SetDamageType": {
+        "ObjectName": "Function'GA_Alteration_Ranged_Affliction_C:SetDamageType'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.41"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Alteration_Ranged_Affliction_C'Default__GA_Alteration_Ranged_Affliction_C'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.44"
+    }
+  },
+  {
+    "Type": "GA_Alteration_Ranged_Affliction_C",
+    "Name": "Default__GA_Alteration_Ranged_Affliction_C",
+    "Class": "GameplayAbilityBlueprintGeneratedClass'FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.GA_Alteration_Ranged_Affliction_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "EventActivation": {
+        "TagName": "None"
+      },
+      "EventComplete": {
+        "TagName": "None"
+      },
+      "GE_DOT": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Ranged_ImpactDOT_C'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_ImpactDOT.0"
+      },
+      "TC_IceDamage": [
+        "Gameplay.Damage.Elemental.Ice"
+      ],
+      "TC_LightningDamage": [
+        "Gameplay.Damage.Elemental.Lightning"
+      ],
+      "TC_FireDamage": [
+        "Gameplay.Damage.Elemental.Fire"
+      ],
+      "TC_EnergyDamage": [
+        "Gameplay.Damage.Physical.Energy"
+      ],
+      "GE_FireDOT": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Ranged_IncendiaryDOT_C'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_IncendiaryDOT.0"
+      },
+      "GE_IceDOT": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Ranged_CryoDOT_C'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_CryoDOT.0"
+      },
+      "GE_LightningDOT": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Ranged_ElectricalDOT_C'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_ElectricalDOT.0"
+      },
+      "GE_EnergyDOT": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Ranged_EnergyDOT_C'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_EnergyDOT.0"
+      },
+      "TC_IsGun": [
+        "weapon.ranged"
+      ],
+      "TC_AlreadyActive": [
+        "Abilities.Alterations.OnCooldown.RangedAffliction"
+      ],
+      "DamageStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'GadgetScaling'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/GadgetScaling.0"
+        },
+        "RowName": "Alterations_DefaultRangedDOT"
+      },
+      "AbilityTags": [
+        "weapon"
+      ],
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Event.Damage.Dealt"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

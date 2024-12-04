@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "TestElementalAlteration",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::EFortAlteration_MAX",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Ice"
+          ]
+        }
+      ],
+      "IconBrush": {}
+    }
+  }
+]

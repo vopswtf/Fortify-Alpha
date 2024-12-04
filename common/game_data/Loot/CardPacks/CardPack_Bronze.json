@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Bronze",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Bronze",
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Upgrade_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Upgrade_IconMask.0"
+      },
+      "PackColor": {
+        "R": 0.214,
+        "G": 0.093,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF7F56FF"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Default_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Default_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7F868C2445D387B956D16CA4E2A2B7CC",
+        "SourceString": "Upgrade Pack",
+        "LocalizedString": "Upgrade Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1F01E06A45F1DFBD738453BC9E32E848",
+        "SourceString": "Full of useful stuff.",
+        "LocalizedString": "Full of useful stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MilitaryHQ",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_MiltaryHQ'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_MiltaryHQ.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.MilitaryHQ"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Hombease_MilitaryHQ_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Hombease_MilitaryHQ_WorkerBonus.0"
+      },
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MilitaryHQ_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_MilitaryHQ_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MilitaryHQ_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_MilitaryHQ_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MilitaryHQ_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_MilitaryHQ_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MilitaryHQ_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_MilitaryHQ_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MilitaryHQ_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_MilitaryHQ_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Hero_Soldier_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Hero_Soldier_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Commando_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Commando_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_MilitaryHQ_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_MilitaryHQ_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_MilitaryHQ_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_MilitaryHQ_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_MilitaryHQ_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_MilitaryHQ_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A08DEBEB498141195A0408971C95B94B",
+        "SourceString": "Soldier HQ",
+        "LocalizedString": "Soldier HQ"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "417BB1E44A119BB2F49119994B6A32DD",
+        "SourceString": "Hold down the fort with superior ranged weapon skills and assault rifle bonuses!",
+        "LocalizedString": "Hold down the fort with superior ranged weapon skills and assault rifle bonuses!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-SoldierHQ-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-SoldierHQ-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-SoldierHQ-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-SoldierHQ-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

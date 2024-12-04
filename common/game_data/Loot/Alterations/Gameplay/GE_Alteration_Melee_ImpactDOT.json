@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Alteration_Melee_ImpactDOT_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicPhysicalDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicPhysicalDamage.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicPhysicalDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicPhysicalDamage.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Alteration_Melee_ImpactDOT_C'Default__GE_Alteration_Melee_ImpactDOT_C'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Melee_ImpactDOT.1"
+    }
+  },
+  {
+    "Type": "GE_Alteration_Melee_ImpactDOT_C",
+    "Name": "Default__GE_Alteration_Melee_ImpactDOT_C",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Melee_ImpactDOT.GE_Alteration_Melee_ImpactDOT_C'",
+    "Properties": {
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 6.0
+        }
+      },
+      "Period": {
+        "Value": 1.0
+      },
+      "bExecutePeriodicEffectOnApplication": false,
+      "InheritableGameplayEffectTags": {
+        "Added": []
+      },
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Gameplay.Status.Afflicted",
+          "Abilities.Alterations.OnCooldown.MeleeAffliction"
+        ],
+        "Added": [
+          "Abilities.Alterations.OnCooldown.MeleeAffliction"
+        ]
+      }
+    }
+  }
+]

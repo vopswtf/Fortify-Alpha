@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Mechanical_Parts",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/SM_Crafting_Tier1_MechParts.SM_Crafting_Tier1_MechParts",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/MechParts/MechPart_Collect_Cue.MechPart_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C1FA7260413E46EBBDFB44A76F1D3CA0",
+        "SourceString": "Mechanical Parts",
+        "LocalizedString": "Mechanical Parts"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0310837D48C4D513BB3B20824051E2E9",
+        "SourceString": "Crafting ingredient. Found in toolboxes, crates and by destroying mechanical objects.",
+        "LocalizedString": "Crafting ingredient. Found in toolboxes, crates and by destroying mechanical objects."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "2B610EF043711C2626EB5CB0D325D66D",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Ingredient_Mechanical_Parts'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Ingredients/Ingredient_Mechanical_Parts.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

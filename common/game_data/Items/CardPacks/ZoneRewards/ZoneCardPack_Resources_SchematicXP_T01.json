@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_Resources_SchematicXP_T01",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_Resources_SchematicXP_T01",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "230A077D4BA4A055D1132D8CABBFCFF1",
+        "SourceString": "Schematic XP (Tier 1)",
+        "LocalizedString": "Schematic XP (Tier 1)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C300AC06411F2C870B448D93CCD84D66",
+        "SourceString": "A bundle of xp used to upgrade your schematics Harder missions give significantly higher quantities of resources!",
+        "LocalizedString": "A bundle of xp used to upgrade your schematics Harder missions give significantly higher quantities of resources!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-HB-Architectural-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

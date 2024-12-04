@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Dojo",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_Dojo'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_Dojo.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.Dojo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Dojo_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Dojo_WorkerBonus.0"
+      },
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Dojo_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_Dojo_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Dojo_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_Dojo_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Dojo_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_Dojo_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Dojo_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_Dojo_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Dojo_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_Dojo_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Dojo'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Dojo.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Hero_Ninja_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Hero_Ninja_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Dojo_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Dojo_0.1"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_Dojo_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_Dojo_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_Dojo_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_Dojo_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_Dojo_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_Dojo_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DEBDB166472C09BE623A6C9218FC5163",
+        "SourceString": "Ninja Lair",
+        "LocalizedString": "Ninja Lair"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "962CBBF04E0C46A42718E5944BC662C6",
+        "SourceString": " Rain down chaos and death from above with jump boots, smoke bombs and ranged throwing stars.",
+        "LocalizedString": "Rain down chaos and death from above with jump boots, smoke bombs and ranged throwing stars."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Dojo'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Dojo.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-NinjaDojo-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-NinjaDojo-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-NinjaDojo-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-NinjaDojo-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

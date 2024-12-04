@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_TechLab",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_TechLab'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_TechLab.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.TechLab"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_TechLab_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_TechLab_WorkerBonus.0"
+      },
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_TechLab_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_TechLab_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_TechLab_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_TechLab_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_TechLab_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_TechLab_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_TechLab_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_TechLab_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_TechLab_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_TechLab_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_TechLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_TechLab.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Hero_Constructor_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Hero_Constructor_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Constructor_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Constructor_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_TechLab_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_TechLab_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_TechLab_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_TechLab_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_TechLab_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_TechLab_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3D8F2C1F4561B7DD59E3C984FABB3769",
+        "SourceString": "Constructor Site",
+        "LocalizedString": "Constructor Site"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "17E5519D49CAFF734B7947B3672EA125",
+        "SourceString": "Get the job done with powerful level three walls, and brutal blunt weapon combat bonuses.",
+        "LocalizedString": "Get the job done with powerful level three walls, and brutal blunt weapon combat bonuses."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_TechLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_TechLab.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-ConstructorSite-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-ConstructorSite-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-ConstructorSite-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-ConstructorSite-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

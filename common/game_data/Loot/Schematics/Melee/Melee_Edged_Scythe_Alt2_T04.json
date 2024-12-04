@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Melee_Edged_Scythe_Alt2_T04",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Planks'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Planks.0"
+          },
+          "Count": 20,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Alloy'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Alloy.0"
+          },
+          "Count": 13,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Crystal_White.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Copper'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Copper.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortWeaponMeleeItemDefinition'Melee_Edged_Scythe_Alt2_T04'",
+        "ObjectPath": "FortniteGame/Content/Weapons/WeaponItemData/Melee/Melee_Edged_Scythe_Alt2_T04.0"
+      },
+      "CraftingPoints": 530,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "4_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "4_Rare"
+      },
+      "MaxLevel": 5,
+      "GameplayTags": [
+        "Weapon.Melee.Edged"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

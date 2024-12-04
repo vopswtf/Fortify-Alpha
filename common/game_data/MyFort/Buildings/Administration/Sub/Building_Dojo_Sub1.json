@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Dojo_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Dojo.ElderHut"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_ElderHut_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ElderHut_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ElderHut_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ElderHut_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ElderHut_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ElderHut_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ElderHut_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ElderHut_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ElderHut_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ElderHut_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ElderHut_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Dojo_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Dojo_4.1"
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DB01A3FE40015B2F789506B3CE77CF3F",
+        "SourceString": "Elder Huts",
+        "LocalizedString": "Elder Huts"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "981C01D44D3DFA57887720AEBEA9BE24",
+        "SourceString": "NOT YET IMPLEMENTED",
+        "LocalizedString": "NOT YET IMPLEMENTED"
+      }
+    }
+  }
+]

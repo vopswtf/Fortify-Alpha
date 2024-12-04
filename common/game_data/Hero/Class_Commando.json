@@ -1,0 +1,324 @@
+[
+  {
+    "Type": "FortHeroType",
+    "Name": "Class_Commando",
+    "Class": "UScriptClass'FortHeroType'",
+    "Properties": {
+      "Outfits_Naked": [
+        "MPR_M_Med_Soldier_Naked"
+      ],
+      "Outfits_Male": [
+        "MPR_M_Med_Soldier_Skinned"
+      ],
+      "Outfits_Female": [
+        "F_Med_Soldier"
+      ],
+      "IdleAnimation_Male": {
+        "ObjectName": "AnimMontage'Commando_selection_menu_Male'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Commando_selection_menu_Male.0"
+      },
+      "IdleAnimation_Female": {
+        "ObjectName": "AnimMontage'Commando_selection_menu_Female'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Commando_selection_menu_Female.0"
+      },
+      "PrimaryTrait": {
+        "ObjectName": "FortTrait'Trait_Primary_Empty'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Traits/Trait_Primary_Empty.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Commando_Commando'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Commando/Traits/Commando/Trait_Commando_Commando.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Commando_Perserverence'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Commando/Traits/Perserverence/Trait_Commando_Perserverence.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Commando_Explosives'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Commando/Traits/Explosives/Trait_Commando_Explosives.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Commando_Assault'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Commando/Traits/Assault/Trait_Commando_Assault.0"
+      },
+      "DefaultSpecialization": {
+        "ObjectName": "FortHeroSpecialization'HS_Commando_Default'",
+        "ObjectPath": "FortniteGame/Content/Heroes/Specializations/Commando/HS_Commando_Default.0"
+      },
+      "AbilityKits": [
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T01'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T01.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier0"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T02'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T02.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier1"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T03'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T03.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier2"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T04'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T04.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier3"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T05'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T05.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier4"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T06'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T06.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier5"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T07'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T07.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier6"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T08'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T08.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier7"
+          ],
+          "bShowInAbilityScreen": true
+        }
+      ],
+      "CombinedStatGEs": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Commando_Offense_AllWeaponDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Commando/MappedEffects/GE_Map_Commando_Offense_AllWeaponDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Commando_Prowess_TrapDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Commando/MappedEffects/GE_Map_Commando_Prowess_TrapDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Commando_Vitality_Health_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Commando/MappedEffects/GE_Map_Commando_Vitality_Health.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Commando_Defense_ShieldStrength_ShieldRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Commando/MappedEffects/GE_Map_Commando_Defense_ShieldStrength_ShieldRegen.0"
+          },
+          "Level": 0.0
+        }
+      ],
+      "CombinedStatSourceGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_SharedStats_C'",
+        "ObjectPath": "FortniteGame/Content/Heroes/GE_SharedStats.0"
+      },
+      "RequiredGPTags": [
+        "Unlocks.Class.Commando"
+      ],
+      "MaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Soldier_Male_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Soldier_Male_Feedback.0"
+      },
+      "FemaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Soldier_Female_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Soldier_Female_Feedback.0"
+      },
+      "OverridePawnClass": "/Game/Abilities/Player/Pawns/PlayerPawn_Commando.PlayerPawn_Commando_C",
+      "IconBrushSmall": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Commando-S'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-S.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Commando-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-XL.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Commando-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Commando-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-Headshot-F.0"
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E50BE9E2440E6E8766AB16AD49A11840",
+        "SourceString": "Soldier",
+        "LocalizedString": "Soldier"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "893F3E6F4CE39BFAF516CF8EA90ABAA5",
+        "SourceString": "A combat expert focused on ranged weapons and explosives. ",
+        "LocalizedString": "A combat expert focused on ranged weapons and explosives. "
+      },
+      "GameplayTags": [
+        "Homebase.Class.IsCommando"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Commando-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Commando-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Commando-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Commando-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Commando-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Commando-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Commando-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Commando/Icon-Class-Commando-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

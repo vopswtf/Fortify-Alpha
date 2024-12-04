@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Gym",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_Gym'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_Gym.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.Gym"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Gym_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Gym_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_Teleporter'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/Teleporter/Kit_Teleporter.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Gym_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Gym_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Gym_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Gym_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Gym_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Gym_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Gym_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Gym_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Gym_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Gym_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Gym'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Gym.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_Teleporter_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_Teleporter_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Gym_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Gym_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_Gym_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_Gym_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_Gym_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_Gym_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_Gym_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_Gym_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "76A756F6471E55BAE7673888AD27D632",
+        "SourceString": "Gym",
+        "LocalizedString": "Gym"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "970FE1544909E17341676486B0E94463",
+        "SourceString": "Increase hero speed and energy. Unlocks the Teleporter gadget. ",
+        "LocalizedString": "Increase hero speed and energy. Unlocks the Teleporter gadget. "
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Gym'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Gym.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-Gym-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-Gym-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-Gym-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-Gym-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

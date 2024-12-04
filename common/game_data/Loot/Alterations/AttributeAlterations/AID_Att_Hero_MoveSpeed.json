@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_MoveSpeed",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_MoveSpeed'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_MoveSpeed.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2DB5D2564544363E95F39A9CEB517039",
+        "SourceString": "Movement Speed",
+        "LocalizedString": "Movement Speed"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6403DA4740DA75285FE0519460B37BF2",
+        "SourceString": "+4.5% Movement Speed",
+        "LocalizedString": "+4.5% Movement Speed"
+      },
+      "IconBrush": {}
+    }
+  }
+]

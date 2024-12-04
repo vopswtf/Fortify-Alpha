@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_MushroomPink",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Mushroom02_Loot.S_Mushroom02_Loot",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Mushroom_Collect_Cue.Mushroom_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CDD91F504EBB05F089991AAD104E1CCB",
+        "SourceString": "Pink Mushroom",
+        "LocalizedString": "Pink Mushroom"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "86B24E1D4726E8D31710C7AADA0B3F65",
+        "SourceString": "Crafting ingredient. Used to make consumable buffs. Found growing on trees and walls.",
+        "LocalizedString": "Crafting ingredient. Used to make consumable buffs. Found growing on trees and walls."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "8DDC047049F8078192576B9D29C30AE7",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Mushroom_02'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Mushroom_02.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

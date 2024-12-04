@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Bronze_XP",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Bronze_XP",
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Upgrade_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Upgrade_IconMask.0"
+      },
+      "PackColor": {
+        "R": 0.211765,
+        "G": 0.090196,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF7F55FF"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Mob_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Mob_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "422B62B04A10FEB536DFA6ABA69B3D6F",
+        "SourceString": "XP Candy Pack",
+        "LocalizedString": "XP Candy Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3D9EFC2C4EACC4BBCD015F950E9751D5",
+        "SourceString": "A pack that's completely brimming with crew and schematic XP!",
+        "LocalizedString": "A pack that's completely brimming with crew and schematic XP!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

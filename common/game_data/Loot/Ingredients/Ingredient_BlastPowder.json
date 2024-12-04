@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Blastpowder",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Loot_GunPowder.S_Loot_GunPowder",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Munitions/GunPowder_Collect_Cue.GunPowder_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D223C59F425EC99D2A7CF1A01B27CE0B",
+        "SourceString": "Blast Powder",
+        "LocalizedString": "Blast Powder"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D7DB868547BB5EE2759C498E1A6D0448",
+        "SourceString": "Refined crafting ingredient. Used as a base for many gadgets and explosive ammunitions. Made from coal.",
+        "LocalizedString": "Refined crafting ingredient. Used as a base for many gadgets and explosive ammunitions. Made from coal."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "0357EC544570DAA2B08A32A89D9822B3",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_GunPowder'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_GunPowder.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

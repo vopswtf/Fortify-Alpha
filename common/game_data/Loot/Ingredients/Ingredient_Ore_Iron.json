@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Ore_Iron",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Loot_Metal_Iron.S_Loot_Metal_Iron",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Metal/Iron_Collect_Cue.Iron_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F05F151746E730D986DCC5915E0B7D2B",
+        "SourceString": "Iron Ore",
+        "LocalizedString": "Iron Ore"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E1564A7540A972D0F6CFC9A20D08EAA8",
+        "SourceString": "Crafting ingredient. Used to make many quality weapons. Found in caves and mountains. Can only appear in Tier 4 or above missions. More common in higher tier missions.",
+        "LocalizedString": "Crafting ingredient. Used to make many quality weapons. Found in caves and mountains. Can only appear in Tier 4 or above missions. More common in higher tier missions."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "1C8A560741098B8B507ECBB88121D97B",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Metal_Iron'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Iron.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

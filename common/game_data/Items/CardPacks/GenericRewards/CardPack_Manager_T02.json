@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Manager_T02",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Manager_T02",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2124D04E4B8FD75E8D3CDD82F91E6BBB",
+        "SourceString": "Uncommon Lead Survivor [Blue]",
+        "LocalizedString": "Uncommon Lead Survivor [Blue]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "234A02AC429FEF918A2DCA83CA56BC1F",
+        "SourceString": "One random lead survivor.",
+        "LocalizedString": "One random lead survivor."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Manager-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Manager-L.0"
+        }
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

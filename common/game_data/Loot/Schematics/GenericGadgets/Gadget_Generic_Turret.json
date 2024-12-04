@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Gadget_Generic_Turret",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 40,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 15,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Blastpowder'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_BlastPowder.0"
+          },
+          "Count": 3,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Copper'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Copper.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortGadgetItemDefinition'Gadget_Generic_Turret'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/SentryGun/Gadget_Generic_Turret.0"
+      },
+      "CraftingPoints": 235,
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "5_Common"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A34C8D3744C1E592AE631D8A7F462DC7",
+        "SourceString": "Schematic: Sentry Gun",
+        "LocalizedString": "Schematic: Sentry Gun"
+      },
+      "GameplayTags": [
+        "supplies.genericgadgets.offense",
+        "trap.Floor"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "FilterOverride": "EFortInventoryFilter::Traps",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Gadget_Turret'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Gadget_Turret.0"
+        }
+      }
+    }
+  }
+]

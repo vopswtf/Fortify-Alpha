@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Floor_Player_Jump_Pad_Free_Direction",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "KnockbackDirOverride": {
+        "Pitch": 45.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bKnockBackUsingPawnDir": true,
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Floor_Player_Jump_Free_Direction_Pad_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Floor_Player_Jump_Free_Direction_Pad.40"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Floor'EMP_Floor_Floor'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Floor/EMP_Floor_Floor.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Floor_Player_Jump_Pad_Free_Direction"
+      },
+      "OverrideAutoEquipTags": [
+        "trap.mobility"
+      ],
+      "bCanAutoEquipByClass": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Floor_Player_Jump_Pad/Mesh/JumpPadD_PickUp.JumpPadD_PickUp",
+      "DisassemblyLootTierKey": "Disassemble_Traps_Floor_Player_Jump_Pad_Free_Direction_01",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CA62268D4AF3621D3A1DF685DF23E40E",
+        "SourceString": "Floor Trap: Player Jump Pad (Free Direction)",
+        "LocalizedString": "Floor Trap: Player Jump Pad (Free Direction)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8300E2B24C4E111747750199EDFA1626",
+        "SourceString": "Can be placed on a flat floor piece. Launches Players into the air briefly.",
+        "LocalizedString": "Can be placed on a flat floor piece. Launches Players into the air briefly."
+      },
+      "GameplayTags": [
+        "trap.Floor",
+        "trap.mobility"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Ally'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_Ally.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Manager_T04",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Manager_T04",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "956B37DB40515262AC36188A341CEBA9",
+        "SourceString": "Masterwork Lead Survivor [Orange]",
+        "LocalizedString": "Masterwork Lead Survivor [Orange]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "45A5862F461CE404AC1BC9867934BACF",
+        "SourceString": "One random lead survivor.",
+        "LocalizedString": "One random lead survivor."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Manager-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Manager-L.0"
+        }
+      },
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

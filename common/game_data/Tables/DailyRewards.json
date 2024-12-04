@@ -1,0 +1,1359 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DailyRewards",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortLoginReward'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "0": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 200
+      },
+      "1": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "2": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "3": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "4": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "5": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "6": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "7": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "8": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "9": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "10": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "11": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "12": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "13": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "14": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "15": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "16": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "17": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "18": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "19": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "20": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "21": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "22": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "23": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "24": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "25": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "26": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "27": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "28": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "29": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "30": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "31": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "32": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "33": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "34": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "35": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "36": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "37": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "38": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "39": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "40": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "41": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "42": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "43": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "44": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "45": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "46": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "47": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "48": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "49": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "50": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "51": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "52": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "53": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "54": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "55": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "56": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "57": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "58": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "59": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "60": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "61": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "62": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "63": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "64": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "65": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "66": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "67": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "68": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "69": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "70": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "71": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "72": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "73": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "74": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "75": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "76": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "77": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "78": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "79": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "80": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "81": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "82": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "83": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "84": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "85": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "86": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "87": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "88": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "89": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "90": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "91": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "92": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "93": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "94": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "95": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "96": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "97": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "98": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "99": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "100": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "101": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "102": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "103": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "104": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "105": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "106": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "107": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "108": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "109": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "110": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "111": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 800
+      },
+      "112": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "113": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "114": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "115": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "116": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "117": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "118": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "119": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "120": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "121": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "122": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "123": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "124": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "125": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "126": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "127": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "128": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "129": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "130": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "131": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "132": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "133": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "134": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "135": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "136": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "137": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "138": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "139": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "140": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "141": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "142": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "143": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "144": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "145": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "146": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "147": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "148": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "149": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "150": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "151": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "152": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "153": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "154": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "155": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "156": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "157": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "158": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "159": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "160": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "161": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "162": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "163": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "164": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "165": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "166": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "167": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "168": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "169": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "170": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "171": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "172": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "173": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "174": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "175": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "176": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "177": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "178": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "179": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "180": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "181": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "182": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "183": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "184": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "185": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "186": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "187": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "188": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "189": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "190": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "191": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "192": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "193": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "194": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "195": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "196": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "197": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "198": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "199": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "200": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "201": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "202": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "203": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "204": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "205": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "206": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "207": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "208": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "209": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "210": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "211": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "212": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "213": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "214": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "215": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "216": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "217": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "218": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "219": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "220": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "221": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "222": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "223": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 800
+      },
+      "224": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "225": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "226": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "227": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "228": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "229": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "230": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "231": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "232": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "233": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "234": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "235": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "236": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "237": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "238": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "239": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "240": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "241": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "242": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "243": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "244": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "245": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "246": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "247": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "248": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "249": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "250": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "251": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "252": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "253": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "254": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "255": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "256": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "257": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "258": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "259": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "260": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "261": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "262": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "263": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "264": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "265": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "266": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "267": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "268": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "269": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "270": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "271": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "272": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "273": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "274": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "275": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "276": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "277": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "278": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "279": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "280": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "281": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "282": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "283": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "284": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "285": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "286": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "287": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "288": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "289": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "290": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "291": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "292": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "293": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "294": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "295": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "296": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "297": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "298": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "299": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "300": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "301": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "302": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "303": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "304": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "305": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "306": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "307": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 300
+      },
+      "308": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "309": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "310": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "311": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "312": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 100
+      },
+      "313": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 100
+      },
+      "314": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "315": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "316": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "317": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "318": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "319": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 200
+      },
+      "320": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 200
+      },
+      "321": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "322": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "323": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "324": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "325": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "326": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 300
+      },
+      "327": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 300
+      },
+      "328": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 150
+      },
+      "329": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "330": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "331": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "332": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 50
+      },
+      "333": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/SchematicXP.SchematicXP",
+        "ItemCount": 400
+      },
+      "334": {
+        "ItemDefinition": "/Game/Loot/PersistentResources/PersonnelXP.PersonnelXP",
+        "ItemCount": 400
+      },
+      "335": {
+        "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+        "ItemCount": 2000
+      }
+    }
+  }
+]

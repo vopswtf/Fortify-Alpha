@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OutpostQuestMissionData_L5_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'OutpostQuestMissionDataTemplate_C'",
+      "ObjectPath": "FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionDataTemplate.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'OutpostQuestMissionDataTemplate_C'",
+      "ObjectPath": "FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionDataTemplate.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OutpostQuestMissionData_L5_C'Default__OutpostQuestMissionData_L5_C'",
+      "ObjectPath": "FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionData_L5.1"
+    }
+  },
+  {
+    "Type": "OutpostQuestMissionData_L5_C",
+    "Name": "Default__OutpostQuestMissionData_L5_C",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionData_L5.OutpostQuestMissionData_L5_C'",
+    "Properties": {
+      "LegTag": {
+        "TagName": "Stat.Mission.Primary.Outpost.Leg5"
+      }
+    }
+  }
+]

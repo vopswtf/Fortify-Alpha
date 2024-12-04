@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Rocket_Participation",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A_Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A_Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "8C4506AD44950EA58212998F5D8B9764",
+        "SourceString": "It was a good effort, better luck next time.",
+        "LocalizedString": "It was a good effort, better luck next time."
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "B2A9C0B04CFD8F9CE93546840D9C6786",
+        "SourceString": "The Launchpad and Rocket were destroyed!",
+        "LocalizedString": "The Launchpad and Rocket were destroyed!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_LTR_Participation"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E63CBE65493B6356FB9C7CA481B67C1A",
+        "SourceString": "We lost the Rocket!",
+        "LocalizedString": "We lost the Rocket!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4B16C5CE467BDDB88A1CA7A29A807B14",
+        "SourceString": "The Launchpad and Rocket were destroyed!",
+        "LocalizedString": "The Launchpad and Rocket were destroyed!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A.0"
+        }
+      }
+    }
+  }
+]

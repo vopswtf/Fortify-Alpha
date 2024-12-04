@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MartialArtsAcademy",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_MartialArtsAcademy'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_MartialArtsAcademy.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.MartialArtsAcademy"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MartialArtsAcademy_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MartialArtsAcademy_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MartialArtsAcademy_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MartialArtsAcademy_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_SparringGuild_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_SparringGuild_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_Generic_SlowField'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/SlowField/Kit_Generic_SlowField.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MartialArtsAcademy_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_MartialArtsAcademy_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MartialArtsAcademy_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_MartialArtsAcademy_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MartialArtsAcademy_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_MartialArtsAcademy_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MartialArtsAcademy_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_MartialArtsAcademy_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MartialArtsAcademy_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_MartialArtsAcademy_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SparringGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SparringGuild.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_SlowField_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_SlowField_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_SparingGuild_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_SparingGuild_0.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_SparringGuild_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_SparringGuild_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5C9DF63F41BA83D6945EF9A983D847CC",
+        "SourceString": "Combat Academy",
+        "LocalizedString": "Combat Academy"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1AE384B143191034031B75AE2371F36C",
+        "SourceString": "Build to boost melee damage and melee crit chance. Unlocks the Slow Field gadget.",
+        "LocalizedString": "Build to boost melee damage and melee crit chance. Unlocks the Slow Field gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SparringGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SparringGuild.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-CombatAcademy-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-CombatAcademy-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-CombatAcademy-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-CombatAcademy-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

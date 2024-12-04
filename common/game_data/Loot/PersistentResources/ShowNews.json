@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "FortTokenType",
+    "Name": "ShowNews",
+    "Class": "UScriptClass'FortTokenType'",
+    "Properties": {
+      "ScriptedAction": "/Game/FrontEnd/ScriptedActions/ShowNewsScreenAction.ShowNewsScreenAction_C",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "029C79824756DFCA21B1AB85821FF31C",
+        "SourceString": "Show News",
+        "LocalizedString": "Show News"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D2AA34D248C42439671352909952AF0C",
+        "SourceString": "Shows news screen when new",
+        "LocalizedString": "Shows news screen when new"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultTokenAttributeTemplate.DefaultTokenAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CardPack_Upgrade_IconMask'",
+          "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Upgrade_IconMask.0"
+        }
+      },
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

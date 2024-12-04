@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Rifle_AMR_Alt1_T08",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Rifles/Blueprints/B_Rifle_AMR_.B_Rifle_AMR__C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_AMR'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Mesh/SK_AMR.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_AMR_T08"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataEnergyCell'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataEnergyCell.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::OnRelease",
+      "ReticleCornerAngles": [
+        180.0,
+        300.0,
+        60.0
+      ],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Sniper-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Sniper-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Rifles/Mesh/SK_AMR.SK_AMR",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_08",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E9F445B048D0370531C828922D4CFCD4",
+        "SourceString": "Zapotron [Upgraded]",
+        "LocalizedString": "Zapotron [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7FDE29A34E7B0B0E37F8FE95265E85B6",
+        "SourceString": "Sniper Rifle (SR). Massive damage, but poor rate of fire and ammo capacity.",
+        "LocalizedString": "Sniper Rifle (SR). Massive damage, but poor rate of fire and ammo capacity."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "1991360148A94B7A01F9A0B854B6B9F5",
+        "SourceString": "Guns Ranged Sniper Rifles EnergyCells SemiAuto",
+        "LocalizedString": "Guns Ranged Sniper Rifles EnergyCells SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_AMR'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_AMR.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VIII",
+      "Rarity": "EFortRarity::Epic"
+    }
+  }
+]

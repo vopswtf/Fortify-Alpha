@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Collect",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_Collect_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_Collect_Cue.0"
+      },
+      "bHideInUI": true
+    }
+  }
+]

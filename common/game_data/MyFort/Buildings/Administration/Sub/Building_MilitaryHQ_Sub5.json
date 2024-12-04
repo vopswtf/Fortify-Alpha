@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MilitaryHQ_Sub5",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Commando_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Commando_5.0"
+      },
+      "bHideInUI": true
+    }
+  }
+]

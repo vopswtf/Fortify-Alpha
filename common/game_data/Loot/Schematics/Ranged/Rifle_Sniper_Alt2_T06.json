@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Rifle_Sniper_Alt2_T06",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 35,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 22,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Iron'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Iron.0"
+          },
+          "Count": 8,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Rare_Mechanism'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Rare_Mechanism.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Crystal_Yellow'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Crystal_Yellow.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortWeaponRangedItemDefinition'Rifle_Sniper_Alt2_T06'",
+        "ObjectPath": "FortniteGame/Content/Weapons/WeaponItemData/Rifles/Rifle_Sniper_Alt2_T06.0"
+      },
+      "CraftingPoints": 1890,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "6_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "6_Rare"
+      },
+      "MaxLevel": 5,
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+        }
+      },
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

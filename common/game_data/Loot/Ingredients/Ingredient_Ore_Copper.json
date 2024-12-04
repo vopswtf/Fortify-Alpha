@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Ore_Copper",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Loot_Metal_Copper.S_Loot_Metal_Copper",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Metal/Copper_Collect_Cue.Copper_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "690CFE6B4FAD149A70A339A02EC9BC9E",
+        "SourceString": "Copper Ore",
+        "LocalizedString": "Copper Ore"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E128976D4607E08BF4B0A38B18F33992",
+        "SourceString": "Crafting ingredient. Used to make many quality weapons. Found in caves, mountains and occasionally in containers in settled areas. It is said that the one who controls the copper controls the world.",
+        "LocalizedString": "Crafting ingredient. Used to make many quality weapons. Found in caves, mountains and occasionally in containers in settled areas. It is said that the one who controls the copper controls the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "FCDF993A49EFD9805A154F81E35B6F0A",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::III",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

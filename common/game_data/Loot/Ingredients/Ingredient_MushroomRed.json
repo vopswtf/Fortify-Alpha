@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_MushroomRed",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Mushroom04_Loot.S_Mushroom04_Loot",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Mushroom_Collect_Cue.Mushroom_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "EAD3ED4E43C86400A8611085FC8DBF16",
+        "SourceString": "Red Mushroom",
+        "LocalizedString": "Red Mushroom"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "834BF65E494BAA4C9C3BE09B89A48F8C",
+        "SourceString": "Crafting ingredient. Used in consumables with healing and strengthening properties. Found in forests.",
+        "LocalizedString": "Crafting ingredient. Used in consumables with healing and strengthening properties. Found in forests."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "F673C19A4821168EBA5BCE9DAE0BBB36",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Mushroom_04'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Mushroom_04.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

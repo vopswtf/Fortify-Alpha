@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Gate_MultiParticipation",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A_Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A_Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "8C4506AD44950EA58212998F5D8B9764",
+        "SourceString": "It was a good effort, better luck next time.",
+        "LocalizedString": "It was a good effort, better luck next time."
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "6689957C4058EF980A40C0939FD2A0CF",
+        "SourceString": "The gates were not closed.",
+        "LocalizedString": "The gates were not closed."
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "GateBadge_Participation"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "8B5ED6BD42D96CBC545A238B8D6BB017",
+        "SourceString": "Failed to Close the Gates!",
+        "LocalizedString": "Failed to Close the Gates!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "75DBF6674808D6C30ABDC98C5FE3526A",
+        "SourceString": "The gates were not closed.",
+        "LocalizedString": "The gates were not closed."
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A.0"
+        }
+      }
+    }
+  }
+]

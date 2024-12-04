@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_Specialist_CannyValley",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "QuestType": "EFortQuestType::DailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 90
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_pve03"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "10F3D551461BBF5FB10972B418159FFE",
+            "SourceString": "Complete 3 Missions in Canny Valley",
+            "LocalizedString": "Complete 3 Missions in Canny Valley"
+          },
+          "Count": 3,
+          "ScriptedAction": ""
+        }
+      ],
+      "PrerequisiteQuest": {
+        "ObjectName": "FortQuestItemDefinition'OutpostQuest_T3_L1'",
+        "ObjectPath": "FortniteGame/Content/Quests/Outpost/OutpostQuest_T3_L1.0"
+      },
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Daily"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "E739B87547AA26290BCE97AB20606BE5",
+        "SourceString": "V-Bucks",
+        "LocalizedString": "V-Bucks"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E648B7AB488CD9068DCD6088C0B2E9C0",
+        "SourceString": "Mission Specialist (Canny Valley)",
+        "LocalizedString": "Mission Specialist (Canny Valley)"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Theater-3-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-3-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-XS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-3-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-3-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-3-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-3-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-3-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-3-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Trap_ReloadSpeed_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_ReloadSpeed_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_ReloadSpeed_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D9FA75574E2EAF050C50DF8F62D0105A",
+        "SourceString": "Arming Mechanism [Upgraded]",
+        "LocalizedString": "Arming Mechanism [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "61353CD6488AACEA3D483495ACD0C802",
+        "SourceString": "+18% Reload Speed",
+        "LocalizedString": "+18% Reload Speed"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

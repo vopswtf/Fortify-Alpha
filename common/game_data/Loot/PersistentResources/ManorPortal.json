@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortTokenType",
+    "Name": "ManorPortal",
+    "Class": "UScriptClass'FortTokenType'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A867082D43E1EB01D5F1CC9A49F11929",
+        "SourceString": "Forest Manor Portal",
+        "LocalizedString": "Forest Manor Portal"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4C53739E4EC0AE5282944BB9218FFF17",
+        "SourceString": "Opens the portal to Forest Creative World, where you can build your Manor",
+        "LocalizedString": "Opens the portal to Forest Creative World, where you can build your Manor"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Portal'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/MyTownBuildingIcon_Portal.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

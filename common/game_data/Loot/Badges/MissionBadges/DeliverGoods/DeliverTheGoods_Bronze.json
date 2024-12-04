@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "DeliverTheGoods_Bronze",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T0__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T0__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "68BEBB3747B747E410939580A851F5E8",
+        "SourceString": "Goods were successfully delivered to the Drop-off 1 time",
+        "LocalizedString": "Goods were successfully delivered to the Drop-off 1 time"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "0693C7D44244E9E5035FD3B07E806E14",
+        "SourceString": "1st delivery to the Drop-off was unsuccessful",
+        "LocalizedString": "1st delivery to the Drop-off was unsuccessful"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_DTG_Bronze"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "91C7EDCF4B853794DCA380BA796636CB",
+        "SourceString": "1 Successful Delivery",
+        "LocalizedString": "1 Successful Delivery"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "88AB72504A6A7E5B43CB3CBE0F16FFD0",
+        "SourceString": "Goods were successfully delivered to the Drop-off 1 time",
+        "LocalizedString": "Goods were successfully delivered to the Drop-off 1 time"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T0_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T0_.0"
+        }
+      }
+    }
+  }
+]

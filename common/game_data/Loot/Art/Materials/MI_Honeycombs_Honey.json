@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Honeycombs_Honey",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect_Honey'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect_Honey.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ParentLightingGuid": "97947E79-471E74A0-133F1D83-9FC39FCA",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "Amount of color transition texture tiling",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "F9F9433D-49F55D3D-CCA91AA4-49EB814D"
+        },
+        {
+          "ParameterName": "Amount of Distortion Map Tiling",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "04767153-46B22047-454F8B9F-F6F48CE2"
+        },
+        {
+          "ParameterName": "Bump offset",
+          "ParameterValue": -0.4,
+          "ExpressionGUID": "4EC1FDD4-4C09BA04-8C515585-EE8EDDF5"
+        },
+        {
+          "ParameterName": "Roughness",
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "91206738-4FAB2A59-FDC97882-15212D0D"
+        },
+        {
+          "ParameterName": "Spec Value",
+          "ParameterValue": 12.0,
+          "ExpressionGUID": "EB522084-455B37FD-8E76CBBB-2D40FFEF"
+        },
+        {
+          "ParameterName": "SSS Desaturation",
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "5CC7B7CD-41424BB5-80A652A7-B0683E19"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "ColorTransitionImage",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'WhiteTexture'",
+            "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/Textures/whiteTexture.0"
+          },
+          "ExpressionGUID": "837236E4-457252E8-08216EA1-802D6AB2"
+        },
+        {
+          "ParameterName": "DistortionNormal",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_HoneyComb_N'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_HoneyComb_N.0"
+          },
+          "ExpressionGUID": "6FEB9DEE-4C155817-C216FCA1-9728B262"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "Res Col 1",
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.967662,
+            "B": 0.447369,
+            "A": 1.0,
+            "Hex": "FFFFFCB3"
+          },
+          "ExpressionGUID": "BD2A7E6C-45240789-33EDEF98-4DD13140"
+        },
+        {
+          "ParameterName": "Res Col 2",
+          "ParameterValue": {
+            "R": 0.650632,
+            "G": 0.523413,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFD3C000"
+          },
+          "ExpressionGUID": "29DFF7C5-498ECE73-1ED7FCA5-0CB51076"
+        },
+        {
+          "ParameterName": "SSS Color Multiplier",
+          "ParameterValue": {
+            "R": 2.0,
+            "G": 2.0,
+            "B": 2.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ExpressionGUID": "A892399C-4241C063-1EDFC59D-2F1D0BBC"
+        },
+        {
+          "ParameterName": "WorldPostionOfBlackHole",
+          "ParameterValue": {
+            "R": -30000.0,
+            "G": 25536.0,
+            "B": 1952.0,
+            "A": 0.0,
+            "Hex": "00FFFF"
+          },
+          "ExpressionGUID": "4052ED4F-4DF0BC25-9AFBECB4-6FF8515C"
+        }
+      ]
+    }
+  }
+]

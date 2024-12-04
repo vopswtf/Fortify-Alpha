@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "BaseAlteration_PiercingDamage",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [
+            "Gameplay.Damage"
+          ],
+          "IncludeTags": [
+            "Gameplay.Damage.Physical.Piercing"
+          ]
+        }
+      ],
+      "IconBrush": {}
+    }
+  }
+]

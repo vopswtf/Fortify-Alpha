@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortEditToolItemDefinition",
+    "Name": "EditTool",
+    "Class": "UScriptClass'FortEditToolItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/Blueprints/DefaultEditingTool.DefaultEditingTool_C",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bCanBeDropped": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Collect_Loot_Generic_Cue.Collect_Loot_Generic_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Drop_Loot_Generic_Cue.Drop_Loot_Generic_Cue",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      }
+    }
+  }
+]

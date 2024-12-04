@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_ItemDurabilityDecay_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_DurabilityDecay_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_DurabilityDecay_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2100349C4FC3F88D738F92BF348B7A0A",
+        "SourceString": "Sturdy Construction [Prime]",
+        "LocalizedString": "Sturdy Construction [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D3014D9A403F224C7CBB61A7D76CF6EF",
+        "SourceString": "-36% Durability Decay",
+        "LocalizedString": "-36% Durability Decay"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

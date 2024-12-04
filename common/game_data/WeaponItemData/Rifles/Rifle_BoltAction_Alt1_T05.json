@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Rifle_BoltAction_Alt1_T05",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "bTraceThroughPawns": true,
+      "bShouldSpawnBulletShellFX": true,
+      "WeaponActorClass": "/Game/Weapons/FORT_Rifles/Blueprints/B_Rifle_BoltAction.B_Rifle_BoltAction_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_SniperRifle_1'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Mesh/SK_SniperRifle_1.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_BoltAction_T05"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsHeavy'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsHeavy.0"
+      },
+      "bAllowTargetingDuringReload": true,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Sniper-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Sniper-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Rifles/Mesh/SK_SniperRifle_1.SK_SniperRifle_1",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_05",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B77D51C94164311B91DCD8AC2A1AC8E1",
+        "SourceString": "Bullseye [Upgraded]",
+        "LocalizedString": "Bullseye [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "33A6605A4027BF71C299C9B2F017C5E5",
+        "SourceString": "Sniper Rifle (SR). Accurate single-shot rifle.",
+        "LocalizedString": "Sniper Rifle (SR). Accurate single-shot rifle."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "6E1E5ED240BE4CC51DAE09A665E80429",
+        "SourceString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction",
+        "LocalizedString": "Guns Ranged Sniper Rifles HeavyBullets BoltAction"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_SniperRifle_1'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_SniperRifle_1.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

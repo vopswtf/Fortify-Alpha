@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Buff_BuildingCost",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_BuildingCost_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_BuildingCost.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SystemGlobalCurves'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/SystemGlobalCurves.0"
+              },
+              "RowName": "Curves.Linear"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.4,
+      "bRequiresMissingHealth": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "PickupStaticMesh": "/Game/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Yellow.S_Loot_Potion_Yellow",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "36846F874323F33F035DB3953649AADD",
+        "SourceString": "Brain Juice",
+        "LocalizedString": "Brain Juice"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8A6393954A3427D29BA633A5FCA106D3",
+        "SourceString": "A surge of inspiration gives you an idea that reduces building material cost by 50% for 9 seconds. Unfortunately, you forget your great idea and go back to old, inefficient methods when it wears off.",
+        "LocalizedString": "A surge of inspiration gives you an idea that reduces building material cost by 50% for 9 seconds. Unfortunately, you forget your great idea and go back to old, inefficient methods when it wears off."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "A5802AAD45363D8D4EED41A6BEE788B8",
+        "SourceString": "Consumable building speed",
+        "LocalizedString": "Consumable building speed"
+      },
+      "GameplayTags": [
+        "supplies.consumable.buff"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultBuffAttributeTemplate.DefaultBuffAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Yellow'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Yellow.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

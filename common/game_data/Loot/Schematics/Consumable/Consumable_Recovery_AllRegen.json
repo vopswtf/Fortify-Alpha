@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_AllRegen",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomBlue'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomBlue.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomRed'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomRed.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Recovery_Balm'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Balm.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Honey'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Honey.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Recovery_AllRegen'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_AllRegen.0"
+      },
+      "CraftingPoints": 45,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "08318EDD4A90CFA30200ED825F140473",
+        "SourceString": "Schematic: Mushroom Brew",
+        "LocalizedString": "Schematic: Mushroom Brew"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Purple'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Purple.0"
+        }
+      }
+    }
+  }
+]

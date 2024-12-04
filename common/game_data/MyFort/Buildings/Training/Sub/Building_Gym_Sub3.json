@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Gym_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Gym.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Gym'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Gym.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Gym_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Gym_3.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A6CC57DC42B7F1F954C4109CD7E0E6AA",
+        "SourceString": "Pool",
+        "LocalizedString": "Pool"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E0CED87F45F7AB07C91064989DD162C1",
+        "SourceString": "Improves the teleporter gadget.",
+        "LocalizedString": "Improves the teleporter gadget."
+      }
+    }
+  }
+]

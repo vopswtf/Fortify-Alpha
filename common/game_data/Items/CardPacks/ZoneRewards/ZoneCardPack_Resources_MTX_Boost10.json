@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_Resources_MTX_Boost10",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_Resources_MTX_Boost10",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6D5FE05B49D27954BFEF72AF5F18360C",
+        "SourceString": "10 V-bucks (Boost)",
+        "LocalizedString": "10 V-bucks (Boost)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "525463FF4C7F78F60BF9949906735F66",
+        "SourceString": "Boosted V-bucks reward. You can store up to 300 unclaimed boosted V-bucks at once. You receive one unclaimed boosted V-buck every 15 minutes realtime.",
+        "LocalizedString": "Boosted V-bucks reward. You can store up to 300 unclaimed boosted V-bucks at once. You receive one unclaimed boosted V-buck every 15 minutes realtime."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Gem-XXL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XXL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Gem-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Gem/Icon-Gem-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

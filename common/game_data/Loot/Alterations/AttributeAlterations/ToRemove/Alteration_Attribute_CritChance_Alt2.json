@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_CritChance_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CritChance_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CritChance_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "97DD8CFE4F0A4AFB227E61813016C9D8",
+        "SourceString": "Critical Targeting [Prime]",
+        "LocalizedString": "Critical Targeting [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B9DFEA1F40E664795354468F9D1F4862",
+        "SourceString": "+18% Crit Chance",
+        "LocalizedString": "+18% Crit Chance"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

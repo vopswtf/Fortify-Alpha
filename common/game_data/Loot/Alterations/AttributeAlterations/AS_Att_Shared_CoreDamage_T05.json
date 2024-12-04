@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "AS_Att_Shared_CoreDamage_T05",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_WeaponDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_WeaponDamage.0"
+          },
+          "Level": 15.0
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortPersistentResourceItemDefinition",
+    "Name": "ConstructionPlans_CommandCenter",
+    "Class": "UScriptClass'FortPersistentResourceItemDefinition'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E772DB9143A6ADE837B955AF73CC3081",
+        "SourceString": "Building Upgrade Plans [Command Center]",
+        "LocalizedString": "Building Upgrade Plans [Command Center]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6815A2044784FCB57636519E85F7BCAB",
+        "SourceString": "Materials used to upgrade your Command Center level and expand your home base. Acquired by completing outposts.",
+        "LocalizedString": "Materials used to upgrade your Command Center level and expand your home base. Acquired by completing outposts."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Red'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Red.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

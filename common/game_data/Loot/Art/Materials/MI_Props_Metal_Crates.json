@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Props_Metal_Crates",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Crafting_Container_Can'",
+        "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Crafting_Container_Can.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ParentLightingGuid": "BBA7A81A-4CF8E57C-2C2713AE-F7493EFF",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "SpecLevel",
+          "ParameterValue": 0.3,
+          "ExpressionGUID": "40DB7910-46D5E27B-BA7EB386-2A2D4ADC"
+        },
+        {
+          "ParameterName": "SpecRoughness",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "F7D713E9-4DACCE77-A2589DB8-A7E25C5E"
+        },
+        {
+          "ParameterName": "Color Change Frequency (WS)",
+          "ParameterValue": 16.710009,
+          "ExpressionGUID": "6E9F7F9A-40C64FE5-46065EAC-39DB1A2E"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_metal_crates_D'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_metal_crates_D.0"
+          },
+          "ExpressionGUID": "24752C6A-4EB615EA-97FA1AA9-45925FD0"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_metal_crates_N'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_metal_crates_N.0"
+          },
+          "ExpressionGUID": "E947DBE1-4CCAE2A4-5FF7ACAA-E60DC272"
+        },
+        {
+          "ParameterName": "SpecRoughnessMaskTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_metal_crates_M'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_metal_crates_M.0"
+          },
+          "ExpressionGUID": "CC7BB38C-421C034E-A824288A-EFCC216B"
+        },
+        {
+          "ParameterName": "Color Chart",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'SemiTruck_Trailer_04_Tanker_Colors'",
+            "ObjectPath": "FortniteGame/Content/Vehicles/FORT_Vehicles_01/Materials/SemiTruck_Trailer_04_Tanker_Colors.0"
+          },
+          "ExpressionGUID": "57EC29C5-4C8DE04A-73F947BD-018EE945"
+        },
+        {
+          "ParameterName": "World Space Color Picker Mask",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_metal_crates_M'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_metal_crates_M.0"
+          },
+          "ExpressionGUID": "4CCC4804-49A1B6B3-BD6CD6BC-4BCD7068"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    }
+  }
+]

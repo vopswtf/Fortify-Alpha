@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "OutpostUpgrade_StormShieldAmplifier",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bTakesUpSpaceInBackpack": true,
+      "bCanBeDropped": false,
+      "bCanBeDepositedInStorageVault": false,
+      "PickupStaticMesh": "/Game/Effects/Fort_Effects/Mesh/S_Test_TwoSided_Cube.S_Test_TwoSided_Cube",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "bHasDisintegrationValue": false,
+      "FabricationValueOverride": 50,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6C6EFE214842C477F6F943A53C0F442C",
+        "SourceString": "Storm Shield Amplifier",
+        "LocalizedString": "Storm Shield Amplifier"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3AAD275A4F6BD1F2559B28BD2FE65422",
+        "SourceString": "A device that increases effectiveness of your outpost's Storm Shield. Warning: activating the device will provoke Husk attack!",
+        "LocalizedString": "A device that increases effectiveness of your outpost's Storm Shield. Warning: activating the device will provoke Husk attack!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+        }
+      },
+      "MaxStackSize": 5,
+      "Quality": "EFortQuality::Uncommon",
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

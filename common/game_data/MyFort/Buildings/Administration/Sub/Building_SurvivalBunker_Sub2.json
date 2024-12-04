@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SurvivalBunker_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.SurvivalBunker.SBTwo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_SubBuildingTwo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub2_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub2_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub2_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub2_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub2_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub2_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub2_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub2_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub2_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub2_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SurvivalBunker'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SurvivalBunker.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Outlander_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Outlander_2.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "B744AA52461A96A8FEF7D7BE712F4906",
+          "SourceString": "Level 1 : Increases Energy regeneration based on Outlander Lab Rating.",
+          "LocalizedString": "Level 1 : Increases Energy regeneration based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "ACCE4EDD40BDD1D45523CCB5C309306C",
+          "SourceString": "Level 2 : Reduces the Energy cost of Phase Shift by 15.",
+          "LocalizedString": "Level 2 : Reduces the Energy cost of Phase Shift by 15."
+        },
+        {
+          "Namespace": "",
+          "Key": "51F9D398495A27F8B41010B647D44096",
+          "SourceString": "Level 3 : Increases Maximum Shield based on Outlander Lab Rating.",
+          "LocalizedString": "Level 3 : Increases Maximum Shield based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "8B9DEF404435D368AE4172A44288D567",
+          "SourceString": "Level 4 : Bend the Rules : Phase Shift has triple duration if activated inside a Gravity Sphere.",
+          "LocalizedString": "Level 4 : Bend the Rules : Phase Shift has triple duration if activated inside a Gravity Sphere."
+        },
+        {
+          "Namespace": "",
+          "Key": "FE0B5CD246B63ABCA109D9B4546DFA0B",
+          "SourceString": "Level 5 : Phased Out : Reduces the cost of Phase Shift to Zero.",
+          "LocalizedString": "Level 5 : Phased Out : Reduces the cost of Phase Shift to Zero."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7ECAF34C408C0919985C15A6A7EF8B8F",
+        "SourceString": "Secret Tunnel",
+        "LocalizedString": "Secret Tunnel"
+      }
+    }
+  }
+]

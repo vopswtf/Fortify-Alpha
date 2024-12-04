@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Dojo_Sub4",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Dojo.TargetDummies"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_TargetDummies_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_TargetDummies_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_TargetDummies_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_TargetDummies_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_TargetDummies_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_TargetDummies_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_TargetDummies_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_TargetDummies_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_TargetDummies_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_TargetDummies_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_TargetDummies_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Dojo_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Dojo_2.1"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "8247670B4B5BE69742531B91B0FAFF86",
+          "SourceString": "Level 1 : Increases the Damage Resist of Shadow Stance based on Ninja Lair Rating",
+          "LocalizedString": "Level 1 : Increases the Damage Resist of Shadow Stance based on Ninja Lair Rating"
+        },
+        {
+          "Namespace": "",
+          "Key": "4C49671E4789F511D86382A6767E9693",
+          "SourceString": "Level 2 : Throws one additional Star during throws 2 and 3 of Throwing Stars",
+          "LocalizedString": "Level 2 : Throws one additional Star during throws 2 and 3 of Throwing Stars"
+        },
+        {
+          "Namespace": "",
+          "Key": "4D5DA0584ADEC21E24E2D6AA5BD8E93E",
+          "SourceString": "Level 3 : Increases Shadow Stance's duration based on Ninja Lair Rating.",
+          "LocalizedString": "Level 3 : Increases Shadow Stance's duration based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "D317DE1D48A658833C5D2AA977C78561",
+          "SourceString": "Level 4 : Throws one additional Star during throws 2 and 3 of Throwing Stars",
+          "LocalizedString": "Level 4 : Throws one additional Star during throws 2 and 3 of Throwing Stars"
+        },
+        {
+          "Namespace": "",
+          "Key": "2CC8B05B4B92A9151BC9299DCA7554F0",
+          "SourceString": "Level 5 : Increases Throwing Star's damage based on Ninja Lair Rating.",
+          "LocalizedString": "Level 5 : Increases Throwing Star's damage based on Ninja Lair Rating."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D56F7AB042E07D1D79E88BA0F8BA5F88",
+        "SourceString": "Target Dummies",
+        "LocalizedString": "Target Dummies"
+      }
+    }
+  }
+]

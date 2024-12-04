@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Ore_Alloy",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/SM_Crafting_Tier2_RareMetal.SM_Crafting_Tier2_RareMetal",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Metal/Metal_Rare_Collect_Cue.Metal_Rare_Collect_Cue",
+      "DropSound": "/Game/Sounds/Foley_Loot/Ingredients/Metal/Metal_Rare_Drop_Cue.Metal_Rare_Drop_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3DC514334BDB38773A8F25996D6A22AE",
+        "SourceString": "Rough Ore",
+        "LocalizedString": "Rough Ore"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "59160C1F41D80D49109ADB99B54D070D",
+        "SourceString": "Crafting ingredient. Used in many common items and traps. Found by destroying rocks.",
+        "LocalizedString": "Crafting ingredient. Used in many common items and traps. Found by destroying rocks."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "F2EDE70148FBD83208B98D94304BD726",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Crafting_Tier2_RareMetal'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Crafting_Tier2_RareMetal.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::I",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

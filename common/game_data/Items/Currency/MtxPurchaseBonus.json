@@ -1,0 +1,7 @@
+[
+  {
+    "Type": "FortCurrencyItemDefinition",
+    "Name": "MtxPurchaseBonus",
+    "Class": "UScriptClass'FortCurrencyItemDefinition'"
+  }
+]

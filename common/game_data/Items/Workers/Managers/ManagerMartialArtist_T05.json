@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerMartialArtist_T05",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.MartialArtsAcademy"
+      ],
+      "MatchingPersonalityBonus": 6,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-MartialArtist-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-MartialArtist-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-MartialArtist-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-MartialArtist-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-MartialArtist-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-MartialArtist-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "67620E5F4C23A6283B29A4A584164FD7",
+        "SourceString": "Martial Artist [Legendary]",
+        "LocalizedString": "Martial Artist [Legendary]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E0D48BF94FF25FB492D5B8AF83CD77F1",
+        "SourceString": "A lead survivor that provides double power in the Combat Academy. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!",
+        "LocalizedString": "A lead survivor that provides double power in the Combat Academy. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "A8FFAF614C86B2D32320AAAC46319098",
+        "SourceString": "Manager Chief Martial Artist",
+        "LocalizedString": "Manager Chief Martial Artist"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsMartialArtist"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Manager-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Manager-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-S.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

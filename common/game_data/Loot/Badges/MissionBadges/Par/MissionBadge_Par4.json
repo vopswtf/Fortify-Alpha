@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "MissionBadge_Par4",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-C-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-C-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "4828079B493CA7DD88F3F18BA4267C92",
+        "SourceString": "You won in less than 4 days!",
+        "LocalizedString": "You won in less than 4 days!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_Par4"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "74B3E9954F3C62F7AA54E1B74D26F13A",
+        "SourceString": "Win in 4 days or less",
+        "LocalizedString": "Win in 4 days or less"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C3EFD9E14B3288321A68C7A7B94A351F",
+        "SourceString": "Complete the zone quickly to earn bonus rewards",
+        "LocalizedString": "Complete the zone quickly to earn bonus rewards"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-C-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-C-_T2_.0"
+        }
+      }
+    }
+  }
+]

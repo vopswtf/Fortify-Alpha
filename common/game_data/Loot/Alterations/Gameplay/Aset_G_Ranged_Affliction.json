@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "Aset_G_Ranged_Affliction",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "GameplayAbilities": [
+        {
+          "ObjectName": "GameplayAbilityBlueprintGeneratedClass'GA_Alteration_Ranged_Affliction_C'",
+          "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GA_Alteration_Ranged_Affliction.43"
+        }
+      ],
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_WeaponDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_WeaponDamage.0"
+          },
+          "Level": 3.0
+        }
+      ]
+    }
+  }
+]

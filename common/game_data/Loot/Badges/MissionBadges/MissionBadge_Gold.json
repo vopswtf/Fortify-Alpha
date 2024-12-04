@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "MissionBadge_Gold",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "3DD18D3D4F7340071B332996B0AEAF30",
+        "SourceString": "You got a Gold Mission Badge! It's worth a lot of experience.",
+        "LocalizedString": "You got a Gold Mission Badge! It's worth a lot of experience."
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_Gold"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A14928D84366BA575BE6619DDC3C4ACC",
+        "SourceString": "Gold Mission Badge",
+        "LocalizedString": "Gold Mission Badge"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1E024B74480D1B59A13307A881ADAAAA",
+        "SourceString": "Awarded for completing hard missions, this badge is worth a lot of experience.",
+        "LocalizedString": "Awarded for completing hard missions, this badge is worth a lot of experience."
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T2_.0"
+        }
+      }
+    }
+  }
+]

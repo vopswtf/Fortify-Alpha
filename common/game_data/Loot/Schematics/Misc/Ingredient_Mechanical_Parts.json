@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ingredient_Mechanical_Parts",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 15,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 3,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+        "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+      },
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BDE1360F49EABAA118208F8F3F284D1C",
+        "SourceString": "Schematic: Mechanical Parts",
+        "LocalizedString": "Schematic: Mechanical Parts"
+      },
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Ingredient_Mechanical_Parts'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Ingredient_Mechanical_Parts.0"
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Food_Bacon",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_Heal_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_Heal.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Consumables'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/Consumables.0"
+              },
+              "RowName": "Food_Bacon"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.0,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/Bacon.Bacon",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Bacon_Collect_Cue.Bacon_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "466A10C34C9983C67564AF9B41471D56",
+        "SourceString": "Food: Bacon",
+        "LocalizedString": "Food: Bacon"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9B96CD824B0A96550DC9C180B3083AFE",
+        "SourceString": "The duct tape of food! Can be found in unique places throughout the world. Crafty farmers have even developed a method of growing it in their fields.",
+        "LocalizedString": "The duct tape of food! Can be found in unique places throughout the world. Crafty farmers have even developed a method of growing it in their fields."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "24713220443BAD7607ABF18079866230",
+        "SourceString": "Consumable health food",
+        "LocalizedString": "Consumable health food"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultHealthAttributeTemplate.DefaultHealthAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Food_Bacon'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Food_Bacon.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

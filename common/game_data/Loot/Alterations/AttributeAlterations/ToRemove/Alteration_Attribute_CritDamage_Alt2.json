@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_CritDamage_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CritDamage_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CritDamage_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0D8007614B01C51C57A273A41EFC84B9",
+        "SourceString": "High Impact [Prime]",
+        "LocalizedString": "High Impact [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D936A17D417382C4163F82A18D6B13CE",
+        "SourceString": "+54% Crit Damage",
+        "LocalizedString": "+54% Crit Damage"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

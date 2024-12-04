@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Piercing_Spear_Laser_T07",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Piercing/B_Melee_Piercing_SpearLaser.B_Melee_Piercing_SpearLaser_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'Pitchfork_Advanced'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/Pitchfork_Advanced.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Piercing_Spear_Laser_T07"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_PiercingDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_PiercingDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_Combo.GAB_Melee_Hammer_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_HeavyAttack.GAB_Melee_Hammer_HeavyAttack_C",
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Piercing-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Piercing-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/Pitchfork_Advanced.Pitchfork_Advanced",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Collect_SuperLoot_Cue.Collect_SuperLoot_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pickup_Pierce_Cue.Pickup_Pierce_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_07",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CDC71AF84BF6C8E00152B0B3652A31E1",
+        "SourceString": "Farmer's Glory",
+        "LocalizedString": "Farmer's Glory"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5C56B3124986CA4B1AE98894A229BCF4",
+        "SourceString": "Spear (Piercing Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Spear (Piercing Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "51F17AF8457A6CA37D7A9E90FFC654E1",
+        "SourceString": "Melee Piercing Spear Pitchfork Combat",
+        "LocalizedString": "Melee Piercing Spear Pitchfork Combat"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Piercing.Spear",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Pitchfork_Advanced'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/Pitchfork_Advanced.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

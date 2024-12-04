@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Rare_Ranged",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Rare_Ranged",
+      "DisplayRarityLevel": 2,
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Ranged_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Ranged_IconMask.0"
+      },
+      "PackColor": {
+        "R": 1.0,
+        "G": 0.968628,
+        "B": 0.039216,
+        "A": 1.0,
+        "Hex": "FFFFFC37"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Happy_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Happy_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F3C6C5C54C3D001A81AF768F59170864",
+        "SourceString": "Super Ranged Pack",
+        "LocalizedString": "Super Ranged Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5AC0E19D4A3F4F7264C1BD93194CFF55",
+        "SourceString": "A special llama containing rare ranged weapons, including at least one masterwork or better! Contains 5 drool-worthy items.",
+        "LocalizedString": "A special llama containing rare ranged weapons, including at least one masterwork or better! Contains 5 drool-worthy items."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

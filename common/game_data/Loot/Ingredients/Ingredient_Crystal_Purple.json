@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Crystal_Purple",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Loot_Crystal_Purple.S_Loot_Crystal_Purple",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Crystal/Crystal_Collect_Cue.Crystal_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "63BB3E304B71A13FA2298B8FE3DA6217",
+        "SourceString": "Purple Crystal",
+        "LocalizedString": "Purple Crystal"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F6F4644D40E86ED72D46EF9A4EDC5D19",
+        "SourceString": "Crafting ingredient. Rarely found in caves and mountains. Can only appear at high world levels.",
+        "LocalizedString": "Crafting ingredient. Rarely found in caves and mountains. Can only appear at high world levels."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "1515D12D438FB1183160DDA05F565AF6",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icons_Crystal_Purple'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_Purple.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

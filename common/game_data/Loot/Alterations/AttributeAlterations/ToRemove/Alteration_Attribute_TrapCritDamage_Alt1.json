@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_TrapCritDamage_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_CritDamage_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_CritDamage_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E644087947ED5FD0F6D74A877B809846",
+        "SourceString": "High Impact [Upgraded]",
+        "LocalizedString": "High Impact [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "052F46974AA53482E542B092E5BD823C",
+        "SourceString": "+36% Crit Damage",
+        "LocalizedString": "+36% Crit Damage"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

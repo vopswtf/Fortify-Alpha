@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_High_Priority_TwinePeaks",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "QuestType": "EFortQuestType::DailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 110
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "quick_complete_pve04"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "ABB7907C4E38846434EB0CA7E50ED3A5",
+            "SourceString": "Complete 3 Quick Play Missions in Twine Peaks",
+            "LocalizedString": "Complete 3 Quick Play Missions in Twine Peaks"
+          },
+          "Count": 3,
+          "ScriptedAction": ""
+        }
+      ],
+      "PrerequisiteQuest": {
+        "ObjectName": "FortQuestItemDefinition'OutpostQuest_T4_L1'",
+        "ObjectPath": "FortniteGame/Content/Quests/Outpost/OutpostQuest_T4_L1.0"
+      },
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Daily"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "E739B87547AA26290BCE97AB20606BE5",
+        "SourceString": "V-Bucks",
+        "LocalizedString": "V-Bucks"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "614D057042A64BC99C95BAB62A852D8E",
+        "SourceString": "High Priority (Twine Peaks)",
+        "LocalizedString": "High Priority (Twine Peaks)"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Quest-CriticalMission-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-CriticalMission-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-S.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-CriticalMission-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-S.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-CriticalMission-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-CriticalMission-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-CriticalMission-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-CriticalMission-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-CriticalMission-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

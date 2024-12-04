@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SupplyDrop_Sub5",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.SupplyDrop.SBFive"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_SubBuildingFive_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub5_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub5_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub5_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub5_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub5_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub5_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub5_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub5_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub5_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub5_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Ability_SupplyDrop_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Ability_SupplyDrop_5.0"
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "26AE9FEA4AB518B51419BCA6AC2CACFC",
+        "SourceString": "Sub5",
+        "LocalizedString": "Sub5"
+      }
+    }
+  }
+]

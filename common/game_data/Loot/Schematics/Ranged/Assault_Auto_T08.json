@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Assault_Auto_T08",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 50,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 31,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Iron'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Iron.0"
+          },
+          "Count": 11,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Rare_Mechanism'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Rare_Mechanism.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Crystal_Red'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Crystal_Red.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Silver'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Silver.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortWeaponRangedItemDefinition'Assault_Auto_T08'",
+        "ObjectPath": "FortniteGame/Content/Weapons/WeaponItemData/Assault/Assault_Auto_T08.0"
+      },
+      "CraftingPoints": 2970,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "8_Common"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "8_Common"
+      },
+      "MaxLevel": 5,
+      "GameplayTags": [
+        "Weapon.Ranged.assault"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+        }
+      },
+      "Rarity": "EFortRarity::Epic"
+    }
+  }
+]

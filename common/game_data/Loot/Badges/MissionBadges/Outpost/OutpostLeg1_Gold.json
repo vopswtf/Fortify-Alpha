@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "OutpostLeg1_Gold",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "90A9908B4360429907927EB002824C72",
+        "SourceString": "Outpost Core Defended!",
+        "LocalizedString": "Outpost Core Defended!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "EBAE515648F5B80D0F266A9CA43FD01F",
+        "SourceString": "Outpost Core Defended!",
+        "LocalizedString": "Outpost Core Defended!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "OutpostBadge_High"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5173A6CC4DC7A18003034CA18DE2951D",
+        "SourceString": "Outpost Core Defended!",
+        "LocalizedString": "Outpost Core Defended!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "326B6AB14DBBCF087BBBFB8BC4BDE6E2",
+        "SourceString": "Outpost Core Defended!",
+        "LocalizedString": "Outpost Core Defended!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T2_.0"
+        }
+      }
+    }
+  }
+]

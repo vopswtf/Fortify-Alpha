@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "AS_Att_Ranged_Recoil_Alt1",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_Recoil_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_Recoil.0"
+          },
+          "Level": 6.0
+        }
+      ]
+    }
+  }
+]

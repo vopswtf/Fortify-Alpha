@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SurvivalBunker_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.SurvivalBunker.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub1_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SurvivalBunker'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SurvivalBunker.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Outlander_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Outlander_1.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "E840C8A94CACFD291109188272A7A830",
+          "SourceString": "Level 1 : Increases the chance to find double loot based on Outlander Lab Rating.",
+          "LocalizedString": "Level 1 : Increases the chance to find double loot based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "46EBA8024A0F606239300198CA309CF2",
+          "SourceString": "Level 2 : Increases the move speed bonus of In The Zone by 10%.",
+          "LocalizedString": "Level 2 : Increases the move speed bonus of In The Zone by 10%."
+        },
+        {
+          "Namespace": "",
+          "Key": "B412D54F4B8E49FDF4A83996399D13C4",
+          "SourceString": "Level 3 : Increases the damage dealt by harvest weapons based on Outlander Lab Rating.",
+          "LocalizedString": "Level 3 : Increases the damage dealt by harvest weapons based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "BCB49C2649712800ACD93D8187937B2E",
+          "SourceString": "Level 4 : Lead Feet : Gravity Sphere increases gravity for enemies.",
+          "LocalizedString": "Level 4 : Lead Feet : Gravity Sphere increases gravity for enemies."
+        },
+        {
+          "Namespace": "",
+          "Key": "94B3CF1D49A3E08D8DE1C8B0019BEAC6",
+          "SourceString": "Level 5 : Come out, Come out! : Keen Eyes now reveals the presense of nearby enemies.",
+          "LocalizedString": "Level 5 : Come out, Come out! : Keen Eyes now reveals the presense of nearby enemies."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A652C5054E167CACABBEC98B1AB87579",
+        "SourceString": "Windmill",
+        "LocalizedString": "Windmill"
+      }
+    }
+  }
+]

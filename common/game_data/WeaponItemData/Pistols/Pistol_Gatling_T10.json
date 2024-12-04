@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Pistol_Gatling_T10",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_Gatling.B_Pistol_Gatling_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Monsoon'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Pistols/Mesh/SK_Monsoon.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Pistol_Gatling_T10"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsLight'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsLight.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Pistol-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Pistol-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Pistols/Mesh/SK_Monsoon.SK_Monsoon",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Pickup_Cue.Revolver_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Drop_Cue.Revolver_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_10",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "126F15634BDBCC1770C3D1AF9F983117",
+        "SourceString": "Monsoon",
+        "LocalizedString": "Monsoon"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F06D00D34C259AAF3CFD94AA860E5A07",
+        "SourceString": "Pistol. If carrying too many bullets is slowing you down, this Gatling Pistol will solve the problem.",
+        "LocalizedString": "Pistol. If carrying too many bullets is slowing you down, this Gatling Pistol will solve the problem."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "F28AA36744A1C50827554E8BC20A8442",
+        "SourceString": "Guns Ranged Pistols LightBullets Automatic",
+        "LocalizedString": "Guns Ranged Pistols LightBullets Automatic"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.pistol",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Monsoon'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Pistols/SK_Monsoon.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::X",
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

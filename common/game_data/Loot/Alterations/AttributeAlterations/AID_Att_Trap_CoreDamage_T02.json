@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Trap_CoreDamage_T02",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_CoreDamage_T02'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_CoreDamage_T02.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "24F090294926007FFE1DDBB06FC19814",
+        "SourceString": "Trap Damage",
+        "LocalizedString": "Trap Damage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5C1C0B4B4CD2A000E3877A8694DA516D",
+        "SourceString": "+15% Trap Damage",
+        "LocalizedString": "+15% Trap Damage"
+      },
+      "IconBrush": {},
+      "Tier": "EFortItemTier::II"
+    }
+  }
+]

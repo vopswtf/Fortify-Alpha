@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_CommandCenter_PowerStation",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.CommandCenter.PowerStation"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_PowerStation_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_PowerStation_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_PowerStation_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_PowerStation_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_PowerStation_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_PowerStation_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_PowerStation_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_PowerStation_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_PowerStation_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_PowerStation_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_PowerStation_5.0"
+        }
+      ],
+      "ProducedResource": {
+        "ObjectName": "FortPersistentResourceItemDefinition'PowerItemData'",
+        "ObjectPath": "FortniteGame/Content/Loot/PersistentResources/PowerItemData.0"
+      },
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_PowerStation'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_PowerStation.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_CommandCenter_Power_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_CommandCenter_Power.1"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_PowerStation_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_PowerStation_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_PowerStation_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_PowerStation_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3776559B47A69DF74F0E36B935342756",
+        "SourceString": "Power Station",
+        "LocalizedString": "Power Station"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "28CE03354033C6BEA8EDB4BB1B5F1851",
+        "SourceString": "Generates power that fuels the economy.",
+        "LocalizedString": "Generates power that fuels the economy."
+      }
+    }
+  }
+]

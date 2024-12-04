@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Trap_Floor_Track",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'StoneItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/StoneItemData.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortGadgetItemDefinition'G_Track'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/Track/G_Track.0"
+      },
+      "QuantityProduced": 10,
+      "CraftingPoints": 20,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "NoScaling"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "2_Common"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "2_Common"
+      },
+      "GameplayTags": [
+        "trap.floor"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Track'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_Track.0"
+        }
+      },
+      "bNeverPersisted": true,
+      "bAllowMultipleStacks": false
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Edged_Axe_Alt1_T03",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Edged/B_Melee_Edged_Axe.B_Melee_Edged_Axe_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_FiremanAxe'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_FiremanAxe.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Edged_Axe_T03"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_EdgedDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_EdgedDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo.GAB_Melee_Axe_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM.GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack1.GAB_Melee_Axe_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack2.GAB_Melee_Axe_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack3.GAB_Melee_Axe_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack4.GAB_Melee_Axe_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Edged-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Edged-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_FiremanAxe.SK_FiremanAxe",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Axe_Pickup_Cue.Axe_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Axe_Drop_Cue.Axe_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_03",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3324EFFC4A8C118C07D451B2AF31AC9A",
+        "SourceString": "Fire Axe [Upgraded]",
+        "LocalizedString": "Fire Axe [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CB916A55419AD2EEE3A7858CDBFDFE93",
+        "SourceString": "Axe (Edged Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Axe (Edged Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "E046105E4656AAACFE4D81A5FDB87524",
+        "SourceString": "Melee Edged Axe Wood",
+        "LocalizedString": "Melee Edged Axe Wood"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Edged.Axe",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Fireman_Axe'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Fireman_Axe.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::III",
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

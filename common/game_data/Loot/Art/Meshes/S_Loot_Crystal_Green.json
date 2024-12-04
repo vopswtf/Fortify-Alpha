@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_655",
+    "Outer": "S_Loot_Crystal_Green",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "25C1CF254928F04886C280BC72A1F30E",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5243,
+        "SizeOnDisk": 5243,
+        "OffsetInFile": "0x5A2F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3744",
+    "Outer": "S_Loot_Crystal_Green",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x6F0E"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Crystal_Green",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Crystal_Green'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Crystal_Green.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.50786734,
+          "Y": 0.08757591,
+          "Z": 26.67295
+        },
+        "BoxExtent": {
+          "X": 15.611361,
+          "Y": 14.464494,
+          "Z": 23.577446
+        },
+        "SphereRadius": 23.577446
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Crystal_Green:BodySetup_655'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Green.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Crystal_Green:NavCollision_3744'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Green.1"
+    },
+    "LightingGuid": "463C90B9-4551CECB-E5F6CEA0-1FCBE9DD",
+    "RenderData": null
+  }
+]

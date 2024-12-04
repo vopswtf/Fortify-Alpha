@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MilitaryHQ_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.MilitaryHQ.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub1_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Commando_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Commando_1.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "388EBDCF49D6A8A0EAB8D2ADACAAA405",
+          "SourceString": "Level 1 : Reduces the build time of Wood Structures based on Soldier HQ Rating.",
+          "LocalizedString": "Level 1 : Reduces the build time of Wood Structures based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "A373B57C4E1B65B23942198513491C4B",
+          "SourceString": "Level 2 : Reduce the cost of Wood Structures based on Soldier HQ Rating.",
+          "LocalizedString": "Level 2 : Reduce the cost of Wood Structures based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "195E94E9405D7532B932C8B5B31D388A",
+          "SourceString": "Level 3 : Reduce the Repair Cost of Wood Structures based on Soldier HQ Rating.",
+          "LocalizedString": "Level 3 : Reduce the Repair Cost of Wood Structures based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "552D599B4AF3891329869DAB434A970B",
+          "SourceString": "Level 4 : Increase the effectiveness of Advanced Tactics II to 2 ammo per kill.",
+          "LocalizedString": "Level 4 : Increase the effectiveness of Advanced Tactics II to 2 ammo per kill."
+        },
+        {
+          "Namespace": "",
+          "Key": "0D418AF24B3BBC2D643FA4A608AD7C90",
+          "SourceString": "Level 5:  Improves the Rate of Fire bonus from Make it Rain to 30%.",
+          "LocalizedString": "Level 5:  Improves the Rate of Fire bonus from Make it Rain to 30%."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CAD02D1C4F69B7AB5890A89FD23596FC",
+        "SourceString": "Tac-Com",
+        "LocalizedString": "Tac-Com"
+      }
+    }
+  }
+]

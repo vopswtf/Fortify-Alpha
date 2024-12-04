@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SupplyDrop_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.SupplyDrop.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub3_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Ability_SupplyDrop_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Ability_SupplyDrop_4.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C02FEE564A204C33199487951C4EEF5D",
+        "SourceString": "R&D Department.",
+        "LocalizedString": "R&D Department."
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B4F41AA8465BA204F02306A4041359A4",
+        "SourceString": "Improves Stationary Hover Turret.",
+        "LocalizedString": "Improves Stationary Hover Turret."
+      }
+    }
+  }
+]

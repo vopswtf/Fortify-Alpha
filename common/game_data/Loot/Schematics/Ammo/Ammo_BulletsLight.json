@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ammo_BulletsLight",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 10,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsLight'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsLight.0"
+      },
+      "QuantityProduced": 56,
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5D1B3F5B46500C9E2160BAA239B26B4C",
+        "SourceString": "Schematic: Ammo: Light Bullets",
+        "LocalizedString": "Schematic: Ammo: Light Bullets"
+      },
+      "GameplayTags": [
+        "supplies.ammo.bulletlight"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Ammo-Light-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Ammo/Icon-Ammo-Light-L.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Blunt_Improvised_RocketBat_Alt2_T10",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Blunt/B_Melee_Blunt_Improvised_RocketBat.B_Melee_Blunt_Improvised_RocketBat_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'BaseballBat_Advanced'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/BaseballBat_Advanced.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Blunt_Improvised_RocketBat_T10"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BluntDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BluntDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_Combo.GAB_Melee_Hammer_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_HeavyAttack.GAB_Melee_Hammer_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/EquipGameplayEffects/GAB_RocketBatBuff.GAB_RocketBatBuff_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack1.GAB_Melee_Hammer_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack2.GAB_Melee_Hammer_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack3.GAB_Melee_Hammer_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack4.GAB_Melee_Hammer_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Blunt-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Blunt-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/BaseballBat_Advanced.BaseballBat_Advanced",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Collect_SuperLoot_Cue.Collect_SuperLoot_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Drop_SuperLoot_Cue.Drop_SuperLoot_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_10",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A3BB66E54FE96311B33491BF86FDC3C7",
+        "SourceString": "Fortsville Slugger 3000 [Prime]",
+        "LocalizedString": "Fortsville Slugger 3000 [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7B0E35DB49E6E003ECED11878557E407",
+        "SourceString": "Improvised (Blunt Weapon). Intended for combat. Does minor damage against objects in the world. Knocks back husks like baseballs, +20% Crit Chance, +100% Crit Damage",
+        "LocalizedString": "Improvised (Blunt Weapon). Intended for combat. Does minor damage against objects in the world. Knocks back husks like baseballs, +20% Crit Chance, +100% Crit Damage"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "7C924180442D49FC6D65EBB236A93D04",
+        "SourceString": "Melee Blunt Improvised BaseballBat Bat Stone",
+        "LocalizedString": "Melee Blunt Improvised BaseballBat Bat Stone"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Blunt.Improvised",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'BaseballBat_Advanced'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/BaseballBat_Advanced.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::X",
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

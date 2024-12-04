@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Dojo_Sub5",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Dojo.ZenGardens"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_ZenGardens_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ZenGardens_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ZenGardens_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ZenGardens_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ZenGardens_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ZenGardens_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ZenGardens_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ZenGardens_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ZenGardens_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_ZenGardens_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_ZenGardens_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Dojo_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Dojo_5.1"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "217824BF4141294DE9D0E7821F16EFDD",
+          "SourceString": "Level 1 : Increases Energy Regen based on Ninja Lair Rating.",
+          "LocalizedString": "Level 1 : Increases Energy Regen based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "BF5DA4C7472AD4F5D4012AAB23925B9B",
+          "SourceString": "Level 2 : Increases Maximum Energy by 25.",
+          "LocalizedString": "Level 2 : Increases Maximum Energy by 25."
+        },
+        {
+          "Namespace": "",
+          "Key": "BC18CA3B4CACEE72101998B73FCF2D37",
+          "SourceString": "Level 3 : Increases Critical Hit Damage of Swords based on Ninja Lair Rating.",
+          "LocalizedString": "Level 3 : Increases Critical Hit Damage of Swords based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "4CE5D68B47EBAA392548F8BBA0E8A97C",
+          "SourceString": "Level 4 : Pain Mastery : Stacks of Assassination increase critical hit chance of Swords by 3% per stack.",
+          "LocalizedString": "Level 4 : Pain Mastery : Stacks of Assassination increase critical hit chance of Swords by 3% per stack."
+        },
+        {
+          "Namespace": "",
+          "Key": "2145483F453E32F1EE3E028842C11108",
+          "SourceString": "Level 5 : Praying Mantis : Increases the jump height of Mantis Leap by 50%.",
+          "LocalizedString": "Level 5 : Praying Mantis : Increases the jump height of Mantis Leap by 50%."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3EF4188B4D89036760331BA1E031433A",
+        "SourceString": "Zen Gardens",
+        "LocalizedString": "Zen Gardens"
+      }
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_Specialist_Stonewood",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "QuestType": "EFortQuestType::DailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 60
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_pve01"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "0401147546FD701DFC2D4AA3A1B857A7",
+            "SourceString": "Complete 3 Missions in Stonewood",
+            "LocalizedString": "Complete 3 Missions in Stonewood"
+          },
+          "Count": 3,
+          "ScriptedAction": ""
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Daily"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "E739B87547AA26290BCE97AB20606BE5",
+        "SourceString": "V-Bucks",
+        "LocalizedString": "V-Bucks"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0FCCE73C4283D84533EF3F91590FFE84",
+        "SourceString": "Mission Specialist (Stonewood)",
+        "LocalizedString": "Mission Specialist (Stonewood)"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Theater-1-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-1-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-XS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-1-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-1-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-1-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-1-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-1-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-1-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

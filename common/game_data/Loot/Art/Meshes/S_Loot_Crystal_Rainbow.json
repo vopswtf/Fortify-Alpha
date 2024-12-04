@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_346",
+    "Outer": "S_Loot_Crystal_Rainbow",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "6C1082274307725F21642F891DEF8A60",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4945,
+        "SizeOnDisk": 4945,
+        "OffsetInFile": "0x6005"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3746",
+    "Outer": "S_Loot_Crystal_Rainbow",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x73BA"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Crystal_Rainbow",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Crystal_Rainbow'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Crystal_Rainbow.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.043685913,
+          "Y": 0.89733696,
+          "Z": 32.022686
+        },
+        "BoxExtent": {
+          "X": 19.867243,
+          "Y": 22.295113,
+          "Z": 26.234634
+        },
+        "SphereRadius": 26.234634
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Crystal_Rainbow:BodySetup_346'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Rainbow.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Crystal_Rainbow:NavCollision_3746'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Rainbow.1"
+    },
+    "LightingGuid": "FFE5813A-4810A1CF-98DAD5B0-C180888E",
+    "RenderData": null
+  }
+]

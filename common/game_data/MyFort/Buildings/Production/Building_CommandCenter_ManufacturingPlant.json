@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_CommandCenter_ManufacturingPlant",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.CommandCenter.ManufacturingPlant"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_ManufacturingPlant_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ManufacturingPlant_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ManufacturingPlant_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ManufacturingPlant_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ManufacturingPlant_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ManufacturingPlant_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ManufacturingPlant_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ManufacturingPlant_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ManufacturingPlant_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ManufacturingPlant_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ManufacturingPlant_5.0"
+        }
+      ],
+      "ProducedResource": {
+        "ObjectName": "FortPersistentResourceItemDefinition'ManufacturingPartsItemData'",
+        "ObjectPath": "FortniteGame/Content/Loot/PersistentResources/ManufacturingPartsItemData.0"
+      },
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ManufacturingPlant'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ManufacturingPlant.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_CommandCenter_Manufacture_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_CommandCenter_Manufacture.1"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_ManufacturingPlant_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_ManufacturingPlant_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D606831E430A91C4C891A4B669FD9D1F",
+        "SourceString": "Manufacturing Plant",
+        "LocalizedString": "Manufacturing Plant"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "77EC21D34755504AB4B92485E18A43A3",
+        "SourceString": "Generates Building Parts.",
+        "LocalizedString": "Generates Building Parts."
+      }
+    }
+  }
+]

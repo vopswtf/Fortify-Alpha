@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Hospital_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Hospital.SBTwo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Hospital_SubBuildingTwo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub2_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub2_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub2_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub2_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub2_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub2_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub2_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub2_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub2_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub2_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Hospital'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Hospital.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hospital_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hospital_4.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "603435354932CA67090E70A90447904B",
+        "SourceString": "Surgery Wing",
+        "LocalizedString": "Surgery Wing"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4CD63573413004F4A7A159AB4EA857A9",
+        "SourceString": "Increases Max Health",
+        "LocalizedString": "Increases Max Health"
+      }
+    }
+  }
+]

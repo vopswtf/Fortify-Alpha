@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Gate_BuildLimitQty",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "32BE8D7245835D93DE7FD9A3DD95B124",
+        "SourceString": "You defended the Atlas with less than 100 defensive structures!",
+        "LocalizedString": "You defended the Atlas with less than 100 defensive structures!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "GateBadge_BuildLimitedQty"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "545C587A41AAEC2046903FB8FD4A2795",
+        "SourceString": "Limited Defenses",
+        "LocalizedString": "Limited Defenses"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A32AD925465B72750FFA0A9C2678AE0C",
+        "SourceString": "The Atlas was defended with less than 100 defensive structures",
+        "LocalizedString": "The Atlas was defended with less than 100 defensive structures"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T2_.0"
+        }
+      }
+    }
+  }
+]

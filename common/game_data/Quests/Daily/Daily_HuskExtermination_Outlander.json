@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_HuskExtermination_Outlander",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "QuestType": "EFortQuestType::DailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 60
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "kill_husk_outlander"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "865C42EC486D40F28A39519F2D022379",
+            "SourceString": "Kill 500 Husks as an Outlander",
+            "LocalizedString": "Kill 500 Husks as an Outlander"
+          },
+          "Count": 500,
+          "ScriptedAction": ""
+        }
+      ],
+      "Prerequisites": [
+        "Unlocks.Class.Outlander"
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Daily"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "48DC8F074CE8907812886BA4C3531037",
+        "SourceString": "V-Bucks",
+        "LocalizedString": "V-Bucks"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F1832B754633AF1656B1E989F8146C7A",
+        "SourceString": "Husk Extermination (Outlander)",
+        "LocalizedString": "Husk Extermination (Outlander)"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-S.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-S.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-HuskExtermination-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HuskExtermination-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_FiringRange_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.FiringRange.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:FiringRange_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_FiringRange'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_FiringRange.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_FiringRange_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_FiringRange_1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CD8CF34043849E45D23963B4D4D76313",
+        "SourceString": "Ring of Fire",
+        "LocalizedString": "Ring of Fire"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "87027C874B9D167966A779A0354BD595",
+        "SourceString": "Scales the air strike gadget.",
+        "LocalizedString": "Scales the air strike gadget."
+      }
+    }
+  }
+]

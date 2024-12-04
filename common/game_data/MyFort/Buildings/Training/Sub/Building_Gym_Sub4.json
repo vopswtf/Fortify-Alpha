@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Gym_Sub4",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Gym.SBFour"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_SubBuildingFour_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub4_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub4_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub4_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub4_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub4_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub4_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub4_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub4_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub4_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub4_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Gym'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Gym.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Gym_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Gym_4.0"
+      },
+      "bHideInUI": true
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Ranged_FireRate",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_FireRate'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_FireRate.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "39A40B0745A316CB8FCB0DB55AE03695",
+        "SourceString": "High-speed Gears",
+        "LocalizedString": "High-speed Gears"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B06CBA1449F27DABB90F118A1557F149",
+        "SourceString": "+9% Fire Rate",
+        "LocalizedString": "+9% Fire Rate"
+      },
+      "IconBrush": {}
+    }
+  }
+]

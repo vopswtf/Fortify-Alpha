@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "AS_Att_Ranged_HeadshotDamage_Alt2",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_HeadshotDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_HeadshotDamage.0"
+          },
+          "Level": 9.0
+        }
+      ]
+    }
+  }
+]

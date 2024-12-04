@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_Bandage",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Recovery_Balm'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Balm.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Duct_Tape'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Duct_Tape.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Recovery_Bandage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Bandage.0"
+      },
+      "CraftingPoints": 25,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E918A1EE444D91BA5A7A40860A0EEE93",
+        "SourceString": "Schematic: Healing: Bandage",
+        "LocalizedString": "Schematic: Healing: Bandage"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Crafting_Bandage'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Crafting_Bandage.0"
+        }
+      }
+    }
+  }
+]

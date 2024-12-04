@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MilitaryHQ_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.MilitaryHQ.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Commando_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Commando_3.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "2737F891471F02A075CE989FA01414AF",
+          "SourceString": "Level 1 : Increases Assault weapon damage based on Soldier HQ Rating.",
+          "LocalizedString": "Level 1 : Increases Assault weapon damage based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "509E70B548019FB6719CAA8490FB58A0",
+          "SourceString": "Level 2 : Increases Assault weapon critical hit rate based on Soldier HQ Rating.",
+          "LocalizedString": "Level 2 : Increases Assault weapon critical hit rate based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "192DBCB946ADCA8C0BBD72A2CE8A385B",
+          "SourceString": "Level 3 : Increases damage from Headshots based on Soldier HQ Rating.",
+          "LocalizedString": "Level 3 : Increases damage from Headshots based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "2A2736364F4661D7E4488A9D2B07B8E6",
+          "SourceString": "Level 4 : Increases chance to not consume ammo when firing an Assault weapon, based on Soldier HQ Rating.",
+          "LocalizedString": "Level 4 : Increases chance to not consume ammo when firing an Assault weapon, based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "79DFD3034565107586A613A9D13BDD5A",
+          "SourceString": "Level 5 : Kneecapper : Improves the effectiveness of Debilitating Shots Vulnerability effect to 4% per stack",
+          "LocalizedString": "Level 5 : Kneecapper : Improves the effectiveness of Debilitating Shots Vulnerability effect to 4% per stack"
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9889B7534C31BF07F91EE68252192570",
+        "SourceString": "Battlements",
+        "LocalizedString": "Battlements"
+      }
+    }
+  }
+]

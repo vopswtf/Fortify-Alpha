@@ -1,0 +1,324 @@
+[
+  {
+    "Type": "FortHeroType",
+    "Name": "Class_Outlander",
+    "Class": "UScriptClass'FortHeroType'",
+    "Properties": {
+      "Outfits_Naked": [
+        "MPR_SK_L_MALE_Base_Modified"
+      ],
+      "Outfits_Male": [
+        "clubkid"
+      ],
+      "Outfits_Female": [
+        "F_SML_Outlander"
+      ],
+      "IdleAnimation_Male": {
+        "ObjectName": "AnimMontage'Outlander_selection_menu_Male'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Outlander_selection_menu_Male.0"
+      },
+      "IdleAnimation_Female": {
+        "ObjectName": "AnimMontage'Outlander_selection_menu_Female'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Outlander_selection_menu_Female.0"
+      },
+      "PrimaryTrait": {
+        "ObjectName": "FortTrait'Trait_Primary_Empty'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Traits/Trait_Primary_Empty.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Outlander_DontAsk'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Outlander/Traits/DontAsk/Trait_Outlander_DontAsk.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Outlander_Gravitas'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Outlander/Traits/Gravitas/Trait_Outlander_Gravitas.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Outlander_PunchIt'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Outlander/Traits/PunchIt/Trait_Outlander_PunchIt.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Outlander_ZonedOut'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Outlander/Traits/ZonedOut/Trait_Outlander_ZonedOut.0"
+      },
+      "DefaultSpecialization": {
+        "ObjectName": "FortHeroSpecialization'HS_Outlander_Default'",
+        "ObjectPath": "FortniteGame/Content/Heroes/Specializations/Outlander/HS_Outlander_Default.0"
+      },
+      "AbilityKits": [
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T03'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T03.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier0"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T04'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T04.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier1"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T05'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T05.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier2"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T06'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T06.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier3"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T07'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T07.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier4"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T08'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T08.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier5"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T09'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T09.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier6"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T10'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T10.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier7"
+          ],
+          "bShowInAbilityScreen": true
+        }
+      ],
+      "CombinedStatGEs": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Outlander_Offense_AllWeaponDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Outlander/MappedEffects/GE_Map_Outlander_Offense_AllWeaponDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Outlander_Prowess_TrapDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Outlander/MappedEffects/GE_Map_Outlander_Prowess_TrapDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Outlander_Vitality_Health_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Outlander/MappedEffects/GE_Map_Outlander_Vitality_Health.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Outlander_Defense_ShieldStrength_ShieldRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Outlander/MappedEffects/GE_Map_Outlander_Defense_ShieldStrength_ShieldRegen.0"
+          },
+          "Level": 0.0
+        }
+      ],
+      "CombinedStatSourceGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_SharedStats_C'",
+        "ObjectPath": "FortniteGame/Content/Heroes/GE_SharedStats.0"
+      },
+      "RequiredGPTags": [
+        "Unlocks.Class.Outlander"
+      ],
+      "MaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Outlander_Male_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Outlander_Male_Feedback.0"
+      },
+      "FemaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Outlander_Female_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Outlander_Female_Feedback.0"
+      },
+      "OverridePawnClass": "/Game/Abilities/Player/Pawns/PlayerPawn_Outlander.PlayerPawn_Outlander_C",
+      "IconBrushSmall": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Outlander-S'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-S.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Outlander-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-XL.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Outlander-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Outlander-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-Headshot-F.0"
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B69DBB8049E4605EA7D23A9A5CB24042",
+        "SourceString": "Outlander",
+        "LocalizedString": "Outlander"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B21AACFB45323BDA6523C59D0AF393F9",
+        "SourceString": "Outlanders are masters of exploration and inscrutable gadgetry. Their treasure tracking, Loot Llama dropping skills make taming the uncharted look easy. In battle, Outlanders’ pistol skills are unmatched.",
+        "LocalizedString": "Outlanders are masters of exploration and inscrutable gadgetry. Their treasure tracking, Loot Llama dropping skills make taming the uncharted look easy. In battle, Outlanders’ pistol skills are unmatched."
+      },
+      "GameplayTags": [
+        "Homebase.Class.IsOutlander"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Outlander-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Outlander-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Outlander-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Outlander-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Outlander-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Outlander-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Outlander-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Outlander/Icon-Class-Outlander-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

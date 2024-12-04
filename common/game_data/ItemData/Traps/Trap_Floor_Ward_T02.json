@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Floor_Ward_T02",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Ward_Master_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Ward_Master.22"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Floor'EMP_Floor_Floor'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Floor/EMP_Floor_Floor.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Floor_Ward_T02"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Gadgets/Assets/Ward/S_Ward_Proto.S_Ward_Proto",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "886B4E734BB2A1E744B2148104B6BD00",
+        "SourceString": "Ward",
+        "LocalizedString": "Ward"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AA30053240984969D0282DB04C0B3DD5",
+        "SourceString": "Place this on a full-sized floor to suppress husk patrol portals from spawning nearby. Wards only prevent portals - patrols can walk by wards if they have a portal outside of the ward range.",
+        "LocalizedString": "Place this on a full-sized floor to suppress husk patrol portals from spawning nearby. Wards only prevent portals - patrols can walk by wards if they have a portal outside of the ward range."
+      },
+      "GameplayTags": [
+        "trap.Floor"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Ward_Icon'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Ward_Icon.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::II"
+    }
+  }
+]

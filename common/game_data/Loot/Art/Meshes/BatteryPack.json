@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_114",
+    "Outer": "BatteryPack",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "4BA7F1274858406E7EE2729E5582444F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 11617,
+        "SizeOnDisk": 11617,
+        "OffsetInFile": "0xC2C7"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_11",
+    "Outer": "BatteryPack",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xF070"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "BatteryPack",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_BatteryPack_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_BatteryPack_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.9073486E-06,
+          "Y": -2.111288,
+          "Z": 12.841465
+        },
+        "BoxExtent": {
+          "X": 16.289776,
+          "Y": 14.983339,
+          "Z": 15.993565
+        },
+        "SphereRadius": 16.289776
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'BatteryPack:BodySetup_114'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/BatteryPack.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'BatteryPack:NavCollision_11'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/BatteryPack.1"
+    },
+    "LightingGuid": "F3EF4F53-4B45A284-33D661A6-FAE8A439",
+    "RenderData": null
+  }
+]

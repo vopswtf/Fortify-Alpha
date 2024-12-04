@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "PowerTheReactor_Participation",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A_Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A_Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "8C4506AD44950EA58212998F5D8B9764",
+        "SourceString": "It was a good effort, better luck next time.",
+        "LocalizedString": "It was a good effort, better luck next time."
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "0E8E26924F65AEF7DD115AA726846BB7",
+        "SourceString": "The Reactor was destroyed!",
+        "LocalizedString": "The Reactor was destroyed!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_PTR_Participation"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9C5E2D784AC531DE666052AE93FF2AA2",
+        "SourceString": "The Reactor was Destroyed!",
+        "LocalizedString": "The Reactor was destroyed!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FFCB9EDB45324895F95F18AF02A8EB87",
+        "SourceString": "The husks destroyed the reactor!",
+        "LocalizedString": "The husks destroyed the reactor!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A.0"
+        }
+      }
+    }
+  }
+]

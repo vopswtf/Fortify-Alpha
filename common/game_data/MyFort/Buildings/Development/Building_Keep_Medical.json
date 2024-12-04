@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Keep_Medical",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.Keep.Medical"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_Medical_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepMedical_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepMedical_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepMedical_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepMedical_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepMedical_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepMedical_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepMedical_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepMedical_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepMedical_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepMedical_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Keep_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Keep_5.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D35EB80C4813B44F79E9A281D4F3EAF7",
+        "SourceString": "Keep M*E*D Station",
+        "LocalizedString": "Keep M*E*D Station"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F4DD3C5B4EDAD5B356D862B80486EC54",
+        "SourceString": "Gives AdditionalHealing Items in Keep Defense",
+        "LocalizedString": "Gives AdditionalHealing Items in Keep Defense"
+      }
+    }
+  }
+]

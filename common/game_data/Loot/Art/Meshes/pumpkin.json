@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_5",
+    "Outer": "pumpkin",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "E42D5C4147ECF77A9CE0F88E6639D0D7",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7441,
+        "SizeOnDisk": 7441,
+        "OffsetInFile": "0x7D65"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_119",
+    "Outer": "pumpkin",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x9ADA"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "pumpkin",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Wood_Drop'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Wood_Drop.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.9073486E-06,
+          "Y": 9.536743E-07,
+          "Z": 15.039963
+        },
+        "BoxExtent": {
+          "X": 14.179908,
+          "Y": 14.054337,
+          "Z": 15.090382
+        },
+        "SphereRadius": 15.090382
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'pumpkin:RB_BodySetup_5'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/pumpkin.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'pumpkin:NavCollision_119'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/pumpkin.1"
+    },
+    "LightingGuid": "58F94A36-452E286E-8B6A3180-8174FD01",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Floor_Health_T02",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Floor_Health_Balm_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Floor_Health_Balm.0"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Floor'EMP_Floor_Floor'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Floor/EMP_Floor_Floor.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Floor_Health_T02"
+      },
+      "OverrideAutoEquipTags": [
+        "supplies.consumable.healing"
+      ],
+      "bCanAutoEquipByClass": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Floor_Health/S_Floor_HealthSquare_pickup.S_Floor_HealthSquare_pickup",
+      "DisassemblyLootTierKey": "Disassemble_Traps_Floor_Health_01",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1FC4EBF148710B95BA813BBB80468625",
+        "SourceString": "Health Station: Healing Balm",
+        "LocalizedString": "Health Station: Healing Balm"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F421DAC14B16AF0CB567CA810131F91C",
+        "SourceString": "Can be placed on a flat floor piece.",
+        "LocalizedString": "Can be placed on a flat floor piece."
+      },
+      "GameplayTags": [
+        "trap.Floor"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "FilterOverride": "EFortInventoryFilter::Consumables",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Healing'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon_Trap_Healing.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::II"
+    }
+  }
+]

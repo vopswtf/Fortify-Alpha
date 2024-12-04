@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_24",
+    "Outer": "S_Loot_Potion_White",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "28F98B4E48EF5C4CB582A8A7216EA6FA",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21725,
+        "SizeOnDisk": 21725,
+        "OffsetInFile": "0x140D7"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_51",
+    "Outer": "S_Loot_Potion_White",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x195FC"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Potion_White",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Postions_Crafted_S_Loot_Potion_White_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Materials/MI_FORT_Postions_Crafted_S_Loot_Potion_White_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 9.536743E-07,
+          "Z": 8.316284
+        },
+        "BoxExtent": {
+          "X": 15.331017,
+          "Y": 15.091328,
+          "Z": 24.466438
+        },
+        "SphereRadius": 24.466438
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Potion_White:BodySetup_24'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_White.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Potion_White:NavCollision_51'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_White.1"
+    },
+    "LightingGuid": "38832DC7-478FC905-70615597-B73F5B4E",
+    "RenderData": null
+  }
+]

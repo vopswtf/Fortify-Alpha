@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "OutpostQuest_T1_L3",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Quests/Outpost/Outpost_Filler_Stonewood_D3.Outpost_Filler_Stonewood_D3",
+          "Quantity": 1
+        },
+        {
+          "ItemDefinition": "/Game/Quests/Homebase/Homebase_Filler_Stonewood_HB2_D3.Homebase_Filler_Stonewood_HB2_D3",
+          "Quantity": 1
+        },
+        {
+          "ItemDefinition": "/Game/Loot/PersistentResources/ConstructionPlans_Base.ConstructionPlans_Base",
+          "Quantity": 1
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_outpost_1_3"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "Count": 1,
+          "ScriptedAction": ""
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Outpost"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "77C155874B6C5B0FBF5A279FAD169929",
+        "SourceString": "Home Base Building Plans",
+        "LocalizedString": "Home Base Building Plans"
+      },
+      "MissionConfigMetadata": {
+        "ConfigParams": [
+          {
+            "Tag": {
+              "TagName": "Quest.Metadata.Mission.Primary.Outpost"
+            },
+            "ConfigDataClass": "/Game/Quests/Outpost/MIssionMetadata/OutpostQuestMissionData_L3.OutpostQuestMissionData_L3_C"
+          }
+        ]
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5971CF984781A1D8C5B2999947552243",
+        "SourceString": "Expand Stonewood Outpost",
+        "LocalizedString": "Expand Stonewood Outpost"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0035FCEA4782D01CDB8B4494D876953A",
+        "SourceString": "Install and Defend the second Storm Shield Amplifier",
+        "LocalizedString": "Install and Defend the second Storm Shield Amplifier"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Quest-Outpost-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-Outpost-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-S.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-Outpost-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-S.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-Outpost-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-Outpost-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-Outpost-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-Outpost-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-Outpost-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

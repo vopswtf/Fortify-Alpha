@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_Outpost_StormShieldAmplifier",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "Outpost_StormShieldAmplifier",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C7ED8D6843BFEB2E3922C48339491716",
+        "SourceString": "Storm Shield Amplifier",
+        "LocalizedString": "Storm Shield Amplifier"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D4BE61C345572A0AD107E08FE0F6F27E",
+        "SourceString": "A device that increases effectiveness of your outpost's Storm Shield. Warning: activating the device will provoke Husk attack!",
+        "LocalizedString": "A device that increases effectiveness of your outpost's Storm Shield. Warning: activating the device will provoke Husk attack!"
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_ShieldAmplifier_Icon'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/T_ShieldAmplifier_Icon.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

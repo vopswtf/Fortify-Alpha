@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_509",
+    "Outer": "S_Loot_Metal_Coal",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "916688594F0DE8F5833CC5B4EC0CC1C7",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5097,
+        "SizeOnDisk": 5097,
+        "OffsetInFile": "0x54D5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_80",
+    "Outer": "S_Loot_Metal_Coal",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x6922"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Metal_Coal",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Metal_Coal'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Metal_Coal.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.47337914,
+          "Y": -1.4855585,
+          "Z": 18.446278
+        },
+        "BoxExtent": {
+          "X": 11.209923,
+          "Y": 11.049965,
+          "Z": 9.314522
+        },
+        "SphereRadius": 11.209923
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Metal_Coal:BodySetup_509'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Coal.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Metal_Coal:NavCollision_80'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Coal.1"
+    },
+    "LightingGuid": "0119C340-42955717-255077BE-C80497BB",
+    "RenderData": null
+  }
+]

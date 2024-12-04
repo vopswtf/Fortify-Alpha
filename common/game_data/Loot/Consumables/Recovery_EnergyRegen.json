@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Recovery_EnergyRegen",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_EnergyRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_EnergyRegen.0"
+          },
+          "Level": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.0,
+      "bRequiresMissingHealth": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Blue.S_Loot_Potion_Blue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "10A0496540E8A98C77AC5ABB7F50FB59",
+        "SourceString": "Fizzy Drank",
+        "LocalizedString": "Fizz!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F74A5C284F5E7F5D5E9D80B1EDA8C1C9",
+        "SourceString": "Restores 10% of max energy every second for 20 seconds.",
+        "LocalizedString": "Restores 10% of max energy every second for 20 seconds."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "9512CE7440CB71CA5D0CE1B4DAFA4940",
+        "SourceString": "Consumable energy",
+        "LocalizedString": "Consumable energy"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultBuffAttributeTemplate.DefaultBuffAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Blue'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Blue.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

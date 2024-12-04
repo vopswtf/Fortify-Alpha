@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Pistol_Dragon_T07",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_DragonGun.B_Pistol_DragonGun_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_DragonGun'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Pistols/Mesh/SK_DragonGun.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Pistol_Dragon_T07"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataShells'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataShells.0"
+      },
+      "ReticleImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_Frame'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.0"
+      },
+      "ReticleCornerAngles": [
+        45.0,
+        135.0,
+        225.0,
+        315.0
+      ],
+      "ReticleCenterImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_CntDot'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Pistol-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Pistol-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Pistols/Mesh/SK_DragonGun.SK_DragonGun",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Pickup_Cue.Revolver_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Drop_Cue.Revolver_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_07",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "299F009E4F3732E0F0A5F38BFF12FAEA",
+        "SourceString": "Dragon",
+        "LocalizedString": "Dragon"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "47113A6446FDC70B6F200DA1F038320D",
+        "SourceString": "Pistol. Blunderbuss-inspired pistol with a shotgun firing pattern.",
+        "LocalizedString": "Pistol. Blunderbuss-inspired pistol with a shotgun firing pattern."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "C6232EC446389E6B06F118B48269797C",
+        "SourceString": "Guns Ranged Pistols Shells Slugs AOE",
+        "LocalizedString": "Guns Ranged Pistols Shells Slugs AOE"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.pistol",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_DragonGun'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Pistols/SK_DragonGun.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

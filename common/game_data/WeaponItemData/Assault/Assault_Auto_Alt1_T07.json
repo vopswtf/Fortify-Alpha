@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Assault_Auto_Alt1_T07",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Rifles/Blueprints/Assault/B_Assault_Auto.B_Assault_Auto_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_MachineGun_01'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Mesh/SK_MachineGun_01.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Assault_Auto_T07"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsLight'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsLight.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Assault-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Assault-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Rifles/Mesh/SK_MachineGun_01.SK_MachineGun_01",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/AR_Pickup_Cue.AR_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/AR_Drop_Cue.AR_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_07",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3F15E9E64A76762A9F03C4847D6E3527",
+        "SourceString": "Striker [Upgraded]",
+        "LocalizedString": "Striker [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C9DD177642E3A85A6B64B49ECE4022A4",
+        "SourceString": "Assault Weapon (AW). Automatic weapon. High rate of fire.",
+        "LocalizedString": "Assault Weapon (AW). Automatic weapon. High rate of fire."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "7A8B0EF74A07743EFAF83BB790D7B67E",
+        "SourceString": "Guns Assault Rifles Machinegun LightBullets Automatic",
+        "LocalizedString": "Guns Assault Rifles Machinegun LightBullets Automatic"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.assault",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_MachineGun_01'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_MachineGun_01.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

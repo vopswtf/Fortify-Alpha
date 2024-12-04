@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "PowerCollector_Schematic",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 15,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortMissionItemDefinition'MissionItem_PowerCollector'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Adventures/MissionItem_PowerCollector.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0235E16C4CA700C743668790E3BCFB18",
+        "SourceString": "Schematic: Power Collector",
+        "LocalizedString": "Schematic: Power Collector"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7DD7DA7643C2E9DDEB22BD88CBC804B6",
+        "SourceString": "Schematic for creating a Power Collector",
+        "LocalizedString": "Schematic for creating a Power Collector"
+      },
+      "GameplayTags": [
+        "Missions.Items.MissionItem"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

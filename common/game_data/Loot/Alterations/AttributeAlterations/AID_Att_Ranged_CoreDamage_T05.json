@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Ranged_CoreDamage_T05",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CoreDamage_T05'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CoreDamage_T05.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A5FDE53B4A054282ACB52993523E9EF3",
+        "SourceString": "Weapon Damage",
+        "LocalizedString": "Weapon Damage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1648492D44BA02C4B65128A7D99D5F93",
+        "SourceString": "+37.5% Weapon Damage",
+        "LocalizedString": "+37.5% Weapon Damage"
+      },
+      "IconBrush": {},
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

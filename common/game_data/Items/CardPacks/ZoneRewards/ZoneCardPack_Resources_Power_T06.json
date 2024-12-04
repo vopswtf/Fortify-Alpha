@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_Resources_Power_T06",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_Resources_Power_T06",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AA70C6074D179739C2AB95A34A5653D4",
+        "SourceString": "Gold (Tier 6)",
+        "LocalizedString": "Gold (Tier 6)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A3BF07C24B6DD4D7683526BD598AE001",
+        "SourceString": "A bundle of gold used to upgrade your Home Base. Harder missions give significantly higher quantities of gold!",
+        "LocalizedString": "A bundle of gold used to upgrade your Home Base. Harder missions give significantly higher quantities of gold!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-HB-Gold-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Gold-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Gold-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Gold-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Gold-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Gold-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Gold-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Gold-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

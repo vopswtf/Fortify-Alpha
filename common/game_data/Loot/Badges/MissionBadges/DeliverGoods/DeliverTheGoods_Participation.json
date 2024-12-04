@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "DeliverTheGoods_Participation",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A_Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A_Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "9E41B274400C3758B5E44883ED36E8EA",
+        "SourceString": "Hover Tub was destroyed",
+        "LocalizedString": "Hover Tub was destroyed"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "41A04EF64FF0F10006850398E2917751",
+        "SourceString": "Hover Tub was destroyed",
+        "LocalizedString": "Hover Tub was destroyed"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_DTG_ParticipationFailure2"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6A8F301747F086C32A1365B1E5F2B8D2",
+        "SourceString": "Better luck next time!",
+        "LocalizedString": "Better luck next time!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6B3E4F6044FAC81B0DBBEBB12F9A7E29",
+        "SourceString": "No Deliveries to the Drop-off were made",
+        "LocalizedString": "No Deliveries to the Drop-off were made"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A.0"
+        }
+      }
+    }
+  }
+]

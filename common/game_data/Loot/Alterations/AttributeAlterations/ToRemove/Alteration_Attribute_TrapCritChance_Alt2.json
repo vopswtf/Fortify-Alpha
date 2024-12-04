@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_TrapCritChance_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_CritChance_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_CritChance_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DBECEA584FB5F2746358338291A681E1",
+        "SourceString": "Critical Targeting [Prime]",
+        "LocalizedString": "Critical Targeting [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9720C32B4ACAB803ACD6F29EF95F66C9",
+        "SourceString": "+18% Crit Chance",
+        "LocalizedString": "+18% Crit Chance"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

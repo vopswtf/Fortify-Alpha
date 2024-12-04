@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "DefaultGunCosmeticAlteration",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::ComplexCosmeticSlot",
+      "DefaultCosmetic": {
+        "CosmeticMaterial": {
+          "ObjectName": "MaterialInstanceConstant'a_Base_gun_Inst'",
+          "ObjectPath": "FortniteGame/Content/Weapons/WeaponSkins/Materials/a_Base_gun_Inst.0"
+        }
+      },
+      "ConditionalCosmetics": [
+        {
+          "CosmeticModification": {
+            "CosmeticMaterial": null,
+            "AmbientParticleSystem": null,
+            "MuzzleParticleSystem": null,
+            "ReloadParticleSystem": null,
+            "BeamParticleSystem": null,
+            "TracerTemplate": null,
+            "bModifyColor": false,
+            "ColorAlteration": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "ColorParameterName": "Color1"
+          },
+          "ConditionalTags": [
+            "CosmeticMod.Elemental.Lightning"
+          ]
+        },
+        {
+          "CosmeticModification": {
+            "CosmeticMaterial": null,
+            "AmbientParticleSystem": null,
+            "MuzzleParticleSystem": null,
+            "ReloadParticleSystem": null,
+            "BeamParticleSystem": null,
+            "TracerTemplate": null,
+            "bModifyColor": false,
+            "ColorAlteration": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "ColorParameterName": "Color1"
+          },
+          "ConditionalTags": [
+            "CosmeticMod.Elemental.Fire"
+          ]
+        },
+        {
+          "CosmeticModification": {
+            "CosmeticMaterial": null,
+            "AmbientParticleSystem": null,
+            "MuzzleParticleSystem": null,
+            "ReloadParticleSystem": null,
+            "BeamParticleSystem": null,
+            "TracerTemplate": null,
+            "bModifyColor": false,
+            "ColorAlteration": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "ColorParameterName": "Color1"
+          },
+          "ConditionalTags": [
+            "CosmeticMod.Elemental.Ice"
+          ]
+        }
+      ],
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "AS_Att_Hero_MaxEnergy_Alt1",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_MaxEnergy_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_MaxEnergy.0"
+          },
+          "Level": 6.0
+        }
+      ]
+    }
+  }
+]

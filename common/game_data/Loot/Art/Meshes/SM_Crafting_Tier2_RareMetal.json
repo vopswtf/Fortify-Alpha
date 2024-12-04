@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_9",
+    "Outer": "SM_Crafting_Tier2_RareMetal",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "7E08EFD5457A7F63DB7E6C9CE87076CB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7029,
+        "SizeOnDisk": 7029,
+        "OffsetInFile": "0x7D1D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_57",
+    "Outer": "SM_Crafting_Tier2_RareMetal",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x98F6"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Crafting_Tier2_RareMetal",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CraftingIngredients_Tier2'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_CraftingIngredients_Tier2.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.9073486E-06,
+          "Y": -1.9073486E-06,
+          "Z": -1.9073486E-06
+        },
+        "BoxExtent": {
+          "X": 13.63035,
+          "Y": 13.093252,
+          "Z": 14.599551
+        },
+        "SphereRadius": 14.599551
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Crafting_Tier2_RareMetal:RB_BodySetup_9'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier2_RareMetal.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Crafting_Tier2_RareMetal:NavCollision_57'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier2_RareMetal.1"
+    },
+    "LightingGuid": "8AA14620-44A0E769-08E583A9-78EF1B64",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "FortAttributeTemplate",
+    "Name": "SchematicAttributeTemplate",
+    "Class": "UScriptClass'FortAttributeTemplate'",
+    "Properties": {
+      "ItemProperties": [
+        6
+      ]
+    }
+  }
+]

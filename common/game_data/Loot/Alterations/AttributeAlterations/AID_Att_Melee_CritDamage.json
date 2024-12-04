@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Melee_CritDamage",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CritDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CritDamage.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "77E10FF44AFCF573BDBE40B9D77E1385",
+        "SourceString": "High Impact",
+        "LocalizedString": "High Impact"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FA584A0B4B90C52E90DA6980F6FAD3A5",
+        "SourceString": "+18% Crit Damage",
+        "LocalizedString": "+18% Crit Damage"
+      },
+      "IconBrush": {}
+    }
+  }
+]

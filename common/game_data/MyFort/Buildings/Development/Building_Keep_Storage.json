@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Keep_Storage",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.Keep.Storage"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_Storage_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepStorage_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepStorage_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepStorage_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepStorage_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepStorage_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepStorage_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepStorage_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepStorage_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepStorage_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepStorage_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Keep_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Keep_4.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_KeepManager_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D2F01A644B087DC2105BE9BE7EF466B5",
+        "SourceString": "Keep Storage",
+        "LocalizedString": "Keep Storage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3920F84A476E95EEF60DB9B8F910792C",
+        "SourceString": "Gives Additional Ingredients for the Keep",
+        "LocalizedString": "Gives Additional Ingredients for the Keep"
+      }
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Rare_Melee",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Rare_Melee",
+      "DisplayRarityLevel": 2,
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Melee_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Melee_IconMask.0"
+      },
+      "PackColor": {
+        "R": 1.0,
+        "G": 0.968628,
+        "B": 0.039216,
+        "A": 1.0,
+        "Hex": "FFFFFC37"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_OlTimey_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_OlTimey_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "94E606FC42D3BD447AAC32B4615D1457",
+        "SourceString": "Super Melee Pack",
+        "LocalizedString": "Super Melee Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CDDAEF394C1C4279E886A7AD36D9CE48",
+        "SourceString": "A special llama containing rare melee weapons, including at least one masterwork or better! Contains 5 drool-worthy items.",
+        "LocalizedString": "A special llama containing rare melee weapons, including at least one masterwork or better! Contains 5 drool-worthy items."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "FortAttributeTemplate",
+    "Name": "DefaultIngredientAttributeTemplate",
+    "Class": "UScriptClass'FortAttributeTemplate'",
+    "Properties": {
+      "ItemProperties": [
+        8,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SurvivalBunker_Sub4",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.SurvivalBunker.SBFour"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_SubBuildingFour_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub4_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub4_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub4_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub4_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub4_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub4_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub4_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub4_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub4_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub4_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SurvivalBunker'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SurvivalBunker.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Outlander_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Outlander_4.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "2287593C45A4ECD771B213997AC5270A",
+          "SourceString": "Level 1 : Increases Pistol damage based on Outlander Lab Rating.",
+          "LocalizedString": "Level 1 : Increases Pistol damage based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "8A942B674A3707784E9317832DE4BA3C",
+          "SourceString": "Level 2 : Reduces the Energy cost of Anti Material Charge by 15.",
+          "LocalizedString": "Level 2 : Reduces the Energy cost of Anti Material Charge by 15."
+        },
+        {
+          "Namespace": "",
+          "Key": "4EA322CE4018C2685C487E9D56678FEB",
+          "SourceString": "Level 3 : Increases the critical hit chance of Pistols based on Outlander Lab Rating.",
+          "LocalizedString": "Level 3 : Increases the critical hit chance of Pistols based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "E70E767F455A3C995B22888815CCA38D",
+          "SourceString": "Level 4 : Knock, Knock! :  Destroying a Wall causes a wave of Energy to flow outwards from the wreckage, damaging enemies.",
+          "LocalizedString": "Level 4 : Knock, Knock! :  Destroying a Wall causes a wave of Energy to flow outwards from the wreckage, damaging enemies."
+        },
+        {
+          "Namespace": "",
+          "Key": "638BC6D14F4C789A69915387D5D23866",
+          "SourceString": "Level 5 : Trigger Happy : Killing an enemy with Anti Material Charge resets it's cooldown. Can only trigger once every 10 seconds.",
+          "LocalizedString": "Level 5 : Trigger Happy : Killing an enemy with Anti Material Charge resets it's cooldown. Can only trigger once every 10 seconds."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "84B4024E4691D56DCD52A18E1FE74FEB",
+        "SourceString": "Hidden Outpost",
+        "LocalizedString": "Hidden Outpost"
+      }
+    }
+  }
+]

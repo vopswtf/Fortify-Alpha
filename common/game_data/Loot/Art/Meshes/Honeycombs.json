@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_8",
+    "Outer": "Honeycombs",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "68B7CF884E40825834427895B5024903",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 43229,
+        "SizeOnDisk": 43229,
+        "OffsetInFile": "0x24B3F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_120",
+    "Outer": "Honeycombs",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x2F480"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Honeycombs",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HoneyCombs_Combs'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_HoneyCombs_Combs.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Honeycombs_Honey'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Honeycombs_Honey.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -4.5323334,
+          "Y": 1.8387427,
+          "Z": 12.41951
+        },
+        "BoxExtent": {
+          "X": 17.839607,
+          "Y": 15.531408,
+          "Z": 23.26683
+        },
+        "SphereRadius": 23.26683
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Honeycombs:RB_BodySetup_8'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Honeycombs.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Honeycombs:NavCollision_120'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Honeycombs.1"
+    },
+    "LightingGuid": "97BA2B14-4D3DA799-FDB8EBB3-305822D2",
+    "RenderData": null
+  }
+]

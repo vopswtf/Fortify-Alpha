@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_0",
+    "Outer": "SM_Crafting_Tier1_DuctTape",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "D65963064F529E037E5418959B1DB33F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 19883,
+        "SizeOnDisk": 19883,
+        "OffsetInFile": "0x11F6F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_308",
+    "Outer": "SM_Crafting_Tier1_DuctTape",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x16D7E"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Crafting_Tier1_DuctTape",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CraftingIngredients_Tier1'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_CraftingIngredients_Tier1.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.476562,
+          "Y": -3.1137447,
+          "Z": 0.0013008118
+        },
+        "BoxExtent": {
+          "X": 16.08125,
+          "Y": 16.143755,
+          "Z": 18.216215
+        },
+        "SphereRadius": 18.216215
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Crafting_Tier1_DuctTape:RB_BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier1_DuctTape.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Crafting_Tier1_DuctTape:NavCollision_308'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier1_DuctTape.1"
+    },
+    "LightingGuid": "3A51E916-480E5F48-D2ABCD8D-A6B22248",
+    "RenderData": null
+  }
+]

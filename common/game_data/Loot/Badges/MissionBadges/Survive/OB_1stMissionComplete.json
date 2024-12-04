@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "OB_1stMissionComplete",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T1__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T1__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "7F95F8944F12E84F0C01F4883F598B07",
+        "SourceString": "You completed  your 1st mission!",
+        "LocalizedString": "You completed  your 1st mission!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "OBBadge_1stMissionComplete"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9D3E62CF426D4D2BCBFB4F8ABF3778EC",
+        "SourceString": "Completed 1st Mission",
+        "LocalizedString": "Completed 1st Mission"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "DC546A604FBE86037326A8A354409D7F",
+        "SourceString": "You completed  your 1st mission!",
+        "LocalizedString": "You completed  your 1st mission!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T1_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T1_.0"
+        }
+      }
+    }
+  }
+]

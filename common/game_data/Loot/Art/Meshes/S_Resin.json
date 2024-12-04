@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_3",
+    "Outer": "S_Resin",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "F936FC6C44C8195CCDCF70B330830B38",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 45307,
+        "SizeOnDisk": 45307,
+        "OffsetInFile": "0x26223"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_122",
+    "Outer": "S_Resin",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x31382"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Resin",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BackPackShrinkingEffect_Amber_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/BackPackShrinkingEffect_Amber_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 9.536743E-07,
+          "Y": 9.536743E-07,
+          "Z": -9.536743E-07
+        },
+        "BoxExtent": {
+          "X": 15.066346,
+          "Y": 13.922512,
+          "Z": 14.551827
+        },
+        "SphereRadius": 15.066346
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Resin:RB_BodySetup_3'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Resin.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Resin:NavCollision_122'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Resin.1"
+    },
+    "LightingGuid": "81C1F699-42A1EC63-50201E84-5BD022BF",
+    "RenderData": null
+  }
+]

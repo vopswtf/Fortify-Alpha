@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Worker_T02",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Worker_T02",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6AD2D5E340510AE6C9BE1E8CAEC5DB96",
+        "SourceString": "Uncommon Survivor [Green]",
+        "LocalizedString": "Uncommon Survivor [Green]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "30AB7C9F477BEBF69FFE6A8F63029CEE",
+        "SourceString": "One random survivor.",
+        "LocalizedString": "One random survivor."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+        }
+      }
+    }
+  }
+]

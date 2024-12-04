@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Gold_Traps",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Gold_Traps",
+      "DisplayRarityLevel": 2,
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Mob_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Mob_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B51B5E924FDB1920E1B558BA60D10538",
+        "SourceString": "Gold Trap Pack",
+        "LocalizedString": "Gold Trap Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7A86EBF54DA9D4427CCA5BB57883771C",
+        "SourceString": "Full of the best stuff.",
+        "LocalizedString": "Full of the best stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_TechLab_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.TechLab.SBTwo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_SubBuildingTwo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub2_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub2_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub2_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub2_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub2_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub2_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub2_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub2_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub2_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub2_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_TechLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_TechLab.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Constructor_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Constructor_2.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "2A409C59471A82A6C88A6E83E52BC658",
+          "SourceString": "Level 1 : Increases damage resistance based on Constructor Site Rating.",
+          "LocalizedString": "Level 1 : Increases damage resistance based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "B5D29BB949F59C0515E23BB8E441B25E",
+          "SourceString": "Level 2 : Total Integration : Improves the effectiveness of Defensive Integration's damage resist bonus by 5% and it's offensive damage by 10%.",
+          "LocalizedString": "Level 2 : Total Integration : Improves the effectiveness of Defensive Integration's damage resist bonus by 5% and it's offensive damage by 10%."
+        },
+        {
+          "Namespace": "",
+          "Key": "7855675A4DD0363F79C4C68996C339D5",
+          "SourceString": "Level 3 : Increases the critical hit chance of Hammers based on Constructor Site Rating.",
+          "LocalizedString": "Level 3 : Increases the critical hit chance of Hammers based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "597B1EF34752757F735685A6609BBE9D",
+          "SourceString": "Level 4 : Reduces the Energy cost of Hammer special attacks by 50%.",
+          "LocalizedString": "Level 4 : Reduces the Energy cost of Hammer special attacks by 50%."
+        },
+        {
+          "Namespace": "",
+          "Key": "4414FF394D55538382C13AAC921DE97E",
+          "SourceString": "Level 5 : Increases the damage of Containment Unit and Energized Floors based on Constructor Site Rating.",
+          "LocalizedString": "Level 5 : Increases the damage of Containment Unit and Energized Floors based on Constructor Site Rating."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B86FBED24254990FFAADDABC3B03558A",
+        "SourceString": "Solar Panels",
+        "LocalizedString": "Solar Panels"
+      }
+    }
+  }
+]

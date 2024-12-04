@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Pistol_Bolt_Alt2_T06",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "bTraceThroughPawns": true,
+      "WeaponActorClass": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_Bolt.B_Pistol_Bolt_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Bolt_Pistol'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Pistols/Mesh/SK_Bolt_Pistol.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Pistol_Bolt_T06"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsMedium'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsMedium.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Pistol-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Pistol-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Pistols/Mesh/SK_Bolt_Pistol.SK_Bolt_Pistol",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Pickup_Cue.Revolver_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Drop_Cue.Revolver_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_06",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9FA5C7C44E35423781749F95A83DA087",
+        "SourceString": "Bolt Pistol [Prime]",
+        "LocalizedString": "Bolt Pistol [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A76E2EB047FE1A8339B97FA6F9146CBE",
+        "SourceString": "Pistol. Shoots bolts of awesome.",
+        "LocalizedString": "Pistol. Shoots bolts of awesome."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "134A81F448CEF614D8DCD196FB3DE9D5",
+        "SourceString": "Guns Ranged Pistols MediumBullets SemiAuto",
+        "LocalizedString": "Guns Ranged Pistols MediumBullets SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.pistol",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Bolt_Pistol'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Pistols/SK_Bolt_Pistol.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::VI",
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

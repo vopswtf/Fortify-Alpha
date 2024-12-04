@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortPersistentResourceItemDefinition",
+    "Name": "UpgradePlans",
+    "Class": "UScriptClass'FortPersistentResourceItemDefinition'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D5F9B6E243FBD9B9569A5A97DBDD149D",
+        "SourceString": "Building Upgrade Plans",
+        "LocalizedString": "Building Upgrade Plans"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "54EE1D794D8A26B6FB09938CD9EA876C",
+        "SourceString": "Materials used to upgrade the level of buildings in Home Base. Acquired on Commander Levels 7 to 50 and from Canny Valley Outpost Quests.",
+        "LocalizedString": "Materials used to upgrade the level of buildings in Home Base. Acquired on Commander Levels 7 to 50 and from Canny Valley Outpost Quests."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'EditorIcon-Atlas-Grey'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/EditorIcon-Atlas-Grey.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

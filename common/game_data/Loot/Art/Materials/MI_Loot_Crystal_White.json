@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Loot_Crystal_White",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ParentLightingGuid": "8BD0810C-4F0D8903-54FB44BF-979B8E68",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "Reflection Multiplier",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "6401CD64-47495647-FE5479B1-4D6E9967"
+        },
+        {
+          "ParameterName": "Spec Desaturation",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "DEABF7A4-491BEE62-F3B2ABBA-63806E5B"
+        },
+        {
+          "ParameterName": "SpecRoughness",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "FC85B6A0-47FC259C-7A565C9C-AEAC4E8D"
+        },
+        {
+          "ParameterName": "SpecRoughnessMax",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "B5D7B6FB-42D9031C-C92653AC-AC5DB20F"
+        },
+        {
+          "ParameterName": "SpecRoughnessMin",
+          "ParameterValue": 0.4,
+          "ExpressionGUID": "AECFCAA5-4B6B9B5F-679AC495-E4D60504"
+        },
+        {
+          "ParameterName": "Metallic",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "E394CD74-472069C3-8B5BFE8F-4CD3FE7F"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_Crystal_White_D'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_Crystal_White_D.0"
+          },
+          "ExpressionGUID": "4A6A9316-4C1DC571-E0C1F186-9E51A1F2"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_Crystal_N'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_Crystal_N.0"
+          },
+          "ExpressionGUID": "7650772D-491D02AB-11CA18BF-6826813F"
+        },
+        {
+          "ParameterName": "ReflectionTextureMask",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_Crystal_M'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_Crystal_M.0"
+          },
+          "ExpressionGUID": "1A61DA5C-47895074-5E5F7181-7EA4E043"
+        },
+        {
+          "ParameterName": "SpecRoughnessMaskTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_Crystal_M'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_Crystal_M.0"
+          },
+          "ExpressionGUID": "41C535AA-45581971-CA2D65AB-1311A243"
+        },
+        {
+          "ParameterName": "Specular",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_Crystal_White_S'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_Crystal_White_S.0"
+          },
+          "ExpressionGUID": "DEFDC0D1-4589B798-F9BAEF9D-8A99621E"
+        },
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_Crystal_S'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_Crystal_S.0"
+          },
+          "ExpressionGUID": "103ACF17-4BFB1563-57057D9A-113F7380"
+        },
+        {
+          "ParameterName": "SphereReflectionMap",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Props_CrystalEnv_White'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Rocks/Textures/T_Props_CrystalEnv_White.0"
+          },
+          "ExpressionGUID": "42A316F0-4B4089E3-59DFE08E-0D04A390"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "SpecColor",
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ExpressionGUID": "D949ADE6-4F5FA0C2-333167A1-DFC8C549"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    }
+  }
+]

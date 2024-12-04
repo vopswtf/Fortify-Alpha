@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Edged_Sword_Alt1_T02",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Edged/B_Melee_Edged_Sword.B_Melee_Edged_Sword_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_MilitaryMachete_MilitaryMachete'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_MilitaryMachete.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Edged_Sword_T02"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_EdgedDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_EdgedDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_Combo.GAB_Melee_Sword_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_HeavyAttack.GAB_Melee_Sword_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack1.GAB_Melee_Sword_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack2.GAB_Melee_Sword_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack3.GAB_Melee_Sword_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack4.GAB_Melee_Sword_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Edged-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Edged-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_MilitaryMachete.SK_MilitaryMachete_MilitaryMachete",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Sword_Pickup_Cue.Sword_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Sword_Drop_Cue.Sword_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_Sword_02",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "31D62083479BEF3111F819928AAF1A52",
+        "SourceString": "Machete [Upgraded]",
+        "LocalizedString": "Machete [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "54CDCD3F4F07B2D8A073E1B6A98F9AE9",
+        "SourceString": "Sword (Edged Weapon). Intended entirely for combat, this sword has fast standard attacks.",
+        "LocalizedString": "Sword (Edged Weapon). Intended entirely for combat, this sword has fast standard attacks."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "6FC1F65F40D28A1C8B1D729C9866C5C2",
+        "SourceString": "Melee Edged Sword Blade Combat",
+        "LocalizedString": "Melee Edged Sword Blade Combat"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Edged.Sword",
+        "HomeBaseProperties.Inventory.StartingWeapon.Ninja1",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_MilitaryMachete'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_MilitaryMachete.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

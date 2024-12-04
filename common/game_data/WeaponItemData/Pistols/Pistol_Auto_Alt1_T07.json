@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Pistol_Auto_Alt1_T07",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Pistols/Blueprints/SubClasses/B_Pistol_BurstFire.B_Pistol_BurstFire_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_TMP'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Pistols/Mesh/SK_TMP.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Pistol_Auto_T07"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsLight'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsLight.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Pistol-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Pistol-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Pistols/Mesh/SK_TMP.SK_TMP",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pistol_Pickup_Cue.Pistol_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pistol_Drop_Cue.Pistol_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_07",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "213D64A6488295CA5FE26D9DEBA42332",
+        "SourceString": "Cobra [Upgraded]",
+        "LocalizedString": "Cobra [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6253594547E3432CD0C75B9F90543EF9",
+        "SourceString": "Pistol. Extreme rate of fire.",
+        "LocalizedString": "Pistol. Extreme rate of fire."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "2CADF43A475FCECFE49A0781B34C36E3",
+        "SourceString": "Guns Ranged Pistols LightBullets Automatic",
+        "LocalizedString": "Guns Ranged Pistols LightBullets Automatic"
+      },
+      "GameplayTags": [
+        "Skill.sniper.headshotbuff",
+        "weapon.ranged.pistol",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_TMP'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Pistols/SK_TMP.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "FortAttributeTemplate",
+    "Name": "ClassGadgetAttributeTemplate",
+    "Class": "UScriptClass'FortAttributeTemplate'",
+    "Properties": {
+      "ItemProperties": [
+        7,
+        0
+      ]
+    }
+  }
+]

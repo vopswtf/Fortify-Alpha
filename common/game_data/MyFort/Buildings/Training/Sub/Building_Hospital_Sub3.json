@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Hospital_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Hospital.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Hospital_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Hospital'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Hospital.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hospital_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hospital_2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2DF71985417D4C6C943A2FAC2373A6FC",
+        "SourceString": "Extra Rooms",
+        "LocalizedString": "Extra Rooms"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "201ECA434DD38A819C36B6BDCB10DF4C",
+        "SourceString": "Improves the adrenaline rush gadget.",
+        "LocalizedString": "Improves the adrenaline rush gadget."
+      }
+    }
+  }
+]

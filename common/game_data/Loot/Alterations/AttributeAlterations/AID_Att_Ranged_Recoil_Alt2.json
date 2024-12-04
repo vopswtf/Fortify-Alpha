@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Ranged_Recoil_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_Recoil_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_Recoil_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7D5E9D274B71FB38F9EC16B08D29FA29",
+        "SourceString": "Stabilizer [Prime]",
+        "LocalizedString": "Stabilizer [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C4775A5F453A1B5C0A52AB8B72837F27",
+        "SourceString": "-45% Recoil",
+        "LocalizedString": "-45% Recoil"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

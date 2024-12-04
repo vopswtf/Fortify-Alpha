@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_4",
+    "Outer": "SM_BerryBunch",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "E43E5E094085246815267D991F04482B",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 54017,
+        "SizeOnDisk": 54017,
+        "OffsetInFile": "0x2C1B5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_117",
+    "Outer": "SM_BerryBunch",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3951A"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_BerryBunch",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BerryBunch'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_BerryBunch.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.56561756,
+          "Y": 0.3245163,
+          "Z": -0.75985336
+        },
+        "BoxExtent": {
+          "X": 15.405779,
+          "Y": 16.149231,
+          "Z": 18.169762
+        },
+        "SphereRadius": 18.169762
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_BerryBunch:RB_BodySetup_4'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_BerryBunch.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_BerryBunch:NavCollision_117'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_BerryBunch.1"
+    },
+    "LightingGuid": "30D1C18E-45A4C725-F6A1FDA8-E60EAB57",
+    "RenderData": null
+  }
+]

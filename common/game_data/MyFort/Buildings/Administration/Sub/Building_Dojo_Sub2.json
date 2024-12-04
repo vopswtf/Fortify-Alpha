@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Dojo_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Dojo.GunpowderFoundry"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_GunpowderFoundry_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_GunpowderFoundry_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_GunpowderFoundry_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_GunpowderFoundry_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_GunpowderFoundry_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_GunpowderFoundry_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_GunpowderFoundry_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_GunpowderFoundry_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_GunpowderFoundry_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_GunpowderFoundry_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_GunpowderFoundry_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Dojo_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Dojo_3.1"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "9FE8121E425EC2EF5C06A8B8D44C5C93",
+          "SourceString": "Level 1 : Increases Jump height based on Ninja Lair Rating.",
+          "LocalizedString": "Level 1 : Increases Jump height based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "421B44CA4ED82413ADA0119C074DF294",
+          "SourceString": "Level 2 : Fire and Smoke : Activating Smoke Bomb now triggers Shadow Stance.",
+          "LocalizedString": "Level 2 : Fire and Smoke : Activating Smoke Bomb now triggers Shadow Stance."
+        },
+        {
+          "Namespace": "",
+          "Key": "537F9D3445E91B4034176380A3A0CCFF",
+          "SourceString": "Level 3 : Increases the duration of Assassination based on Ninja Lair Rating.",
+          "LocalizedString": "Level 3 : Increases the duration of Assassination based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "98D59E0F4B5AA3BBA29A8BA13DE6E80B",
+          "SourceString": "Level 4 : Wind and Storm : Stacks of Assassination increase move speed by 2% per stack.",
+          "LocalizedString": "Level 4 : Wind and Storm : Stacks of Assassination increase move speed by 2% per stack."
+        },
+        {
+          "Namespace": "",
+          "Key": "BA6BDFE14BC4936C27BE268E54C273AF",
+          "SourceString": "Level 5 : Increases the duration of the Slow effect from Smoke Bomb based on Ninja Lair Rating.",
+          "LocalizedString": "Level 5 : Increases the duration of the Slow effect from Smoke Bomb based on Ninja Lair Rating."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9D0999F24EA5B96BC18F43970EE992B6",
+        "SourceString": "Gunpowder Foundry",
+        "LocalizedString": "Gunpowder Foundry"
+      }
+    }
+  }
+]

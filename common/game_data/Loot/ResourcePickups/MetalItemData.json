@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "FortResourceItemDefinition",
+    "Name": "MetalItemData",
+    "Class": "UScriptClass'FortResourceItemDefinition'",
+    "Properties": {
+      "ResourceType": "EFortResourceType::Metal",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "AccumulatingStatType": "EFortReplicatedStat::MetalGathered",
+      "MiniMapIconBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.2,
+            "Hex": "33FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/IBeam.IBeam",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Metal/Metal_Collect_Cue.Metal_Collect_Cue",
+      "DropSound": "/Game/Sounds/Foley_Loot/Ingredients/Metal/Metal_Drop_Cue.Metal_Drop_Cue",
+      "bHasDisintegrationValue": false,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7A6BCEBB4434E06B46C108810CCD2CA9",
+        "SourceString": "Metal",
+        "LocalizedString": "Metal"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8F92006B4B2BD07A294334AF4A499AA9",
+        "SourceString": "Basic resource found throughout the world.",
+        "LocalizedString": "Basic resource found throughout the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "ECD26E9C4A2B94C6B313CC99B7D20AD7",
+        "SourceString": "Resource metal steel iron",
+        "LocalizedString": "Resource metal steel iron"
+      },
+      "GameplayTags": [
+        "Building.Resource.Metal"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Item-Metal'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Item-Metal.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Metal-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Metal-XS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Metal-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Metal-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Metal-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Metal-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Metal-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Metal-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Metal-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Metal-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Metal-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Metal-XL.0"
+          }
+        }
+      },
+      "MaxStackSize": 999,
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

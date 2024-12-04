@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerTrainer_T05_raider",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.Gym"
+      ],
+      "FixedPersonalityTag": [
+        "Homebase.Worker.Personality.IsCurious"
+      ],
+      "MatchingPersonalityBonus": 8,
+      "MismatchingPersonalityPenalty": -2,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B4453FA6439E35E9BBB4BF9399CFB648",
+        "SourceString": "Cara \"Indiana\" Loft",
+        "LocalizedString": "Cara \"Indiana\" Loft"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D4925AD841FBA91153B47980C09BFE3A",
+        "SourceString": "Cara's curiosity leads her to so many adventures that her friends started calling her Indiana. Indiana is a lead survivor that provides double power in the Gym.",
+        "LocalizedString": "Cara's curiosity leads her to so many adventures that her friends started calling her Indiana. Indiana is a lead survivor that provides double power in the Gym."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "707697E149C792CFACC153A927771779",
+        "SourceString": "Manager Chief Personal Trainer",
+        "LocalizedString": "Manager Chief Personal Trainer"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsTrainer"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Melee_ElectricalAffliction",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Lightning"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Melee_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Melee_Affliction.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "8735383E4A4DA35A96BBF2B1C74D2AE1",
+        "SourceString": "Afflicting Electrical Strike",
+        "LocalizedString": "Afflicting Electrical Strike"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7D47B3A8472D32F6022677B2C2B95E16",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Lightning, which is more effective vs Fire but less effective vs Ice enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Lightning, which is more effective vs Fire but less effective vs Ice enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target."
+      },
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,283 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_93",
+    "Outer": "SM_AtlasSpeedUpPart",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 16.5625,
+                "Y": 14.434963,
+                "Z": -21.8125
+              },
+              {
+                "X": 16.5625,
+                "Y": -14.443148,
+                "Z": -21.8125
+              },
+              {
+                "X": 16.5625,
+                "Y": -14.443149,
+                "Z": 4.1875
+              },
+              {
+                "X": 16.5625,
+                "Y": 14.434963,
+                "Z": 4.1875
+              },
+              {
+                "X": -24.879253,
+                "Y": -15.870747,
+                "Z": 0.73418045
+              },
+              {
+                "X": -24.879253,
+                "Y": 15.870747,
+                "Z": 0.73417664
+              },
+              {
+                "X": -24.879253,
+                "Y": 15.870747,
+                "Z": 16.365547
+              },
+              {
+                "X": -24.879253,
+                "Y": -15.870747,
+                "Z": 16.365547
+              },
+              {
+                "X": -12.208121,
+                "Y": 28.54188,
+                "Z": -11.936953
+              },
+              {
+                "X": -10.905735,
+                "Y": 28.54188,
+                "Z": -13.239341
+              },
+              {
+                "X": 2.4555883,
+                "Y": 28.54188,
+                "Z": -13.239341
+              },
+              {
+                "X": 2.4555874,
+                "Y": 28.54188,
+                "Z": 5.857076
+              },
+              {
+                "X": -12.208121,
+                "Y": 28.54188,
+                "Z": 5.8570766
+              },
+              {
+                "X": 2.456747,
+                "Y": -28.548904,
+                "Z": -12.70109
+              },
+              {
+                "X": -11.460696,
+                "Y": -28.54188,
+                "Z": -12.684378
+              },
+              {
+                "X": -12.208121,
+                "Y": -28.541878,
+                "Z": -11.936952
+              },
+              {
+                "X": -12.246696,
+                "Y": -28.548159,
+                "Z": 6.451838
+              },
+              {
+                "X": 2.4501848,
+                "Y": -28.555466,
+                "Z": 6.4445314
+              },
+              {
+                "X": -19.209301,
+                "Y": 12.339502,
+                "Z": 22.0355
+              },
+              {
+                "X": -1.2854977,
+                "Y": 12.363459,
+                "Z": 22.0355
+              },
+              {
+                "X": -1.249466,
+                "Y": -12.964499,
+                "Z": 22.0355
+              },
+              {
+                "X": -19.209303,
+                "Y": -12.964498,
+                "Z": 22.0355
+              },
+              {
+                "X": 4.750828,
+                "Y": -12.354094,
+                "Z": -28.8959
+              },
+              {
+                "X": 9.479099,
+                "Y": -12.330357,
+                "Z": -28.8959
+              },
+              {
+                "X": 9.479099,
+                "Y": 12.885317,
+                "Z": -28.8959
+              },
+              {
+                "X": 4.7508287,
+                "Y": 12.854101,
+                "Z": -28.8959
+              },
+              {
+                "X": 8.674254,
+                "Y": 22.32321,
+                "Z": 12.075747
+              },
+              {
+                "X": -23.79792,
+                "Y": 16.95208,
+                "Z": 17.44688
+              },
+              {
+                "X": 14.077195,
+                "Y": -16.928452,
+                "Z": -24.297806
+              },
+              {
+                "X": 13.795624,
+                "Y": 17.201843,
+                "Z": -24.579376
+              },
+              {
+                "X": 8.395842,
+                "Y": -22.60981,
+                "Z": 12.39019
+              },
+              {
+                "X": -23.520445,
+                "Y": -17.229555,
+                "Z": 17.724356
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -24.879253,
+                "Y": -28.555466,
+                "Z": -28.8959
+              },
+              "Max": {
+                "X": 16.5625,
+                "Y": 28.54188,
+                "Z": 22.0355
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "4C6FE4E544CD52A53B84189B1DB6B5CA",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 65073,
+        "SizeOnDisk": 65073,
+        "OffsetInFile": "0x3C04B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_14",
+    "Outer": "SM_AtlasSpeedUpPart",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1945,
+        "SizeOnDisk": 1945,
+        "OffsetInFile": "0x4BEE0"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_AtlasSpeedUpPart",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ATLAS_Device'",
+          "ObjectPath": "FortniteGame/Content/Packages/ATLAS/Materials/MI_ATLAS_Device.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -4.1540394,
+          "Y": 0.0,
+          "Z": -3.4302006
+        },
+        "BoxExtent": {
+          "X": 20.72947,
+          "Y": 28.54188,
+          "Z": 25.4657
+        },
+        "SphereRadius": 28.54188
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_AtlasSpeedUpPart:RB_BodySetup_93'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_AtlasSpeedUpPart.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_AtlasSpeedUpPart:NavCollision_14'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_AtlasSpeedUpPart.1"
+    },
+    "LightingGuid": "146A9DBF-4842A462-71B858AB-87C8F21E",
+    "RenderData": null
+  }
+]

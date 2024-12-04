@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "FortTokenType",
+    "Name": "ExtraSlot",
+    "Class": "UScriptClass'FortTokenType'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "FE1084FE4F05E7DE4C6921AE490B68DA",
+        "SourceString": "Hero Slot",
+        "LocalizedString": "Hero Slot"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "48E05D1E4C0169B2EFFB4093D38A957E",
+        "SourceString": "Allows you to recruit additional Heroes in Home Base.",
+        "LocalizedString": "Allows you to recruit additional Heroes in Home Base."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "CD62C7FA493AD54D4A510885DF54202C",
+        "SourceString": "Hero Slot",
+        "LocalizedString": "Hero Slot"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultTokenAttributeTemplate.DefaultTokenAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CardPack_Upgrade_IconMask'",
+          "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Upgrade_IconMask.0"
+        }
+      },
+      "MaxStackSize": 1000,
+      "Rarity": "EFortRarity::Epic"
+    }
+  }
+]

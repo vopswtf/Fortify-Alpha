@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_ScienceLab_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Crafting",
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        }
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "561BEAA24032FC60FE1FA395597B1664",
+        "SourceString": "Science Laboratory",
+        "LocalizedString": "Science Laboratory"
+      }
+    }
+  }
+]

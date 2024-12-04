@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_MushroomYellow",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Mushroom01_Loot.S_Mushroom01_Loot",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Mushroom_Collect_Cue.Mushroom_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F426155E4C3A3796217D2785D2692844",
+        "SourceString": "Yellow Mushroom",
+        "LocalizedString": "Yellow Mushroom"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E80BD6BE46F04E5360A0ED8216C71BBE",
+        "SourceString": "Crafting ingredient. Valued for its varied properties when combined with other ingredients. Found growing on the ground.",
+        "LocalizedString": "Crafting ingredient. Valued for its varied properties when combined with other ingredients. Found growing on the ground."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "1A5E9A01450CA13EDA19E29D0E854677",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Mushroom_01'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Mushroom_01.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

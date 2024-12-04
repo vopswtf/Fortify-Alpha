@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Pistol_BoltRevolver_Alt2_T09",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "bTraceThroughPawns": true,
+      "WeaponActorClass": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_BoltRevolver.B_Pistol_BoltRevolver_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_BoltRevolver'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Pistols/Mesh/SK_BoltRevolver.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Pistol_BoltRevolver_T09"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsHeavy'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsHeavy.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Pistol-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Pistol-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Pistols/Mesh/SK_BoltRevolver.SK_BoltRevolver",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Pickup_Cue.Revolver_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Drop_Cue.Revolver_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_09",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DAD99C37440F422C87BA3BBF0D9D8226",
+        "SourceString": "Bolt Revolver [Upgraded]",
+        "LocalizedString": "Bolt Revolver [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "75A429A244903F0F61F9389B6E518679",
+        "SourceString": "Pistol. Highly accurate with a quick reload.",
+        "LocalizedString": "Pistol. Highly accurate with a quick reload."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "AF660AB84C2123E393748C94880F9770",
+        "SourceString": "Guns Ranged Pistols HeavyBullets SemiAuto",
+        "LocalizedString": "Guns Ranged Pistols HeavyBullets SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.pistol",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_BoltRevolver'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Pistols/SK_BoltRevolver.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::IX",
+      "Rarity": "EFortRarity::Badass"
+    }
+  }
+]

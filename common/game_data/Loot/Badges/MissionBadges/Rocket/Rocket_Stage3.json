@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Rocket_Stage3",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-C-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-C-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "630AC1544BFFB6E2034F7FACBF5162FD",
+        "SourceString": "The launchpad received less than 20% damage in the final stage!",
+        "LocalizedString": "The launchpad received less than 20% damage in the final stage!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "4F6A879A49593A2B17083DA0FB541A35",
+        "SourceString": "The launchpad received more than 20% damage in the final stage!",
+        "LocalizedString": "The launchpad received more than 20% damage in the final stage!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_LTR_Stage3"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "74CF17964E9A34B926EBE49AED17A828",
+        "SourceString": "Rocket Final Stage",
+        "LocalizedString": "Rocket Final Stage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "487B3BB64413621EBF3B5EB517B60BF9",
+        "SourceString": "The launchpad received less than 20% damage in the final stage!",
+        "LocalizedString": "The launchpad received less than 20% damage in the final stage!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-C-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-C-_T2_.0"
+        }
+      }
+    }
+  }
+]

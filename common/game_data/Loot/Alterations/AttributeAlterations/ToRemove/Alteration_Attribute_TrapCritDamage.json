@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_TrapCritDamage",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_CritDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_CritDamage.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AEDC4EFC403DD587C29376BA3F889166",
+        "SourceString": "High Impact",
+        "LocalizedString": "High Impact"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "32F7746F4BC28A366ED3E886B2186BE9",
+        "SourceString": "+18% Crit Damage",
+        "LocalizedString": "+18% Crit Damage"
+      },
+      "IconBrush": {}
+    }
+  }
+]

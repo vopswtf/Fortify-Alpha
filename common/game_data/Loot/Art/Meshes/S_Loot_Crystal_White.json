@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_191",
+    "Outer": "S_Loot_Crystal_White",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "4AEA215F486783E08FAD2497402128C9",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4113,
+        "SizeOnDisk": 4113,
+        "OffsetInFile": "0x4AB5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3748",
+    "Outer": "S_Loot_Crystal_White",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x5B2A"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Crystal_White",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Crystal_White'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Crystal_White.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -2.4795532E-05,
+          "Z": 24.980871
+        },
+        "BoxExtent": {
+          "X": 14.805717,
+          "Y": 16.424545,
+          "Z": 22.125555
+        },
+        "SphereRadius": 22.125555
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Crystal_White:BodySetup_191'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_White.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Crystal_White:NavCollision_3748'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_White.1"
+    },
+    "LightingGuid": "43588D0E-4C7EA2D8-70AE2790-1B358976",
+    "RenderData": null
+  }
+]

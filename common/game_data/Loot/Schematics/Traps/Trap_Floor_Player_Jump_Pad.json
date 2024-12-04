@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Trap_Floor_Player_Jump_Pad",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortTrapItemDefinition'Trap_Floor_Player_Jump_Pad'",
+        "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Trap_Floor_Player_Jump_Pad.0"
+      },
+      "CraftingPoints": 30,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "NoScaling"
+      },
+      "GameplayTags": [
+        "trap.Floor"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Ally_blue'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_Ally_blue.0"
+        }
+      }
+    }
+  }
+]

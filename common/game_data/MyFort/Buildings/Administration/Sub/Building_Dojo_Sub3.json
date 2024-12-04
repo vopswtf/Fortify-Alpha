@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Dojo_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Dojo.NinjaForge"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Dojo_NinjaForge_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_NinjaForge_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_NinjaForge_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_NinjaForge_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_NinjaForge_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_NinjaForge_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_NinjaForge_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_NinjaForge_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_NinjaForge_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Dojo_NinjaForge_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Dojo/GE_Homebase_Static_Dojo_NinjaForge_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Dojo_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Dojo_1.1"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "93844DB34FF59535F543C786E35F83CF",
+          "SourceString": "Level 1 : Increases Sword damage based on Ninja Lair Rating.",
+          "LocalizedString": "Level 1 : Increases Sword damage based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "B5A9BAC44E442122544FBCB0D6263F45",
+          "SourceString": "Level 2 : Reduces the Energy cost of Sword special attacks by 50%.",
+          "LocalizedString": "Level 2 : Reduces the Energy cost of Sword special attacks by 50%."
+        },
+        {
+          "Namespace": "",
+          "Key": "A9745D7D4FE1AEC50100FBAD52C03820",
+          "SourceString": "Level 3 : Increases the Durability of Swords based on Ninja Lair Rating.",
+          "LocalizedString": "Level 3 : Increases the Durability of Swords based on Ninja Lair Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "879CDB6A4F519C68F1B04AA947CED63E",
+          "SourceString": "Level 4 : Reduces the Energy cost of Sword special attacks by 100%.",
+          "LocalizedString": "Level 4 : Reduces the Energy cost of Sword special attacks by 100%."
+        },
+        {
+          "Namespace": "",
+          "Key": "F74D357A4BA2733E2C5258B72A8FE1F1",
+          "SourceString": "Level 5 : Poison Blade : Sword Critical Hits cause the target to become Afflicted with poison, dealing damage over time.",
+          "LocalizedString": "Level 5 : Poison Blade : Sword Critical Hits cause the target to become Afflicted with poison, dealing damage over time."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C429AB184E48BFA9F28F2CB9F9ED7FE2",
+        "SourceString": "Ninja Forge",
+        "LocalizedString": "Ninja Forge"
+      }
+    }
+  }
+]

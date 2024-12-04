@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "AS_Att_Trap_CritDamage",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_TrapCritDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_TrapCritDamage.0"
+          },
+          "Level": 3.0
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_EngineeringSchool_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.EngineeringSchool.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:EngineeringSchool_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_EngineeringSchool'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_EngineeringSchool.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_EngineeringSchool_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_EngineeringSchool_3.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0CDF9B13449C6A05075278A8B23F1368",
+        "SourceString": "CAD Room",
+        "LocalizedString": "CAD Room"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BD959398485E2755B5346EBAE800FB46",
+        "SourceString": "Scales the Banner gadget.",
+        "LocalizedString": "Scales the Banner gadget."
+      }
+    }
+  }
+]

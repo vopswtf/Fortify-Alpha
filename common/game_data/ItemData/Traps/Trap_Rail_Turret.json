@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Rail_Turret",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Rail_Turret_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Rail_Turret.30"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_Solid'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_Solid.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_QuarterWallS'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_QuarterWallS.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_HalfWallS'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_HalfWallS.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Rail_Turret"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Dart_Trap/WallDart_Trap_Pickup.WallDart_Trap_Pickup",
+      "DisassemblyLootTierKey": "Disassemble_Traps_01",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7041E39748300A9DD55D70A01CB5B99E",
+        "SourceString": "Rail Trap: Turret",
+        "LocalizedString": "Rail Trap: Turret"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "646FAB3A4C63C535EABF24B1DF96F3FE",
+        "SourceString": "Trap Must be placed on a rail",
+        "LocalizedString": "Trap Must be placed on a rail"
+      },
+      "GameplayTags": [
+        "trap.Wall"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Trait_Combat_Icon_Marksmen'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Trait_Combat_Icon_Marksmen.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true
+    }
+  }
+]

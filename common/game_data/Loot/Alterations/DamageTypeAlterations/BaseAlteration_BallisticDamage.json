@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "BaseAlteration_BallisticDamage",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [
+            "Gameplay.Damage"
+          ],
+          "IncludeTags": [
+            "Gameplay.Damage.Physical.Ballistic"
+          ]
+        }
+      ],
+      "IconBrush": {}
+    }
+  }
+]

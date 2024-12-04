@@ -1,0 +1,239 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LootQuotaData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortLootQuotaData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Abundant0": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 7.0
+      },
+      "Abundant1": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level1",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 7.0
+      },
+      "Abundant2": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level2",
+        "Min": 3,
+        "Max": 7,
+        "Quota": 5.5
+      },
+      "Abundant3": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level3",
+        "Min": 2,
+        "Max": 4,
+        "Quota": 3.2
+      },
+      "Abundant4": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level4",
+        "Min": 1,
+        "Max": 3,
+        "Quota": 1.35
+      },
+      "Abundant5": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level5",
+        "Min": 0,
+        "Max": 2,
+        "Quota": 0.7
+      },
+      "Abundant6": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level6",
+        "Min": 0,
+        "Max": 1,
+        "Quota": 0.325
+      },
+      "Abundant7": {
+        "QuotaCategory": "Abundant",
+        "QuotaLevel": "ELootQuotaLevel::Level7",
+        "Min": 0,
+        "Max": 1,
+        "Quota": 0.1
+      },
+      "Barren0": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 5.0
+      },
+      "Barren1": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level1",
+        "Min": 0,
+        "Max": -2,
+        "Quota": 3.5
+      },
+      "Barren2": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level2",
+        "Min": 1,
+        "Max": 6,
+        "Quota": 3.25
+      },
+      "Barren3": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level3",
+        "Min": 1,
+        "Max": 2,
+        "Quota": 1.7
+      },
+      "Barren4": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level4",
+        "Min": 0,
+        "Max": 1,
+        "Quota": 0.65
+      },
+      "Barren5": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level5",
+        "Min": 0,
+        "Max": 0,
+        "Quota": 0.0
+      },
+      "Barren6": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level6",
+        "Min": 0,
+        "Max": 0,
+        "Quota": 0.0
+      },
+      "Barren7": {
+        "QuotaCategory": "Barren",
+        "QuotaLevel": "ELootQuotaLevel::Level7",
+        "Min": 0,
+        "Max": 0,
+        "Quota": 0.0
+      },
+      "Standard0": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 6.0
+      },
+      "Standard1": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level1",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 5.0
+      },
+      "Standard2": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level2",
+        "Min": 2,
+        "Max": 6,
+        "Quota": 4.0
+      },
+      "Standard3": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level3",
+        "Min": 1,
+        "Max": 2,
+        "Quota": 2.0
+      },
+      "Standard4": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level4",
+        "Min": 0,
+        "Max": 1,
+        "Quota": 0.85
+      },
+      "Standard5": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level5",
+        "Min": 0,
+        "Max": 1,
+        "Quota": 0.4
+      },
+      "Standard6": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level6",
+        "Min": 0,
+        "Max": 1,
+        "Quota": 0.125
+      },
+      "Standard7": {
+        "QuotaCategory": "Standard",
+        "QuotaLevel": "ELootQuotaLevel::Level7",
+        "Min": 0,
+        "Max": 0,
+        "Quota": 0.0
+      },
+      "Infinite0": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite1": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level1",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite2": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level2",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite3": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level3",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite4": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level4",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite5": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level5",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite6": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level6",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      },
+      "Infinite7": {
+        "QuotaCategory": "Infinite",
+        "QuotaLevel": "ELootQuotaLevel::Level7",
+        "Min": 0,
+        "Max": -1,
+        "Quota": 999.0
+      }
+    }
+  }
+]

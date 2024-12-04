@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Ranged_Electrical",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "CosmeticMod.Elemental.Lightning",
+            "Gameplay.Damage.Elemental.Lightning"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Ranged'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Ranged.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "46846C6F4D80C83CADDA50B6E633E0CA",
+        "SourceString": "Electricial Rounds",
+        "LocalizedString": "Electricial Rounds"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "57B89D254B83B6FE70C6B7A75C681A13",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Lightning, which is more effective vs Fire but less effective vs Ice enemies.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Lightning, which is more effective vs Fire but less effective vs Ice enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_EnergyRegen",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomBlue'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomBlue.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Recovery_Balm'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Balm.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Recovery_EnergyRegen'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_EnergyRegen.0"
+      },
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "533505094BE3B199349A888B3C22475A",
+        "SourceString": "Schematic: Fizzy Drank",
+        "LocalizedString": "Schematic: Fizzy Drank"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Blue'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Blue.0"
+        }
+      }
+    }
+  }
+]

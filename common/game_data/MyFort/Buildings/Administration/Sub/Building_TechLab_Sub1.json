@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_TechLab_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.TechLab.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub1_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_TechLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_TechLab.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Constructor_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Constructor_1.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "5F9F064A4D57805D3321989175EA95C0",
+          "SourceString": "Level 1 : Reduces the cost of Wood structures based on Constructor Site Rating.",
+          "LocalizedString": "Level 1 : Reduces the cost of Wood structures based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "806FCA274E53831E161D64B9FB8E48F1",
+          "SourceString": "Level 2 : Reduces the cost of Stone structures based on Constructor Site Rating.",
+          "LocalizedString": "Level 2 : Reduces the cost of Stone structures based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "F8BEAD7C40F988B19060DBA1753E8B1A",
+          "SourceString": "Level 3 : Increases the speed of building based on Constructor Site Rating.",
+          "LocalizedString": "Level 3 : Increases the speed of building based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "C1CC3DBE46E767ABDE380D9EF7484D91",
+          "SourceString": "Level 4 : Reduces the cost of Metal structures based on Constructor Site Rating.",
+          "LocalizedString": "Level 4 : Reduces the cost of Metal structures based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "BD28BFCD41D192B8A7A065B062C48911",
+          "SourceString": "Level 5 : Bigger Brother : Increase B.A.S.E. connectivity by +1",
+          "LocalizedString": "Level 5 : Bigger Brother : Increase B.A.S.E. connectivity by +1"
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3CB3D394437D652CD61CD8B31075A617",
+        "SourceString": "Crane",
+        "LocalizedString": "Crane"
+      }
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_TechLab_Sub4",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.TechLab.SBFour"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_SubBuildingFour_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub4_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub4_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub4_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub4_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub4_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub4_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub4_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub4_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub4_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub4_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_TechLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_TechLab.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Constructor_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Constructor_4.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "59FEE5974D964CD16D44B6ADF5AC23DF",
+          "SourceString": "Level 1 : Reduce the repair cost of Wood Structures based on Constructor Site Rating.",
+          "LocalizedString": "Level 1 : Reduce the repair cost of Wood Structures based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "0D44AAD74C749CE56BBD46BC612CC02D",
+          "SourceString": "Level 2 : Reduce the Repair cost of Stone Structures based on Constructor Site Rating",
+          "LocalizedString": "Level 2 : Reduce the Repair cost of Stone Structures based on Constructor Site Rating"
+        },
+        {
+          "Namespace": "",
+          "Key": "F46B41CF455A9CB09373559B5AA9FD2E",
+          "SourceString": "Level 3 : Increase the Repair speed of structures based on Constructor Site Rating.",
+          "LocalizedString": "Level 3 : Increase the Repair speed of structures based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "45CACA2F48787AD4FC0B4AA02F6C0012",
+          "SourceString": "Level 4 : Reduce the Repair cost of Metal Structures based on Constructor Site Rating.",
+          "LocalizedString": "Level 4 : Reduce the Repair cost of Metal Structures based on Constructor Site Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "CCDE2E974D9B021C81661E9C6D8339F4",
+          "SourceString": "Level 5 : Raging Bull : Increases the length of Bull Rush by 50%.",
+          "LocalizedString": "Level 5 : Raging Bull : Increases the length of Bull Rush by 50%."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C9E0A04A4FB2607C8153B59D5C2EF5B1",
+        "SourceString": "Plasma Test Chamber",
+        "LocalizedString": "Plasma Test Chamber"
+      }
+    }
+  }
+]

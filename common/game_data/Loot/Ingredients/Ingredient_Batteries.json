@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Batteries",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/BatteryPack.BatteryPack",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Energy/Battery_Collect_Cue.Battery_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "172077494A83C4794BD9FAAB9E5E1C08",
+        "SourceString": "Batteries",
+        "LocalizedString": "Batteries"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "09C3A608407A550D688459921178D305",
+        "SourceString": "Crafting ingredient. Used as a component for powered devices. Found in populated areas and appliances.",
+        "LocalizedString": "Crafting ingredient. Used as a component for powered devices. Found in populated areas and appliances."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "8849B9F74797F00F34FAF095C437CA42",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'BatteryPack'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/BatteryPack.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

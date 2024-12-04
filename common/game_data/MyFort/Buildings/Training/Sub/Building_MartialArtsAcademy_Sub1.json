@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MartialArtsAcademy_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.MartialArtsAcademy.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MartialArtsAcademy_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SparringGuild_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SparringGuild/GE_Homebase_Static_SparringGuild_Sub1_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SparringGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SparringGuild.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_SparingGuild_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_SparingGuild_1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DFB93F1340AF154648BC7A8C3072BA2D",
+        "SourceString": "Foyer",
+        "LocalizedString": "Foyer"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "04E75B174B6F49C65698CC9D8AC29F0E",
+        "SourceString": "Increases melee critical chance.",
+        "LocalizedString": "Increases melee critical chance."
+      }
+    }
+  }
+]

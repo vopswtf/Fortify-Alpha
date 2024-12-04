@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SupplyDrop_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.SupplyDrop.SBTwo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_SubBuildingTwo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub2_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub2_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub2_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub2_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub2_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub2_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub2_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub2_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub2_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub2_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Ability_SupplyDrop_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Ability_SupplyDrop_2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "482F907F4F0B1ABFBD7C1892E16F029B",
+        "SourceString": "Assembly Line",
+        "LocalizedString": "Assembly Line"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "715838334455E963CA259D84880E250C",
+        "SourceString": "Improves crafting efficiency.",
+        "LocalizedString": "Improves crafting efficiency."
+      }
+    }
+  }
+]

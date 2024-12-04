@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Blunt_Hammer_T06",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Blunt/B_Melee_Blunt_Hammer.B_Melee_Blunt_Hammer_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_MilitaryWarHammer'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_MilitaryWarHammer.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Blunt_Hammer_T06"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BluntDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BluntDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_Combo.GAB_Melee_Hammer_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_HeavyAttack.GAB_Melee_Hammer_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack1.GAB_Melee_Hammer_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack2.GAB_Melee_Hammer_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack3.GAB_Melee_Hammer_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack4.GAB_Melee_Hammer_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Blunt-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Blunt-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_MilitaryWarHammer.SK_MilitaryWarHammer",
+      "PickupSound": "/Game/Sounds/Fort_Weapons/SledgeHammers/Sledge_Pickup_01_Cue.Sledge_Pickup_01_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Sledge_Drop_Cue.Sledge_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_06",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D28DAE8A407EBD137101ECB5B309C4F8",
+        "SourceString": "Warhammer",
+        "LocalizedString": "Warhammer"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "20C03A7F4BDA1556FA26719CBCBFEDBB",
+        "SourceString": "Hammer (Blunt Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Hammer (Blunt Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "81094F974B0767E58F5D4F8B92B7D2F5",
+        "SourceString": "Melee Blunt Hammer Sledgehammer Stone",
+        "LocalizedString": "Melee Blunt Hammer Sledgehammer Stone"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Blunt.Hammer",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_MilitaryWarHammer'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_MilitaryWarHammer.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::VI",
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

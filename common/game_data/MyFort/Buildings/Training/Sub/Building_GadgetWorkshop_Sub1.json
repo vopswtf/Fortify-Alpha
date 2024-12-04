@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_GadgetWorkshop_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.GadgetWorkshop.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:GadgetWorkshop_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub1_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_GadgetWorkshop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_GadgetWorkshop.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_TrapWorkshop_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_TrapWorkshop_1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D21D3EB248E696BE1A5868872F58E152",
+        "SourceString": "Explosives Storage",
+        "LocalizedString": "Explosives Storage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "722E2762428446C0BE1C9CB5A174A017",
+        "SourceString": "Refined blast powder increases trap payload, improving trap damage.",
+        "LocalizedString": "Refined blast powder increases trap payload, improving trap damage."
+      }
+    }
+  }
+]

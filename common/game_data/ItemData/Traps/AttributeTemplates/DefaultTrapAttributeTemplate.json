@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "FortAttributeTemplate",
+    "Name": "DefaultTrapAttributeTemplate",
+    "Class": "UScriptClass'FortAttributeTemplate'",
+    "Properties": {
+      "ItemProperties": [
+        7,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

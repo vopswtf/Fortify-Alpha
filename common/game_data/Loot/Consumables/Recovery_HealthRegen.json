@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Recovery_HealthRegen",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_HealthRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_HealthRegen.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Consumables'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/Consumables.0"
+              },
+              "RowName": "Recovery_HealthRegen"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.4,
+      "bRequiresMissingHealth": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Red.S_Loot_Potion_Red",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "55399543422F9D1DDDF063B1B9C600B2",
+        "SourceString": "Mending Potion",
+        "LocalizedString": "Mending Potion"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "11488A2A45C19FAD2025648BE7127257",
+        "SourceString": "Regenerate 2.5% health every 3 seconds for 4 minutes.",
+        "LocalizedString": "Regenerate 2.5% health every 3 seconds for 4 minutes."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "E4E3858F40AC623D1CA6FEB46A48BA75",
+        "SourceString": "Consumable healt regeneration",
+        "LocalizedString": "Consumable healt regeneration"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultBuffAttributeTemplate.DefaultBuffAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Red'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Red.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

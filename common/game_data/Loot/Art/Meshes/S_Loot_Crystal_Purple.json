@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "S_Loot_Crystal_Purple",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "9362A6A849CA1B13F187798EC72836C6",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5001,
+        "SizeOnDisk": 5001,
+        "OffsetInFile": "0x56ED"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3745",
+    "Outer": "S_Loot_Crystal_Purple",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x6ADA"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Crystal_Purple",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Crystal_Purple'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Crystal_Purple.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.2418785,
+          "Y": 1.2906857,
+          "Z": 25.224201
+        },
+        "BoxExtent": {
+          "X": 19.850267,
+          "Y": 20.90951,
+          "Z": 24.586163
+        },
+        "SphereRadius": 24.586163
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Crystal_Purple:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Purple.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Crystal_Purple:NavCollision_3745'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Purple.1"
+    },
+    "LightingGuid": "FE554582-4F1E02E3-6D97AEB2-CB39E6E5",
+    "RenderData": null
+  }
+]

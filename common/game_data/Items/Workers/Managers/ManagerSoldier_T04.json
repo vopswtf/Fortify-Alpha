@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerSoldier_T04",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.FiringRange"
+      ],
+      "MatchingPersonalityBonus": 5,
+      "MismatchingPersonalityPenalty": 0,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Soldier-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Soldier-Headshot-F.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Soldier-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Soldier-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Soldier-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Soldier-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "8_Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "8_Uncommon"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D0357383400D501CF9F58EA948AE0413",
+        "SourceString": "Marksman [Master]",
+        "LocalizedString": "Marksman [Master]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9EA0E85D486EBA27C1A9CC90CE391C2D",
+        "SourceString": "A lead survivor that provides double power in the Firing Range. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!",
+        "LocalizedString": "A lead survivor that provides double power in the Firing Range. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "B6E9F0B6438C7A459B79EDA8F5EDBD90",
+        "SourceString": "Manager Chief Soldier",
+        "LocalizedString": "Manager Chief Soldier"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsSoldier"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Manager-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Manager-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-S.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

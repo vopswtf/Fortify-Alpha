@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "DailyQuestTrigger",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Quests/Daily/Hidden/DailyQuestTrigger.DailyQuestTrigger",
+          "Quantity": 1
+        },
+        {
+          "ItemDefinition": "/Game/Quests/Daily/Hidden/DailyQuestPack.DailyQuestPack",
+          "Quantity": 1
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "custom_login"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "24C570B44C3B2EAF7DE6A3B317AAB91E",
+            "SourceString": "Trigger daily quest on log-in",
+            "LocalizedString": "Trigger daily quest on log-in"
+          },
+          "Count": 1,
+          "ScriptedAction": ""
+        }
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Mission-Gate1-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Mission-Gate1-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Mission-Gate1-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Mission-Gate1-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Mission-Gate1-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Mission-Gate1-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Mission-Gate1-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Mission/Icon-Mission-Gate1-XL.0"
+          }
+        }
+      },
+      "Access": "EFortTemplateAccess::Trusted"
+    }
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SurvivalBunker_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.SurvivalBunker.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SurvivalBunker'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SurvivalBunker.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Outlander_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Outlander_3.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "03F7BD674486231B19DA8B9794C34EC9",
+          "SourceString": "Level 1 :  Reduces the cost of building Floor structures by 20%.",
+          "LocalizedString": "Level 1 :  Reduces the cost of building Floor structures by 20%."
+        },
+        {
+          "Namespace": "",
+          "Key": "1E86985D4B1073CC05C05A88510F9257",
+          "SourceString": "Level 2 : Increases the chance to double-craft traps based on Outlander Lab Rating.",
+          "LocalizedString": "Level 2 : Increases the chance to double-craft traps based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "B148762C41E958F4D9EA26B80B9B3F6D",
+          "SourceString": "Level 3 : Increases damage dealt by traps based on Outlander Lab Rating.",
+          "LocalizedString": "Level 3 : Increases damage dealt by traps based on Outlander Lab Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "5DC429BF421ABEBA025AD682614A2520",
+          "SourceString": "Level 4 : Increases the move speed granted while on Player-Built floors by 10%.",
+          "LocalizedString": "Level 4 : Increases the move speed granted while on Player-Built floors by 10%."
+        },
+        {
+          "Namespace": "",
+          "Key": "53DB93824E718E9BC8005C8721B8B9EA",
+          "SourceString": "Level 5 : Diamonds in the Rough : Improves all three Explorer Fragments.",
+          "LocalizedString": "Level 5 : Diamonds in the Rough : Improves all three Explorer Fragments."
+        },
+        {
+          "Namespace": "",
+          "Key": "D182CC634AA60696F95F33841CB47999",
+          "SourceString": "-Offensive Fragment : Increases the lifespan of T.E.D.D.Y. to 30 seconds.",
+          "LocalizedString": "-Offensive Fragment : Increases the lifespan of T.E.D.D.Y. to 30 seconds."
+        },
+        {
+          "Namespace": "",
+          "Key": "EE2B37724074E2307A38B092A0C6CFC1",
+          "SourceString": "-Defensive Fragment : Increases the bonus Shield added to 200% of maximum shield.",
+          "LocalizedString": "-Defensive Fragment : Increases the bonus Shield added to 200% of maximum shield."
+        },
+        {
+          "Namespace": "",
+          "Key": "B6FD45294902224D3F070FACEC857065",
+          "SourceString": "-Specialty Fragment : Increases yield of resources by 25%. Allows for rare crystal drops.",
+          "LocalizedString": "-Specialty Fragment : Increases yield of resources by 25%. Allows for rare crystal drops."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CCEEF7C5420084B54448459418CB679C",
+        "SourceString": "Emergency Generator",
+        "LocalizedString": "Emergency Generator"
+      }
+    }
+  }
+]

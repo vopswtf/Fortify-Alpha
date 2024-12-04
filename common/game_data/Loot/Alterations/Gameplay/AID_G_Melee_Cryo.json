@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Melee_Cryo",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "CosmeticMod.Elemental.Ice",
+            "Gameplay.Damage.Elemental.Ice"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Melee'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Melee.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5342402B4678C3C808257F83E386C4D2",
+        "SourceString": "Cryo Strike",
+        "LocalizedString": "Cryo Strike"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D4A1160B456310654FA836984814986A",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Ice, which is more effective vs Lightning but less effective vs Fire enemies.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Ice, which is more effective vs Lightning but less effective vs Fire enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SupplyDrop_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.SupplyDrop.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_Sub1_5.0"
+        }
+      ],
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Ability_SupplyDrop_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Ability_SupplyDrop_5.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F8D20D75483489BE446159B1DA4BFE28",
+        "SourceString": "Saw Mill",
+        "LocalizedString": "Saw Mill"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "550521084115E98FC8737DB14343DC12",
+        "SourceString": "Refined production techniques make items last longer before they break.",
+        "LocalizedString": "Refined production techniques make items last longer before they break."
+      }
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Ranged_Recoil",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_Recoil'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_Recoil.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "4BF7C0504A337E5D96E80B9D6497E0EF",
+        "SourceString": "Stabilizer",
+        "LocalizedString": "Stabilizer"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "62C3D179406A37BFF2C50BBDF245995B",
+        "SourceString": "-15% Recoil",
+        "LocalizedString": "-15% Recoil"
+      },
+      "IconBrush": {}
+    }
+  }
+]

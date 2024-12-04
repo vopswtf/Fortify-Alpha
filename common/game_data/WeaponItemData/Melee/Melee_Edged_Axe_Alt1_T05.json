@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Edged_Axe_Alt1_T05",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Edged/B_Melee_Edged_Axe.B_Melee_Edged_Axe_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_MilitaryDoubleAxe'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_MilitaryDoubleAxe.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Edged_Axe_T05"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_EdgedDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_EdgedDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo.GAB_Melee_Axe_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM.GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack1.GAB_Melee_Axe_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack2.GAB_Melee_Axe_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack3.GAB_Melee_Axe_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack4.GAB_Melee_Axe_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Edged-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Edged-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_MilitaryDoubleAxe.SK_MilitaryDoubleAxe",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Axe_Pickup_Cue.Axe_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Axe_Drop_Cue.Axe_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_05",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "67390C734F0953943A726F81E822D92B",
+        "SourceString": "Military Double-Axe [Upgraded]",
+        "LocalizedString": "Military Double-Axe [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3D953EC5497B1EE209C076B605C33A9D",
+        "SourceString": "Axe (Edged Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Axe (Edged Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "A8A37C6446F1B9E52105B39E1B8CA7F3",
+        "SourceString": "Melee Edged Axe Wood",
+        "LocalizedString": "Melee Edged Axe Wood"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Edged.Axe",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_MilitaryDoubleAxe'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_MilitaryDoubleAxe.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

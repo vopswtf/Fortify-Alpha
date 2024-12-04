@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Worker_T04",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Worker_T04",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9F66EBAD4321D88FCC7C1BAAFA057A51",
+        "SourceString": "Masterwork Survivor [Purple]",
+        "LocalizedString": "Masterwork Survivor [Purple]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9360AA614B1A1EFBBDF7BE9CEEBAC15D",
+        "SourceString": "One random survivor.",
+        "LocalizedString": "One random survivor."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

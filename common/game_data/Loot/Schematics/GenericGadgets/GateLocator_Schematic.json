@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "GateLocator_Schematic",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 15,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortGadgetItemDefinition'GateLocator'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Adventures/GateLocator.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "8FCFED4342407AC77F8950BFF7374C33",
+        "SourceString": "Schematic: Gate Locator",
+        "LocalizedString": "Schematic: Gate Locator"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B0A7BC274D42BB5582F9BFB077E6AE2B",
+        "SourceString": "Schematic for creating a Gate Locator",
+        "LocalizedString": "Schematic for creating a Gate Locator"
+      },
+      "GameplayTags": [
+        "Missions.Items.MissionItem"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Gadget_Bot_Turret'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Gadget_Bot_Turret.0"
+        }
+      },
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

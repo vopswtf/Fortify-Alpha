@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Recovery_AllRegen",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_AllRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_AllRegen.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SystemGlobalCurves'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/SystemGlobalCurves.0"
+              },
+              "RowName": "Curves.Linear"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.0,
+      "bRequiresMissingHealth": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Purple.S_Loot_Potion_Purple",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B3259B834F158BFB38DD2EABD8B60BD1",
+        "SourceString": "Mushroom Brew",
+        "LocalizedString": "Mushroom Brew"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "89C54B5C49FBB59BA22BAAA10DC3F6A0",
+        "SourceString": "Restores 2.5% of your maximum health and energy every second for 60 seconds.",
+        "LocalizedString": "Restores 2.5% of your maximum health and energy every second for 60 seconds."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "7CD20C004A51964558C4E4A807D63AE5",
+        "SourceString": "Consumable health food regeneration",
+        "LocalizedString": "Consumable health food regeneration"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultBuffAttributeTemplate.DefaultBuffAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Purple'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Purple.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

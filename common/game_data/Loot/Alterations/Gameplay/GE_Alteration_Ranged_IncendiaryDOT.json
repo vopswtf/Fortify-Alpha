@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Alteration_Ranged_IncendiaryDOT_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicFireDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicFireDamage.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicFireDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicFireDamage.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Alteration_Ranged_IncendiaryDOT_C'Default__GE_Alteration_Ranged_IncendiaryDOT_C'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_IncendiaryDOT.1"
+    }
+  },
+  {
+    "Type": "GE_Alteration_Ranged_IncendiaryDOT_C",
+    "Name": "Default__GE_Alteration_Ranged_IncendiaryDOT_C",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_IncendiaryDOT.GE_Alteration_Ranged_IncendiaryDOT_C'",
+    "Properties": {
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 6.0
+        }
+      },
+      "Period": {
+        "Value": 1.0
+      },
+      "bExecutePeriodicEffectOnApplication": false,
+      "GameplayCues": [
+        {
+          "MagnitudeAttribute": {
+            "Attribute": {
+              "ObjectName": "FloatProperty'FortHealthSet:Damage'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "MinLevel": 0.0,
+          "MaxLevel": 0.0,
+          "GameplayCueTags": [
+            "GameplayCue.Damage.Elemental.Fire",
+            "GameplayCue.Elemental.Fire.FireFX"
+          ]
+        }
+      ],
+      "InheritableGameplayEffectTags": {
+        "Added": []
+      },
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Gameplay.Status.Afflicted",
+          "Abilities.Alterations.OnCooldown.RangedAffliction"
+        ],
+        "Added": [
+          "Abilities.Alterations.OnCooldown.RangedAffliction"
+        ]
+      }
+    }
+  }
+]

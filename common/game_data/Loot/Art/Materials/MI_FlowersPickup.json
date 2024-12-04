@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_FlowersPickup",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect_Masked'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect_Masked.0"
+      },
+      "ParentLightingGuid": "EC94416C-4BD34F08-58D892B1-4E934A37",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "SpecRoughnessMax",
+          "ParameterValue": 0.486916,
+          "ExpressionGUID": "FDBDFD82-4CA6402D-EB526EB2-7FDE70F0"
+        },
+        {
+          "ParameterName": "SpecRoughnessMin",
+          "ParameterValue": 0.657037,
+          "ExpressionGUID": "1889AA65-413257D6-C20764BF-F3CB37EC"
+        },
+        {
+          "ParameterName": "SpecLevel",
+          "ParameterValue": 0.175,
+          "ExpressionGUID": "292255CB-4F462198-932ACC81-2754E321"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Prop_Potted_Plant_N'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Residential/Textures/Prop_Potted_Plant_N.0"
+          },
+          "ExpressionGUID": "7650772D-491D02AB-11CA18BF-6826813F"
+        },
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Prop_Potted_Plant_S'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Residential/Textures/Prop_Potted_Plant_S.0"
+          },
+          "ExpressionGUID": "AB23A2A7-45136DBB-B58C55A8-8BC293DE"
+        },
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Prop_Potted_Plant_D'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Residential/Textures/Prop_Potted_Plant_D.0"
+          },
+          "ExpressionGUID": "4A6A9316-4C1DC571-E0C1F186-9E51A1F2"
+        },
+        {
+          "ParameterName": "Mask",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Prop_Potted_Plant_M'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Residential/Textures/Prop_Potted_Plant_M.0"
+          },
+          "ExpressionGUID": "8471F078-42C38486-9E365F86-13299766"
+        }
+      ]
+    }
+  }
+]

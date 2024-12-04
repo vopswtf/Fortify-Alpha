@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Ranged_ElectricalAffliction",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "CosmeticMod.Elemental.Lightning",
+            "Gameplay.Damage.Elemental.Lightning"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Ranged_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Ranged_Affliction.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3F958F9E454B52CDFB5238A3F01A2CE8",
+        "SourceString": "Afflicting Electrical Rounds",
+        "LocalizedString": "Afflicting Electrical Rounds"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "264EB484423BD35B0F3087B9DEF077D8",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Lightning, which is more effective vs Fire but less effective vs Ice enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Lightning, which is more effective vs Fire but less effective vs Ice enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target."
+      },
+      "IconBrush": {}
+    }
+  }
+]

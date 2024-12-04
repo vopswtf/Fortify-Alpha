@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Trap_MaxDurability_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_MaxDurability_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_MaxDurability_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1A721C09403C081A6C4C269A247A3F5F",
+        "SourceString": "Sturdy Construction [Prime]",
+        "LocalizedString": "Sturdy Construction [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FC04EBAE43076A7BE7DA49A7714C1AF8",
+        "SourceString": "+36% Max Durability",
+        "LocalizedString": "+36% Max Durability"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

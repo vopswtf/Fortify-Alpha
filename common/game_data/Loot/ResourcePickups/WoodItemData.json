@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "FortResourceItemDefinition",
+    "Name": "WoodItemData",
+    "Class": "UScriptClass'FortResourceItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "AccumulatingStatType": "EFortReplicatedStat::WoodGathered",
+      "MiniMapIconBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.2,
+            "Hex": "33FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/Logs.Logs",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Wood_Collect_Cue.Wood_Collect_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Wood_Drop_Cue.Wood_Drop_Cue",
+      "bHasDisintegrationValue": false,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "182B6FC24CA7CCE45B37C48DCD9E5AF0",
+        "SourceString": "Wood",
+        "LocalizedString": "Wood"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CA1A46C44B528759878AC3ABAA2E2CB5",
+        "SourceString": "Basic resource found throughout the world.",
+        "LocalizedString": "Basic resource found throughout the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "55F9C82540AA4C979A7FD8BDEF9D7E56",
+        "SourceString": "Resource wood tree",
+        "LocalizedString": "Resource wood tree"
+      },
+      "GameplayTags": [
+        "Building.Resource.Wood"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Item-Wood'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Item-Wood.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Wood-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Wood-XS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Wood-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Wood-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Wood-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Wood-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Wood-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Wood-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Wood-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Wood-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Resource-Wood-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Resource/Icon-Resource-Wood-XL.0"
+          }
+        }
+      },
+      "MaxStackSize": 999,
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

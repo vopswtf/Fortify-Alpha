@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Honey",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/Honeycombs.Honeycombs",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/DuctTape/Sticky_Collect_Cue.Sticky_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "8BBA319D491F7BF8C1AE44B365A74730",
+        "SourceString": "Honey",
+        "LocalizedString": "Honey"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7FBBEFDA475A0FEA76F480BB2A7AE3D6",
+        "SourceString": "Crafting ingredient. Found by destroying beehives and searching crops.",
+        "LocalizedString": "Crafting ingredient. Found by destroying beehives and searching crops."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "063CF77B45F5904B0F95D4B0F2E94B79",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Ingredient_Honey'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Ingredient_Honey.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

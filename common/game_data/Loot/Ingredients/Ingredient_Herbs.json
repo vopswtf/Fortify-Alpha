@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Herbs",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Herbs_Loot.S_Herbs_Loot",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Plant_Root_Collect_Cue.Plant_Root_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B45B490840969564EBED0D9EE97E83C8",
+        "SourceString": "Herbs",
+        "LocalizedString": "Herbs"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "ACEF4FA244761354357549A9D9A697CA",
+        "SourceString": "Crafting ingredient used for healing items. Found by searching bushes, crops and food storage areas.",
+        "LocalizedString": "Crafting ingredient used for healing items. Found by searching bushes, crops and food storage areas."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "B5B213EA479ED641EBC492AFE70D6BC0",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Ingredient_Herbs'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Ingredients/Ingredient_Herbs.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::I",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

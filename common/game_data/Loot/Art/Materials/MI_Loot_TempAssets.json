@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Loot_TempAssets",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'Fortress_BaseMaterial'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/Base_Material/Fortress_BaseMaterial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ParentLightingGuid": "3EFDE828-41F37645-C4AA248F-43CBEF5B",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "SpecLevel",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "40DB7910-46D5E27B-BA7EB386-2A2D4ADC"
+        },
+        {
+          "ParameterName": "SpecRoughness",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "F7D713E9-4DACCE77-A2589DB8-A7E25C5E"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Loot_PH_D'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_Loot_PH_D.0"
+          },
+          "ExpressionGUID": "24752C6A-4EB615EA-97FA1AA9-45925FD0"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'DefaultNormal'",
+            "ObjectPath": "Engine/Content/EngineMaterials/DefaultNormal.0"
+          },
+          "ExpressionGUID": "E947DBE1-4CCAE2A4-5FF7ACAA-E60DC272"
+        },
+        {
+          "ParameterName": "Specular",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Loot_PH_D'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_Loot_PH_D.0"
+          },
+          "ExpressionGUID": "FDBE5E35-4D048170-A4255D87-70F135D5"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "SpecColor",
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ExpressionGUID": "23696D5A-43452C86-EC5D5BA9-8C1D73D0"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    }
+  }
+]

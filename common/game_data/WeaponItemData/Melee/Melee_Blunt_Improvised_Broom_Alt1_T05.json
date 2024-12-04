@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Blunt_Improvised_Broom_Alt1_T05",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Blunt/B_Melee_Blunt_Improvised_Broom.B_Melee_Blunt_Improvised_Broom_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Broom'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_Broom.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Blunt_Improvised_T05"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BluntDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BluntDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_Combo.GAB_Melee_Hammer_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_HeavyAttack.GAB_Melee_Hammer_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack1.GAB_Melee_Hammer_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack2.GAB_Melee_Hammer_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack3.GAB_Melee_Hammer_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack4.GAB_Melee_Hammer_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Blunt-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Blunt-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_Broom.SK_Broom",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Broom_Pickup_Cue.Broom_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Broom_Drop_Cue.Broom_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_05",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1EB7F9DB440E2D025DF03FB63AE14B1E",
+        "SourceString": "The Clean Sweep [Upgraded]",
+        "LocalizedString": "The Clean Sweep [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6FF0A7924A4EB0DE9C27128E8DF6FC84",
+        "SourceString": "Improvised (Blunt Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Improvised (Blunt Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "0B176D804ACD1210699BF0A33F74E3E6",
+        "SourceString": "Melee Blunt Improvised Broom Stone",
+        "LocalizedString": "Melee Blunt Improvised Broom Stone"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Blunt.Improvised",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Broom'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Broom.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

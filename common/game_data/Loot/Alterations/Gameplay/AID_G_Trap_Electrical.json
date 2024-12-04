@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Trap_Electrical",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Lightning"
+          ]
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "01050C3A4E049CF9FE0F75834C730393",
+        "SourceString": "Electrical Trap",
+        "LocalizedString": "Electrical Trap"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7427FD00475687883BB3B1B9C6130485",
+        "SourceString": "Changes damage type to Lightning. Lightning damage is more effective against Fire enemies, but less effective against Ice Enemies.",
+        "LocalizedString": "Changes damage type to Lightning. Lightning damage is more effective against Fire enemies, but less effective against Ice Enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerGadgeteer_T05_zapps",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.GadgetWorkshop"
+      ],
+      "FixedPersonalityTag": [
+        "Homebase.Worker.Personality.IsCurious"
+      ],
+      "MatchingPersonalityBonus": 8,
+      "MismatchingPersonalityPenalty": -2,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3AA1797F4343732A02EE868C51A1C8E3",
+        "SourceString": "Nick \"Zapps\" Tale",
+        "LocalizedString": "Nick \"Zapps\" Tale"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5947608E4FAC7BA6841CCCB292E00099",
+        "SourceString": "Nick likes electricity. He's invented more ways to zap people and things than any other person alive. Zapps is a lead survivor that provides double power in the Trap Workshop.",
+        "LocalizedString": "Nick likes electricity. He's invented more ways to zap people and things than any other person alive. Zapps is a lead survivor that provides double power in the Trap Workshop."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "8663589941FAA5375910BF9DE6146811",
+        "SourceString": "Manager Chief Gadgeteer",
+        "LocalizedString": "Manager Chief Gadgeteer"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsGadgeteer"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

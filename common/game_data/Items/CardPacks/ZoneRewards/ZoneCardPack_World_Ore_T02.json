@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_World_Ore_T02",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_World_Ore_T02",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AE33A2F84BA0BEC5D98F89B3229009D9",
+        "SourceString": "Ore (Tier 2)",
+        "LocalizedString": "Ore (Tier 2)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B38BEDBE47EDF5752501DF8668FA6EC7",
+        "SourceString": "A bundle of ore used to craft items in this ore. Harder missions give higher quantities and qualities of ore!",
+        "LocalizedString": "A bundle of ore used to craft items in this ore. Harder missions give higher quantities and qualities of ore!"
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_Metal_Copper'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Metal_Copper.0"
+          }
+        }
+      }
+    }
+  }
+]

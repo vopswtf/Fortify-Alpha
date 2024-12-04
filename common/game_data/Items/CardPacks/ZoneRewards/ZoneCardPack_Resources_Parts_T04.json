@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_Resources_Parts_T04",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_Resources_Parts_T04",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C5824CB94ABB7BF7A76104B48C909505",
+        "SourceString": "Building Parts (Tier 4)",
+        "LocalizedString": "Building Parts (Tier 4)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "55AB084D4788E724595F8289493CCCC1",
+        "SourceString": "A bundle of home base resources used to construct buildings in your Home Base. Harder missions give significantly higher quantities of resources!",
+        "LocalizedString": "A bundle of home base resources used to construct buildings in your Home Base. Harder missions give significantly higher quantities of resources!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-HB-Industrial-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_EngineeringSchool_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.EngineeringSchool.SBTwo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:EngineeringSchool_SubBuildingTwo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub2_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub2_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub2_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub2_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub2_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub2_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub2_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub2_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_Sub2_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_Sub2_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_EngineeringSchool'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_EngineeringSchool.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_EngineeringSchool_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_EngineeringSchool_2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "FFA4E62C4350B97A0C0CCF8B929486E0",
+        "SourceString": "Clock Tower",
+        "LocalizedString": "Clock Tower"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E6985007492605364E852CA9BBA775FA",
+        "SourceString": "Reduces cost of structures.",
+        "LocalizedString": "Reduces cost of structures."
+      }
+    }
+  }
+]

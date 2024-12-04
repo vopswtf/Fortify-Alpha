@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_TrapCritChance",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Trap_CritChance'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Trap_CritChance.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C870646B4028A8CFE0A0CEA32F4692C3",
+        "SourceString": "Critical Targeting",
+        "LocalizedString": "Critical Targeting"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BC96DF2E46F2CF2983C9009673BAECBD",
+        "SourceString": "+6% Crit Chance",
+        "LocalizedString": "+6% Crit Chance"
+      },
+      "IconBrush": {}
+    }
+  }
+]

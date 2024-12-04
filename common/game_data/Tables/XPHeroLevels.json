@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "XPHeroLevels",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortLevelUpData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "XP": 0,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "2": {
+        "XP": 400,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "3": {
+        "XP": 1155,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "4": {
+        "XP": 2405,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "5": {
+        "XP": 4065,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "6": {
+        "XP": 6240,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "7": {
+        "XP": 9080,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "8": {
+        "XP": 12520,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "9": {
+        "XP": 16455,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "10": {
+        "XP": 21555,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "11": {
+        "XP": 30910,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "12": {
+        "XP": 41205,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "13": {
+        "XP": 53175,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "14": {
+        "XP": 66150,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "15": {
+        "XP": 80115,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "16": {
+        "XP": 95085,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "17": {
+        "XP": 111055,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "18": {
+        "XP": 128015,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "19": {
+        "XP": 147105,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      },
+      "20": {
+        "XP": 167245,
+        "ItemRewardsText": "",
+        "MaximumXPMultBonusTier": ""
+      }
+    }
+  }
+]

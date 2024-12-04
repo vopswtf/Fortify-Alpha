@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_ExplorersGuild_Sub1",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.ExplorersGuild.SBOne"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ExplorersGuild_SubBuildingOne_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub1_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub1_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub1_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub1_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub1_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub1_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub1_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub1_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub1_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub1_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ExplorersGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ExplorersGuild.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_ExplorersGuild_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_ExplorersGuild_3.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3666328F44D07B35AEEB2BA7DD18FCAF",
+        "SourceString": "Ocularium",
+        "LocalizedString": "Ocularium"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3D2613E14B56F769637453B0B737D3FE",
+        "SourceString": "Improves resource harvesting",
+        "LocalizedString": "Improves resource harvesting"
+      }
+    }
+  }
+]

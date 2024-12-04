@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Silver_Melee",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Gold_Melee",
+      "DisplayRarityLevel": 1,
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Mob_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Mob_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E12A9E0F45D97F62F7AE498E3405D665",
+        "SourceString": "Silver Melee Pack",
+        "LocalizedString": "Silver Melee Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F35E21F146C3AEF8CACE73B94949DDFF",
+        "SourceString": "Full of high quality stuff.",
+        "LocalizedString": "Full of high quality stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

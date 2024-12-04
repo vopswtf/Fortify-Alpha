@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_MaxEnergy_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_MaxEnergy_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_MaxEnergy_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "63631707459D509A32A588B382832ADB",
+        "SourceString": "Max Energy [Prime]",
+        "LocalizedString": "Max Energy [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FD73E51346C000C02CA64992C6856450",
+        "SourceString": "+20 Max Energy",
+        "LocalizedString": "+20 Max Energy"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Floor_Launcher_T02",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "KnockbackDirOverride": {
+        "Pitch": 85.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bKnockBackUsingPawnDir": true,
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Floor_Launcher_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Floor_Launcher.59"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Floor'EMP_Floor_Floor'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Floor/EMP_Floor_Floor.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Floor_Launcher_T02"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Floor_Jump_trap/Mesh/Enemy_JumpPad_PickUp.Enemy_JumpPad_PickUp",
+      "DisassemblyLootTierKey": "Disassemble_Traps_Floor_Launcher_01",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "504D48014E078916ED354F876B046494",
+        "SourceString": "Floor Trap: Jump Pad",
+        "LocalizedString": "Floor Trap: Jump Pad"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "52DBC034428C2D73FE816BBB38D3DFEC",
+        "SourceString": "Can be placed on a flat floor piece. Launches Enemies into the air briefly.",
+        "LocalizedString": "Can be placed on a flat floor piece. Launches Enemies into the air briefly."
+      },
+      "GameplayTags": [
+        "trap.Floor"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_JumpPad'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_JumpPad.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::II"
+    }
+  }
+]

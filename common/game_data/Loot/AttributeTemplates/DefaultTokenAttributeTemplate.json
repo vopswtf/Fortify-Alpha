@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "FortAttributeTemplate",
+    "Name": "DefaultTokenAttributeTemplate",
+    "Class": "UScriptClass'FortAttributeTemplate'",
+    "Properties": {
+      "ItemProperties": [
+        8,
+        0
+      ]
+    }
+  }
+]

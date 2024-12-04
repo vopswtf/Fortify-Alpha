@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_1",
+    "Outer": "IBeam",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "01EF0803455FA998A72EECB67A4E575F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4897,
+        "SizeOnDisk": 4897,
+        "OffsetInFile": "0x51F5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_22",
+    "Outer": "IBeam",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x657A"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "IBeam",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Wood_Drop'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Wood_Drop.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.7673092,
+          "Y": 1.4705601,
+          "Z": 7.410837
+        },
+        "BoxExtent": {
+          "X": 20.921623,
+          "Y": 22.885763,
+          "Z": 12.172956
+        },
+        "SphereRadius": 22.885763
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'IBeam:RB_BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/IBeam.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'IBeam:NavCollision_22'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/IBeam.1"
+    },
+    "LightingGuid": "8BD1545F-4251B478-F8801D96-B0E8F8FB",
+    "RenderData": null
+  }
+]

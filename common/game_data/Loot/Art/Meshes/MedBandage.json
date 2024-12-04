@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_114",
+    "Outer": "MedBandage",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "A638B6FE4DE1E4251BB3F8818D2CA99D",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 14829,
+        "SizeOnDisk": 14829,
+        "OffsetInFile": "0xD397"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_55",
+    "Outer": "MedBandage",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x10DCC"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "MedBandage",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_MedBandage_inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_MedBandage_inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 20.96267
+        },
+        "BoxExtent": {
+          "X": 22.079617,
+          "Y": 23.13933,
+          "Z": 20.959457
+        },
+        "SphereRadius": 23.13933
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'MedBandage:BodySetup_114'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/MedBandage.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'MedBandage:NavCollision_55'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/MedBandage.1"
+    },
+    "LightingGuid": "F68898D4-4E4C0E69-1FCA969C-8BF5606E",
+    "RenderData": null
+  }
+]

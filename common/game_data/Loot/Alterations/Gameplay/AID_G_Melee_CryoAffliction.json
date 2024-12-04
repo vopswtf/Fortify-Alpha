@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Melee_CryoAffliction",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Ice"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Melee_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Melee_Affliction.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "777927B146F15E941C0BE0834D129F48",
+        "SourceString": "Afflicting Cryo Strike",
+        "LocalizedString": "Afflicting Cryo Strike"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E5AC24AF466EB0CB94ED13B504620501",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Ice, which is more effective vs Lightning but less effective vs Fire enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Ice, which is more effective vs Lightning but less effective vs Fire enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target."
+      },
+      "IconBrush": {}
+    }
+  }
+]

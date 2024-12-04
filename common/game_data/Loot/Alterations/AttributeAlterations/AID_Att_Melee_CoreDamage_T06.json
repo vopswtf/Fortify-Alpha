@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Melee_CoreDamage_T06",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CoreDamage_T06'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CoreDamage_T06.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "48B3098346562F39E8B3469E906E775A",
+        "SourceString": "Weapon Damage",
+        "LocalizedString": "Weapon Damage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0263C5294D79F4F4D17D8691355AA64F",
+        "SourceString": "+45% Weapon Damage",
+        "LocalizedString": "+45% Weapon Damage"
+      },
+      "IconBrush": {},
+      "Tier": "EFortItemTier::VI",
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Silver_XP",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Silver_XP",
+      "DisplayRarityLevel": 1,
+      "PackImage": {
+        "ObjectName": "Texture2D'Act_Encampment'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Adventures/ActivityFlag/Icons/ActivityType/Act_Encampment.0"
+      },
+      "PackColor": {
+        "R": 1.0,
+        "G": 0.023529,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF2A00"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Mob_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Mob_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "79A96980426B6490E9BCF6BCAA416465",
+        "SourceString": "Silver XP Candy Pack",
+        "LocalizedString": "Silver XP Candy Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7A02BE1D48BEC21EBABF86AE3FE983DC",
+        "SourceString": "A pack that's completely brimming with crew and schematic XP!",
+        "LocalizedString": "A pack that's completely brimming with crew and schematic XP!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

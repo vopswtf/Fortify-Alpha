@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_MaxEnergy",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_MaxEnergy'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_MaxEnergy.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9F0EA559455E69C7FDD9F8AD830EFB03",
+        "SourceString": "Max Energy",
+        "LocalizedString": "Max Energy"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FB2B80F840CBB60F37E4B38D0B887FD0",
+        "SourceString": "+7 Max Energy",
+        "LocalizedString": "+7 Max Energy"
+      },
+      "IconBrush": {}
+    }
+  }
+]

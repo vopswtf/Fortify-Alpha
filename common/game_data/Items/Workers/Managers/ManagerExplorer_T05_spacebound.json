@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerExplorer_T05_spacebound",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.ExplorersGuild"
+      ],
+      "FixedPersonalityTag": [
+        "Homebase.Worker.Personality.IsDreamer"
+      ],
+      "MatchingPersonalityBonus": 8,
+      "MismatchingPersonalityPenalty": -2,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BE1077E447614A70A513308E3FD405E8",
+        "SourceString": "Ned \"SpaceBound\" Legstrong",
+        "LocalizedString": "Ned \"SpaceBound\" Legstrong"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "36AEB8B6485BBAE2F4E93B9444B8AA28",
+        "SourceString": "Ned is often credited as the first man to walk on Venus, but naysayers doubt the truth of his legacy. Spacebound is a lead survivor that provides double power in the Explorer's Guild.",
+        "LocalizedString": "Ned is often credited as the first man to walk on Venus, but naysayers doubt the truth of his legacy. Spacebound is a lead survivor that provides double power in the Explorer's Guild."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "DB14086547E133003971C8B99C4F712F",
+        "SourceString": "Manager Chief Explorer",
+        "LocalizedString": "Manager Chief Explorer"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsExplorer"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

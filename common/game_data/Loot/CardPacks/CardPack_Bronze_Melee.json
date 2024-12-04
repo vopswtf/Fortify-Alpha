@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Bronze_Melee",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Bronze_Melee",
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Melee_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Melee_IconMask.0"
+      },
+      "PackColor": {
+        "R": 0.0,
+        "G": 0.705,
+        "B": 0.556948,
+        "A": 1.0,
+        "Hex": "FF00DBC5"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Mob_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Mob_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0D87B4B947C0145E6D1FAFA9B36DB335",
+        "SourceString": "Melee Pack",
+        "LocalizedString": "Melee Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F953DFF9429093533B27429B26E2E99E",
+        "SourceString": "Full of useful stuff.",
+        "LocalizedString": "Full of useful stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

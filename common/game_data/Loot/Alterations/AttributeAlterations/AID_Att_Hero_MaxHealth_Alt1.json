@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_MaxHealth_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_MaxHealth_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_MaxHealth_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3A926867482923FED8F4C5B0EF5B5877",
+        "SourceString": "Max Health [Upgraded]",
+        "LocalizedString": "Max Health [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0473674442D764F0DDEAE482C393B5AB",
+        "SourceString": "+84 Max Health",
+        "LocalizedString": "+84 Max Health"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

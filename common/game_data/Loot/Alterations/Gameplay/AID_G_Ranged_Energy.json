@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Ranged_Energy",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Physical.Energy"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Ranged'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Ranged.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BFB5D9B946BB8804E7957D897C265E60",
+        "SourceString": "Energy Rounds",
+        "LocalizedString": "Energy Rounds"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B5A1CD6246040C2E4F0478AAED979381",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Energy, which is only reduced by half vs Elemental enemies.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Energy, which is only reduced by half vs Elemental enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

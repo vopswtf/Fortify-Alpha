@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "FortAbilitySet",
+    "Name": "AS_Att_Hero_MoveSpeed_Alt1",
+    "Class": "UScriptClass'FortAbilitySet'",
+    "Properties": {
+      "PassiveGameplayEffects": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_MoveSpeed_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_MoveSpeed.0"
+          },
+          "Level": 6.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Alteration_Attribute_SprintSpeed_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Alterations/GE_Alteration_Attribute_SprintSpeed.0"
+          },
+          "Level": 6.0
+        }
+      ]
+    }
+  }
+]

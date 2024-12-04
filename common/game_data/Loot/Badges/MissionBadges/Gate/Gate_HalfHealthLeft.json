@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Gate_HalfHealthLeft",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T1__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T1__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "224D55C84CA12A5D9C385E9FEE01A462",
+        "SourceString": "The gate was closed with the Atlas taking less than 50% damage!",
+        "LocalizedString": "The gate was closed with the Atlas taking less than 50% damage!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "GateBadge_HalfHealthLeft"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1F39EB25450E910DCD6E7BBE758B6B1F",
+        "SourceString": "Atlas with over 50% Health left",
+        "LocalizedString": "Atlas with over 50% Health left"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E97EA45D461A33D5E065BF9ED879A7CE",
+        "SourceString": "The gate was closed with the Atlas taking less than 50% damage!",
+        "LocalizedString": "The gate was closed with the Atlas taking less than 50% damage!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T1_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T1_.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Melee_Edged_Scythe_Alt1_T03",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Planks'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Planks.0"
+          },
+          "Count": 15,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Alloy'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Alloy.0"
+          },
+          "Count": 10,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Duct_Tape'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Duct_Tape.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortWeaponMeleeItemDefinition'Melee_Edged_Scythe_Alt1_T03'",
+        "ObjectPath": "FortniteGame/Content/Weapons/WeaponItemData/Melee/Melee_Edged_Scythe_Alt1_T03.0"
+      },
+      "CraftingPoints": 290,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "3_Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "3_Uncommon"
+      },
+      "MaxLevel": 5,
+      "GameplayTags": [
+        "Weapon.Melee.Edged"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

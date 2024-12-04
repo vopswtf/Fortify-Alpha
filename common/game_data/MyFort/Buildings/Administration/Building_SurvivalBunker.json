@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SurvivalBunker",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_SurvivalBunker'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_SurvivalBunker.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.SurvivalBunker"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:SurvivalBunker_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SurvivalBunker_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_Static_SurvivalBunker_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_SurvivalBunker_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SurvivalBunker/GE_Homebase_SurvivalBunker_WorkerBonus.0"
+      },
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SurvivalBunker_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_SurvivalBunker_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SurvivalBunker_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_SurvivalBunker_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SurvivalBunker_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_SurvivalBunker_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SurvivalBunker_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_SurvivalBunker_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SurvivalBunker_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Sub/Building_SurvivalBunker_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SurvivalBunker'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SurvivalBunker.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Hero_Outlander_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Hero_Outlander_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Outlander_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Outlander_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_SurvivalBunker_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_SurvivalBunker_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_SurvivalBunker_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_SurvivalBunker_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_SurvivalBunker_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_SurvivalBunker_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "700039BB46C2F650534BAB8E589DC9E7",
+        "SourceString": "Outlander Lab",
+        "LocalizedString": "Outlander Lab"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CEA9E6514D9926C2708FCE9E61E0ED78",
+        "SourceString": "Unleash Explorer Fragments, and blast through walls with a rocket-powered punch!",
+        "LocalizedString": "Unleash Explorer Fragments, and blast through walls with a rocket-powered punch!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_SurvivalBunker'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_SurvivalBunker.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-OutlanderLab-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-OutlanderLab-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-OutlanderLab-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-OutlanderLab-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

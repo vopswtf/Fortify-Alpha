@@ -1,0 +1,2751 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "SlotCoordinates",
+    "Outer": "SlotCoordinates",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "BuildingListStruct",
+    "Outer": "BuildingListStruct",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'MyTown_BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Structs/MyTown_BuildingGroups.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BuildingGroups",
+    "Outer": "BuildingGroups",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BaseMeshArray",
+    "Outer": "BaseMeshArray",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BuildingPlacement",
+    "Outer": "BuildingPlacement",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BuildingMID",
+    "Outer": "BuildingMID",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "UITextures",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bTutorialVisualsInitialized",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:UITextures'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.6"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CloudCover",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:bTutorialVisualsInitialized'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.7"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'S_HB_OnboardingCloudCover_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/Onboarding/S_HB_OnboardingCloudCover.176"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MyTown_Building_Master",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:CloudCover'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.8"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'MyTown_Building_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/MyTown_Building_Master.463"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "OpenSavedBuilding",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:MyTown_Building_Master'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.9"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "PanelIsOpen",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:OpenSavedBuilding'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.10"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "OpenedSavedBuildingTemplate",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'StrProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:PanelIsOpen'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.11"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "PanelOpened",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "StrProperty'MyFort_Manager_C:OpenedSavedBuildingTemplate'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.12"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "OpenedMenuString",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'StrProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:PanelOpened'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.13"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "SphereCollisionScale",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StrProperty'MyFort_Manager_C:OpenedMenuString'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.14"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "UnbuiltOldMaterial",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SphereCollisionScale'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.15"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "BuildingMID",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:UnbuiltOldMaterial'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.16"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Inner": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:BuildingMID.BuildingMID'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.5"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RoadManager",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:BuildingMID'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.17"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'HB_RoadManager_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_RoadManager.124"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "BuildingPlacement",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:RoadManager'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.18"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+    "Inner": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:BuildingPlacement.BuildingPlacement'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.4"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "MaterialBannerParam",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'NameProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:BuildingPlacement'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.19"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "BaseMeshArray",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "NameProperty'MyFort_Manager_C:MaterialBannerParam'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.20"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Inner": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:BaseMeshArray.BaseMeshArray'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.3"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Start Hidden",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:BaseMeshArray'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.21"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "HideBuilding",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:Start Hidden'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.22"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "BuildingGroups",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:HideBuilding'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.23"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "Inner": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:BuildingGroups.BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.2"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "numBuildings",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.24"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "BuildingListStruct",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:numBuildings'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.25"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Inner": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:BuildingListStruct.BuildingListStruct'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.1"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "SlotCoordinates",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:BuildingListStruct'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.26"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Inner": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SlotCoordinates.SlotCoordinates'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Root",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:SlotCoordinates'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.27"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BillboardComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+    "Outer": "CallFunc_GetAllActorsOfClass_OutActors",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'HB_Placement_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Placement.9"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetAllActorsOfClass_OutActors2",
+    "Outer": "CallFunc_GetAllActorsOfClass_OutActors2",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'HB_RoadManager_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_RoadManager.124"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetBuildingActor_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue7",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetBuildingActor_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.31"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue6",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue7'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.32"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Less_IntInt_ReturnValue6'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.33"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable6",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_BooleanAND_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.34"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsKeepAvailable_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Loop_Counter_Variable6'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.35"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsManorAvailable_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_IsKeepAvailable_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.36"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_IsManorAvailable_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.37"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue5",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GreaterEqual_IntInt_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue8",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Less_IntInt_ReturnValue5'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.39"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item8",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue8'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.40"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'MyTownBuildingData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetMyTownData_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item8'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.41"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Add_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetMyTownData_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.42"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Add_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Add_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.43"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Add_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.44"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsMy_Town_Building_Master2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_bSuccess4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.45"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'MyTown_Building_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/MyTown_Building_Master.463"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_AsMy_Town_Building_Master2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.46"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsMy_Town_Building_Master",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_bSuccess3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.47"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'MyTown_Building_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/MyTown_Building_Master.463"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_FinishSpawningActor_ReturnValue3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_AsMy_Town_Building_Master'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.48"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_FinishSpawningActor_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_FinishSpawningActor_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.49"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_FinishSpawningActor_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.50"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.51"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetBuildingTemplateId_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StrProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.52"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "StrProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetBuildingTemplateId_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.53"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue7",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Less_IntInt_ReturnValue4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.54"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item7",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue7'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.55"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'MyTownSubBuildingData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item7'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.56"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_bSuccess2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.57"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetBuildingTemplateId_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StrProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_AsTexture_2D'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.58"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_ShouldCreateBuilding_Allow_Create",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "StrProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetBuildingTemplateId_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.59"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item6",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_ShouldCreateBuilding_Allow_Create'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.60"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item6'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.61"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GreaterEqual_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.62"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue6",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Less_IntInt_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.63"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item5",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue6'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.64"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'MyTownBuildingData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetMyTownData_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item5'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.65"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetMyTownData_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.66"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_MyTown_BuildingGroups",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Greater_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.67"
+    },
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'MyTown_BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Structs/MyTown_BuildingGroups.0"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue5",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_MakeStruct_MyTown_BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.68"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetBannerColor_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue5'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.69"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_NewColor",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetBannerColor_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.70"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_CustomEvent_NewColor'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.71"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'HB_RoadManager_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_RoadManager.124"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetAllActorsOfClass_OutActors2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.72"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetAllActorsOfClass_OutActors2.CallFunc_GetAllActorsOfClass_OutActors2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.30"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetAllActorsOfClass_OutActors2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.73"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.74"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Less_IntInt_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.75"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.76"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsHB_Placement",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_bSuccess'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.77"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'HB_Placement_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Placement.9"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_DynamicCast_AsHB_Placement'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.78"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.79"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetAllActorsOfClass_OutActors.CallFunc_GetAllActorsOfClass_OutActors'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.29"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue6",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetAllActorsOfClass_OutActors'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.80"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_StrStr_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue6'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.81"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetMaterial_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_EqualEqual_StrStr_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.82"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_GetMaterial_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.83"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Less_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.84"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.85"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.86"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnMyTownBuildingWorkersChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "DelegateProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_CreateDelegate_OutputDelegate3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.87"
+    },
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'MyTown_BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Structs/MyTown_BuildingGroups.0"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable6",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Get_Item'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.88"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue5",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Array_Index_Variable6'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.89"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable5",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue5'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.90"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Loop_Counter_Variable5'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.91"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'S_HB_OnboardingCloudCover_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/Onboarding/S_HB_OnboardingCloudCover.176"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_FinishSpawningActor_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.92"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeTransform_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.93"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_HandleClientEvent_ClientEvent",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_MakeTransform_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.94"
+    },
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortClientEvent'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_HandleClientEvent_EventFocus",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_HandleClientEvent_ClientEvent'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.95"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_HandleClientEvent_EventSource",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_HandleClientEvent_EventFocus'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.96"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_HandleClientEvent_EventSource'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.97"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_BuildingTemplateId",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'StrProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Array_Length_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.98"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable5",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "StrProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_CustomEvent_BuildingTemplateId'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.99"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Array_Index_Variable5'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.100"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.101"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable4",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Loop_Counter_Variable4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.102"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Array_Index_Variable4'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.103"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Array_Index_Variable3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.104"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.105"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnMyTownBannerColorChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable3",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "DelegateProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_CreateDelegate_OutputDelegate2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.106"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Loop_Counter_Variable3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.107"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.108"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable2",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Loop_Counter_Variable2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.109"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Array_Index_Variable2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.110"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.CallFunc_Add_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.111"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Loop_Counter_Variable'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.112"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnMyTownInitialized__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "DelegateProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.K2Node_CreateDelegate_OutputDelegate'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.113"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_MyFort_Manager",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.Temp_int_Array_Index_Variable'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.114"
+    },
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MyFort_Manager",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:Root'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.28"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.115"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BannerColors",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.116"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PositioningActors",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:BannerColors'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.117"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "FindNumberofBuildings",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:PositioningActors'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.118"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SpawnBuildings",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:FindNumberofBuildings'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.119"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "NewColor",
+    "Outer": "OnMyTownBannerColorChanged_Event",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMyTownBannerColorChanged_Event",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:SpawnBuildings'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.120"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MyFort_Manager_C:OnMyTownBannerColorChanged_Event.NewColor'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.121"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMyTownInitialized_Event",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:OnMyTownBannerColorChanged_Event'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.122"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:OnMyTownInitialized_Event'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.123"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ClientEvent",
+    "Outer": "HandleClientEvent_OnboardingInitializeVisuals",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "ConstParm | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortClientEvent'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EventFocus",
+    "Outer": "HandleClientEvent_OnboardingInitializeVisuals",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:HandleClientEvent_OnboardingInitializeVisuals.ClientEvent'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.125"
+    },
+    "PropertyFlags": "Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EventSource",
+    "Outer": "HandleClientEvent_OnboardingInitializeVisuals",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:HandleClientEvent_OnboardingInitializeVisuals.EventFocus'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.126"
+    },
+    "PropertyFlags": "Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleClientEvent_OnboardingInitializeVisuals",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:ReceiveBeginPlay'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.124"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'MyFort_Manager_C:HandleClientEvent_OnboardingInitializeVisuals.EventSource'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.127"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeWorker",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:HandleClientEvent_OnboardingInitializeVisuals'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.128"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "BuildingTemplateId",
+    "Outer": "OnMyTownBuildingWorkersChanged_Event_0_Copy",
+    "Class": "UScriptClass'StrProperty'",
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMyTownBuildingWorkersChanged_Event_0_Copy",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:ChangeWorker'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.129"
+    },
+    "Children": [
+      {
+        "ObjectName": "StrProperty'MyFort_Manager_C:OnMyTownBuildingWorkersChanged_Event_0_Copy.BuildingTemplateId'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.130"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:OnMyTownBuildingWorkersChanged_Event_0_Copy'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.131"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Initialize Array",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.132"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SaveBuildingPosition.CallFunc_K2_GetComponentToWorld_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.134"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:SaveBuildingPosition.CallFunc_Less_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.135"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsHB_Placement",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:SaveBuildingPosition.K2Node_DynamicCast_bSuccess'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.136"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'HB_Placement_C'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Placement.9"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:SaveBuildingPosition.K2Node_DynamicCast_AsHB_Placement'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.137"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:SaveBuildingPosition.CallFunc_Array_Length_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.138"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:SaveBuildingPosition.CallFunc_Array_Get_Item'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.139"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:SaveBuildingPosition.CallFunc_Add_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.140"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "SaveBuildingPosition",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:SaveBuildingPosition.Temp_int_Loop_Counter_Variable'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.141"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SaveBuildingPosition",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:Initialize Array'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.133"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'MyFort_Manager_C:SaveBuildingPosition.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.142"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetRoadsInfo_ReturnValue",
+    "Outer": "CallFunc_GetRoadsInfo_ReturnValue",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'MyTownRoadData3D'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:UpdateRoads.K2Node_SwitchEnum_CmpSuccess'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.145"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:UpdateRoads.CallFunc_Less_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.146"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:UpdateRoads.CallFunc_Array_Length_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.147"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'MyTownRoadData3D'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetRoadsInfo_ReturnValue",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:UpdateRoads.CallFunc_Array_Get_Item'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.148"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:UpdateRoads.CallFunc_GetRoadsInfo_ReturnValue.CallFunc_GetRoadsInfo_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.144"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ArrayProperty'MyFort_Manager_C:UpdateRoads.CallFunc_GetRoadsInfo_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.149"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:UpdateRoads.CallFunc_Add_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.150"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "UpdateRoads",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:UpdateRoads.Temp_int_Loop_Counter_Variable'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.151"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateRoads",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:SaveBuildingPosition'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.143"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'MyFort_Manager_C:UpdateRoads.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.152"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_K2_SetRelativeLocation_SweepHitResult'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.154"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_RotateAngleAxis_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Add_VectorVector_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.155"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Normal_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_RotateAngleAxis_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.156"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'FloatProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Normal_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.157"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Cross_VectorVector_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "FloatProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Divide_FloatFloat_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.158"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_VSize_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'FloatProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Cross_VectorVector_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.159"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue3",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "FloatProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_VSize_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.160"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue2",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Subtract_VectorVector_ReturnValue3'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.161"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Subtract_VectorVector_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.162"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_VectorVector_ReturnValue2",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Subtract_VectorVector_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.163"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_VectorVector_ReturnValue",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Multiply_VectorVector_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.164"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DistanceOffset",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'FloatProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CallFunc_Multiply_VectorVector_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.165"
+    },
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Collision",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "FloatProperty'MyFort_Manager_C:SmallWorldCollision.DistanceOffset'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.166"
+    },
+    "PropertyFlags": "Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'SphereComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CameraLocation",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:SmallWorldCollision.Collision'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.167"
+    },
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InitialBuildingLocation",
+    "Outer": "SmallWorldCollision",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.CameraLocation'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.168"
+    },
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SmallWorldCollision",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:UpdateRoads'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.153"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MyFort_Manager_C:SmallWorldCollision.InitialBuildingLocation'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.169"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_StrStr_ReturnValue",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item2",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:FindBuildingID.CallFunc_EqualEqual_StrStr_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.171"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:FindBuildingID.CallFunc_Array_Get_Item2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.172"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:FindBuildingID.CallFunc_Less_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.173"
+    },
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'MyTown_BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Structs/MyTown_BuildingGroups.0"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:FindBuildingID.CallFunc_Array_Get_Item'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.174"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:FindBuildingID.CallFunc_Array_Length_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.175"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:FindBuildingID.CallFunc_Add_IntInt_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.176"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:FindBuildingID.Temp_int_Loop_Counter_Variable'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.177"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "IntProperty'MyFort_Manager_C:FindBuildingID.Temp_int_Array_Index_Variable'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.178"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Item",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:FindBuildingID.ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.179"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "A",
+    "Outer": "FindBuildingID",
+    "Class": "UScriptClass'StrProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:FindBuildingID.Item'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.180"
+    },
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "FindBuildingID",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:SmallWorldCollision'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.170"
+    },
+    "Children": [
+      {
+        "ObjectName": "StrProperty'MyFort_Manager_C:FindBuildingID.A'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.181"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item2",
+    "Outer": "MouseOverBuildingState",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "MouseOverBuildingState",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:MouseOverBuildingState.CallFunc_Array_Get_Item2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.183"
+    },
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'MyTown_BuildingGroups'",
+      "ObjectPath": "FortniteGame/Content/Environments/Homebase/Structs/MyTown_BuildingGroups.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Building Mesh",
+    "Outer": "MouseOverBuildingState",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "StructProperty'MyFort_Manager_C:MouseOverBuildingState.CallFunc_Array_Get_Item'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.184"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CollisionComponent",
+    "Outer": "MouseOverBuildingState",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:MouseOverBuildingState.Building Mesh'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.185"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'SphereComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Building",
+    "Outer": "MouseOverBuildingState",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:MouseOverBuildingState.CollisionComponent'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.186"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Building ID",
+    "Outer": "MouseOverBuildingState",
+    "Class": "UScriptClass'IntProperty'",
+    "Next": {
+      "ObjectName": "ObjectProperty'MyFort_Manager_C:MouseOverBuildingState.Building'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.187"
+    },
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "MouseOverBuildingState",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:FindBuildingID'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.182"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'MyFort_Manager_C:MouseOverBuildingState.Building ID'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.188"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "AllowCreation",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'BoolProperty'",
+    "PropertyFlags": "Edit",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsKeepAvailable_ReturnValue",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ShouldCreateBuilding.AllowCreation'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.190"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsManorAvailable_ReturnValue",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ShouldCreateBuilding.CallFunc_IsKeepAvailable_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.191"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue2",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ShouldCreateBuilding.CallFunc_IsManorAvailable_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.192"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ShouldCreateBuilding.CallFunc_EqualEqual_ObjectObject_ReturnValue2'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.193"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Allow Create",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'BoolProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ShouldCreateBuilding.CallFunc_EqualEqual_ObjectObject_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.194"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Building Definition",
+    "Outer": "ShouldCreateBuilding",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Next": {
+      "ObjectName": "BoolProperty'MyFort_Manager_C:ShouldCreateBuilding.Allow Create'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.195"
+    },
+    "PropertyFlags": "Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'MyTownBuildingDefinitionData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ShouldCreateBuilding",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'Function'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:MouseOverBuildingState'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.189"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'MyFort_Manager_C:ShouldCreateBuilding.Building Definition'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.196"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Next": {
+      "ObjectName": "Function'MyFort_Manager_C:ShouldCreateBuilding'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.197"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MyFort_Manager_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'MyFort_Manager_C:SimpleConstructionScript_2'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.207"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'MyFort_Manager_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.198"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.116"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MyTownActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MyFort_Manager_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.198"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MyFort_Manager": {
+        "ObjectName": "Function'MyFort_Manager_C:ExecuteUbergraph_MyFort_Manager'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.116"
+      },
+      "BannerColors": {
+        "ObjectName": "Function'MyFort_Manager_C:BannerColors'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.117"
+      },
+      "PositioningActors": {
+        "ObjectName": "Function'MyFort_Manager_C:PositioningActors'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.118"
+      },
+      "FindNumberofBuildings": {
+        "ObjectName": "Function'MyFort_Manager_C:FindNumberofBuildings'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.119"
+      },
+      "SpawnBuildings": {
+        "ObjectName": "Function'MyFort_Manager_C:SpawnBuildings'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.120"
+      },
+      "OnMyTownBannerColorChanged_Event": {
+        "ObjectName": "Function'MyFort_Manager_C:OnMyTownBannerColorChanged_Event'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.122"
+      },
+      "OnMyTownInitialized_Event": {
+        "ObjectName": "Function'MyFort_Manager_C:OnMyTownInitialized_Event'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.123"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'MyFort_Manager_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.124"
+      },
+      "HandleClientEvent_OnboardingInitializeVisuals": {
+        "ObjectName": "Function'MyFort_Manager_C:HandleClientEvent_OnboardingInitializeVisuals'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.128"
+      },
+      "ChangeWorker": {
+        "ObjectName": "Function'MyFort_Manager_C:ChangeWorker'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.129"
+      },
+      "OnMyTownBuildingWorkersChanged_Event_0_Copy": {
+        "ObjectName": "Function'MyFort_Manager_C:OnMyTownBuildingWorkersChanged_Event_0_Copy'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.131"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'MyFort_Manager_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.132"
+      },
+      "Initialize Array": {
+        "ObjectName": "Function'MyFort_Manager_C:Initialize Array'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.133"
+      },
+      "SaveBuildingPosition": {
+        "ObjectName": "Function'MyFort_Manager_C:SaveBuildingPosition'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.143"
+      },
+      "UpdateRoads": {
+        "ObjectName": "Function'MyFort_Manager_C:UpdateRoads'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.153"
+      },
+      "SmallWorldCollision": {
+        "ObjectName": "Function'MyFort_Manager_C:SmallWorldCollision'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.170"
+      },
+      "FindBuildingID": {
+        "ObjectName": "Function'MyFort_Manager_C:FindBuildingID'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.182"
+      },
+      "MouseOverBuildingState": {
+        "ObjectName": "Function'MyFort_Manager_C:MouseOverBuildingState'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.189"
+      },
+      "ShouldCreateBuilding": {
+        "ObjectName": "Function'MyFort_Manager_C:ShouldCreateBuilding'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.197"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'FortClientEventInterface'",
+          "ObjectPath": "/Script/FortniteGame"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MyFort_Manager_C'Default__MyFort_Manager_C'",
+      "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.200"
+    }
+  },
+  {
+    "Type": "MyFort_Manager_C",
+    "Name": "Default__MyFort_Manager_C",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/MyFort/MyFort_Manager.MyFort_Manager_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Start Hidden": true,
+      "MaterialBannerParam": "color",
+      "SphereCollisionScale": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "FocusLimiterBox": {
+        "ObjectName": "BoxComponent'Default__MyFort_Manager_C:FocusLimiterBox'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.202"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__MyFort_Manager_C:SceneComp'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.203"
+      },
+      "OnBeginCursorOver": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MyFort_Manager_C'Default__MyFort_Manager_C'",
+              "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.200"
+            },
+            "FunctionName": "OnMouseOverBegin"
+          }
+        ]
+      },
+      "OnEndCursorOver": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MyFort_Manager_C'Default__MyFort_Manager_C'",
+              "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.200"
+            },
+            "FunctionName": "OnMouseOverEnd"
+          }
+        ]
+      },
+      "OnClicked": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "MyFort_Manager_C'Default__MyFort_Manager_C'",
+              "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.200"
+            },
+            "FunctionName": "OnBuildingClicked"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BillboardComponent",
+    "Name": "BillboardComponent_455",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Properties": {
+      "Sprite": {
+        "ObjectName": "Texture2D'Icon-HomeBase-L'",
+        "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HomeBase-L.0"
+      },
+      "ScreenSize": 1.0
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "FocusLimiterBox",
+    "Outer": "Default__MyFort_Manager_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__MyFort_Manager_C:SceneComp'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.203"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "Default__MyFort_Manager_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_6",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "BillboardComponent'MyFort_Manager_C:BillboardComponent_455'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.201"
+      },
+      "VariableName": "Root",
+      "ParentComponentOrVariableName": "SceneComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1412D0F7-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'MyFort_Manager_C:SceneComponent_6'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.204"
+      },
+      "VariableName": "DefaultSceneRoot",
+      "VariableGuid": "4D3A059E-00000000-00000000-00000000"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_2",
+    "Outer": "MyFort_Manager_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'MyFort_Manager_C:SimpleConstructionScript_2.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.205"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'MyFort_Manager_C:SimpleConstructionScript_2.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.205"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'MyFort_Manager_C:SimpleConstructionScript_2.SCS_Node_8'",
+        "ObjectPath": "FortniteGame/Content/MyFort/MyFort_Manager.206"
+      }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "FortAttributeTemplate",
+    "Name": "DefaultBuffAttributeTemplate",
+    "Class": "UScriptClass'FortAttributeTemplate'",
+    "Properties": {
+      "ItemProperties": [
+        7
+      ]
+    }
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerMartialArtist_T05_samurai",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.MartialArtsAcademy"
+      ],
+      "FixedPersonalityTag": [
+        "Homebase.Worker.Personality.IsCompetitive"
+      ],
+      "MatchingPersonalityBonus": 8,
+      "MismatchingPersonalityPenalty": -2,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "10_Rare"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D464EACB40A75BDBCB1D5495BEC26B01",
+        "SourceString": "Mishiro \"Samurai\" Tofune",
+        "LocalizedString": "Mishiro \"Samurai\" Tofune"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "69AB01C8409211F457E82BB814B8BAAD",
+        "SourceString": "After years of training in the ancient arts of the samurai, Tofune considered becoming an actor. That thought didn't last long, because he was considered too authentic and scary for the screen. Samurai is a lead survivor that provides double power in the Martial Arts Academy.",
+        "LocalizedString": "After years of training in the ancient arts of the samurai, Tofune considered becoming an actor. That thought didn't last long, because he was considered too authentic and scary for the screen. Samurai is a lead survivor that provides double power in the Martial Arts Academy."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "42AFAC85438716E25862B298AD0B1A7D",
+        "SourceString": "Manager Chief Martial Artist",
+        "LocalizedString": "Manager Chief Martial Artist"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsMartialArtist"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-WorkerUnique-Headshot-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-WorkerUnique-Headshot-M.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

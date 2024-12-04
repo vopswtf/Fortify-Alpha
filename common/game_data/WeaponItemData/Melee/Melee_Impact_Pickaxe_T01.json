@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Impact_Pickaxe_T01",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Impact/B_Melee_Impact_Stick.B_Melee_Impact_Stick_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Plank'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_Plank.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Impact_Pickaxe_T01"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_ImpactDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_ImpactDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Impact/GAB_Melee_ImpactCombo.GAB_Melee_ImpactCombo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Impact/GAB_Melee_ImpactHeavyAttack.GAB_Melee_ImpactHeavyAttack_C",
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bTakesUpSpaceInBackpack": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bCanBeDropped": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_Plank.SK_Plank",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Collect_Loot.Collect_Loot",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "ItemType": "EFortItemType::WeaponHarvest",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0CA6ECA344DAB7F0280659983D8AEF89",
+        "SourceString": "Dubious Quality Weapon",
+        "LocalizedString": "Dubious Quality Weapon"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E4409B564CCA215B6F4D8D8830B5F022",
+        "SourceString": "Stick (Harvesting Weapon). Deals minor damage against all types of targets.",
+        "LocalizedString": "Stick (Harvesting Weapon). Deals minor damage against all types of targets."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "1994D3B64B4A2DB95973539A22D9954E",
+        "SourceString": "Melee Plank Stick Branch",
+        "LocalizedString": "Melee Plank Stick Branch"
+      },
+      "GameplayTags": [
+        "HomeBaseProperties.Inventory.StartingWeapon.Indestructible1",
+        "Weapon.Melee.Impact.Pickaxe"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/IndestructibleWeaponAttributeTemplate.IndestructibleWeaponAttributeTemplate",
+      "FilterOverride": "EFortInventoryFilter::Invisible",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Plank'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Plank.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::I",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

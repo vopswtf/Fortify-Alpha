@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ingredient_Duct_Tape",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Twine'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Twine.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Powder'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Powder.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Resin'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Resin.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortIngredientItemDefinition'Ingredient_Duct_Tape'",
+        "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Duct_Tape.0"
+      },
+      "CraftingPoints": 65,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "716414BA49B29C80F7AD19BD94CBB02B",
+        "SourceString": "Schematic: Duct Tape",
+        "LocalizedString": "Schematic: Duct Tape"
+      },
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Ingredient_Duct_Tape'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Ingredients/Ingredient_Duct_Tape.0"
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

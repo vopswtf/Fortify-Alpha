@@ -1,0 +1,317 @@
+[
+  {
+    "Type": "FortHeroType",
+    "Name": "Class_Ninja",
+    "Class": "UScriptClass'FortHeroType'",
+    "Properties": {
+      "Outfits_Naked": [
+        "MPR_SK_S_MALE_Base"
+      ],
+      "Outfits_Male": [
+        "M_Sml_Ninja_04"
+      ],
+      "IdleAnimation_Male": {
+        "ObjectName": "AnimMontage'Ninja_selection_menu_Male'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Ninja_selection_menu_Male.0"
+      },
+      "PrimaryTrait": {
+        "ObjectName": "FortTrait'Trait_Primary_Empty'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Traits/Trait_Primary_Empty.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Ninja_WayOfTheStar'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Ninja/Traits/WayOfTheStar/Trait_Ninja_WayOfTheStar.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Ninja_WayOfTheDragon'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Ninja/Traits/WayOfTheDragon/Trait_Ninja_WayOfTheDragon.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Ninja_WayOfTheSmoke'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Ninja/Traits/WayOfTheSmoke/Trait_Ninja_WayOfTheSmoke.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Ninja_WayOfTheShadow'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Ninja/Traits/WayOfTheShadow/Trait_Ninja_WayOfTheShadow.0"
+      },
+      "DefaultSpecialization": {
+        "ObjectName": "FortHeroSpecialization'HS_Ninja_Default'",
+        "ObjectPath": "FortniteGame/Content/Heroes/Specializations/Ninja/HS_Ninja_Default.0"
+      },
+      "AbilityKits": [
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T01'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T01.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier0"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T02'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T02.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier1"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T03'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T03.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier2"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T04'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T04.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier3"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T05'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T05.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier4"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T06'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T06.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier5"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T07'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T07.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier6"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T08'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T08.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier7"
+          ],
+          "bShowInAbilityScreen": true
+        }
+      ],
+      "CombinedStatGEs": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Ninja_Offense_AllWeaponDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Ninja/MappedEffects/GE_Map_Ninja_Offense_AllWeaponDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Ninja_Prowess_TrapDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Ninja/MappedEffects/GE_Map_Ninja_Prowess_TrapDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Ninja_Vitality_Health_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Ninja/MappedEffects/GE_Map_Ninja_Vitality_Health.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Ninja_Defense_ShieldStrength_ShieldRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Ninja/MappedEffects/GE_Map_Ninja_Defense_ShieldStrength_ShieldRegen.0"
+          },
+          "Level": 0.0
+        }
+      ],
+      "CombinedStatSourceGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_SharedStats_C'",
+        "ObjectPath": "FortniteGame/Content/Heroes/GE_SharedStats.0"
+      },
+      "RequiredGPTags": [
+        "Unlocks.Class.Ninja"
+      ],
+      "MaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Ninja_Male_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Ninja_Male_Feedback.0"
+      },
+      "FemaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Ninja_Female_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Ninja_Female_Feedback.0"
+      },
+      "OverridePawnClass": "/Game/Abilities/Player/Pawns/PlayerPawn_Ninja.PlayerPawn_Ninja_C",
+      "IconBrushSmall": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Ninja-S'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-S.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Ninja-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-XL.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Ninja-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Ninja-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-Headshot-F.0"
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "77A327214A3E66971E59B88F88B47FC3",
+        "SourceString": "Ninja",
+        "LocalizedString": "Ninja"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AD99E67B4B33944D64F440BC09D72B3F",
+        "SourceString": "An Edged Weapon master who excels at mobility and sustained combat. ",
+        "LocalizedString": "An Edged Weapon master who excels at mobility and sustained combat. "
+      },
+      "GameplayTags": [
+        "Homebase.Class.IsNinja"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Ninja-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Ninja-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Ninja-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Ninja-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Ninja-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Ninja-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Ninja-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Ninja/Icon-Class-Ninja-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

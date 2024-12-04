@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "FortTokenType",
+    "Name": "CTF_Dom_Key",
+    "Class": "UScriptClass'FortTokenType'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A4D559B140810321699BE0B8DD6309CB",
+        "SourceString": "CTF and Domination Key Item",
+        "LocalizedString": "CTF and Domination Key Item"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "16A0C20E46D239CCDCCF45A485B70A12",
+        "SourceString": "Allows you to access the CTF and Domination theater pin",
+        "LocalizedString": "Allows you to access the CTF and Domination theater pin"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultTokenAttributeTemplate.DefaultTokenAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_CardPack_Upgrade_IconMask'",
+          "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Upgrade_IconMask.0"
+        }
+      },
+      "MaxStackSize": 1000,
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

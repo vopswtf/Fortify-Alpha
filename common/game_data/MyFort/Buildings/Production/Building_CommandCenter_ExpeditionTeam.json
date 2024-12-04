@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_CommandCenter_ExpeditionTeam",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.CommandCenter.ExpeditionTeam"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_ExpeditionTeam_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ExpeditionTeam_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ExpeditionTeam_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ExpeditionTeam_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ExpeditionTeam_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ExpeditionTeam_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ExpeditionTeam_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ExpeditionTeam_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ExpeditionTeam_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_ExpeditionTeam_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_ExpeditionTeam_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ExpeditionTeam'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ExpeditionTeam.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_CommandCenter_ExpeditionCenter_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_CommandCenter_ExpeditionCenter.1"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_ExpeditionTeam_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_ExpeditionTeam_Cue.0"
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "960A43D94295D8AFDAB1779EEC7A3F90",
+        "SourceString": "Expedition Team",
+        "LocalizedString": "Expedition Team"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0DF9D23C40536D3384E9CEBB45AEE6C8",
+        "SourceString": "Generates Building Parts.",
+        "LocalizedString": "Generates Building Parts."
+      }
+    }
+  }
+]

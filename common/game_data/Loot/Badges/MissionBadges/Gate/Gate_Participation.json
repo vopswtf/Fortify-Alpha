@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Gate_Participation",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A_Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A_Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "8C4506AD44950EA58212998F5D8B9764",
+        "SourceString": "It was a good effort, better luck next time.",
+        "LocalizedString": "It was a good effort, better luck next time."
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "2E532BB6450FB96E20A319B5A55B162E",
+        "SourceString": "The gate was not closed.",
+        "LocalizedString": "The gate was not closed."
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "GateBadge_Participation"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D8E81E5D45EEF99EA2928BAFBBDB1B66",
+        "SourceString": "Failed to Close the Gate!",
+        "LocalizedString": "Failed to Close the Gate!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2E0EB18544663A5A9A9931AFC5CDC9B1",
+        "SourceString": "The gate was not closed.",
+        "LocalizedString": "The gate was not closed."
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A.0"
+        }
+      }
+    }
+  }
+]

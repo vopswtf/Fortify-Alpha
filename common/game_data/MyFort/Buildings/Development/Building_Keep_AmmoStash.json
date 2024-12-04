@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Keep_AmmoStash",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Fortification",
+      "BuildingTag": [
+        "Homebase.Building.Keep.AmmoStash"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_AmmoStash_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepAmmoStash_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepAmmoStash_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepAmmoStash_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepAmmoStash_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepAmmoStash_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepAmmoStash_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepAmmoStash_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepAmmoStash_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepAmmoStash_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepAmmoStash_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Keep_1_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Keep_1.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_KeepManager_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CF94808B479814DBC3855B9DD777ADF8",
+        "SourceString": "Ammo Stash",
+        "LocalizedString": "Ammo Stash"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "271B36BF4482EE4F66EF6587517DB116",
+        "SourceString": "Gives Additional Ammo during Keep Defense",
+        "LocalizedString": "Gives Additional Ammo during Keep Defense"
+      }
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Gate_PlacedQuick",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T1__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T1__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "4536F8C8453BA9963C25C0A48E07D63C",
+        "SourceString": "You placed the Atlas before time expired!",
+        "LocalizedString": "You placed the Atlas before time expired!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "GateBadge_PlacedQuick"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "789EEAAD4A38D022D01AEC97EE40B675",
+        "SourceString": "Placed Atlas Quickly",
+        "LocalizedString": "Placed Atlas Quickly"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0B2F088744910FD46ED1C183B8AB4AAF",
+        "SourceString": "The Atlas was placed before time expired.",
+        "LocalizedString": "The Atlas was placed before time expired."
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T1_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T1_.0"
+        }
+      }
+    }
+  }
+]

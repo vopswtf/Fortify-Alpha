@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_511",
+    "Outer": "S_Loot_Metal_Iron",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "E6D3B0924F984E0EFA1A0D9AFA2CB1D3",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2539,
+        "SizeOnDisk": 2539,
+        "OffsetInFile": "0x32EF"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3752",
+    "Outer": "S_Loot_Metal_Iron",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3D3E"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Metal_Iron",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Metal_Iron'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Metal_Iron.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.458744,
+          "Y": -5.722046E-06,
+          "Z": 24.321177
+        },
+        "BoxExtent": {
+          "X": 17.73541,
+          "Y": 10.612102,
+          "Z": 20.898355
+        },
+        "SphereRadius": 20.898355
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Metal_Iron:BodySetup_511'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Iron.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Metal_Iron:NavCollision_3752'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Iron.1"
+    },
+    "LightingGuid": "93FAD85E-489AC60E-F939999B-4AC47E47",
+    "RenderData": null
+  }
+]

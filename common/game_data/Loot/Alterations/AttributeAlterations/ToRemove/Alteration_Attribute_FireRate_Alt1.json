@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_FireRate_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_FireRate_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_FireRate_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A69E38994F272EC194B20F83D5DC4D6E",
+        "SourceString": "High-speed Gears [Upgraded]",
+        "LocalizedString": "High-speed Gears [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "331A48EF4F5621A05C2ED1A092402412",
+        "SourceString": "+18% Fire Rate",
+        "LocalizedString": "+18% Fire Rate"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

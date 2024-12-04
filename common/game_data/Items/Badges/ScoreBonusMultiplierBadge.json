@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "ScoreBonusMultiplierBadge",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_CriticalMission"
+      },
+      "bSupportsQuickbarFocus": false,
+      "bShouldShowItemToast": false,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "PickupStaticMesh": "",
+      "PickupSound": "",
+      "Description": {
+        "Namespace": "",
+        "Key": "93BCACB54B28B5CC82F46B84F0F29E1A",
+        "SourceString": "The percent your score will increase.",
+        "LocalizedString": "The percent your score will increase."
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T0_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T0_.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Rewards-ScoreBonus'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Rewards/Icon-Rewards-ScoreBonus.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Rewards-ScoreBonus'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Rewards/Icon-Rewards-ScoreBonus.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Rewards-ScoreBonus'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Rewards/Icon-Rewards-ScoreBonus.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Rewards-ScoreBonus'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Rewards/Icon-Rewards-ScoreBonus.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Rewards-ScoreBonus'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Rewards/Icon-Rewards-ScoreBonus.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Rewards-ScoreBonus'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Rewards/Icon-Rewards-ScoreBonus.0"
+          }
+        }
+      }
+    }
+  }
+]

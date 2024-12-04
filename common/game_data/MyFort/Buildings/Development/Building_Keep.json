@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Keep",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.Keep"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Keep_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_Keep_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Keep_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_Keep_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Keep_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_Keep_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Keep_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_Keep_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Keep_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_Keep_5.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Keep_AmmoStash'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep_AmmoStash.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Keep_Armory'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep_Armory.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Keep_Workshop'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep_Workshop.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Keep_Storage'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep_Storage.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Keep_Medical'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep_Medical.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Keep_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Keep_0.63"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_KeepManager_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_KeepManager_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_KeepManager_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E61BFFE24D0904BC323AF59FE8A843C8",
+        "SourceString": "The Keep",
+        "LocalizedString": "The Keep"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "638D6AB9423FD307367810A648F9561C",
+        "SourceString": "Your Keep protects your Home Base from the enemy horde. Fortify your Keep, and prepare for the storm!",
+        "LocalizedString": "Your Keep protects your Home Base from the enemy horde. Fortify your Keep, and prepare for the storm!"
+      }
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "OutpostLeg3_Gold",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-B-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-B-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "FCA777BA488C37D5CF379AB755FAC00A",
+        "SourceString": "Outpost 2nd Amplifier Defended!",
+        "LocalizedString": "Outpost 2nd Amplifier Defended!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "663B71EF42153812209A0D9664D06276",
+        "SourceString": "Outpost 2nd Amplifier Defended!",
+        "LocalizedString": "Outpost 2nd Amplifier Defended!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "OutpostBadge_High"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9A583A144C4FA79BE012B889C85F810C",
+        "SourceString": "Outpost 2nd Amplifier Defended!",
+        "LocalizedString": "Outpost 2nd Amplifier Defended!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F0E119C44DB057CE129E4B97B36B2F08",
+        "SourceString": "Outpost 2nd Amplifier Defended!",
+        "LocalizedString": "Outpost 2nd Amplifier Defended!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-B-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-B-_T2_.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "FortResourceItemDefinition",
+    "Name": "PermaniteItemData",
+    "Class": "UScriptClass'FortResourceItemDefinition'",
+    "Properties": {
+      "ResourceType": "EFortResourceType::Permanite",
+      "bBelongsInSharedInventory": true,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Environments/Prototype/Mountain/Meshes/Permanite_Crystal_Prototype.Permanite_Crystal_Prototype",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3D05B6FE4B6C4E596A7158B21A6E1697",
+        "SourceString": "Permanite",
+        "LocalizedString": "Permanite"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "74B27EE34B69E322814DDA842424944B",
+        "SourceString": "Permanent resource used to build core of the Keep",
+        "LocalizedString": "Permanent resource used to build core of the Keep"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "7DF7AE544E5318533F35128CBD54B87C",
+        "SourceString": "Permanite",
+        "LocalizedString": "Permanite"
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Permanite'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_PlaceholderIcons/Icon_Permanite.0"
+        }
+      }
+    }
+  }
+]

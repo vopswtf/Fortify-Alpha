@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Manor",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.Manor"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Manor_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Manor_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Manor_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Manor_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Manor_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Manor/GE_Homebase_Static_Manor_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Manor_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Manor/GE_Homebase_Static_Manor_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Manor_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Manor/GE_Homebase_Static_Manor_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Manor_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Manor/GE_Homebase_Static_Manor_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Manor_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Manor/GE_Homebase_Static_Manor_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Manor_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Manor_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_KeepManager_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_KeepManager_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_KeepManager_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "63E1DC414E5FC22DEB36659AA576F352",
+        "SourceString": "The Manor",
+        "LocalizedString": "The Manor"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5B3A176949B8AD0147DE72B214F9F047",
+        "SourceString": "Your Manor",
+        "LocalizedString": "Your Manor"
+      }
+    }
+  }
+]

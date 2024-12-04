@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_EnergyRegeneration_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_EnergyRegeneration_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_EnergyRegeneration_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "683345D7426BDC52BE39C49F8D08A0EF",
+        "SourceString": "Energy Regeneration [Prime]",
+        "LocalizedString": "Energy Regeneration [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0C370B6046366AEFBE7DF58CC759CCE3",
+        "SourceString": "+1.27 Energy Regeneration",
+        "LocalizedString": "+1.27 Energy Regeneration"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

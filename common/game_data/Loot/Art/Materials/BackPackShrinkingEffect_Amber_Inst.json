@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "BackPackShrinkingEffect_Amber_Inst",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect_Amber'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect_Amber.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ParentLightingGuid": "F3112C69-44929F91-0419D783-83991CDA",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "Amount of color transition texture tiling",
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "F9F9433D-49F55D3D-CCA91AA4-49EB814D"
+        },
+        {
+          "ParameterName": "Amount of Distortion Map Tiling",
+          "ParameterValue": 2.5,
+          "ExpressionGUID": "04767153-46B22047-454F8B9F-F6F48CE2"
+        },
+        {
+          "ParameterName": "Bump offset",
+          "ParameterValue": -0.2,
+          "ExpressionGUID": "4EC1FDD4-4C09BA04-8C515585-EE8EDDF5"
+        },
+        {
+          "ParameterName": "Roughness",
+          "ParameterValue": 0.3,
+          "ExpressionGUID": "91206738-4FAB2A59-FDC97882-15212D0D"
+        },
+        {
+          "ParameterName": "Spec Value",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "EB522084-455B37FD-8E76CBBB-2D40FFEF"
+        },
+        {
+          "ParameterName": "Specular Desaturation Amount",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "7ADC849C-40C5FB83-9E8CF78C-439D81B2"
+        },
+        {
+          "ParameterName": "SSS Desaturation",
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "5CC7B7CD-41424BB5-80A652A7-B0683E19"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "ColorTransitionImage",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Noise02'",
+            "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/Textures/T_Noise02.0"
+          },
+          "ExpressionGUID": "837236E4-457252E8-08216EA1-802D6AB2"
+        },
+        {
+          "ParameterName": "DistortionNormal",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'CloudImageNormals'",
+            "ObjectPath": "FortniteGame/Content/Characters/Enemies/Husk/Textures/CloudImageNormals.0"
+          },
+          "ExpressionGUID": "6FEB9DEE-4C155817-C216FCA1-9728B262"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "Res Col 1",
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.951236,
+            "B": 0.166667,
+            "A": 1.0,
+            "Hex": "FFFFFA71"
+          },
+          "ExpressionGUID": "BD2A7E6C-45240789-33EDEF98-4DD13140"
+        },
+        {
+          "ParameterName": "Res Col 2",
+          "ParameterValue": {
+            "R": 0.831858,
+            "G": 0.407324,
+            "B": 0.174506,
+            "A": 1.0,
+            "Hex": "FFECAB74"
+          },
+          "ExpressionGUID": "29DFF7C5-498ECE73-1ED7FCA5-0CB51076"
+        },
+        {
+          "ParameterName": "SSS Color Multiplier",
+          "ParameterValue": {
+            "R": 3.0,
+            "G": 3.0,
+            "B": 3.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ExpressionGUID": "A892399C-4241C063-1EDFC59D-2F1D0BBC"
+        },
+        {
+          "ParameterName": "WorldPostionOfBlackHole",
+          "ParameterValue": {
+            "R": -30000.0,
+            "G": 25536.0,
+            "B": 1952.0,
+            "A": 0.0,
+            "Hex": "00FFFF"
+          },
+          "ExpressionGUID": "4052ED4F-4DF0BC25-9AFBECB4-6FF8515C"
+        }
+      ]
+    }
+  }
+]

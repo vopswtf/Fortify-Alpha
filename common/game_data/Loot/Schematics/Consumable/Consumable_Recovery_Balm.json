@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_Balm",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Herbs'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Herbs.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Flowers'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Flowers.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Recovery_Balm'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Balm.0"
+      },
+      "CraftingPoints": 15,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "EC9A3E444AF6BBF0A1F5AABD77C2F10A",
+        "SourceString": "Schematic: Healing: Balm",
+        "LocalizedString": "Schematic: Healing: Balm"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Crafting_Balm'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Crafting_Balm.0"
+        }
+      }
+    }
+  }
+]

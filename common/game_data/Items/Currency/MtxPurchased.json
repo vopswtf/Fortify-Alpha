@@ -1,0 +1,7 @@
+[
+  {
+    "Type": "FortCurrencyItemDefinition",
+    "Name": "MtxPurchased",
+    "Class": "UScriptClass'FortCurrencyItemDefinition'"
+  }
+]

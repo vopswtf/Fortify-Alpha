@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "WannaGun",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Script/FortniteGame.FortWeap_WannaGun",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Rifle_Auto'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Mesh/SK_Rifle_Auto.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_Standard_T01"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsMedium'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsMedium.0"
+      },
+      "bTakesUpSpaceInBackpack": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bCanBeDropped": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Rifles/Mesh/SK_Rifle_Auto.SK_Rifle_Auto",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A2E4D3DF489AAD9F00E6DA9A312C061D",
+        "SourceString": "Wanna Gun",
+        "LocalizedString": "Wanna Gun"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E6EA654D480D0D3F80B21FB00D3B30F6",
+        "SourceString": "You really wanna this gun.",
+        "LocalizedString": "You really wanna this gun."
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "bNeverPersisted": true,
+      "bAllowMultipleStacks": false,
+      "bCalculateRarityFromQualityAndTier": true,
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

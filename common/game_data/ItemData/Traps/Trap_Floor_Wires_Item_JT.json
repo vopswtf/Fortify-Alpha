@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Floor_Wires_Item_JT",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Floor_Wires_JT_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Floor_Wires_JT.397"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Floor'EMP_Floor_Floor'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Floor/EMP_Floor_Floor.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Floor_Spikes_T02"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Spike_Trap/Spike_Trap_Pickup.Spike_Trap_Pickup",
+      "DisassemblyLootTierKey": "Disassemble_Traps_01",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5F3EBD9D4DAF392956F13DAB07A06AF0",
+        "SourceString": "Floor Trap: Wires",
+        "LocalizedString": "Floor Trap: Wires"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "62363833409F52E088648FB4B6CBEC33",
+        "SourceString": "Can be placed on a flat floor piece.",
+        "LocalizedString": "Can be placed on a flat floor piece."
+      },
+      "GameplayTags": [
+        "trap.Floor"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_ConnectorIcon_NotConnected'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_ConnectorIcon_NotConnected.0"
+        }
+      },
+      "MaxStackSize": 20
+    }
+  }
+]

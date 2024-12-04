@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_FiringRange",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_FiringRange'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_FiringRange.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.FiringRange"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:FiringRange_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:FiringRange_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:FiringRange_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:FiringRange_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_FiringRange_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_Static_FiringRange_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_FiringRange_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/FiringRange/GE_Homebase_FiringRange_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_AirStrike'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/AirStrike/Kit_AirStrike.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_FiringRange_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_FiringRange_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_FiringRange_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_FiringRange_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_FiringRange_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_FiringRange_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_FiringRange_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_FiringRange_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_FiringRange_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_FiringRange_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_FiringRange'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_FiringRange.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_Airstrike_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_Airstrike_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_FiringRange_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_FiringRange_0.1"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_FiringRange_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_FiringRange_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_FiringRange_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_FiringRange_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_FiringRange_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_FiringRange_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "71943EDA4A3B211536548DBF716AA23E",
+        "SourceString": "Firing Range",
+        "LocalizedString": "Firing Range"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CB1B02F546D8CFB7CFD8118E14B3FDFE",
+        "SourceString": "Improve ranged weapon damage, and increase ranged weapon crit chance. Unlocks the Air Strike gadget.",
+        "LocalizedString": "Improve ranged weapon damage, and increase ranged weapon crit chance. Unlocks the Air Strike gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_FiringRange'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_FiringRange.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-FiringRange-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-FiringRange-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-FiringRange-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-FiringRange-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

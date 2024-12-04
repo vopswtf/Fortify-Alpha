@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_7",
+    "Outer": "S_Planks_Loot",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "77ACF46747193E12F6DE3F9909E8A77F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 8937,
+        "SizeOnDisk": 8937,
+        "OffsetInFile": "0xAE31"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_19",
+    "Outer": "S_Planks_Loot",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xD17E"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Planks_Loot",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PlanksLoot'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_PlanksLoot.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.1360855,
+          "Y": 2.055027,
+          "Z": 5.648062
+        },
+        "BoxExtent": {
+          "X": 45.89421,
+          "Y": 5.6424704,
+          "Z": 20.80287
+        },
+        "SphereRadius": 45.89421
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Planks_Loot:RB_BodySetup_7'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Planks_Loot.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Planks_Loot:NavCollision_19'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Planks_Loot.1"
+    },
+    "LightingGuid": "D0E664DD-4108CB33-627318B3-69703502",
+    "RenderData": null
+  }
+]

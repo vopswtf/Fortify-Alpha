@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Trap_Incendiary",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Fire"
+          ]
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C80699A842EA66A261E6939F7BB86CFE",
+        "SourceString": "Incendiary Trap",
+        "LocalizedString": "Incendiary Trap"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "60EF335941C4ED1BB069ED8AE4A7BB6E",
+        "SourceString": "Changes damage type to Fire. Fire damage is more effective against Ice enemies, but less effective against Lightning Enemies.",
+        "LocalizedString": "Changes damage type to Fire. Fire damage is more effective against Ice enemies, but less effective against Lightning Enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

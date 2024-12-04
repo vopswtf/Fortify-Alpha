@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Trap_Floor_Health_T02",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 10,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Herbs'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Herbs.0"
+          },
+          "Count": 12,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Flowers'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Flowers.0"
+          },
+          "Count": 7,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortTrapItemDefinition'Trap_Floor_Health_T02'",
+        "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Trap_Floor_Health_T02.0"
+      },
+      "CraftingPoints": 75,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "NoScaling"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "2_Common"
+      },
+      "GameplayTags": [
+        "trap.floor"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "FilterOverride": "EFortInventoryFilter::Consumables",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Floor_Health'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_Floor_Health.0"
+        }
+      }
+    }
+  }
+]

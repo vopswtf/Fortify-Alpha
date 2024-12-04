@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Flowers",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_FlowerPetals_Loot.S_FlowerPetals_Loot",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Flowers_Collect_Cue.Flowers_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B719D9E0412FF6199413C6B53F175E4C",
+        "SourceString": "Flower Petals",
+        "LocalizedString": "Flower Petals"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5C3008D749D9685A5F4931BBCC83E0F6",
+        "SourceString": "Crafting ingredient. Used as a base for crafting healing items. Found in plants and bushes.",
+        "LocalizedString": "Crafting ingredient. Used as a base for crafting healing items. Found in plants and bushes."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "C491790E44F9FC7CC09353AAF3F28C27",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Ingredient_Flowers'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Ingredients/Ingredient_Flowers.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::I",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

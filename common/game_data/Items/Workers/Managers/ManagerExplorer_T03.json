@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerExplorer_T03",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.ExplorersGuild"
+      ],
+      "MatchingPersonalityBonus": 4,
+      "MismatchingPersonalityPenalty": 0,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Explorer-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Explorer-Headshot-F.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Explorer-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Explorer-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Explorer-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Explorer-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "6_Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "6_Uncommon"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "113C826A4A458783EC89CBBA07789227",
+        "SourceString": "Explorer [Expert]",
+        "LocalizedString": "Explorer [Expert]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2504BB23445C41978A3E0688EE56F7C4",
+        "SourceString": "A lead survivor that provides double power in the Explorer's Guild. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!",
+        "LocalizedString": "A lead survivor that provides double power in the Explorer's Guild. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "2144BADD479218B29B9684B7B097A5A3",
+        "SourceString": "Manager Chief Explorer",
+        "LocalizedString": "Manager Chief Explorer"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsExplorer"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Manager-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Manager-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-S.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

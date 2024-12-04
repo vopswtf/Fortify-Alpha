@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_CommandCenter_Farm",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.CommandCenter.Farm"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:CommandCenter_Farm_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_Farm_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_Farm_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_Farm_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_Farm_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_Farm_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_Farm_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_Farm_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_Farm_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_CommandCenter_Farm_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/CommandCenter/GE_Homebase_Static_CommandCenter_Farm_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Farm'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Farm.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_CommandCenter_Farm_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_CommandCenter_Farm.1"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_Farm_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_Farm_Cue.0"
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3C5AF4364C5BAD77453DCBB9FE928B93",
+        "SourceString": "Farm",
+        "LocalizedString": "Farm"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4B35700246BA1C50D2006D9344D14BCF",
+        "SourceString": "Generates Power.",
+        "LocalizedString": "Generates Power."
+      }
+    }
+  }
+]

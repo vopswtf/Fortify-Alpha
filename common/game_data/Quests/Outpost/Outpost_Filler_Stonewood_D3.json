@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Outpost_Filler_Stonewood_D3",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Quests/Outpost/OutpostQuest_T1_L4.OutpostQuest_T1_L4",
+          "Quantity": 1
+        },
+        {
+          "ItemDefinition": "/Game/Loot/PersistentResources/PowerItemData.PowerItemData",
+          "Quantity": 750
+        },
+        {
+          "ItemDefinition": "/Game/Loot/PersistentResources/ManufacturingPartsItemData.ManufacturingPartsItemData",
+          "Quantity": 750
+        },
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 40
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_pve01_diff3"
+          },
+          "AlternativeStatHandles": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'ObjectiveStatTable'",
+                "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+              },
+              "RowName": "complete_pve01_diff4"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'ObjectiveStatTable'",
+                "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+              },
+              "RowName": "complete_pve01_diff5"
+            }
+          ],
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "Count": 3,
+          "ScriptedAction": ""
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "World"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "93BA3782422E95E6B57F3296DFC13215",
+        "SourceString": "Homebase Resources",
+        "LocalizedString": "Home Base Resources"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "99BE8EF34B42B6C2F90CD589D8C03C17",
+        "SourceString": "Stonewood Campaign",
+        "LocalizedString": "Stonewood Campaign"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "57FE83E448107756B339EE862106DD71",
+        "SourceString": "Complete 3 Medium Threat (or higher) Missions in Stonewood",
+        "LocalizedString": "Complete 3 Medium Threat (or higher) Missions in Stonewood"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

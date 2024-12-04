@@ -1,0 +1,231 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WeaponDurabilityRarity",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortWeaponDurabilityByRarityStats'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "Handmade": 100,
+        "Ordinary": 130,
+        "Sturdy": 175,
+        "Quality": 200,
+        "Fine": 220,
+        "Elegant": 240,
+        "Masterwork": 260,
+        "Epic": 260,
+        "Badass": 260,
+        "Legendary": 260
+      },
+      "Default_Harvest": {
+        "Handmade": 125,
+        "Ordinary": 165,
+        "Sturdy": 220,
+        "Quality": 250,
+        "Fine": 275,
+        "Elegant": 300,
+        "Masterwork": 325,
+        "Epic": 325,
+        "Badass": 325,
+        "Legendary": 325
+      },
+      "Default_Melee": {
+        "Handmade": 125,
+        "Ordinary": 165,
+        "Sturdy": 220,
+        "Quality": 250,
+        "Fine": 275,
+        "Elegant": 300,
+        "Masterwork": 325,
+        "Epic": 325,
+        "Badass": 325,
+        "Legendary": 325
+      },
+      "Default_Melee_Uncommon": {
+        "Handmade": 150,
+        "Ordinary": 150,
+        "Sturdy": 200,
+        "Quality": 265,
+        "Fine": 300,
+        "Elegant": 330,
+        "Masterwork": 360,
+        "Epic": 390,
+        "Badass": 390,
+        "Legendary": 390
+      },
+      "Default_Melee_Rare": {
+        "Handmade": 150,
+        "Ordinary": 150,
+        "Sturdy": 150,
+        "Quality": 200,
+        "Fine": 265,
+        "Elegant": 300,
+        "Masterwork": 330,
+        "Epic": 360,
+        "Badass": 390,
+        "Legendary": 390
+      },
+      "Default_Ranged": {
+        "Handmade": 125,
+        "Ordinary": 165,
+        "Sturdy": 220,
+        "Quality": 250,
+        "Fine": 275,
+        "Elegant": 300,
+        "Masterwork": 325,
+        "Epic": 325,
+        "Badass": 325,
+        "Legendary": 325
+      },
+      "Default_Ranged_Uncommon": {
+        "Handmade": 150,
+        "Ordinary": 150,
+        "Sturdy": 200,
+        "Quality": 265,
+        "Fine": 300,
+        "Elegant": 330,
+        "Masterwork": 360,
+        "Epic": 390,
+        "Badass": 390,
+        "Legendary": 390
+      },
+      "Default_Ranged_Rare": {
+        "Handmade": 150,
+        "Ordinary": 150,
+        "Sturdy": 150,
+        "Quality": 200,
+        "Fine": 265,
+        "Elegant": 300,
+        "Masterwork": 330,
+        "Epic": 360,
+        "Badass": 390,
+        "Legendary": 390
+      },
+      "Ranged_NoAmmo_Explosive": {
+        "Handmade": 3,
+        "Ordinary": 4,
+        "Sturdy": 6,
+        "Quality": 9,
+        "Fine": 11,
+        "Elegant": 13,
+        "Masterwork": 14,
+        "Epic": 14,
+        "Badass": 14,
+        "Legendary": 14
+      },
+      "Ranged_NoAmmo_Explosive_High": {
+        "Handmade": 5,
+        "Ordinary": 8,
+        "Sturdy": 13,
+        "Quality": 18,
+        "Fine": 23,
+        "Elegant": 25,
+        "Masterwork": 28,
+        "Epic": 28,
+        "Badass": 28,
+        "Legendary": 28
+      },
+      "TrapDurability_VeryLow": {
+        "Handmade": 2,
+        "Ordinary": 3,
+        "Sturdy": 3,
+        "Quality": 4,
+        "Fine": 4,
+        "Elegant": 5,
+        "Masterwork": 5,
+        "Epic": 5,
+        "Badass": 5,
+        "Legendary": 5
+      },
+      "TrapDurability_Low": {
+        "Handmade": 16,
+        "Ordinary": 20,
+        "Sturdy": 24,
+        "Quality": 28,
+        "Fine": 32,
+        "Elegant": 36,
+        "Masterwork": 40,
+        "Epic": 40,
+        "Badass": 40,
+        "Legendary": 40
+      },
+      "TrapDurability_Medium": {
+        "Handmade": 24,
+        "Ordinary": 30,
+        "Sturdy": 36,
+        "Quality": 42,
+        "Fine": 48,
+        "Elegant": 54,
+        "Masterwork": 60,
+        "Epic": 60,
+        "Badass": 60,
+        "Legendary": 60
+      },
+      "TrapDurability_High": {
+        "Handmade": 30,
+        "Ordinary": 38,
+        "Sturdy": 45,
+        "Quality": 53,
+        "Fine": 60,
+        "Elegant": 68,
+        "Masterwork": 75,
+        "Epic": 75,
+        "Badass": 75,
+        "Legendary": 75
+      },
+      "TrapDurability_VeryHigh": {
+        "Handmade": 40,
+        "Ordinary": 50,
+        "Sturdy": 60,
+        "Quality": 70,
+        "Fine": 80,
+        "Elegant": 90,
+        "Masterwork": 100,
+        "Epic": 100,
+        "Badass": 100,
+        "Legendary": 100
+      },
+      "TrapDurability_Infinite": {
+        "Handmade": 99999,
+        "Ordinary": 99999,
+        "Sturdy": 99999,
+        "Quality": 99999,
+        "Fine": 99999,
+        "Elegant": 99999,
+        "Masterwork": 99999,
+        "Epic": 99999,
+        "Badass": 99999,
+        "Legendary": 99999
+      },
+      "TrapDurability_UltraHigh": {
+        "Handmade": 500,
+        "Ordinary": 625,
+        "Sturdy": 750,
+        "Quality": 875,
+        "Fine": 1000,
+        "Elegant": 1125,
+        "Masterwork": 1250,
+        "Epic": 1250,
+        "Badass": 1250,
+        "Legendary": 1250
+      },
+      "TrapDurability_Health": {
+        "Handmade": 5,
+        "Ordinary": 5,
+        "Sturdy": 6,
+        "Quality": 7,
+        "Fine": 8,
+        "Elegant": 9,
+        "Masterwork": 10,
+        "Epic": 10,
+        "Badass": 10,
+        "Legendary": 10
+      }
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "PowerTheReactor_Victory",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T2__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T2__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "59A477394BA0527C48E5D3BBE40A0278",
+        "SourceString": "You successfully powered the Reactor!",
+        "LocalizedString": "You successfully powered the Reactor!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_PTR_Victory"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "04ED91944EFAB3745060C497DB00FFDA",
+        "SourceString": "Reactor Successfully Powered!",
+        "LocalizedString": "Reactor Successfully Powered!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4117B6F142F0F31DC74F4CAB8164DB38",
+        "SourceString": "You successfully Powered the Reactor",
+        "LocalizedString": "You successfully Powered the Reactor"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T2_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T2_.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "FortPersistentResourceItemDefinition",
+    "Name": "ManufacturingPartsItemData",
+    "Class": "UScriptClass'FortPersistentResourceItemDefinition'",
+    "Properties": {
+      "PersistentResourceType": "EFortPersistentResources::ManufacturingParts",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6BF5A35544F5ED51281F9FA17625915D",
+        "SourceString": "Building Parts",
+        "LocalizedString": "Building Parts"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FE79C5474B7538DA882D3B9EDDFEEFB2",
+        "SourceString": "Used to expand your Home Base. Complete missions to earn more.",
+        "LocalizedString": "Used to expand your Home Base. Complete missions to earn more."
+      },
+      "GameplayTags": [
+        "supplies.homebase.manufacturing"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-HB-Industrial-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Industrial-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Industrial-XL.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

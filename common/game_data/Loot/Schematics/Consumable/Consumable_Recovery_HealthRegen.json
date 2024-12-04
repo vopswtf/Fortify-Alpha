@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_HealthRegen",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomRed'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomRed.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Recovery_Balm'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Balm.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Honey'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Honey.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Recovery_HealthRegen'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_HealthRegen.0"
+      },
+      "CraftingPoints": 30,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AB66C673439944E012111ABFEACC9517",
+        "SourceString": "Schematic: Mending Potion",
+        "LocalizedString": "Schematic: Mending Potion"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Red'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Red.0"
+        }
+      }
+    }
+  }
+]

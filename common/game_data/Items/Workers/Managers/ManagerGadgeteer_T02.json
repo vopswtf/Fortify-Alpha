@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "ManagerGadgeteer_T02",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "bIsManager": true,
+      "BuildingSynergyTag": [
+        "Homebase.Building.GadgetWorkshop"
+      ],
+      "MatchingPersonalityBonus": 3,
+      "MismatchingPersonalityPenalty": 0,
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Gadgeteer-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Gadgeteer-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Gadgeteer-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Gadgeteer-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Gadgeteer-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Gadgeteer-Headshot-F.0"
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "4_Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "4_Uncommon"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AC2510534E53514BE9A000B0D1357E72",
+        "SourceString": "Gadgeteer [Skilled]",
+        "LocalizedString": "Gadgeteer [Skilled]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AA3993654A984C017B4D61B239E633B5",
+        "SourceString": "A lead survivor that provides double power in the Trap Workshop. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!",
+        "LocalizedString": "A lead survivor that provides double power in the Trap Workshop. Assign in a building with survivors of the same personality to increase the power they provide to your Home Base!"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "31E93AA141C39906984CB6BB075DD006",
+        "SourceString": "Manager Chief Gadgeteer",
+        "LocalizedString": "Manager Chief Gadgeteer"
+      },
+      "GameplayTags": [
+        "Homebase.Manager.IsGadgeteer"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Gadgeteer-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Gadgeteer-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-S.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

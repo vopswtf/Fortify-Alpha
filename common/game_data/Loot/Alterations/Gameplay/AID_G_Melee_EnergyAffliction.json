@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Melee_EnergyAffliction",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Physical.Energy"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Melee_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Melee_Affliction.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CCB9AC2E4802657A9BE5618E58B96F31",
+        "SourceString": "Afflicting Energy Strike",
+        "LocalizedString": "Afflicting Energy Strike"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E1A6934D4B494668C1D1BF9688E25AF9",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Energy, which is only reduced by half vs Elemental enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Energy, which is only reduced by half vs Elemental enemies. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target."
+      },
+      "IconBrush": {}
+    }
+  }
+]

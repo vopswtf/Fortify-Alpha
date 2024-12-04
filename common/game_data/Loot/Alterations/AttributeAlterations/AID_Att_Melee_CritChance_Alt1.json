@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Melee_CritChance_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CritChance_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CritChance_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B0C93D4F4D223C89F4B37AA0E35020B3",
+        "SourceString": "Precise [Upgraded]",
+        "LocalizedString": "Precise [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "AE1A435D482ABA392C2C30A7999879F6",
+        "SourceString": "+12% Crit Chance",
+        "LocalizedString": "+12% Crit Chance"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

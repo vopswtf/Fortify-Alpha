@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_21",
+    "Outer": "S_Loot_Potion_Orange",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "415C193F4BA2DA3F6E26E3835B092180",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21725,
+        "SizeOnDisk": 21725,
+        "OffsetInFile": "0x140DF"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_50",
+    "Outer": "S_Loot_Potion_Orange",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x19604"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Potion_Orange",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Postions_Crafted_S_Loot_Potion_Orange_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Materials/MI_FORT_Postions_Crafted_S_Loot_Potion_Orange_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 9.536743E-07,
+          "Z": 8.316284
+        },
+        "BoxExtent": {
+          "X": 15.331017,
+          "Y": 15.091328,
+          "Z": 24.466438
+        },
+        "SphereRadius": 24.466438
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Potion_Orange:BodySetup_21'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Orange.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Potion_Orange:NavCollision_50'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Orange.1"
+    },
+    "LightingGuid": "163B6636-4544E45E-FC023986-4517E4BD",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Keep_Workshop",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Production",
+      "BuildingTag": [
+        "Homebase.Building.Keep.Workshop"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Keep_Workshop_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepWorkshop_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepWorkshop_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepWorkshop_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepWorkshop_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepWorkshop_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepWorkshop_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepWorkshop_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepWorkshop_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_KeepWorkshop_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Keep/GE_Homebase_Static_KeepWorkshop_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Keep'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Keep.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Keep_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Keep_3.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_KeepManager_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_KeepManager_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B8637F634E41034FBF17FFB8E01A5F2C",
+        "SourceString": "Keep Workshop",
+        "LocalizedString": "Keep Workshop"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "DD0DD4644A388C053492A89F81CB5F93",
+        "SourceString": "Gives Additional Traps for the Keep",
+        "LocalizedString": "Gives Additional Traps for the Keep"
+      }
+    }
+  }
+]

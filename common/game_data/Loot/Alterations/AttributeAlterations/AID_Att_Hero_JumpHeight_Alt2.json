@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_JumpHeight_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_JumpHeight_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_JumpHeight_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "4CF33AA74AC1895A6E5B38B51B395FE8",
+        "SourceString": "Jump Height [Prime]",
+        "LocalizedString": "Jump Height [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "82F2650747D654E1C628A38E60856CEB",
+        "SourceString": "+45% Jump Height",
+        "LocalizedString": "+45% Jump Height"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

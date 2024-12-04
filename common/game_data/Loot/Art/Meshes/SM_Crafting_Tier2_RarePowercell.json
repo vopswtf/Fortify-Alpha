@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_7",
+    "Outer": "SM_Crafting_Tier2_RarePowercell",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "E7AC059C44F92AFA95D3559032C171CA",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 105970,
+        "SizeOnDisk": 105970,
+        "OffsetInFile": "0x5759A"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_61",
+    "Outer": "SM_Crafting_Tier2_RarePowercell",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x713F0"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Crafting_Tier2_RarePowercell",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CraftingIngredients_Tier2'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_CraftingIngredients_Tier2.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.1437912,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 21.088726,
+          "Y": 19.705303,
+          "Z": 28.469133
+        },
+        "SphereRadius": 28.469133
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Crafting_Tier2_RarePowercell:RB_BodySetup_7'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier2_RarePowercell.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Crafting_Tier2_RarePowercell:NavCollision_61'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier2_RarePowercell.1"
+    },
+    "LightingGuid": "3CD57D20-4F92A66D-CEFFEBAC-D7CE5F1B",
+    "RenderData": null
+  }
+]

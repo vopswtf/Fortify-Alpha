@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_1",
+    "Outer": "SM_Crafting_Tier1_MechParts",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "378C486C43678FFDE35A17A26CA72547",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 67587,
+        "SizeOnDisk": 67587,
+        "OffsetInFile": "0x3911B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_53",
+    "Outer": "SM_Crafting_Tier1_MechParts",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x49982"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Crafting_Tier1_MechParts",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CraftingIngredients_Tier1'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_CraftingIngredients_Tier1.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.07140541,
+          "Y": -0.6754589,
+          "Z": -0.96139336
+        },
+        "BoxExtent": {
+          "X": 20.423191,
+          "Y": 14.551879,
+          "Z": 20.426165
+        },
+        "SphereRadius": 20.426165
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Crafting_Tier1_MechParts:RB_BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier1_MechParts.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Crafting_Tier1_MechParts:NavCollision_53'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/SM_Crafting_Tier1_MechParts.1"
+    },
+    "LightingGuid": "3199432A-492F9AC6-E475F994-2BE4B0D7",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "OutpostLeg6_Gold",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T3__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T3__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "EEDF2E944008A1A3D576FD9B77500BD1",
+        "SourceString": "Outpost 5th Amplifier Defended!",
+        "LocalizedString": "Outpost 5th Amplifier Defended!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "0642797B4E701A4D41D6A0945A8B598B",
+        "SourceString": "Outpost 5th Amplifier Defended!",
+        "LocalizedString": "Outpost 5th Amplifier Defended!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "OutpostBadge_VeryHigh"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "265CC74749357B2C99260595379DDC53",
+        "SourceString": "Outpost 5th Amplifier Defended!",
+        "LocalizedString": "Outpost 5th Amplifier Defended!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "4DCB95D3438EFFA9A1ED529BC3C65D20",
+        "SourceString": "Outpost 5th Amplifier Defended!",
+        "LocalizedString": "Outpost 5th Amplifier Defended!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T3_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T3_.0"
+        }
+      }
+    }
+  }
+]

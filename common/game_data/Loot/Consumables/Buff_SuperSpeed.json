@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Buff_SuperSpeed",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_SuperSpeed_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_SuperSpeed.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SystemGlobalCurves'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/SystemGlobalCurves.0"
+              },
+              "RowName": "Curves.Linear"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 1.0,
+      "bRequiresMissingHealth": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "PickupStaticMesh": "/Game/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Green.S_Loot_Potion_Green",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A0B6E7FA4840E12201B2D29BF9CE4515",
+        "SourceString": "Zoom Juice",
+        "LocalizedString": "Zoom Juice"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "856A0F844E6E84760A4EB3920FB37E1C",
+        "SourceString": "Makes you move absurdly fast and jump ridiculously high for 6 seconds. The dizzying effect leaves you completely ineffective with weapons and 50% more susceptible to damage for the duration.",
+        "LocalizedString": "Makes you move absurdly fast and jump ridiculously high for 6 seconds. The dizzying effect leaves you completely ineffective with weapons and 50% more susceptible to damage for the duration."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "3AA4374341F795E9B15DB5B0F107E8BA",
+        "SourceString": "Consumable energy speed",
+        "LocalizedString": "Consumable energy speed"
+      },
+      "GameplayTags": [
+        "supplies.consumable.buff"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultBuffAttributeTemplate.DefaultBuffAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Green'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Green.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

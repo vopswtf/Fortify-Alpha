@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_21",
+    "Outer": "S_MineralPowder",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "38F92B99465107105277EBBD678948A0",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 9829,
+        "SizeOnDisk": 9829,
+        "OffsetInFile": "0x9FDD"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_121",
+    "Outer": "S_MineralPowder",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xC6A6"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_MineralPowder",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MineralPowder'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_MineralPowder.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.2754612,
+          "Y": -0.35793114,
+          "Z": 5.2851286
+        },
+        "BoxExtent": {
+          "X": 19.287537,
+          "Y": 18.908943,
+          "Z": 7.867819
+        },
+        "SphereRadius": 19.287537
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_MineralPowder:RB_BodySetup_21'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_MineralPowder.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_MineralPowder:NavCollision_121'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_MineralPowder.1"
+    },
+    "LightingGuid": "9C64ED4C-4E422C12-F65419AC-F58B4687",
+    "RenderData": null
+  }
+]

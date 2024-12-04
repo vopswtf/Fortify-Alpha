@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_26",
+    "Outer": "S_Mushroom05_Loot",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "D8DE8F2A41039E9FA90B2C8B48E37C1C",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 6893,
+        "SizeOnDisk": 6893,
+        "OffsetInFile": "0x7125"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_74",
+    "Outer": "S_Mushroom05_Loot",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x8C76"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Mushroom05_Loot",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MushroomsSet01'",
+          "ObjectPath": "FortniteGame/Content/Environments/Props/Foliage/Materials/MI_MushroomsSet01.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.09030056,
+          "Y": -1.1206093,
+          "Z": 8.289537
+        },
+        "BoxExtent": {
+          "X": 8.779863,
+          "Y": 8.124212,
+          "Z": 14.897142
+        },
+        "SphereRadius": 14.897142
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Mushroom05_Loot:RB_BodySetup_26'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Mushroom05_Loot.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Mushroom05_Loot:NavCollision_74'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Mushroom05_Loot.1"
+    },
+    "LightingGuid": "1982CE5A-4999FCF3-62E8EDB7-625DCAFD",
+    "RenderData": null
+  }
+]

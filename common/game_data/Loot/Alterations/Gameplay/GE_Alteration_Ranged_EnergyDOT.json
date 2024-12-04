@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Alteration_Ranged_EnergyDOT_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicEnergyDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicEnergyDamage.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicEnergyDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicEnergyDamage.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Alteration_Ranged_EnergyDOT_C'Default__GE_Alteration_Ranged_EnergyDOT_C'",
+      "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_EnergyDOT.1"
+    }
+  },
+  {
+    "Type": "GE_Alteration_Ranged_EnergyDOT_C",
+    "Name": "Default__GE_Alteration_Ranged_EnergyDOT_C",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Loot/Alterations/Gameplay/GE_Alteration_Ranged_EnergyDOT.GE_Alteration_Ranged_EnergyDOT_C'",
+    "Properties": {
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 6.0
+        }
+      },
+      "Period": {
+        "Value": 1.0
+      },
+      "bExecutePeriodicEffectOnApplication": false,
+      "InheritableGameplayEffectTags": {
+        "Added": []
+      },
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Gameplay.Status.Afflicted",
+          "Abilities.Alterations.OnCooldown.RangedAffliction"
+        ],
+        "Added": [
+          "Abilities.Alterations.OnCooldown.RangedAffliction"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Melee_IncendiaryAffliction",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Fire"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Melee_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Melee_Affliction.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5D9101BD462C0B401B97678627EBEE08",
+        "SourceString": "Afflicting Incendiary Strike",
+        "LocalizedString": "Afflicting Incendiary Strike"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0D5F86CA4DE35B9BEBE56AB9394F2FF8",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Fire, which is more effective vs Ice but less effective vs Lightning enemies.  Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Fire, which is more effective vs Ice but less effective vs Lightning enemies.  Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target."
+      },
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Ranged_ClipSize",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_ClipSize'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_ClipSize.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2A01CA7B40854340F283609FAE1D9D67",
+        "SourceString": "Extended Magazine",
+        "LocalizedString": "Extended Magazine"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C65554454125DCA26213899F99B0BE73",
+        "SourceString": "+22.5% Magazine Size",
+        "LocalizedString": "+22.5% Magazine Size"
+      },
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Outpost_Filler_Canny_D2",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Quests/Outpost/OutpostQuest_T3_L3.OutpostQuest_T3_L3",
+          "Quantity": 1
+        },
+        {
+          "ItemDefinition": "/Game/Loot/PersistentResources/PowerItemData.PowerItemData",
+          "Quantity": 1000
+        },
+        {
+          "ItemDefinition": "/Game/Loot/PersistentResources/ManufacturingPartsItemData.ManufacturingPartsItemData",
+          "Quantity": 1000
+        },
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 40
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_pve03_diff2"
+          },
+          "AlternativeStatHandles": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'ObjectiveStatTable'",
+                "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+              },
+              "RowName": "complete_pve03_diff3"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'ObjectiveStatTable'",
+                "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+              },
+              "RowName": "complete_pve03_diff4"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'ObjectiveStatTable'",
+                "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+              },
+              "RowName": "complete_pve03_diff5"
+            }
+          ],
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "Count": 7,
+          "ScriptedAction": ""
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "World"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "CFA8C9F34E66DFE6BD670CA6311AD171",
+        "SourceString": "Homebase Resources",
+        "LocalizedString": "Home Base Resources"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DD08D72A47C46AE9AB657FB7F4347C5E",
+        "SourceString": "Canny Valley Campaign",
+        "LocalizedString": "Canny Valley Campaign"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "EF48F69842F40E6AE7C6FB8BEA3D1863",
+        "SourceString": "Complete 7 Low Threat (or higher) Missions in Canny Valley",
+        "LocalizedString": "Complete 7 Low Threat (or higher) Missions in Canny Valley"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

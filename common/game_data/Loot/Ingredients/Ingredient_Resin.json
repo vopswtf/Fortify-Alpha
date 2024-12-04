@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Resin",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Resin.S_Resin",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/DuctTape/Sticky_Collect_Cue.Sticky_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9BE886494EC227BE3562768882DE1B2B",
+        "SourceString": "Resin",
+        "LocalizedString": "Resin"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "589F6ABD42F6049A258B6191727BD2A8",
+        "SourceString": "Crafting ingredient. Found by chopping down trees and searching bushes.",
+        "LocalizedString": "Crafting ingredient. Found by chopping down trees and searching bushes."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "77EB0CF04FEFF1EF67A0DFA9B22CF743",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Ingredient_Resin'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Ingredient_Resin.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::III",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Buff_MaxHealth",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomRed'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomRed.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomWhite'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomWhite.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Recovery_Balm'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Balm.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Buff_MaxHealth'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Buff_MaxHealth.0"
+      },
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "823F829F47C7E07AFB5E2C88737E8CDD",
+        "SourceString": "Schematic: Mushroom Smoothie",
+        "LocalizedString": "Schematic: Mushroom Smoothie"
+      },
+      "GameplayTags": [
+        "supplies.consumable.buff"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Orange'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Orange.0"
+        }
+      }
+    }
+  }
+]

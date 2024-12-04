@@ -1,0 +1,272 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_20",
+    "Outer": "S_Loot_Potion_Blue",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 15.331017,
+                "Y": 7.1639385,
+                "Z": -6.1468263
+              },
+              {
+                "X": 15.331017,
+                "Y": -7.0855103,
+                "Z": -6.146826
+              },
+              {
+                "X": 15.328125,
+                "Y": -7.0884037,
+                "Z": 22.765625
+              },
+              {
+                "X": 15.328125,
+                "Y": 7.166828,
+                "Z": 22.765625
+              },
+              {
+                "X": -15.331017,
+                "Y": -6.243929,
+                "Z": -8.724085
+              },
+              {
+                "X": -15.331017,
+                "Y": 5.394353,
+                "Z": -8.724085
+              },
+              {
+                "X": -15.331017,
+                "Y": 5.394354,
+                "Z": 23.139183
+              },
+              {
+                "X": -15.331017,
+                "Y": -6.243927,
+                "Z": 23.139185
+              },
+              {
+                "X": -5.63404,
+                "Y": 15.091328,
+                "Z": -7.255364
+              },
+              {
+                "X": 7.4036283,
+                "Y": 15.091328,
+                "Z": -7.2553635
+              },
+              {
+                "X": 7.4036283,
+                "Y": 15.091328,
+                "Z": 28.778187
+              },
+              {
+                "X": -5.6340437,
+                "Y": 15.091328,
+                "Z": 28.778187
+              },
+              {
+                "X": 7.325202,
+                "Y": -15.091327,
+                "Z": -8.104939
+              },
+              {
+                "X": -6.4836187,
+                "Y": -15.091327,
+                "Z": -8.1049385
+              },
+              {
+                "X": -6.4836187,
+                "Y": -15.091327,
+                "Z": 25.746979
+              },
+              {
+                "X": 7.325202,
+                "Y": -15.091327,
+                "Z": 25.746979
+              },
+              {
+                "X": -5.687478,
+                "Y": 11.086792,
+                "Z": 32.782722
+              },
+              {
+                "X": 5.297162,
+                "Y": 11.086793,
+                "Z": 32.782722
+              },
+              {
+                "X": 5.297165,
+                "Y": -8.055581,
+                "Z": 32.782722
+              },
+              {
+                "X": -5.687475,
+                "Y": -8.055582,
+                "Z": 32.782722
+              },
+              {
+                "X": -7.904948,
+                "Y": -7.0461073,
+                "Z": -16.150154
+              },
+              {
+                "X": 5.327689,
+                "Y": -7.046108,
+                "Z": -16.150154
+              },
+              {
+                "X": 5.3276906,
+                "Y": 6.1965356,
+                "Z": -16.150154
+              },
+              {
+                "X": -7.904947,
+                "Y": 6.196536,
+                "Z": -16.150154
+              },
+              {
+                "X": -7.6602845,
+                "Y": 13.065086,
+                "Z": 30.809914
+              },
+              {
+                "X": 8.349921,
+                "Y": 14.145035,
+                "Z": 29.729965
+              },
+              {
+                "X": 10.353437,
+                "Y": -12.063091,
+                "Z": -11.124408
+              },
+              {
+                "X": -11.221273,
+                "Y": -10.353672,
+                "Z": -12.833827
+              },
+              {
+                "X": -11.218361,
+                "Y": 9.5070095,
+                "Z": -12.8367405
+              },
+              {
+                "X": 10.814526,
+                "Y": 11.68043,
+                "Z": -10.663321
+              },
+              {
+                "X": 9.826333,
+                "Y": -12.590195,
+                "Z": 28.253555
+              },
+              {
+                "X": -9.600699,
+                "Y": -11.974245,
+                "Z": 28.869501
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -15.331017,
+                "Y": -15.091327,
+                "Z": -16.150154
+              },
+              "Max": {
+                "X": 15.331017,
+                "Y": 15.091328,
+                "Z": 32.782722
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    "BodySetupGuid": "8F5AF09541DB5A24179EB6A43B55CE4E",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 24103,
+        "SizeOnDisk": 24103,
+        "OffsetInFile": "0x159F3"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_26",
+    "Outer": "S_Loot_Potion_Blue",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1897,
+        "SizeOnDisk": 1897,
+        "OffsetInFile": "0x1B862"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Potion_Blue",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Postions_Crafted_S_Loot_Potion_Blue_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Materials/MI_FORT_Postions_Crafted_S_Loot_Potion_Blue_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 9.536743E-07,
+          "Z": 8.316284
+        },
+        "BoxExtent": {
+          "X": 15.331017,
+          "Y": 15.091328,
+          "Z": 24.466438
+        },
+        "SphereRadius": 24.466438
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Potion_Blue:BodySetup_20'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Blue.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Potion_Blue:NavCollision_26'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Blue.1"
+    },
+    "LightingGuid": "C10D5514-49C81CAF-83E24A80-F7EA1508",
+    "RenderData": null
+  }
+]

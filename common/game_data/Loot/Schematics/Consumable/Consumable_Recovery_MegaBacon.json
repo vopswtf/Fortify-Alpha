@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_MegaBacon",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Food_Bacon'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Food_Bacon.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Duct_Tape'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Duct_Tape.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Food_MegaBacon'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Food_MegaBacon.0"
+      },
+      "CraftingPoints": 60,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "615DE269445349372E2854949A3ED4C1",
+        "SourceString": "Schematic: Mega Bacon",
+        "LocalizedString": "Schematic: Mega Bacon"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Food_Bacon'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Food_Bacon.0"
+        }
+      }
+    }
+  }
+]

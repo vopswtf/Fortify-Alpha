@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Rifle_AMR_Supercharged_Alt2_T09",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Rifles/Blueprints/B_Rifle_AMR_.B_Rifle_AMR__C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_AMR'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Mesh/SK_AMR.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_AMR_Supercharged_T09"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataEnergyCell'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataEnergyCell.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::OnRelease",
+      "ReticleCornerAngles": [
+        180.0,
+        300.0,
+        60.0
+      ],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Sniper-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Sniper-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Rifles/Mesh/SK_AMR.SK_AMR",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_09",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "124CFBA7470784F758FD5E915776315A",
+        "SourceString": "Supercharged Zapotron [Prime]",
+        "LocalizedString": "Supercharged Zapotron [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5B68565949E5A2894AA03EB7D91F4A55",
+        "SourceString": "Sniper Rifle (SR). Massive damage, but poor rate of fire and ammo capacity.",
+        "LocalizedString": "Sniper Rifle (SR). Massive damage, but poor rate of fire and ammo capacity."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "0328D989409FC1C32C7EBB9BBBE8333D",
+        "SourceString": "Guns Ranged Sniper Rifles EnergyCells BoltAction",
+        "LocalizedString": "Guns Ranged Sniper Rifles EnergyCells BoltAction"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_AMR'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_AMR.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::IX",
+      "Rarity": "EFortRarity::Badass"
+    }
+  }
+]

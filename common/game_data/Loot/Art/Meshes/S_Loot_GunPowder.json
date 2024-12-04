@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_19",
+    "Outer": "S_Loot_GunPowder",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "0F9A2A5E41C77A0ADF828F8C5FF7F85C",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 22281,
+        "SizeOnDisk": 22281,
+        "OffsetInFile": "0x1387F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_12",
+    "Outer": "S_Loot_GunPowder",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x18FD0"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_GunPowder",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_S_Loot_GunPowderInst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_S_Loot_GunPowderInst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.9073486E-06,
+          "Y": 2.2519417,
+          "Z": 0.15463829
+        },
+        "BoxExtent": {
+          "X": 18.080357,
+          "Y": 19.536919,
+          "Z": 24.661255
+        },
+        "SphereRadius": 24.661255
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_GunPowder:BodySetup_19'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_GunPowder.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_GunPowder:NavCollision_12'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_GunPowder.1"
+    },
+    "LightingGuid": "5DC28BD5-43CD1823-10336883-4431ABF7",
+    "RenderData": null
+  }
+]

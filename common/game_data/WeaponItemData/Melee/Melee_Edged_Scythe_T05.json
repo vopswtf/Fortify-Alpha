@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Edged_Scythe_T05",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Edged/B_Melee_Edged_Scythe.B_Melee_Edged_Scythe_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Scythe'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_Scythe.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Edged_Scythe_T05"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_EdgedDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_EdgedDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo.GAB_Melee_Axe_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM.GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack1.GAB_Melee_Axe_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack2.GAB_Melee_Axe_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack3.GAB_Melee_Axe_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack4.GAB_Melee_Axe_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Edged-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Edged-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_Scythe.SK_Scythe",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pickup_Scythe_Cue.Pickup_Scythe_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Drop_Scythe_Cue.Drop_Scythe_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_05",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C0C103344FFF9313AB6A4F8E227151F4",
+        "SourceString": "Scythe",
+        "LocalizedString": "Scythe"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "02C3B37847F8A87CCC7A6F87A47BFCB2",
+        "SourceString": "Melee Edged (Edged Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Melee Edged (Edged Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "EB0A9BCE46E3C2A647FB94B1BE1FEB2F",
+        "SourceString": "Melee Edged Scythe Wood",
+        "LocalizedString": "Melee Edged Scythe Wood"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Edged",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Scythe'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Scythe.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

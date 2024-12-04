@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "S_Loot_Stone",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "20E149764DA3AD0341C86D8B84253799",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7993,
+        "SizeOnDisk": 7993,
+        "OffsetInFile": "0x8395"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_21",
+    "Outer": "S_Loot_Stone",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xA332"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Stone",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Wood_Drop'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Wood_Drop.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.35427713,
+          "Y": -0.35515213,
+          "Z": 9.406266
+        },
+        "BoxExtent": {
+          "X": 16.322401,
+          "Y": 16.556456,
+          "Z": 9.14507
+        },
+        "SphereRadius": 16.556456
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Stone:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Stone.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Stone:NavCollision_21'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Stone.1"
+    },
+    "LightingGuid": "38913C76-4DF79A81-40828DA0-FFD50FC6",
+    "RenderData": null
+  }
+]

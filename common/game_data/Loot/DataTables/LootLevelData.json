@@ -1,0 +1,1125 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LootLevelData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortLootLevelData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Default1": {
+        "Category": "Default",
+        "LootLevel": 0,
+        "MinItemLevel": 1,
+        "MaxItemLevel": 3
+      },
+      "Default2": {
+        "Category": "Default",
+        "LootLevel": 1,
+        "MinItemLevel": 1,
+        "MaxItemLevel": 3
+      },
+      "Default3": {
+        "Category": "Default",
+        "LootLevel": 2,
+        "MinItemLevel": 2,
+        "MaxItemLevel": 4
+      },
+      "Default4": {
+        "Category": "Default",
+        "LootLevel": 3,
+        "MinItemLevel": 3,
+        "MaxItemLevel": 5
+      },
+      "Default5": {
+        "Category": "Default",
+        "LootLevel": 4,
+        "MinItemLevel": 4,
+        "MaxItemLevel": 7
+      },
+      "Default6": {
+        "Category": "Default",
+        "LootLevel": 5,
+        "MinItemLevel": 4,
+        "MaxItemLevel": 8
+      },
+      "Default7": {
+        "Category": "Default",
+        "LootLevel": 6,
+        "MinItemLevel": 5,
+        "MaxItemLevel": 9
+      },
+      "Default8": {
+        "Category": "Default",
+        "LootLevel": 7,
+        "MinItemLevel": 6,
+        "MaxItemLevel": 10
+      },
+      "Default9": {
+        "Category": "Default",
+        "LootLevel": 8,
+        "MinItemLevel": 7,
+        "MaxItemLevel": 12
+      },
+      "Default10": {
+        "Category": "Default",
+        "LootLevel": 9,
+        "MinItemLevel": 8,
+        "MaxItemLevel": 13
+      },
+      "Default11": {
+        "Category": "Default",
+        "LootLevel": 10,
+        "MinItemLevel": 8,
+        "MaxItemLevel": 14
+      },
+      "Default12": {
+        "Category": "Default",
+        "LootLevel": 11,
+        "MinItemLevel": 9,
+        "MaxItemLevel": 15
+      },
+      "Default13": {
+        "Category": "Default",
+        "LootLevel": 12,
+        "MinItemLevel": 10,
+        "MaxItemLevel": 16
+      },
+      "Default14": {
+        "Category": "Default",
+        "LootLevel": 13,
+        "MinItemLevel": 11,
+        "MaxItemLevel": 17
+      },
+      "Default15": {
+        "Category": "Default",
+        "LootLevel": 14,
+        "MinItemLevel": 12,
+        "MaxItemLevel": 18
+      },
+      "Default16": {
+        "Category": "Default",
+        "LootLevel": 15,
+        "MinItemLevel": 12,
+        "MaxItemLevel": 19
+      },
+      "Default17": {
+        "Category": "Default",
+        "LootLevel": 16,
+        "MinItemLevel": 13,
+        "MaxItemLevel": 20
+      },
+      "Default18": {
+        "Category": "Default",
+        "LootLevel": 17,
+        "MinItemLevel": 14,
+        "MaxItemLevel": 21
+      },
+      "Default19": {
+        "Category": "Default",
+        "LootLevel": 18,
+        "MinItemLevel": 15,
+        "MaxItemLevel": 22
+      },
+      "Default20": {
+        "Category": "Default",
+        "LootLevel": 19,
+        "MinItemLevel": 16,
+        "MaxItemLevel": 23
+      },
+      "Default21": {
+        "Category": "Default",
+        "LootLevel": 20,
+        "MinItemLevel": 16,
+        "MaxItemLevel": 24
+      },
+      "Default22": {
+        "Category": "Default",
+        "LootLevel": 21,
+        "MinItemLevel": 17,
+        "MaxItemLevel": 25
+      },
+      "Default23": {
+        "Category": "Default",
+        "LootLevel": 22,
+        "MinItemLevel": 18,
+        "MaxItemLevel": 26
+      },
+      "Default24": {
+        "Category": "Default",
+        "LootLevel": 23,
+        "MinItemLevel": 19,
+        "MaxItemLevel": 27
+      },
+      "Default25": {
+        "Category": "Default",
+        "LootLevel": 24,
+        "MinItemLevel": 20,
+        "MaxItemLevel": 28
+      },
+      "Default26": {
+        "Category": "Default",
+        "LootLevel": 25,
+        "MinItemLevel": 20,
+        "MaxItemLevel": 29
+      },
+      "Default27": {
+        "Category": "Default",
+        "LootLevel": 26,
+        "MinItemLevel": 21,
+        "MaxItemLevel": 30
+      },
+      "Default28": {
+        "Category": "Default",
+        "LootLevel": 27,
+        "MinItemLevel": 22,
+        "MaxItemLevel": 31
+      },
+      "Default29": {
+        "Category": "Default",
+        "LootLevel": 28,
+        "MinItemLevel": 23,
+        "MaxItemLevel": 33
+      },
+      "Default30": {
+        "Category": "Default",
+        "LootLevel": 29,
+        "MinItemLevel": 24,
+        "MaxItemLevel": 34
+      },
+      "Default31": {
+        "Category": "Default",
+        "LootLevel": 30,
+        "MinItemLevel": 24,
+        "MaxItemLevel": 35
+      },
+      "Default32": {
+        "Category": "Default",
+        "LootLevel": 31,
+        "MinItemLevel": 25,
+        "MaxItemLevel": 36
+      },
+      "Default33": {
+        "Category": "Default",
+        "LootLevel": 32,
+        "MinItemLevel": 26,
+        "MaxItemLevel": 37
+      },
+      "Default34": {
+        "Category": "Default",
+        "LootLevel": 33,
+        "MinItemLevel": 27,
+        "MaxItemLevel": 38
+      },
+      "Default35": {
+        "Category": "Default",
+        "LootLevel": 34,
+        "MinItemLevel": 28,
+        "MaxItemLevel": 39
+      },
+      "Default36": {
+        "Category": "Default",
+        "LootLevel": 35,
+        "MinItemLevel": 28,
+        "MaxItemLevel": 40
+      },
+      "Default37": {
+        "Category": "Default",
+        "LootLevel": 36,
+        "MinItemLevel": 29,
+        "MaxItemLevel": 41
+      },
+      "Default38": {
+        "Category": "Default",
+        "LootLevel": 37,
+        "MinItemLevel": 30,
+        "MaxItemLevel": 42
+      },
+      "Default39": {
+        "Category": "Default",
+        "LootLevel": 38,
+        "MinItemLevel": 31,
+        "MaxItemLevel": 43
+      },
+      "Default40": {
+        "Category": "Default",
+        "LootLevel": 39,
+        "MinItemLevel": 32,
+        "MaxItemLevel": 44
+      },
+      "Default41": {
+        "Category": "Default",
+        "LootLevel": 40,
+        "MinItemLevel": 32,
+        "MaxItemLevel": 45
+      },
+      "Default42": {
+        "Category": "Default",
+        "LootLevel": 41,
+        "MinItemLevel": 33,
+        "MaxItemLevel": 46
+      },
+      "Default43": {
+        "Category": "Default",
+        "LootLevel": 42,
+        "MinItemLevel": 34,
+        "MaxItemLevel": 47
+      },
+      "Default44": {
+        "Category": "Default",
+        "LootLevel": 43,
+        "MinItemLevel": 35,
+        "MaxItemLevel": 48
+      },
+      "Default45": {
+        "Category": "Default",
+        "LootLevel": 44,
+        "MinItemLevel": 36,
+        "MaxItemLevel": 49
+      },
+      "Default46": {
+        "Category": "Default",
+        "LootLevel": 45,
+        "MinItemLevel": 36,
+        "MaxItemLevel": 50
+      },
+      "Default47": {
+        "Category": "Default",
+        "LootLevel": 46,
+        "MinItemLevel": 37,
+        "MaxItemLevel": 51
+      },
+      "Default48": {
+        "Category": "Default",
+        "LootLevel": 47,
+        "MinItemLevel": 38,
+        "MaxItemLevel": 52
+      },
+      "Default49": {
+        "Category": "Default",
+        "LootLevel": 48,
+        "MinItemLevel": 39,
+        "MaxItemLevel": 53
+      },
+      "Default50": {
+        "Category": "Default",
+        "LootLevel": 49,
+        "MinItemLevel": 40,
+        "MaxItemLevel": 54
+      },
+      "Default51": {
+        "Category": "Default",
+        "LootLevel": 50,
+        "MinItemLevel": 40,
+        "MaxItemLevel": 55
+      },
+      "Crafting1": {
+        "Category": "Crafting",
+        "LootLevel": 0,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting2": {
+        "Category": "Crafting",
+        "LootLevel": 1,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting3": {
+        "Category": "Crafting",
+        "LootLevel": 2,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting4": {
+        "Category": "Crafting",
+        "LootLevel": 3,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting5": {
+        "Category": "Crafting",
+        "LootLevel": 4,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting6": {
+        "Category": "Crafting",
+        "LootLevel": 5,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting7": {
+        "Category": "Crafting",
+        "LootLevel": 6,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting8": {
+        "Category": "Crafting",
+        "LootLevel": 7,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting9": {
+        "Category": "Crafting",
+        "LootLevel": 8,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting10": {
+        "Category": "Crafting",
+        "LootLevel": 9,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting11": {
+        "Category": "Crafting",
+        "LootLevel": 10,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting12": {
+        "Category": "Crafting",
+        "LootLevel": 11,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting13": {
+        "Category": "Crafting",
+        "LootLevel": 12,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting14": {
+        "Category": "Crafting",
+        "LootLevel": 13,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting15": {
+        "Category": "Crafting",
+        "LootLevel": 14,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting16": {
+        "Category": "Crafting",
+        "LootLevel": 15,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting17": {
+        "Category": "Crafting",
+        "LootLevel": 16,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting18": {
+        "Category": "Crafting",
+        "LootLevel": 17,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting19": {
+        "Category": "Crafting",
+        "LootLevel": 18,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting20": {
+        "Category": "Crafting",
+        "LootLevel": 19,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting21": {
+        "Category": "Crafting",
+        "LootLevel": 20,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting22": {
+        "Category": "Crafting",
+        "LootLevel": 21,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting23": {
+        "Category": "Crafting",
+        "LootLevel": 22,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting24": {
+        "Category": "Crafting",
+        "LootLevel": 23,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting25": {
+        "Category": "Crafting",
+        "LootLevel": 24,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting26": {
+        "Category": "Crafting",
+        "LootLevel": 25,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting27": {
+        "Category": "Crafting",
+        "LootLevel": 26,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting28": {
+        "Category": "Crafting",
+        "LootLevel": 27,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting29": {
+        "Category": "Crafting",
+        "LootLevel": 28,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting30": {
+        "Category": "Crafting",
+        "LootLevel": 29,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting31": {
+        "Category": "Crafting",
+        "LootLevel": 30,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting32": {
+        "Category": "Crafting",
+        "LootLevel": 31,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting33": {
+        "Category": "Crafting",
+        "LootLevel": 32,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting34": {
+        "Category": "Crafting",
+        "LootLevel": 33,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting35": {
+        "Category": "Crafting",
+        "LootLevel": 34,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting36": {
+        "Category": "Crafting",
+        "LootLevel": 35,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting37": {
+        "Category": "Crafting",
+        "LootLevel": 36,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting38": {
+        "Category": "Crafting",
+        "LootLevel": 37,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting39": {
+        "Category": "Crafting",
+        "LootLevel": 38,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting40": {
+        "Category": "Crafting",
+        "LootLevel": 39,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting41": {
+        "Category": "Crafting",
+        "LootLevel": 40,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting42": {
+        "Category": "Crafting",
+        "LootLevel": 41,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting43": {
+        "Category": "Crafting",
+        "LootLevel": 42,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting44": {
+        "Category": "Crafting",
+        "LootLevel": 43,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting45": {
+        "Category": "Crafting",
+        "LootLevel": 44,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting46": {
+        "Category": "Crafting",
+        "LootLevel": 45,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting47": {
+        "Category": "Crafting",
+        "LootLevel": 46,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting48": {
+        "Category": "Crafting",
+        "LootLevel": 47,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting49": {
+        "Category": "Crafting",
+        "LootLevel": 48,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting50": {
+        "Category": "Crafting",
+        "LootLevel": 49,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Crafting51": {
+        "Category": "Crafting",
+        "LootLevel": 50,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest1": {
+        "Category": "Harvest",
+        "LootLevel": 0,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest2": {
+        "Category": "Harvest",
+        "LootLevel": 5,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest3": {
+        "Category": "Harvest",
+        "LootLevel": 10,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest4": {
+        "Category": "Harvest",
+        "LootLevel": 15,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest5": {
+        "Category": "Harvest",
+        "LootLevel": 20,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest6": {
+        "Category": "Harvest",
+        "LootLevel": 25,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest7": {
+        "Category": "Harvest",
+        "LootLevel": 30,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest8": {
+        "Category": "Harvest",
+        "LootLevel": 35,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest9": {
+        "Category": "Harvest",
+        "LootLevel": 40,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest10": {
+        "Category": "Harvest",
+        "LootLevel": 45,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Harvest11": {
+        "Category": "Harvest",
+        "LootLevel": 50,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall1": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 1,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall2": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 4,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall3": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 7,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall4": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 10,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall5": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 13,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall6": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 16,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall7": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 19,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall8": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 22,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall9": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 25,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall10": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 28,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall11": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 31,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall12": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 34,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall13": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 37,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall14": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 40,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall15": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 43,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall16": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 44,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall17": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 47,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Custom_EnergyBall18": {
+        "Category": "Custom_EnergyBall",
+        "LootLevel": 50,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Worker1": {
+        "Category": "Worker",
+        "LootLevel": 0,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget1": {
+        "Category": "Gadget",
+        "LootLevel": 0,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget2": {
+        "Category": "Gadget",
+        "LootLevel": 1,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget3": {
+        "Category": "Gadget",
+        "LootLevel": 2,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget4": {
+        "Category": "Gadget",
+        "LootLevel": 3,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget5": {
+        "Category": "Gadget",
+        "LootLevel": 4,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget6": {
+        "Category": "Gadget",
+        "LootLevel": 5,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget7": {
+        "Category": "Gadget",
+        "LootLevel": 6,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget8": {
+        "Category": "Gadget",
+        "LootLevel": 7,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget9": {
+        "Category": "Gadget",
+        "LootLevel": 8,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget10": {
+        "Category": "Gadget",
+        "LootLevel": 9,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget11": {
+        "Category": "Gadget",
+        "LootLevel": 10,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget12": {
+        "Category": "Gadget",
+        "LootLevel": 11,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget13": {
+        "Category": "Gadget",
+        "LootLevel": 12,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget14": {
+        "Category": "Gadget",
+        "LootLevel": 13,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget15": {
+        "Category": "Gadget",
+        "LootLevel": 14,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget16": {
+        "Category": "Gadget",
+        "LootLevel": 15,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget17": {
+        "Category": "Gadget",
+        "LootLevel": 16,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget18": {
+        "Category": "Gadget",
+        "LootLevel": 17,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget19": {
+        "Category": "Gadget",
+        "LootLevel": 18,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget20": {
+        "Category": "Gadget",
+        "LootLevel": 19,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget21": {
+        "Category": "Gadget",
+        "LootLevel": 20,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget22": {
+        "Category": "Gadget",
+        "LootLevel": 21,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget23": {
+        "Category": "Gadget",
+        "LootLevel": 22,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget24": {
+        "Category": "Gadget",
+        "LootLevel": 23,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget25": {
+        "Category": "Gadget",
+        "LootLevel": 24,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget26": {
+        "Category": "Gadget",
+        "LootLevel": 25,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget27": {
+        "Category": "Gadget",
+        "LootLevel": 26,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget28": {
+        "Category": "Gadget",
+        "LootLevel": 27,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget29": {
+        "Category": "Gadget",
+        "LootLevel": 28,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget30": {
+        "Category": "Gadget",
+        "LootLevel": 29,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget31": {
+        "Category": "Gadget",
+        "LootLevel": 30,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget32": {
+        "Category": "Gadget",
+        "LootLevel": 31,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget33": {
+        "Category": "Gadget",
+        "LootLevel": 32,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget34": {
+        "Category": "Gadget",
+        "LootLevel": 33,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget35": {
+        "Category": "Gadget",
+        "LootLevel": 34,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget36": {
+        "Category": "Gadget",
+        "LootLevel": 35,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget37": {
+        "Category": "Gadget",
+        "LootLevel": 36,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget38": {
+        "Category": "Gadget",
+        "LootLevel": 37,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget39": {
+        "Category": "Gadget",
+        "LootLevel": 38,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget40": {
+        "Category": "Gadget",
+        "LootLevel": 39,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget41": {
+        "Category": "Gadget",
+        "LootLevel": 40,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget42": {
+        "Category": "Gadget",
+        "LootLevel": 41,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget43": {
+        "Category": "Gadget",
+        "LootLevel": 42,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget44": {
+        "Category": "Gadget",
+        "LootLevel": 43,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget45": {
+        "Category": "Gadget",
+        "LootLevel": 44,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget46": {
+        "Category": "Gadget",
+        "LootLevel": 45,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget47": {
+        "Category": "Gadget",
+        "LootLevel": 46,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget48": {
+        "Category": "Gadget",
+        "LootLevel": 47,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget49": {
+        "Category": "Gadget",
+        "LootLevel": 48,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget50": {
+        "Category": "Gadget",
+        "LootLevel": 49,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "Gadget51": {
+        "Category": "Gadget",
+        "LootLevel": 50,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "NoScaling1": {
+        "Category": "NoScaling",
+        "LootLevel": 0,
+        "MinItemLevel": 0,
+        "MaxItemLevel": 0
+      },
+      "NoScaling+11": {
+        "Category": "NoScaling+1",
+        "LootLevel": 0,
+        "MinItemLevel": 1,
+        "MaxItemLevel": 1
+      }
+    }
+  }
+]

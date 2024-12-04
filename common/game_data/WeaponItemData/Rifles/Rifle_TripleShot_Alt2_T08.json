@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Rifle_TripleShot_Alt2_T08",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Rifles/Blueprints/B_Rifle_TripleShot.B_Rifle_TripleShot_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Triple_tap'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Mesh/SK_Triple_tap.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_TripleShot_T08"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsHeavy'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsHeavy.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Sniper-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Sniper-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Rifles/Mesh/SK_Triple_tap.SK_Triple_tap",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_08",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "8BC512874FFE0D45E85D189E15471F83",
+        "SourceString": "Triple Tap [Prime]",
+        "LocalizedString": "Triple Tap [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E048470B4AB928F3F4567AB7647441C1",
+        "SourceString": "Sniper Rifle (SR). Fires three bullets per shot.",
+        "LocalizedString": "Sniper Rifle (SR). Fires three bullets per shot."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "5E92016341390C416B13FD9E7751D331",
+        "SourceString": "Guns Ranged Sniper Rifles HeavyBullets SemiAuto",
+        "LocalizedString": "Guns Ranged Sniper Rifles HeavyBullets SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Triple_Tap'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_Triple_Tap.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::VIII",
+      "Rarity": "EFortRarity::Epic"
+    }
+  }
+]

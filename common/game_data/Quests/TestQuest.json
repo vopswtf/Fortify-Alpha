@@ -1,0 +1,226 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "TestQuest",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 150
+        },
+        {
+          "ItemDefinition": "/Game/Loot/CardPacks/CardPack_Bronze.CardPack_Bronze",
+          "Quantity": 1
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "kill_husk"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "9956BC72446755D15BA3C1B41B3E6837",
+            "SourceString": "Killing some husks",
+            "LocalizedString": "Killing some husks"
+          },
+          "Count": 5,
+          "ScriptedAction": ""
+        },
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "kill_husk_constructor"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "D3E4E35C42743E06947777BF94D078E8",
+            "SourceString": "Kill some husks as a Constructor",
+            "LocalizedString": "Kill some husks as a Constructor"
+          },
+          "Count": 5,
+          "ScriptedAction": ""
+        },
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "kill_husk_commando"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "E9F3594B40686A80DA0627962DF8E8A9",
+            "SourceString": "Kill some husks as a Commando",
+            "LocalizedString": "Kill some husks as a Commando"
+          },
+          "Count": 5,
+          "ScriptedAction": ""
+        },
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_gate"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "280F18D8419CE9979BB664B800003B7E",
+            "SourceString": "Complete a gate capture anywhere",
+            "LocalizedString": "Complete a gate capture anywhere"
+          },
+          "Count": 1,
+          "ScriptedAction": ""
+        },
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_retrievedata"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "77C7D68E46167C8ACC5B54819BDB09F1",
+            "SourceString": "Complete a retrieve the data anywhere",
+            "LocalizedString": "Complete a retrieve the data anywhere"
+          },
+          "Count": 1,
+          "ScriptedAction": ""
+        },
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "None"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "7D6F1D6B493FFB5F560B2B8B36CAB662",
+            "SourceString": "Complete any mission in Location 1 (Stonewood)",
+            "LocalizedString": "Complete any mission in Location 1 (Stonewood)"
+          },
+          "Count": 1,
+          "ScriptedAction": ""
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Test"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "D23E63834D19A78CB37924A391658BD0",
+        "SourceString": "You'll get V-Bucks and a Bronze Pack",
+        "LocalizedString": "You'll get V-Bucks and a Bronze Pack"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DD1710494606F76BF8EF17875A49D271",
+        "SourceString": "Test Many Quest Objectives",
+        "LocalizedString": "Test Many Quest Objectives"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "04EDFAA0489AE86F19A4AA996B8450F1",
+        "SourceString": "This quest has numerous quest objectives to aid in testing that objects and tag filtering is working as expected.",
+        "LocalizedString": "This quest has numerous quest objectives to aid in testing that objects and tag filtering is working as expected."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Quest-PushBackTheStorm-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-PushBackTheStorm-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

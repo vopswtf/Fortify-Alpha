@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MilitaryHQ_Sub2",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.MilitaryHQ.SBTwo"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_SubBuildingTwo_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub2_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub2_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub2_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub2_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub2_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub2_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub2_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub2_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub2_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub2_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Commando_2_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Commando_2.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "E4884A374A96DEB8B21B449E38F15577",
+          "SourceString": "Level 1 : Reduces the Energy Cost of Frag Grenade by 15.",
+          "LocalizedString": "Level 1 : Reduces the Energy Cost of Frag Grenade by 15."
+        },
+        {
+          "Namespace": "",
+          "Key": "CBFB528D42E877E301DD16B6E0C8082F",
+          "SourceString": "Level 2 : Increases the number of Ability Charges of Frag Grenade by 1.",
+          "LocalizedString": "Level 2 : Increases the number of Ability Charges of Frag Grenade by 1."
+        },
+        {
+          "Namespace": "",
+          "Key": "D9A513054E05B1ADCF3CF1B00D40F93E",
+          "SourceString": "Level 3 : Increases  the damage of Frag Grenade based on Soldier HQ Rating",
+          "LocalizedString": "Level 3 : Increases  the damage of Frag Grenade based on Soldier HQ Rating"
+        },
+        {
+          "Namespace": "",
+          "Key": "005A650F46B4ADAE667DEE8A3756EC8D",
+          "SourceString": "Level 4 : Increases the radius of Frag Grenade by 50%.",
+          "LocalizedString": "Level 4 : Increases the radius of Frag Grenade by 50%."
+        },
+        {
+          "Namespace": "",
+          "Key": "4115644E43226CAEAD2DC99E673CD03B",
+          "SourceString": "Level 5 : Cluster Bomb : Grenades now explode in a MIRV cluster, damaging enemies",
+          "LocalizedString": "Level 5 : Cluster Bomb : Grenades now explode in a MIRV cluster, damaging enemies"
+        },
+        {
+          "Namespace": "",
+          "Key": "729AD08D4AE53A24DFC4D4BBDBF82634",
+          "SourceString": "Level 5 :  Increases the number of Ability Charges of Frag Grenade by 1.",
+          "LocalizedString": "Level 5 :  Increases the number of Ability Charges of Frag Grenade by 1."
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "59ACB2124733B5CE06720A91F1AE890F",
+        "SourceString": "Artillery!",
+        "LocalizedString": "Artillery!"
+      }
+    }
+  }
+]

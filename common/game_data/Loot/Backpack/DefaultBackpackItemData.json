@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "FortBackpackItemDefinition",
+    "Name": "DefaultBackpackItemData",
+    "Class": "UScriptClass'FortBackpackItemDefinition'",
+    "Properties": {
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_Fragment'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/Radar/UI_Radar_Fragment.0"
+        }
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Accessories/FORT_Backpacks/Mesh/SK_Backpack_02.SK_Backpack_02",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "50CCC4C14CF9516F5120C59F17ABA8AA",
+        "SourceString": "Backpack",
+        "LocalizedString": "Backpack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7A54FC874D1408E8334BE5996F3729A2",
+        "SourceString": "A Player's Backpack",
+        "LocalizedString": "A Player's Backpack"
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Backpack'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Backpack.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Blunt_Hammer_Alt1_T04",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Blunt/B_Melee_Blunt_Hammer.B_Melee_Blunt_Hammer_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_SledgeHammer'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_SledgeHammer.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Blunt_Hammer_T04"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BluntDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BluntDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_Combo.GAB_Melee_Hammer_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_HeavyAttack.GAB_Melee_Hammer_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack1.GAB_Melee_Hammer_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack2.GAB_Melee_Hammer_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack3.GAB_Melee_Hammer_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack4.GAB_Melee_Hammer_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Blunt-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Blunt-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_SledgeHammer.SK_SledgeHammer",
+      "PickupSound": "/Game/Sounds/Fort_Weapons/SledgeHammers/Sledge_Pickup_01_Cue.Sledge_Pickup_01_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Sledge_Drop_Cue.Sledge_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_04",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "81F5359D46E108C365AE629FBF764334",
+        "SourceString": "Sledgehammer [Upgraded]",
+        "LocalizedString": "Sledgehammer [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "892D74854B6A8CDF2D58909CF9E5C6DF",
+        "SourceString": "Hammer (Blunt Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Hammer (Blunt Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "3C842F5641E393E8333083B51ADB27FE",
+        "SourceString": "Melee Blunt Hammer Sledgehammer Stone",
+        "LocalizedString": "Melee Blunt Hammer Sledgehammer Stone"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Blunt.Hammer",
+        "HomeBaseProperties.Inventory.StartingWeapon.Constructor3",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_SledgeHammer'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Sledgehammer.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::IV",
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

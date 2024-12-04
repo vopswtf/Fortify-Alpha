@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Hospital",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_Hospital'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_Hospital.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.Hospital"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Hospital_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Hospital_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Hospital_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Hospital_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Hospital_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Static_Hospital_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Hospital_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Hospital/GE_Homebase_Hospital_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_Generic_AdrenalineRush'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/AdrenalineRush/Kit_Generic_AdrenalineRush.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Hospital_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Hospital_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Hospital_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Hospital_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Hospital_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Hospital_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Hospital_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Hospital_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Hospital_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_Hospital_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Hospital'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Hospital.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_AdrenalineRush_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_AdrenalineRush_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hospital_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hospital_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_Hospital_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_Hospital_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_Hospital_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_Hospital_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_Hospital_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_Hospital_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5A59B26D43587D65361DDA8A2AFA71FB",
+        "SourceString": "Hospital",
+        "LocalizedString": "Hospital"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "80EAA0F141A3F816EBFB9A93A6CF8497",
+        "SourceString": "Boost your team's health regen speed and overall max health. Unlocks the Adrenaline Rush gadget.",
+        "LocalizedString": "Boost your team's health regen speed and overall max health. Unlocks the Adrenaline Rush gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Hospital'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Hospital.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-Hospital-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-Hospital-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-Hospital-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-Hospital-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

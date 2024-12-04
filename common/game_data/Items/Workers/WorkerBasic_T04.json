@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "FortWorkerType",
+    "Name": "WorkerBasic_T04",
+    "Class": "UScriptClass'FortWorkerType'",
+    "Properties": {
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Headshot-M.0"
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "7_Common"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "7_Common"
+      },
+      "MaxLevel": 5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CE8075FF4781B413FB11CBB63692EBD1",
+        "SourceString": "Survivor [Master]",
+        "LocalizedString": "Survivor [Master]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0B3AF21240B075CF4D84D782007BF803",
+        "SourceString": "A survivor that can be assigned to a Home Base building to increase its power. This survivor will provide more power when working for a lead survivor with a matching personality, and can unlock stat bonuses when working on a team with survivors that have the same set bonus!",
+        "LocalizedString": "A survivor that can be assigned to a Home Base building to increase its power. This survivor will provide more power when working for a lead survivor with a matching personality, and can unlock stat bonuses when working on a team with survivors that have the same set bonus!"
+      },
+      "GameplayTags": [
+        "Homebase.Worker.IsWorker",
+        "Homebase.Worker.IsBasicWorker"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 188.0,
+          "Y": 188.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Headshot-M.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XS": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-S.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-M.0"
+          }
+        },
+        "Brush_L": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

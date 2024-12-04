@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_20",
+    "Outer": "S_Loot_Rope",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "7AB46FD04E0A38B6AAFC3F812A378B6C",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 15975,
+        "SizeOnDisk": 15975,
+        "OffsetInFile": "0xDFDD"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_13",
+    "Outer": "S_Loot_Rope",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x11E8C"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Rope",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Rope_inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Rope_inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -4.7683716E-07,
+          "Z": 26.224243
+        },
+        "BoxExtent": {
+          "X": 23.502668,
+          "Y": 6.14156,
+          "Z": 24.74533
+        },
+        "SphereRadius": 24.74533
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Rope:BodySetup_20'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Rope.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Rope:NavCollision_13'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Rope.1"
+    },
+    "LightingGuid": "A6BD9A66-498EC67D-DD08BF8E-F93B4E65",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_EngineeringSchool",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_EngineeringSchool'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_EngineeringSchool.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.EngineeringSchool"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:EngineeringSchool_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:EngineeringSchool_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:EngineeringSchool_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:EngineeringSchool_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_EngineeringSchool_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Static_EngineeringSchool_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Engineering_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/EngineeringSchool/GE_Homebase_Engineering_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_Generic_Banner'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/Banner/Kit_Generic_Banner.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_EngineeringSchool_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_EngineeringSchool_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_EngineeringSchool_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_EngineeringSchool_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_EngineeringSchool_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_EngineeringSchool_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_EngineeringSchool_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_EngineeringSchool_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_EngineeringSchool_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_EngineeringSchool_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_EngineeringSchool'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_EngineeringSchool.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_Banner_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_Banner_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_EngineeringSchool_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_EngineeringSchool_0.1"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_EngineeringSchool_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_EngineeringSchool_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_EngineeringSchool_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_EngineeringSchool_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_EngineeringSchool_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_EngineeringSchool_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D3DDD6784FB2EB54AFC4B8B91BD51C24",
+        "SourceString": "Engineering School",
+        "LocalizedString": "Engineering School"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B30DC3C64FFDF5207EEE40AB357CC11B",
+        "SourceString": "Build your structures stronger, faster, and better! Unlocks the Banner gadget.",
+        "LocalizedString": "Build your structures stronger, faster, and better! Unlocks the Banner gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_EngineeringSchool'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_EngineeringSchool.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-EngineeringWorkshop-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-EngineeringWorkshop-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-EngineeringWorkshop-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-EngineeringWorkshop-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

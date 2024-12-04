@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Rare_Mechanism",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/SM_Crafting_Tier2_RareMechanism.SM_Crafting_Tier2_RareMechanism",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Energy/RareMechanism_Collect_Cue.RareMechanism_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BF7A43BC400582DE0A4B1A91275E41B9",
+        "SourceString": "Rare Mechanism",
+        "LocalizedString": "Rare Mechanism"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0248F7E54BBD1B7197452FA721433F40",
+        "SourceString": "Crafting ingredient. Rarely found in high value chests and toolboxes.",
+        "LocalizedString": "Rare Crafting ingredient. Found in high value chests and toolboxes."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "273B450A452FACFD2B9B35AF9B66FE2F",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Crafting_Tier2_RareMechanism'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Crafting_Tier2_RareMechanism.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::VI",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

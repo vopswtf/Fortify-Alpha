@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Rocket_Stage2",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-B-_T1__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-B-_T1__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "1851CB4E43248E1E92441483BF238307",
+        "SourceString": "The launchpad received less than 20% damage in stage 2!",
+        "LocalizedString": "The launchpad received less than 20% damage in stage 2!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "460FA11B499D6A009D382FACC34D78FB",
+        "SourceString": "The launchpad received more than 20% damage in stage 2!",
+        "LocalizedString": "The launchpad received more than 20% damage in stage 2!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_LTR_Stage2"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B849D9844ADD8AB8B295BF9738EAA858",
+        "SourceString": "Rocket Stage 2",
+        "LocalizedString": "Rocket Stage 2"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "188B87494082EA5DED7C6891C8700243",
+        "SourceString": "The launchpad received less than 20% damage in stage 2!",
+        "LocalizedString": "The launchpad received less than 20% damage in stage 2!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-B-_T1_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-B-_T1_.0"
+        }
+      }
+    }
+  }
+]

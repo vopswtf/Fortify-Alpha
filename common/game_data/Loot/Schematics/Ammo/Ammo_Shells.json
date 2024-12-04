@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ammo_Shells",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 10,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataShells'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataShells.0"
+      },
+      "QuantityProduced": 18,
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1C4339714BE00A9854E6F1996EED7699",
+        "SourceString": "Schematic: Ammo: Shells 'n' Slugs",
+        "LocalizedString": "Schematic: Ammo: Shells 'n' Slugs"
+      },
+      "GameplayTags": [
+        "supplies.ammo.shell"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Ammo-Shell-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Ammo/Icon-Ammo-Shell-L.0"
+        }
+      }
+    }
+  }
+]

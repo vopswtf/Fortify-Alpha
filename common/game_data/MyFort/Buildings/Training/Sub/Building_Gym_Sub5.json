@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_Gym_Sub5",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.Gym.SBFive"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:Gym_SubBuildingFive_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub5_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub5_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub5_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub5_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub5_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub5_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub5_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub5_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_Gym_Sub5_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/Gym/GE_Homebase_Static_Gym_Sub5_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_Gym'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_Gym.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Gym_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Gym_5.0"
+      },
+      "bHideInUI": true
+    }
+  }
+]

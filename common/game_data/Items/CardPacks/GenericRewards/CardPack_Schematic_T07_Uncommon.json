@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Schematic_T07_Uncommon",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Schematic_T07_Uncommon",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "14949CFF43E5BF221369F8947B753B97",
+        "SourceString": "Uncommon Schematic (VII)",
+        "LocalizedString": "Uncommon Schematic (VII)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CE010CF1439861549F277798FFB10109",
+        "SourceString": "One random schematic.",
+        "LocalizedString": "One random schematic."
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Schematic'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Schematic.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Buff_MaxHealth",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_MaxHealth_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_MaxHealth.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SystemGlobalCurves'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/SystemGlobalCurves.0"
+              },
+              "RowName": "Curves.Linear"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.4,
+      "bRequiresMissingHealth": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "PickupStaticMesh": "/Game/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Orange.S_Loot_Potion_Orange",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7C77B8A349248C52FD894A95AFC52502",
+        "SourceString": "Mushroom Smoothie",
+        "LocalizedString": "Mushroom Smoothie"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "80773EC64FED425B12AA19B1BC351D6B",
+        "SourceString": "Everybody's favorite healthy mushroom snack! Increases your maximum health by 30% for 4 minutes and heals you for the same amount.",
+        "LocalizedString": "Everybody's favorite healthy mushroom snack! Increases your maximum health by 30% for 4 minutes and heals you for the same amount."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "58A841A54D6953FA7C0B74BF54FD174A",
+        "SourceString": "Consumable health food",
+        "LocalizedString": "Consumable health food"
+      },
+      "GameplayTags": [
+        "supplies.consumable.buff"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultBuffAttributeTemplate.DefaultBuffAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Orange'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Orange.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99
+    }
+  }
+]

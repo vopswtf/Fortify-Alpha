@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Worker_T05",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Worker_T05",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "09975B104E50189B5EA8879D0B8527A2",
+        "SourceString": "Epic Survivor [Orange]",
+        "LocalizedString": "Epic Survivor [Orange]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "337247044413F40EBAD938A54896A896",
+        "SourceString": "One random survivor.",
+        "LocalizedString": "One random survivor."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Worker-Basic-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Worker-Basic-L.0"
+        }
+      },
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

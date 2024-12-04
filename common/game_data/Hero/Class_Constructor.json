@@ -1,0 +1,323 @@
+[
+  {
+    "Type": "FortHeroType",
+    "Name": "Class_Constructor",
+    "Class": "UScriptClass'FortHeroType'",
+    "Properties": {
+      "Outfits_Naked": [
+        "MPR_SK_L_MALE_Base"
+      ],
+      "Outfits_Male": [
+        "M_L_Constructor_01"
+      ],
+      "Outfits_Female": [
+        "F_LRG_Constructor"
+      ],
+      "IdleAnimation_Male": {
+        "ObjectName": "AnimMontage'Constructor_selection_menu_Male'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Constructor_selection_menu_Male.0"
+      },
+      "IdleAnimation_Female": {
+        "ObjectName": "AnimMontage'Constructor_selection_menu_Female'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Menu/Constructor_selection_menu_Female.0"
+      },
+      "PrimaryTrait": {
+        "ObjectName": "FortTrait'Trait_Primary_Empty'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Traits/Trait_Primary_Empty.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Constructor_EnergyFabrication'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Constructor/Traits/EnergyFabrication/Trait_Constructor_EnergyFabrication.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Constructor_Territorial'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Constructor/Traits/Territorial/Trait_Constructor_Territorial.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Constructor_Plasmatics'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Constructor/Traits/Plasmatics/Trait_Constructor_Plasmatics.0"
+      },
+      "SecondaryTraits": {
+        "ObjectName": "FortTrait'Trait_Constructor_AppliedForce'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Constructor/Traits/AppliedForce/Trait_Constructor_AppliedForce.0"
+      },
+      "DefaultSpecialization": {
+        "ObjectName": "FortHeroSpecialization'HS_Constructor_Default'",
+        "ObjectPath": "FortniteGame/Content/Heroes/Specializations/Constructor/HS_Constructor_Default.0"
+      },
+      "AbilityKits": [
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T01'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T01.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier0"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T02'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T02.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier1"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T03'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T03.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier2"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T04'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T04.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier3"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T05'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T05.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier4"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T06'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T06.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier5"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T07'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T07.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier6"
+          ],
+          "bShowInAbilityScreen": true
+        },
+        {
+          "InherentAbilityKit": {
+            "ObjectName": "FortAbilityKit'Kit_HarvestWeapon_T08'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/AbilityKits/Kit_HarvestWeapon_T08.0"
+          },
+          "RequiredGPTags": [
+            "Homebase.HarvestWeapon.Tier7"
+          ],
+          "bShowInAbilityScreen": true
+        }
+      ],
+      "CombinedStatGEs": [
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Constructor_Offense_AllWeaponDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Constructor/MappedEffects/GE_Map_Constructor_Offense_AllWeaponDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Constructor_Prowess_TrapDamage_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Constructor/MappedEffects/GE_Map_Constructor_Prowess_TrapDamage.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Constructor_Vitality_Health_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Constructor/MappedEffects/GE_Map_Constructor_Vitality_Health.0"
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Map_Constructor_Defense_ShieldStrength_ShieldRegen_C'",
+            "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/Constructor/MappedEffects/GE_Map_Constructor_Defense_ShieldStrength_ShieldRegen.0"
+          },
+          "Level": 0.0
+        }
+      ],
+      "CombinedStatSourceGE": {
+        "ObjectName": "BlueprintGeneratedClass'GE_SharedStats_C'",
+        "ObjectPath": "FortniteGame/Content/Heroes/GE_SharedStats.0"
+      },
+      "RequiredGPTags": [
+        "Unlocks.Class.Constructor"
+      ],
+      "MaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Const_Male_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Const_Male_Feedback.0"
+      },
+      "FemaleOverrideFeedback": {
+        "ObjectName": "FortFeedbackBank'Const_Female_Feedback'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Const_Female_Feedback.0"
+      },
+      "OverridePawnClass": "/Game/Abilities/Player/Pawns/PlayerPawn_Constructor.PlayerPawn_Constructor_C",
+      "IconBrushSmall": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Constructor-S'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-S.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Constructor-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-XL.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Constructor-Headshot-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-Headshot-M.0"
+        }
+      },
+      "CardIconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Constructor-Headshot-F'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-Headshot-F.0"
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "AvatarIconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DF3C42AC42D6657659CC6E98CA42D69F",
+        "SourceString": "Constructor",
+        "LocalizedString": "Constructor"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A8EABC074F954DFC5666C992EBC2E612",
+        "SourceString": "A durable builder focused on constructing and repairing defensive structures.",
+        "LocalizedString": "A durable builder focused on constructing and repairing defensive structures."
+      },
+      "GameplayTags": [
+        "Homebase.Class.IsConstructor"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Class-Constructor-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Constructor-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Constructor-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Constructor-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Constructor-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Constructor-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Class-Constructor-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Classes/Icon-Constructor/Icon-Class-Constructor-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

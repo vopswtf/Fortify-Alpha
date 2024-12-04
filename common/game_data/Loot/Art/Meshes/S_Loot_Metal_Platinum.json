@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_508",
+    "Outer": "S_Loot_Metal_Platinum",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "FD6BD55F490D4A91797371930F0CCB84",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1797,
+        "SizeOnDisk": 1797,
+        "OffsetInFile": "0x2E19"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3753",
+    "Outer": "S_Loot_Metal_Platinum",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3582"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Metal_Platinum",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Metal_Platinum'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Metal_Platinum.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 25.660286
+        },
+        "BoxExtent": {
+          "X": 18.225565,
+          "Y": 12.330194,
+          "Z": 23.54129
+        },
+        "SphereRadius": 23.54129
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Metal_Platinum:BodySetup_508'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Platinum.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Metal_Platinum:NavCollision_3753'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Platinum.1"
+    },
+    "LightingGuid": "2482157F-4A003E54-501A5E83-E0AC82E3",
+    "RenderData": null
+  }
+]

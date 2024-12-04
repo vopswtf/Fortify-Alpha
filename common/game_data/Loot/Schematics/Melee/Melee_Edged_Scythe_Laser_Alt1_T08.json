@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Melee_Edged_Scythe_Laser_Alt1_T08",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Alloy'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Alloy.0"
+          },
+          "Count": 50,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Batteries'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Batteries.0"
+          },
+          "Count": 11,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Iron'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Iron.0"
+          },
+          "Count": 8,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Silver'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Silver.0"
+          },
+          "Count": 3,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Rare_PowerCell'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Rare_PowerCell.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Crystal_Black'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Crystal_Black.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortWeaponMeleeItemDefinition'Melee_Edged_Scythe_Laser_Alt1_T08'",
+        "ObjectPath": "FortniteGame/Content/Weapons/WeaponItemData/Melee/Melee_Edged_Scythe_Laser_Alt1_T08.0"
+      },
+      "CraftingPoints": 3140,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "8_Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "8_Uncommon"
+      },
+      "MaxLevel": 5,
+      "GameplayTags": [
+        "Weapon.Melee.Edged"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "Rarity": "EFortRarity::Epic"
+    }
+  }
+]

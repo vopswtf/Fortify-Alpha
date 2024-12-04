@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Rifle_Shredder_Alt2_T10",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Rifles/Blueprints/B_Rifle_Shredder.B_Rifle_Shredder_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Shredder'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Shotguns/Mesh/SK_Shredder.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_Shredder_T10"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataShells'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataShells.0"
+      },
+      "ReticleImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_Frame'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.0"
+      },
+      "ReticleCornerAngles": [
+        45.0,
+        135.0,
+        225.0,
+        315.0
+      ],
+      "ReticleCenterImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_CntDot'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Sniper-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Sniper-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Shotguns/Mesh/SK_Shredder.SK_Shredder",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_10",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9240CC794BD4CB67BC0CD8B7F99CA94B",
+        "SourceString": "Shredder [Prime]",
+        "LocalizedString": "Shredder [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F039A80B466D1F411BF19684D3F1BDDF",
+        "SourceString": "Sniper Rifle (SR). Fires highly accurrate cluster rounds. +20% Crit Chance",
+        "LocalizedString": "Sniper Rifle (SR). Fires highly accurrate cluster rounds. +20% Crit Chance"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "FB835AB24BFA13D8FC9FEA9FFC156887",
+        "SourceString": "Guns Ranged Sniper Rifles Shells Slugs SemiAuto",
+        "LocalizedString": "Guns Ranged Sniper Rifles Shells Slugs SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Shredder'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_Shredder.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::X",
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

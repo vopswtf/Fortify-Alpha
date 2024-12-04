@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "FortCharacterCosmeticItemDefinition",
+    "Name": "TestCharCosmetic",
+    "Class": "UScriptClass'FortCharacterCosmeticItemDefinition'",
+    "Properties": {
+      "Cosmetic_Type": "EFortCharacterCosmetic::Head",
+      "bModifyColor": true,
+      "ColorAlteration": {
+        "ObjectName": "CustomAccessoryColorSwatch'TeamColor_Purple'",
+        "ObjectPath": "FortniteGame/Content/Characters/CharacterColorSwatches/TeamIdentification/TeamColor_Purple.0"
+      }
+    }
+  }
+]

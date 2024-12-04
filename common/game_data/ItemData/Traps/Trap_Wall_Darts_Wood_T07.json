@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Wall_Darts_Wood_T07",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "KnockbackDirOverride": {
+        "Pitch": 30.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Wall_Spikes_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Wall_Spikes.30"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_Solid'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_Solid.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_WindowC'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_WindowC.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_Windows'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_Windows.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_QuarterWallS'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_QuarterWallS.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_HalfWallS'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_HalfWallS.0"
+        },
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_WindowSide'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_WindowSide.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Wall_Darts_Wood_T07"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Wall_Spike/Mesh/S_Wood_Spike_SM_PickUp.S_Wood_Spike_SM_PickUp",
+      "DisassemblyLootTierKey": "Disassemble_Traps_Wall_Darts_Wood_04",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F9BC1DE344F57C8F59C390880DB09AE2",
+        "SourceString": "Wall Trap: Wood Spikes",
+        "LocalizedString": "Wall Trap: Wood Spikes"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "0AA5FE0548CCE078A9738D908BCADBE4",
+        "SourceString": "Can be placed on a flat wall piece with no obstructions.",
+        "LocalizedString": "Can be placed on a flat wall piece with no obstructions."
+      },
+      "GameplayTags": [
+        "trap.Wall"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_Wood_DartWall'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_Wood_DartWall.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::VII"
+    }
+  }
+]

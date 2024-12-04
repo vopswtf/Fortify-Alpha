@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Buff_SuperSpeed",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomPink'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomPink.0"
+          },
+          "Count": 3,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_MushroomBlue'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_MushroomBlue.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Buff_SuperSpeed'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Buff_SuperSpeed.0"
+      },
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E70D030049ADD6C0E90DCFB789AF8CE6",
+        "SourceString": "Schematic: Zoom Juice",
+        "LocalizedString": "Schematic: Zoom Juice"
+      },
+      "GameplayTags": [
+        "supplies.consumable.buff"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icon_Potions_Green'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icon_Potions_Green.0"
+        }
+      }
+    }
+  }
+]

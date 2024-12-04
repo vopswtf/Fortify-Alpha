@@ -1,0 +1,11 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "TestCosmeticAlteration",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::ComplexCosmeticSlot",
+      "IconBrush": {}
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Silver_Traps",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Silver_Traps",
+      "DisplayRarityLevel": 1,
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Mob_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Mob_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CD0E83CD480134B8A5B161B4902E628D",
+        "SourceString": "Silver Trap Pack",
+        "LocalizedString": "Silver Trap Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F35E21F146C3AEF8CACE73B94949DDFF",
+        "SourceString": "Full of high quality stuff.",
+        "LocalizedString": "Full of high quality stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

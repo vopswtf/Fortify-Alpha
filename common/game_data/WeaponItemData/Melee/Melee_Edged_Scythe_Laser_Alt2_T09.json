@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Edged_Scythe_Laser_Alt2_T09",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Edged/B_Melee_Edged_Scythe_Laser.B_Melee_Edged_Scythe_Laser_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'Scyth_Advanced'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/Scyth_Advanced.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Edged_Scythe_Laser_T09"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_EdgedDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_EdgedDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo.GAB_Melee_Axe_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM.GAB_Melee_Axe_Combo_Fullbody_Swing_Rt_CMM_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/EquipGameplayEffects/GAB_LaserScytheBuff.GAB_LaserScytheBuff_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack1.GAB_Melee_Axe_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack2.GAB_Melee_Axe_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack3.GAB_Melee_Axe_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Axe/GAB_Melee_Axe_ComboAttack4.GAB_Melee_Axe_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Edged-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Edged-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/Scyth_Advanced.Scyth_Advanced",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pickup_Scythe_Cue.Pickup_Scythe_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Drop_Scythe_Cue.Drop_Scythe_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_09",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "76832FF446515F50C39C50978C7D1301",
+        "SourceString": "Reaper Scythe [Prime]",
+        "LocalizedString": "Reaper Scythe [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8F6D19C24C83CA959FB146846ECC90F9",
+        "SourceString": "Melee Edged (Edged Weapon). Intended for combat. Does minor damage against objects in the world.+35% Energy Regen Rate, -20% Energy Regen Delay, +10% Max Energy",
+        "LocalizedString": "Melee Edged (Edged Weapon). Intended for combat. Does minor damage against objects in the world.+35% Energy Regen Rate, -20% Energy Regen Delay, +10% Max Energy"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "D1D7EFB648AFEB09A99F45A01004BA8E",
+        "SourceString": "Melee Edged Scythe Laserscythe Wood",
+        "LocalizedString": "Melee Edged Scythe Laserscythe Wood"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Edged",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Scythe_Advanced'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/Scythe_Advanced.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::IX",
+      "Rarity": "EFortRarity::Badass"
+    }
+  }
+]

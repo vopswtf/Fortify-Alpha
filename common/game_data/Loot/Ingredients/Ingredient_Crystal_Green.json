@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Crystal_Green",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Loot_Crystal_Green.S_Loot_Crystal_Green",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Crystal/Crystal_Collect_Cue.Crystal_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5ED63DAB415EC5A9DE8B4292FF7BE5FF",
+        "SourceString": "Green Crystal",
+        "LocalizedString": "Green Crystal"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "476B8FBB4C1AD834BF82CD9BE24122A0",
+        "SourceString": "Crafting ingredient. Rarely found in caves and mountains. Can only appear at high world levels.",
+        "LocalizedString": "Crafting ingredient. Rarely found in caves and mountains. Can only appear at high world levels."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "F52B14FF4303DD2D2FAE06BB2FB16F04",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icons_Crystal_Green'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_Green.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::V",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

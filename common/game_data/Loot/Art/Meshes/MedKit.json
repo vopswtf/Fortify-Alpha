@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_119",
+    "Outer": "MedKit",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "6B1A666C4C0CEFB4C99D23B0A20734F8",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 10469,
+        "SizeOnDisk": 10469,
+        "OffsetInFile": "0xA45B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_57",
+    "Outer": "MedKit",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xCD88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "MedKit",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MedKit_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_MedKit_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.015462875,
+          "Y": 2.1577835,
+          "Z": 17.612577
+        },
+        "BoxExtent": {
+          "X": 25.369095,
+          "Y": 24.236372,
+          "Z": 17.468424
+        },
+        "SphereRadius": 25.369095
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'MedKit:BodySetup_119'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/MedKit.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'MedKit:NavCollision_57'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/MedKit.1"
+    },
+    "LightingGuid": "D15DFD0D-48DB47B0-FED99895-34CFA540",
+    "RenderData": null
+  }
+]

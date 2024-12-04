@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "FortPersistentResourceItemDefinition",
+    "Name": "PersonnelXP",
+    "Class": "UScriptClass'FortPersistentResourceItemDefinition'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CFA904EC475133DF565A278566E9B4E5",
+        "SourceString": "Survivor XP",
+        "LocalizedString": "Survivor XP"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A1259BD0426DA0B63955ADA4B94A1552",
+        "SourceString": "Used to level survivors. Can be found in llamas and by retiring survivors.",
+        "LocalizedString": "Used to level survivors. Can be found in llamas and by retiring survivors."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "3DFF693A427F3235CF96CEBDFC5158BF",
+        "SourceString": "Currency Manager Worker Personnel XP",
+        "LocalizedString": "Currency Manager Worker Personnel XP"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-HB-Agricultural-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-L.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Agricultural-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Agricultural-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Agricultural-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Agricultural-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Agricultural-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Agricultural-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Agricultural-XL.0"
+          }
+        }
+      },
+      "MaxStackSize": 999999999,
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

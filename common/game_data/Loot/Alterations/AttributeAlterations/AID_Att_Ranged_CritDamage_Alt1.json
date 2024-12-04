@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Ranged_CritDamage_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_CritDamage_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_CritDamage_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "48949F284D73B833FDDEB9900008A0AE",
+        "SourceString": "High Impact Rounds [Upgraded]",
+        "LocalizedString": "High Impact Rounds [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BE1E7A5D4EA252301D2D3AB8D28BD15E",
+        "SourceString": "+36% Crit Damage",
+        "LocalizedString": "+36% Crit Damage"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_25",
+    "Outer": "S_Loot_Potion_Yellow",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "987A545D4B698742868E78A5E3838B60",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21725,
+        "SizeOnDisk": 21725,
+        "OffsetInFile": "0x140DF"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_49",
+    "Outer": "S_Loot_Potion_Yellow",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x19604"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Potion_Yellow",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Postions_Crafted_S_Loot_Potion_Yellow_Inst'",
+          "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Materials/MI_FORT_Postions_Crafted_S_Loot_Potion_Yellow_Inst.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 9.536743E-07,
+          "Z": 8.316284
+        },
+        "BoxExtent": {
+          "X": 15.331017,
+          "Y": 15.091328,
+          "Z": 24.466438
+        },
+        "SphereRadius": 24.466438
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Potion_Yellow:BodySetup_25'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Yellow.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Potion_Yellow:NavCollision_49'",
+      "ObjectPath": "FortniteGame/Content/Loot/Postions_Crafted/Meshes/S_Loot_Potion_Yellow.1"
+    },
+    "LightingGuid": "DFCEF049-4318168D-066521BC-23DD0E5F",
+    "RenderData": null
+  }
+]

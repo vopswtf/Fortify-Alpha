@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_507",
+    "Outer": "S_Loot_Metal_Silver",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "9AAAD161489DAF7E835115A6F8A468DD",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1797,
+        "SizeOnDisk": 1797,
+        "OffsetInFile": "0x2D49"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3754",
+    "Outer": "S_Loot_Metal_Silver",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x34B2"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Metal_Silver",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Metal_Silver'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Metal_Silver.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 9.536743E-07,
+          "Z": 25.740711
+        },
+        "BoxExtent": {
+          "X": 17.260044,
+          "Y": 9.789866,
+          "Z": 21.762085
+        },
+        "SphereRadius": 21.762085
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Metal_Silver:BodySetup_507'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Silver.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Metal_Silver:NavCollision_3754'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Silver.1"
+    },
+    "LightingGuid": "9992BB5F-4CE621CB-FC682BB6-7E85572A",
+    "RenderData": null
+  }
+]

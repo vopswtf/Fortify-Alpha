@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_191",
+    "Outer": "S_Loot_Crystal_Red",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "C59982B04F32B6AA812AF9ABB5B949E2",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4113,
+        "SizeOnDisk": 4113,
+        "OffsetInFile": "0x4AA5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3747",
+    "Outer": "S_Loot_Crystal_Red",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x5B1A"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Crystal_Red",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Crystal_Red'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Crystal_Red.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -2.4795532E-05,
+          "Z": 24.980871
+        },
+        "BoxExtent": {
+          "X": 14.805717,
+          "Y": 16.424545,
+          "Z": 22.125555
+        },
+        "SphereRadius": 22.125555
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Crystal_Red:BodySetup_191'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Red.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Crystal_Red:NavCollision_3747'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Crystal_Red.1"
+    },
+    "LightingGuid": "A81E0D9B-42FC785E-C55061B2-92DB6835",
+    "RenderData": null
+  }
+]

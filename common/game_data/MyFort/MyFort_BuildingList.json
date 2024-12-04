@@ -1,0 +1,1234 @@
+[
+  {
+    "Type": "MyTownData",
+    "Name": "MyFort_BuildingList",
+    "Class": "UScriptClass'MyTownData'",
+    "Properties": {
+      "MyTownBuildings": [
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Dojo'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Building_Dojo.0"
+          },
+          "MapSlotId": 1
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MilitaryHQ'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Building_MilitaryHQ.0"
+          },
+          "MapSlotId": 2
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SurvivalBunker'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Building_SurvivalBunker.0"
+          },
+          "MapSlotId": 4
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_TechLab'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Administration/Building_TechLab.0"
+          },
+          "MapSlotId": 3
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Core/Building_CommandCenter.0"
+          },
+          "MapSlotId": 0
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_EngineeringSchool'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_EngineeringSchool.0"
+          },
+          "MapSlotId": 11
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ExplorersGuild'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_ExplorersGuild.0"
+          },
+          "MapSlotId": 8
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_FiringRange'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_FiringRange.0"
+          },
+          "MapSlotId": 7
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_GadgetWorkshop'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_GadgetWorkshop.0"
+          },
+          "MapSlotId": 5
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Gym'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_Gym.0"
+          },
+          "MapSlotId": 10
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Hospital'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_Hospital.0"
+          },
+          "MapSlotId": 13
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_MartialArtsAcademy'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Building_MartialArtsAcademy.0"
+          },
+          "MapSlotId": 6
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Keep'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep.0"
+          },
+          "MapSlotId": 12
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SupplyDrop'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/ActiveAbility/Building_SupplyDrop.0"
+          },
+          "MapSlotId": 9
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Collect'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Special/Building_Collect.0"
+          },
+          "MapSlotId": -1
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_Manor'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Manor.0"
+          },
+          "MapSlotId": 12
+        },
+        {
+          "Building": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ScienceLab'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Crafting/Building_ScienceLab.0"
+          },
+          "MapSlotId": -1
+        }
+      ],
+      "MyTownRoads": [
+        {
+          "BuildingName1": "Building_CommandCenter",
+          "BuildingName2": "Building_TechLab"
+        },
+        {
+          "BuildingName1": "Building_CommandCenter",
+          "BuildingName2": "Building_MilitaryHQ"
+        },
+        {
+          "BuildingName1": "Building_CommandCenter",
+          "BuildingName2": "Building_Hospital"
+        },
+        {
+          "BuildingName1": "Building_TechLab",
+          "BuildingName2": "Building_SurvivalBunker"
+        },
+        {
+          "BuildingName1": "Building_MilitaryHQ",
+          "BuildingName2": "Building_Dojo"
+        },
+        {
+          "BuildingName1": "Building_Hospital",
+          "BuildingName2": "Building_Gym"
+        },
+        {
+          "BuildingName1": "Building_Gym",
+          "BuildingName2": "Building_MartialArtsAcademy"
+        },
+        {
+          "BuildingName1": "Building_Gym",
+          "BuildingName2": "Building_ExplorersGuild"
+        },
+        {
+          "BuildingName1": "Building_Hospital",
+          "BuildingName2": "Building_EngineeringSchool"
+        },
+        {
+          "BuildingName1": "Building_Hospital",
+          "BuildingName2": "Building_FiringRange"
+        },
+        {
+          "BuildingName1": "Building_FiringRange",
+          "BuildingName2": "Building_GadgetWorkshop"
+        },
+        {
+          "BuildingName1": "Building_EngineeringSchool",
+          "BuildingName2": "Building_GadgetWorkshop"
+        }
+      ],
+      "CollectBuilding": {
+        "ObjectName": "MyTownBuildingDefinitionData'Building_Collect'",
+        "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Special/Building_Collect.0"
+      },
+      "CommandCenterBuilding": {
+        "ObjectName": "MyTownBuildingDefinitionData'Building_CommandCenter'",
+        "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Core/Building_CommandCenter.0"
+      },
+      "KeepBuilding": {
+        "ObjectName": "MyTownBuildingDefinitionData'Building_Keep'",
+        "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Keep.0"
+      },
+      "ManorBuilding": {
+        "ObjectName": "MyTownBuildingDefinitionData'Building_Manor'",
+        "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Development/Building_Manor.0"
+      },
+      "Banners": [
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Archer'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Archer.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Archer'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Archer.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Axe'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Axe.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Axe'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Axe.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Ironclad'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Ironclad.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Ironclad'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Ironclad.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Longshot'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Longshot.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Longshot'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Longshot.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Magazine'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Magazine.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Magazine'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Magazine.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Rocketeer'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Rocketeer.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Rocketeer'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Rocketeer.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Pioneer'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Pioneer.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Pioneer'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Pioneer.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        },
+        {
+          "BigBannerImage": {
+            "ImageSize": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'HB-Banner-Pattern-Siege'",
+              "ObjectPath": "FortniteGame/Content/UI/HomeBase/BannerWidget/Patterns/HB-Banner-Pattern-Siege.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          },
+          "SmallBannerImage": {
+            "ImageSize": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "DrawAs": "ESlateBrushDrawType::Image",
+            "Margin": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "TintColor": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFFFF"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Tiling": "ESlateBrushTileType::NoTile",
+            "Mirroring": "ESlateBrushMirrorType::NoMirror",
+            "ImageType": "ESlateBrushImageType::NoImage",
+            "ResourceObject": {
+              "ObjectName": "Texture2D'Icon-Pattern-Siege'",
+              "ObjectPath": "FortniteGame/Content/UI/Icons/Banners/Icon-Pattern-Siege.0"
+            },
+            "ResourceName": "None",
+            "bIsDynamicallyLoaded": false,
+            "UVRegion": {
+              "Min": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Max": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "bIsValid": 0
+            }
+          }
+        }
+      ],
+      "BannerColors": [
+        {
+          "Position": 0.0,
+          "Color": {
+            "B": 21,
+            "G": 22,
+            "R": 130,
+            "A": 255,
+            "Hex": "FF821615"
+          }
+        },
+        {
+          "Position": 0.32,
+          "Color": {
+            "B": 12,
+            "G": 122,
+            "R": 24,
+            "A": 255,
+            "Hex": "FF187A0C"
+          }
+        },
+        {
+          "Position": 0.5,
+          "Color": {
+            "B": 122,
+            "G": 121,
+            "R": 5,
+            "A": 255,
+            "Hex": "FF05797A"
+          }
+        },
+        {
+          "Position": 0.66,
+          "Color": {
+            "B": 122,
+            "G": 25,
+            "R": 19,
+            "A": 255,
+            "Hex": "FF13197A"
+          }
+        },
+        {
+          "Position": 0.84,
+          "Color": {
+            "B": 122,
+            "G": 4,
+            "R": 100,
+            "A": 255,
+            "Hex": "FF64047A"
+          }
+        },
+        {
+          "Position": 1.0,
+          "Color": {
+            "B": 10,
+            "G": 5,
+            "R": 121,
+            "A": 255,
+            "Hex": "FF79050A"
+          }
+        }
+      ],
+      "BuildingUpgradesData": {
+        "ObjectName": "DataTable'MyFortBuildingUpgrades'",
+        "ObjectPath": "FortniteGame/Content/MyFort/Datatables/MyFortBuildingUpgrades.0"
+      },
+      "RatingPerLevelGrowthTable": {
+        "ObjectName": "CurveTable'ClassRatingPerLevel'",
+        "ObjectPath": "FortniteGame/Content/MyFort/Datatables/ClassRatingPerLevel.0"
+      },
+      "WorkerPersonalities": [
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsAdventurous"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "6FEAA20949DB692821AEE7A30FBCA47A",
+            "SourceString": "Adventurous",
+            "LocalizedString": "Adventurous"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsAnalytical"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "B3574B6B4E057CAD3A65D3A16BAAA176",
+            "SourceString": "Analytical",
+            "LocalizedString": "Analytical"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsCompetitive"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "1AB95DB74B35189D816BDA92FA66CDAC",
+            "SourceString": "Competitive",
+            "LocalizedString": "Competitive"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsCooperative"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "729BC78B4B2C6FD891DD47AF0A8173E4",
+            "SourceString": "Cooperative",
+            "LocalizedString": "Cooperative"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsCurious"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "E8CA9C804B66804B7DDC3B965E91B5DD",
+            "SourceString": "Curious",
+            "LocalizedString": "Curious"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsDreamer"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "16A7B63C45E17AD4716E8FAB55A97888",
+            "SourceString": "Dreamer",
+            "LocalizedString": "Dreamer"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsPragmatic"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "B125983F4D6641BB5DAFDFBE7DB8F3C3",
+            "SourceString": "Pragmatic",
+            "LocalizedString": "Pragmatic"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "PersonalityTypeTag": [
+            "Homebase.Worker.Personality.IsDependable"
+          ],
+          "PersonalityName": {
+            "Namespace": "",
+            "Key": "DE1C4B704A27EED7DA9A9B9EF9CEAA54",
+            "SourceString": "Dependable",
+            "LocalizedString": "Dependable"
+          },
+          "SelectionWeight": 1
+        }
+      ],
+      "WorkerSetBonuses": [
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsResistanceLow"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "9F831B8F493DBF693C56DB8733763C66",
+            "SourceString": "Damage Resistance Bonus",
+            "LocalizedString": "Damage Resistance Bonus"
+          },
+          "RequiredWorkersCount": 2,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_Armor_Low_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_Armor_Low.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsHarvestHigh"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "B27BFD384F1CA0C22F805B9195122769",
+            "SourceString": "Resource Harvesting Bonus",
+            "LocalizedString": "Resource Harvesting Bonus"
+          },
+          "RequiredWorkersCount": 3,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_HarvestRate_High_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_HarvestRate_High.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsOffenseLow"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "13E4E6A04B43EA0E8F9939A6A3C505C8",
+            "SourceString": "Damage Bonus",
+            "LocalizedString": "Damage Bonus"
+          },
+          "RequiredWorkersCount": 2,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_Scrappiness_Low_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_Scrappiness_Low.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsCritDamageLow"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "2DEFA5BE4676C19187EDC6A0C9ADDEBC",
+            "SourceString": "Crit Damage Bonus",
+            "LocalizedString": "Crit Damage Bonus"
+          },
+          "RequiredWorkersCount": 2,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_Swagger_Low_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_Swagger_Low.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsEnergyLow"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "5BCE187644A061392FD6C5B51904AA8B",
+            "SourceString": "Energy Bonus",
+            "LocalizedString": "Energy Bonus"
+          },
+          "RequiredWorkersCount": 3,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_Tenacity_High_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_Tenacity_High.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsFortitudeLow"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "F06487844D087914DA11ABA93CAC2F7F",
+            "SourceString": "Health Bonus",
+            "LocalizedString": "Health Bonus"
+          },
+          "RequiredWorkersCount": 3,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_Vitality_High_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_Vitality_High.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsTrapDurabilityHigh"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "F90C5F1C472AC2A65EFBF79B94845717",
+            "SourceString": "Trap Durability",
+            "LocalizedString": "Trap Durability"
+          },
+          "RequiredWorkersCount": 3,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_TrapDurability_High_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_TrapDurability_High.0"
+          },
+          "SelectionWeight": 1
+        },
+        {
+          "SetBonusTypeTag": [
+            "Homebase.Worker.SetBonus.IsTrapDamageLow"
+          ],
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "2F6AC2D44C1FF80EA70B86AA9884CCB5",
+            "SourceString": "Trap Damage",
+            "LocalizedString": "Trap Damage"
+          },
+          "RequiredWorkersCount": 2,
+          "SetBonusEffect": {
+            "ObjectName": "BlueprintGeneratedClass'SetBonus_TrapDamage_Low_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Personnel/SetBonuses/SetBonus_TrapDamage_Low.0"
+          },
+          "SelectionWeight": 1
+        }
+      ],
+      "PersistentResourceDefinitions": [
+        {
+          "ObjectName": "FortPersistentResourceItemDefinition'PowerItemData'",
+          "ObjectPath": "FortniteGame/Content/Loot/PersistentResources/PowerItemData.0"
+        },
+        {
+          "ObjectName": "FortPersistentResourceItemDefinition'ManufacturingPartsItemData'",
+          "ObjectPath": "FortniteGame/Content/Loot/PersistentResources/ManufacturingPartsItemData.0"
+        }
+      ],
+      "PersonnelXpItemDefinition": {
+        "ObjectName": "FortPersistentResourceItemDefinition'PersonnelXP'",
+        "ObjectPath": "FortniteGame/Content/Loot/PersistentResources/PersonnelXP.0"
+      },
+      "SchematicXpItemDefinition": {
+        "ObjectName": "FortPersistentResourceItemDefinition'SchematicXP'",
+        "ObjectPath": "FortniteGame/Content/Loot/PersistentResources/SchematicXP.0"
+      },
+      "CurrencyItemDefinition": {
+        "ObjectName": "FortCurrencyItemDefinition'MtxGiveaway'",
+        "ObjectPath": "FortniteGame/Content/Loot/Currency/MtxGiveaway.0"
+      },
+      "TotalRatingGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_CombinedRatings_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/GE_Homebase_CombinedRatings.0"
+      }
+    }
+  }
+]

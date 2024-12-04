@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Jackpot_Super",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Jackpot_Super",
+      "DisplayRarityLevel": 2,
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_JackPot_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_JackPot_IconMask.0"
+      },
+      "PackColor": {
+        "R": 1.0,
+        "G": 0.964971,
+        "B": 0.042817,
+        "A": 1.0,
+        "Hex": "FFFFFC3A"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Happy_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Happy_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B15EC45C46121993A0E6C7B89A9D9B86",
+        "SourceString": "Legendary Troll Loot Truck",
+        "LocalizedString": "Legendary Troll Loot Truck"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F81621B94362087887B013B1A3D1A8A9",
+        "SourceString": "Months worth of troll loot hoarding in one convenient package!",
+        "LocalizedString": "Months worth of troll loot hoarding in one convenient package!"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

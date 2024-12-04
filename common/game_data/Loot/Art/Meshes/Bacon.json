@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_146",
+    "Outer": "Bacon",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "EBAE2DB14D5E3D971816D0AEBB8C06AE",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 17685,
+        "SizeOnDisk": 17685,
+        "OffsetInFile": "0xFD99"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_118",
+    "Outer": "Bacon",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x14312"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Bacon",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Wood_Drop'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Wood_Drop.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.1439714,
+          "Y": 1.7718878,
+          "Z": 4.1974773
+        },
+        "BoxExtent": {
+          "X": 12.772857,
+          "Y": 14.018977,
+          "Z": 12.452871
+        },
+        "SphereRadius": 14.018977
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Bacon:RB_BodySetup_146'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Bacon.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Bacon:NavCollision_118'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Bacon.1"
+    },
+    "LightingGuid": "C0198CC0-4A2D2CC1-602A69B7-431732FE",
+    "RenderData": null
+  }
+]

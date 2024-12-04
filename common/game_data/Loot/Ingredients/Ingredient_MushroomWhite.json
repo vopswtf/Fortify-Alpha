@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_MushroomWhite",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Mushroom05_Loot.S_Mushroom05_Loot",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/Mushroom_Collect_Cue.Mushroom_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "98BFB8C04DFF733AC575B39C9F538643",
+        "SourceString": "White Mushroom",
+        "LocalizedString": "White Mushroom"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "638716484F6584FB527B07B7243D5C6F",
+        "SourceString": "Crafting ingredient. Used to enhance the strength of consumable items. Found in mountains.",
+        "LocalizedString": "Crafting ingredient. Used to enhance the strength of consumable items. Found in mountains."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "28F609CF432132B5785E72B0B3DDC687",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Mushroom_05'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Mushroom_05.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::II",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

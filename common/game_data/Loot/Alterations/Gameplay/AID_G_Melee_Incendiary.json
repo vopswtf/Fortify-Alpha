@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Melee_Incendiary",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Fire"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Melee'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Melee.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "617F0F8142A14987E8A957A10968FE0D",
+        "SourceString": "Incendiary Strike",
+        "LocalizedString": "Incendiary Strike"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3F71C6754A7732428DF672B1406A5DE2",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Fire, which is more effective vs Ice but less effective vs Lightning enemies.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Fire, which is more effective vs Ice but less effective vs Lightning enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

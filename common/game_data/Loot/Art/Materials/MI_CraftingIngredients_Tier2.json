@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_CraftingIngredients_Tier2",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect.0"
+      },
+      "ParentLightingGuid": "8BD0810C-4F0D8903-54FB44BF-979B8E68",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "SpecLevel",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "35447209-4AA45A1B-47BEF4AA-69A8318C"
+        },
+        {
+          "ParameterName": "SpecRoughnessMax",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "B5D7B6FB-42D9031C-C92653AC-AC5DB20F"
+        },
+        {
+          "ParameterName": "SpecRoughnessMin",
+          "ParameterValue": 0.132743,
+          "ExpressionGUID": "AECFCAA5-4B6B9B5F-679AC495-E4D60504"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_CraftingTier2_S'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_CraftingTier2_S.0"
+          },
+          "ExpressionGUID": "103ACF17-4BFB1563-57057D9A-113F7380"
+        },
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_CraftingTier2_D'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_CraftingTier2_D.0"
+          },
+          "ExpressionGUID": "4A6A9316-4C1DC571-E0C1F186-9E51A1F2"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_CraftingTier2_N'",
+            "ObjectPath": "FortniteGame/Content/Loot/Art/Textures/T_CraftingTier2_N.0"
+          },
+          "ExpressionGUID": "7650772D-491D02AB-11CA18BF-6826813F"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    }
+  }
+]

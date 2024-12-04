@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Consumable_Recovery_FirstAidKit",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortConsumableItemDefinition'Recovery_Bandage'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_Bandage.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Honey'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Honey.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortConsumableItemDefinition'Recovery_FirstAidKit'",
+        "ObjectPath": "FortniteGame/Content/Loot/Consumables/Recovery_FirstAidKit.0"
+      },
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2D2E7B8444553F7477B3C4AC19D94BFC",
+        "SourceString": "Schematic: Healing: FIrst Aid Kit",
+        "LocalizedString": "Schematic: Healing: FIrst Aid Kit"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Crafting_FirstAidKit'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Crafting_FirstAidKit.0"
+        }
+      }
+    }
+  }
+]

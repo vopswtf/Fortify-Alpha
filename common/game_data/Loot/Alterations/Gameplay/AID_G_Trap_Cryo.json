@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Trap_Cryo",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "Gameplay.Damage.Elemental.Ice"
+          ]
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D99047D64E11DD1F433A1EBDDE3706D4",
+        "SourceString": "Cryo Trap",
+        "LocalizedString": "Cryo Trap"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2F9D1493486A70698ED3CF86CDF58251",
+        "SourceString": "Changes damage type to Ice. Ice damage is more effective against Lightning enemies, but less effective against Fire Enemies.",
+        "LocalizedString": "Changes damage type to Ice. Ice damage is more effective against Lightning enemies, but less effective against Fire Enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

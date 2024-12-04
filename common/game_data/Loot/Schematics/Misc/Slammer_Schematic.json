@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Slammer_Schematic",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 15,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortMissionItemDefinition'MissionItem_Slammer'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Adventures/MissionItem_Slammer.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "956DFF264A44A8D594A271B6850DB9A1",
+        "SourceString": "Schematic: Slammer",
+        "LocalizedString": "Schematic: Slammer"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C0667BE14A7C3CC170FAA8B3BB6924F9",
+        "SourceString": "Schematic for creating a Powered Bubble Slammer",
+        "LocalizedString": "Schematic for creating a Powered Bubble Slammer"
+      },
+      "GameplayTags": [
+        "Missions.Items.MissionItem"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

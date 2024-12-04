@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_20",
+    "Outer": "S_Herbs_Loot",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "5236C9B5480371F7DBD556B9E7185BD3",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 39933,
+        "SizeOnDisk": 39933,
+        "OffsetInFile": "0x21C31"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_31",
+    "Outer": "S_Herbs_Loot",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x2B892"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Herbs_Loot",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HerbsPickupEffect'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_HerbsPickupEffect.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -4.3312607,
+          "Y": 0.0,
+          "Z": -2.3760834
+        },
+        "BoxExtent": {
+          "X": 32.635048,
+          "Y": 32.52265,
+          "Z": 41.656414
+        },
+        "SphereRadius": 41.656414
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Herbs_Loot:RB_BodySetup_20'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Herbs_Loot.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Herbs_Loot:NavCollision_31'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Herbs_Loot.1"
+    },
+    "LightingGuid": "1C4FA47E-41AABA7A-F86419BA-120FA625",
+    "RenderData": null
+  }
+]

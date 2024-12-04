@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortResourceItemDefinition",
+    "Name": "WWDC_Wood_Fake5",
+    "Class": "UScriptClass'FortResourceItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "AccumulatingStatType": "EFortReplicatedStat::WoodGathered",
+      "MiniMapIconBrush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.2,
+            "Hex": "33FFFFFF"
+          }
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/Logs.Logs",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Wood_Collect_Cue.Wood_Collect_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Wood_Drop_Cue.Wood_Drop_Cue",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "182B6FC24CA7CCE45B37C48DCD9E5AF0",
+        "SourceString": "Wood",
+        "LocalizedString": "Wood"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CA1A46C44B528759878AC3ABAA2E2CB5",
+        "SourceString": "Basic resource found throughout the world.",
+        "LocalizedString": "Basic resource found throughout the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "55F9C82540AA4C979A7FD8BDEF9D7E56",
+        "SourceString": "Resource wood tree",
+        "LocalizedString": "Resource wood tree"
+      },
+      "GameplayTags": [
+        "Building.Resource.Wood"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Wood'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Wood.0"
+        }
+      },
+      "MaxStackSize": 999
+    }
+  }
+]

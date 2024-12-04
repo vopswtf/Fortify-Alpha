@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_GadgetWorkshop",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHDBT_GadgetWorkshop'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHDBT_GadgetWorkshop.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.GadgetWorkshop"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:GadgetWorkshop_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:GadgetWorkshop_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:GadgetWorkshop_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:GadgetWorkshop_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_GadgetWorkshop_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_GadgetWorkshop_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_Generic_ProximityMines'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/Proximity_Mines/Kit_Generic_ProximityMines.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_GadgetWorkshop_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_GadgetWorkshop_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_GadgetWorkshop_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_GadgetWorkshop_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_GadgetWorkshop_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_GadgetWorkshop_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_GadgetWorkshop_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_GadgetWorkshop_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_GadgetWorkshop_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_GadgetWorkshop_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_GadgetWorkshop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_GadgetWorkshop.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_ProxyMine_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_ProxyMine_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_TrapWorkshop_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_TrapWorkshop_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_GadgetWorkshop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_GadgetWorkshop_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_GadgetWorkshop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_GadgetWorkshop_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_GadgetWorkshop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_GadgetWorkshop_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "17D6DFF14A8C6812A8C061B5B1619A0B",
+        "SourceString": "Trap Workshop",
+        "LocalizedString": "Trap Workshop"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F75074FF4720DC0AC01C588BC614CD5C",
+        "SourceString": "Upgrade to build stronger, more durable traps. Unlocks the Proximity Mine gadget.",
+        "LocalizedString": "Upgrade to build stronger, more durable traps. Unlocks the Proximity Mine gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_GadgetWorkshop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_GadgetWorkshop.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-TrapWorkshop-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-TrapWorkshop-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-TrapWorkshop-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-TrapWorkshop-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

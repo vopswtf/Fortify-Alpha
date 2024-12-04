@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestCategoryTable",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortCategoryTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "Outpost": {
+        "Name": {
+          "Namespace": "",
+          "Key": "9E179F294B8CF0391632418E15AC4BDF",
+          "SourceString": "Outpost",
+          "LocalizedString": "Outpost"
+        },
+        "SortPriority": 5
+      },
+      "World": {
+        "Name": {
+          "Namespace": "",
+          "Key": "C1605840447BA141FABEF69CF0E497B4",
+          "SourceString": "World",
+          "LocalizedString": "World"
+        },
+        "SortPriority": 4
+      },
+      "Homebase": {
+        "Name": {
+          "Namespace": "",
+          "Key": "55EA28864DA22959655867A205AC77FB",
+          "SourceString": "Homebase",
+          "LocalizedString": "Home Base"
+        },
+        "SortPriority": 3
+      },
+      "Daily": {
+        "Name": {
+          "Namespace": "",
+          "Key": "BFAD32944077957C7E6C1BAB23A6A92E",
+          "SourceString": "Daily",
+          "LocalizedString": "Daily"
+        },
+        "SortPriority": 2
+      },
+      "Test": {
+        "Name": {
+          "Namespace": "",
+          "Key": "46E4662E450672CE6AE5B68509347FD1",
+          "SourceString": "Test",
+          "LocalizedString": "Test"
+        },
+        "SortPriority": 0
+      }
+    }
+  }
+]

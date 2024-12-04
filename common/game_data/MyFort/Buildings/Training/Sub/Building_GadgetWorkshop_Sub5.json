@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_GadgetWorkshop_Sub5",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.GadgetWorkshop.SBFive"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:GadgetWorkshop_SubBuildingFive_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub5_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub5_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub5_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub5_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub5_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub5_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub5_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub5_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_GadgetWorkshop_Sub5_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/GadgetWorkshop/GE_Homebase_Static_GadgetWorkshop_Sub5_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_GadgetWorkshop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_GadgetWorkshop.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_TrapWorkshop_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_TrapWorkshop_5.0"
+      },
+      "bHideInUI": true
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "FortConsumableItemDefinition",
+    "Name": "Food_MegaBacon",
+    "Class": "UScriptClass'FortConsumableItemDefinition'",
+    "Properties": {
+      "ConsumeEffects": [
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_Heal_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_Heal.0"
+          },
+          "Level": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'Consumables'",
+                "ObjectPath": "FortniteGame/Content/Balance/DataTables/Consumables.0"
+              },
+              "RowName": "Food_MegaBacon"
+            }
+          }
+        },
+        {
+          "EffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_Consumable_MegaBacon_StaminaCost_C'",
+            "ObjectPath": "FortniteGame/Content/Loot/Consumables/GameplayEffects/GE_Consumable_MegaBacon_StaminaCost.0"
+          },
+          "Level": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          }
+        }
+      ],
+      "UseAnimation": {
+        "ObjectName": "AnimMontage'Eat_Food'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/General/Eat_Food.0"
+      },
+      "UseTime": 2.4,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/Bacon.Bacon",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Health/BaconMega_Collect_Cue.BaconMega_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A7382120442FBB8848F8C194236DC299",
+        "SourceString": "Food: Mega Bacon",
+        "LocalizedString": "Food: Mega Bacon"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F3937198463DEAD96A648BBCDFDD8D5C",
+        "SourceString": "The most powerful substance in the world. Massive heal and reduces stamina consumption by 50% for 30 seconds.",
+        "LocalizedString": "The most powerful substance in the world. Massive heal and reduces stamina consumption by 50% for 30 seconds."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "C2C0574A49D0B8694C3C08A21522C014",
+        "SourceString": "Consumable health food",
+        "LocalizedString": "Consumable health food"
+      },
+      "GameplayTags": [
+        "supplies.consumable.healing"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultHealthAttributeTemplate.DefaultHealthAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Food_Bacon'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Inventory_Food_Bacon.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 99,
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

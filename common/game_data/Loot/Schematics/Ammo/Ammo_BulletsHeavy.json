@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ammo_BulletsHeavy",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/WoodItemData.0"
+          },
+          "Count": 10,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortResourceItemDefinition'MetalItemData'",
+            "ObjectPath": "FortniteGame/Content/Loot/ResourcePickups/MetalItemData.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Nuts_Bolts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Nuts_Bolts.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsHeavy'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsHeavy.0"
+      },
+      "QuantityProduced": 18,
+      "CraftingPoints": 20,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "FA5A53B249F4E5B6312792B5598E653A",
+        "SourceString": "Schematic: Ammo: Heavy Bullets",
+        "LocalizedString": "Schematic: Ammo: Heavy Bullets"
+      },
+      "GameplayTags": [
+        "supplies.ammo.bulletheavy"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Ammo-Heavy-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Ammo/Icon-Ammo-Heavy-L.0"
+        }
+      }
+    }
+  }
+]

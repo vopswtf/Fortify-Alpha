@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_HealthRegeneration_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_HealthRegeneration_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_HealthRegeneration_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0A7C8AA24E63D596F134498A298FF956",
+        "SourceString": "Health Regeneration [Upgraded]",
+        "LocalizedString": "Health Regeneration [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "28081E7F4118C682B5957992EB2FA802",
+        "SourceString": "+4 Health Regeneration",
+        "LocalizedString": "+4 Health Regeneration"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

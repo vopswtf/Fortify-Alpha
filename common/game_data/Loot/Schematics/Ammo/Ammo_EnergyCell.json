@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ammo_EnergyCell",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Mechanical_Parts'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Mechanical_Parts.0"
+          },
+          "Count": 5,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Batteries'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Batteries.0"
+          },
+          "Count": 3,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Blastpowder'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_BlastPowder.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataEnergyCell'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataEnergyCell.0"
+      },
+      "QuantityProduced": 60,
+      "CraftingPoints": 80,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DCD1DC3F4AFEFE86C8B45482B57BB611",
+        "SourceString": "Schematic: Ammo: Energy Cell",
+        "LocalizedString": "Schematic: Ammo: Energy Cell"
+      },
+      "GameplayTags": [
+        "supplies.ammo.energycell"
+      ],
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Ammo-Cell-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Ammo/Icon-Ammo-Cell-L.0"
+        }
+      }
+    }
+  }
+]

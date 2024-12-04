@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "Trap_Wall_Darts_T05",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Properties": {
+      "KnockbackDirOverride": {
+        "Pitch": 30.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "BlueprintClass": {
+        "ObjectName": "BlueprintGeneratedClass'Trap_Wall_Darts_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Trap/Blueprints/Trap_Wall_Darts.33"
+      },
+      "AllowedShapes": [
+        {
+          "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_Solid'",
+          "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_Solid.0"
+        }
+      ],
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Building/ItemData/Traps/Traps.0"
+        },
+        "RowName": "Trap_Wall_Darts_T05"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Weapons/FORT_TRAPS/Dart_Trap/WallDart_Trap_Pickup.WallDart_Trap_Pickup",
+      "DisassemblyLootTierKey": "Disassemble_Traps_Wall_Darts_03",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "86ACD16847E11CEBBEFFD88F28FA3C9A",
+        "SourceString": "Wall Trap: Darts",
+        "LocalizedString": "Wall Trap: Darts"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3ECC890B4E1137B1ACAD1AA34A5FECF0",
+        "SourceString": "Can be placed on a flat wall piece with no obstructions.",
+        "LocalizedString": "Can be placed on a flat wall piece with no obstructions."
+      },
+      "GameplayTags": [
+        "trap.Wall"
+      ],
+      "AttributeTemplate": "/Game/Building/ItemData/Traps/AttributeTemplates/DefaultTrapAttributeTemplate.DefaultTrapAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Trap_DartWall'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Icon_Trap_DartWall.0"
+        }
+      },
+      "MaxStackSize": 20,
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::V"
+    }
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Shotgun_Tactical_Alt1_T06",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Shotguns/Blueprints/B_Shotgun_Tactical.B_Shotgun_Tactical_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Bossmerg'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Shotguns/Mesh/SK_Bossmerg.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Shotgun_Tactical_T06"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataShells'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataShells.0"
+      },
+      "ReticleImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_Frame'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.0"
+      },
+      "ReticleCornerAngles": [
+        45.0,
+        135.0,
+        225.0,
+        315.0
+      ],
+      "ReticleCenterImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_CntDot'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Shotgun-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Shotgun-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Shotguns/Mesh/SK_Bossmerg.SK_Bossmerg",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Pickup_Cue.Shotgun_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Drop_Cue.Shotgun_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_06",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6A958FFB41CD5C4604314899560798BB",
+        "SourceString": "Panther [Upgraded]",
+        "LocalizedString": "Panther [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "932EC5C9489C492F7CD8DE899C724A9E",
+        "SourceString": "Shotgun. More precise than other shotguns.",
+        "LocalizedString": "Shotgun. More precise than other shotguns."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "F8DC49AB4ABA1BB1D04041A78CE2D999",
+        "SourceString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto",
+        "LocalizedString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.shotgun",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Bossmerg'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Shotguns/SK_Bossmerg.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VI",
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

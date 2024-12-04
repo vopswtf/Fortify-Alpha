@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "ZoneCardPack_World_Crystal_T19",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "ZoneCardPack_World_Crystal_T19",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BB20F3F04BF8B2F110540CB907ACADB2",
+        "SourceString": "Crystals (Tier 19)",
+        "LocalizedString": "Crystals (Tier 19)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "53BD810C4EC3789250AE979C1AB6B1AD",
+        "SourceString": "A bundle of crystals used to craft items in this location. Harder missions give higher quantities and qualities of crystals!",
+        "LocalizedString": "A bundle of crystals used to craft items in this location. Harder missions give higher quantities and qualities of crystals!"
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+            "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+          }
+        }
+      }
+    }
+  }
+]

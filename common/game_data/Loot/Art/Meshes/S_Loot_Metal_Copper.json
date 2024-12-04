@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_510",
+    "Outer": "S_Loot_Metal_Copper",
+    "Class": "UScriptClass'BodySetup'",
+    "BodySetupGuid": "D5F1C86F45F972112935BFA58A202E95",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2211,
+        "SizeOnDisk": 2211,
+        "OffsetInFile": "0x3007"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3751",
+    "Outer": "S_Loot_Metal_Copper",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x390E"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Loot_Metal_Copper",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Loot_Metal_Copper'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_Loot_Metal_Copper.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -2.2004147,
+          "Y": 1.8119812E-05,
+          "Z": 22.521576
+        },
+        "BoxExtent": {
+          "X": 17.176004,
+          "Y": 11.088015,
+          "Z": 19.176735
+        },
+        "SphereRadius": 19.176735
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Loot_Metal_Copper:BodySetup_510'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Copper.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Loot_Metal_Copper:NavCollision_3751'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/S_Loot_Metal_Copper.1"
+    },
+    "LightingGuid": "CBEF6F32-48838785-F5474195-6F4B252F",
+    "RenderData": null
+  }
+]

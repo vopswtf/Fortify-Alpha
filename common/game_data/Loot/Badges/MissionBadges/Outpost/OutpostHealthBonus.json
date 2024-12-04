@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "OutpostHealthBonus",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-A-_T0__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-A-_T0__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "0DFEC8F74A7F21CC46609A8F95222376",
+        "SourceString": "No Outpost Building Took More than 20% Damage!",
+        "LocalizedString": "No Outpost Building Took More than 20% Damage!"
+      },
+      "FailedDisplayText": {
+        "Namespace": "",
+        "Key": "FD52B15847BBADE2049E70B094E2C7EC",
+        "SourceString": "No Outpost Building Took More than 20% Damage!",
+        "LocalizedString": "No Outpost Building Took More than 20% Damage!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "OutpostBadge_Medium"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "17A71CD145AA0DBE0E02088038658A55",
+        "SourceString": "No Outpost Building Took More than 20% Damage!",
+        "LocalizedString": "No Outpost Building Took More than 20% Damage!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "7651F8574D2DE67C2C91908F728451E6",
+        "SourceString": "No Outpost Building Took More than 20% Damage!",
+        "LocalizedString": "No Outpost Building Took More than 20% Damage!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T0_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T0_.0"
+        }
+      }
+    }
+  }
+]

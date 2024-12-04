@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_ExplorersGuild_Sub5",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingTag": [
+        "Homebase.Building.ExplorersGuild.SBFive"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ExplorersGuild_SubBuildingFive_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub5_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub5_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub5_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub5_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub5_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub5_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub5_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub5_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_Sub5_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_Sub5_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ExplorersGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ExplorersGuild.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_ExplorersGuild_5_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_ExplorersGuild_5.0"
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "40F989AF4066CA8D1E583392A302C4F4",
+        "SourceString": "Hot Air Balloon",
+        "LocalizedString": "Hot Air Balloon"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A3B4B8B941A92BB7A6A3F9A8BBE09D8B",
+        "SourceString": "Increases item loot chance.",
+        "LocalizedString": "Increases item loot chance."
+      }
+    }
+  }
+]

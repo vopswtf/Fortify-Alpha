@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "FortIngredientItemDefinition",
+    "Name": "Ingredient_Crystal_White",
+    "Class": "UScriptClass'FortIngredientItemDefinition'",
+    "Properties": {
+      "bShowDirectionalArrowWhenFarOff": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": "/Game/Loot/Art/Meshes/S_Loot_Crystal_White.S_Loot_Crystal_White",
+      "PickupSound": "/Game/Sounds/Foley_Loot/Ingredients/Crystal/Crystal_Collect_Cue.Crystal_Collect_Cue",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "23119E09436A88AC90F475B911FF01A7",
+        "SourceString": "White Crystal",
+        "LocalizedString": "White Crystal"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BEC1AD894F32A4E95BA003981772AF9E",
+        "SourceString": "Crafting ingredient. Used to make many quality weapons. Occasionally found in caves and mountains.",
+        "LocalizedString": "Crafting ingredient. Used to make many quality weapons. Occasionally found in caves and mountains."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "483C98254D73EFC94BA62EA04B27623A",
+        "SourceString": "Crafting ingredients",
+        "LocalizedString": "Crafting ingredients"
+      },
+      "GameplayTags": [
+        "supplies.crafting.ingredient"
+      ],
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultIngredientAttributeTemplate.DefaultIngredientAttributeTemplate",
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Icons_Crystal_White'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/T_Icons_Crystal_White.0"
+        }
+      },
+      "bAllowMultipleStacks": false,
+      "MaxStackSize": 499,
+      "Tier": "EFortItemTier::I",
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

@@ -1,0 +1,429 @@
+[
+  {
+    "Type": "FortBuildingItemDefinition",
+    "Name": "BuildingItemData_Wall",
+    "Class": "UScriptClass'FortBuildingItemDefinition'",
+    "Properties": {
+      "BuildingMetaData": {
+        "ObjectName": "BuildingEditModeMetadata_Wall'EMP_Wall_Solid'",
+        "ObjectPath": "FortniteGame/Content/Building/EditModePatterns/Wall/EMP_Wall_Solid.0"
+      },
+      "MaterialPreviewBrushes": [
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Stone'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Stone.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Stone'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Stone.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Stone'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Stone.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Metal'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Metal.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Metal'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Metal.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Metal'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Metal.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Wood'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Wood.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Wood'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Wood.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        },
+        {
+          "ImageSize": {
+            "X": 219.0,
+            "Y": 219.0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::FullColor",
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Button_SwapMaterial_Wood'",
+            "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_SwapMaterial_Wood.0"
+          },
+          "ResourceName": "None",
+          "bIsDynamicallyLoaded": false,
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      ],
+      "EditRightUseImageBrush": {
+        "ImageSize": {
+          "X": 219.0,
+          "Y": 219.0
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Button_None'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Button_None.0"
+        }
+      },
+      "WeaponActorClass": "/Game/Weapons/FORT_BuildingTools/Blueprints/DefaultBuildingTool.DefaultBuildingTool_C",
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon_Building_Wall'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_Quickbar/Icon_Building_Wall.0"
+        }
+      }
+    }
+  }
+]

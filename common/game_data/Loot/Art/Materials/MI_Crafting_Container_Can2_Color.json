@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Crafting_Container_Can2_Color",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'Fortress_BaseMaterial'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/Base_Material/Fortress_BaseMaterial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ParentLightingGuid": "3EFDE828-41F37645-C4AA248F-43CBEF5B",
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "SpecLevel",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "40DB7910-46D5E27B-BA7EB386-2A2D4ADC"
+        },
+        {
+          "ParameterName": "SpecRoughnessMax",
+          "ParameterValue": 0.25,
+          "ExpressionGUID": "997E1A59-41470000-E6C67EA8-DE239FD7"
+        },
+        {
+          "ParameterName": "SpecRoughnessMin",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "50A947FA-46E8D6A4-41A3348B-4BD7C8A5"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cans_Container_D'",
+            "ObjectPath": "FortniteGame/Content/T_Cans_Container_D.0"
+          },
+          "ExpressionGUID": "24752C6A-4EB615EA-97FA1AA9-45925FD0"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Can_Containers_N'",
+            "ObjectPath": "FortniteGame/Content/T_Can_Containers_N.0"
+          },
+          "ExpressionGUID": "E947DBE1-4CCAE2A4-5FF7ACAA-E60DC272"
+        },
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cans_Container_S'",
+            "ObjectPath": "FortniteGame/Content/T_Cans_Container_S.0"
+          },
+          "ExpressionGUID": "516E78D9-453454D3-7B3C45A6-7D2B6936"
+        },
+        {
+          "ParameterName": "Color Chart",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'CarColors_Interiors'",
+            "ObjectPath": "FortniteGame/Content/Vehicles/FORT_Vehicles_01/Materials/CarColors_Interiors.0"
+          },
+          "ExpressionGUID": "57EC29C5-4C8DE04A-73F947BD-018EE945"
+        },
+        {
+          "ParameterName": "World Space Color Picker Mask",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cans_Container_M'",
+            "ObjectPath": "FortniteGame/Content/T_Cans_Container_M.0"
+          },
+          "ExpressionGUID": "4CCC4804-49A1B6B3-BD6CD6BC-4BCD7068"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    }
+  }
+]

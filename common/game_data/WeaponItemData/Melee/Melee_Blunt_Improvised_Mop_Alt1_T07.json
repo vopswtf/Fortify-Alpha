@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Blunt_Improvised_Mop_Alt1_T07",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Blunt/B_Melee_Blunt_Improvised_Mop.B_Melee_Blunt_Improvised_Mop_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Mop'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_Mop.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Blunt_Improvised_T07"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BluntDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BluntDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_Combo.GAB_Melee_Hammer_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_HeavyAttack.GAB_Melee_Hammer_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack1.GAB_Melee_Hammer_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack2.GAB_Melee_Hammer_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack3.GAB_Melee_Hammer_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Hammer/GAB_Melee_Hammer_ComboAttack4.GAB_Melee_Hammer_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Blunt-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Blunt-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_Mop.SK_Mop",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Mop_Pickup_Cue.Mop_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Mop_Drop_Cue.Mop_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_07",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B1475AEF409154FA1167C5BA6C181F19",
+        "SourceString": "The Mop Up [Upgraded]",
+        "LocalizedString": "The Mop Up [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9943B550410365D8116C24BE7C54C199",
+        "SourceString": "Improvised (Blunt Weapon). Intended for combat. Does minor damage against objects in the world.",
+        "LocalizedString": "Improvised (Blunt Weapon). Intended for combat. Does minor damage against objects in the world."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "D99A32FD44C381594B0D6485FEB929A3",
+        "SourceString": "Melee Blunt Improvised Mop Stone",
+        "LocalizedString": "Melee Blunt Improvised Mop Stone"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Blunt.Improvised",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Mop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Mop.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

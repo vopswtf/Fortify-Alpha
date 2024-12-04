@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_ReloadSpeed_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Ranged_ReloadSpeed_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Ranged_ReloadSpeed_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AF7A9A514449ABF2C5C2BA937535AC44",
+        "SourceString": "Assisted Reload [Prime]",
+        "LocalizedString": "Assisted Reload [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B72DFDFA404445091A731DBE6DCCA52B",
+        "SourceString": "+45% Reload Speed",
+        "LocalizedString": "+45% Reload Speed"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

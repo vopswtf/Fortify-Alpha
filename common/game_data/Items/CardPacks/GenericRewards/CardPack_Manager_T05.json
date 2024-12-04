@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Manager_T05",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Generic_Manager_T05",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D46AA93B47A1EFA1E53EAB93D2895C1E",
+        "SourceString": "Epic Lead Survivor [Orange+]",
+        "LocalizedString": "Epic Lead Survivor [Orange+]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "70992D0E4C6D7367F050CEABD33CE7D7",
+        "SourceString": "One random lead survivor.",
+        "LocalizedString": "One random lead survivor."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Manager-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Worker/Icon-Manager-L.0"
+        }
+      },
+      "Rarity": "EFortRarity::Elegant"
+    }
+  }
+]

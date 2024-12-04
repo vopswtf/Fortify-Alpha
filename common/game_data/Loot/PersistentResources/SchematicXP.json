@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "FortPersistentResourceItemDefinition",
+    "Name": "SchematicXP",
+    "Class": "UScriptClass'FortPersistentResourceItemDefinition'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "87BB834B4C46CF05E8BC8284A804D545",
+        "SourceString": "Schematic XP",
+        "LocalizedString": "Schematic XP"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3B621921489E499E14DF3AA016D0AE91",
+        "SourceString": "Used to level schematics. Can be found in llamas and by recycling schematics.",
+        "LocalizedString": "Used to level schematics. Can be found in llamas and by recycling schematics."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "2472D88941B091861438C5850E3EC7BA",
+        "SourceString": "Currency Schematic XP",
+        "LocalizedString": "Currency Schematic XP"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-HB-Architectural-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-L.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-HB-Architectural-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBResources/Icon-HB-Architectural-XL.0"
+          }
+        }
+      },
+      "MaxStackSize": 999999999,
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

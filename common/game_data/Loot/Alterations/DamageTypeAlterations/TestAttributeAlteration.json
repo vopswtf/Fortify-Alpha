@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "TestAttributeAlteration",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "IconBrush": {}
+    }
+  }
+]

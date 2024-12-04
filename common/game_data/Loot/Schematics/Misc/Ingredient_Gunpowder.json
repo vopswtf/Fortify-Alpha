@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "Ingredient_Gunpowder",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Properties": {
+      "Requirements": [
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Alloy'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Alloy.0"
+          },
+          "Count": 4,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Powder'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Powder.0"
+          },
+          "Count": 2,
+          "bIsConsumed": true
+        },
+        {
+          "ItemDefinition": {
+            "ObjectName": "FortIngredientItemDefinition'Ingredient_Ore_Coal'",
+            "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_Ore_Coal.0"
+          },
+          "Count": 1,
+          "bIsConsumed": true
+        }
+      ],
+      "Result": {
+        "ObjectName": "FortIngredientItemDefinition'Ingredient_Blastpowder'",
+        "ObjectPath": "FortniteGame/Content/Loot/Ingredients/Ingredient_BlastPowder.0"
+      },
+      "QuantityProduced": 5,
+      "CraftingPoints": 45,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "54967CC04478E758D2B5D083D8296BA1",
+        "SourceString": "Blast Powder",
+        "LocalizedString": "Blast Powder"
+      },
+      "AttributeTemplate": "/Game/Loot/Schematics/SchematicAttributeTemplate.SchematicAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

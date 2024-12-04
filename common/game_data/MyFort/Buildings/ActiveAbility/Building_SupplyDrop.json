@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_SupplyDrop",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_SupplyDrop'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_SupplyDrop.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.SupplyDrop"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:DroneManufactory_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_SupplyDrop_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_Static_SupplyDrop_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_SuplyDrop_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/SupplyDrop/GE_Homebase_SuplyDrop_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_Generic_BotTurret'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/Bot_Turret/Kit_Generic_BotTurret.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SupplyDrop_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/ActiveAbility/Sub/Building_SupplyDrop_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SupplyDrop_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/ActiveAbility/Sub/Building_SupplyDrop_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SupplyDrop_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/ActiveAbility/Sub/Building_SupplyDrop_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SupplyDrop_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/ActiveAbility/Sub/Building_SupplyDrop_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_SupplyDrop_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/ActiveAbility/Sub/Building_SupplyDrop_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SupplyDrop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/SupplyDrop.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_Turretbot_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_Turretbot_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Ability_SupplyDrop_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Ability_SupplyDrop.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_SupplyDrop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_SupplyDrop_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_SupplyDrop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_SupplyDrop_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_SupplyDrop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_SupplyDrop_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "12DB67C74CD3B37756118DA6490BEB56",
+        "SourceString": "Drone Manufactory",
+        "LocalizedString": "Drone Manufactory"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E064985B4D918515C652EF88C23F2F30",
+        "SourceString": "Improves item durability and crafting efficiency. Unlocks the Stationary Hover Turret gadget.",
+        "LocalizedString": "Improves item durability and crafting efficiency. Unlocks the Stationary Hover Turret gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SupplyDrop'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/SupplyDrop.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-DroneManufactory-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-DroneManufactory-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-DroneManufactory-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-DroneManufactory-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

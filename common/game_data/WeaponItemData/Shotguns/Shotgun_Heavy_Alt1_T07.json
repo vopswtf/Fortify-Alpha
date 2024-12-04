@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Shotgun_Heavy_Alt1_T07",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Shotguns/Blueprints/B_Shotgun_Heavy.B_Shotgun_Heavy_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_DoubleTrouble_DoubleTrouble'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Shotguns/Mesh/SK_DoubleTrouble.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Shotgun_Heavy_T07"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/EquipGameplayEffects/GAB_ReduceSprintSpeed.GAB_ReduceSprintSpeed_C"
+      ],
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataShells'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataShells.0"
+      },
+      "ReticleImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_Frame'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.0"
+      },
+      "ReticleCornerAngles": [
+        45.0,
+        135.0,
+        225.0,
+        315.0
+      ],
+      "ReticleCenterImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_CntDot'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Shotgun-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Shotgun-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Shotguns/Mesh/SK_DoubleTrouble.SK_DoubleTrouble_DoubleTrouble",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Pickup_Cue.Shotgun_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Drop_Cue.Shotgun_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_07",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "564443B041C5108CB5C9AC82BD494075",
+        "SourceString": "Backbreaker [Upgraded]",
+        "LocalizedString": "Backbreaker [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "728030C2468ADB8469615DA435842BB0",
+        "SourceString": "Shotgun. Spectacular area of effect but short range and impedes movement.",
+        "LocalizedString": "Shotgun. Spectacular area of effect but short range and impedes movement."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "CDE53D7549FC5BA8FFC055A67BD5E154",
+        "SourceString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto",
+        "LocalizedString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.shotgun",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_DoubleTrouble'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Shotguns/SK_DoubleTrouble.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Uncommon",
+      "Tier": "EFortItemTier::VII",
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

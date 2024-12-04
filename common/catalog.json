@@ -1,0 +1,274 @@
+{
+    "refreshIntervalHrs": 24,
+    "dailyPurchaseHrs": 24,
+    "expiration": "9999-12-31T23:59:59.999Z",
+    "storefronts": [
+        {
+            "name": "CardPackStorePromo",
+            "catalogEntries": [
+                {
+                    "offerId": "D1F2B3C4A5E6G7H8I9J0K1L2M3N4O5P6",
+                    "devName": "Bonus.WeaponsPack.02",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 100,
+                            "finalPrice": 100,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 100
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "RequiredTag",
+                            "value": "Account.Buff.BonusStoreOffer"
+                        }
+                    ],
+                    "metaAssetInfo": {
+                        "structName": "FortCatalogMeta",
+                        "payload": {
+                            "chaseItems": [
+                                "FortSchematicItemDefinition'/Game/Loot/Schematics/Ranged/Assault_Auto_T10.Assault_Auto_T10'",
+                                "FortSchematicItemDefinition'/Game/Loot/Schematics/Ranged/Assault_Hydra_T09.Assault_Hydra_T09'",
+                                "FortSchematicItemDefinition'/Game/Loot/Schematics/Ranged/Assault_Raygun_Auto_T08.Assault_Raygun_Auto_T08'"
+                            ],
+                            "packDefinition": "FortCardPackItemDefinition'/Game/Loot/CardPacks/CardPack_Jackpot.CardPack_Jackpot'"
+                        }
+                    },
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 0,
+                    "title": "Upgrade Llama",
+                    "shortDescription": "",
+                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 5 items and one uncommon. Has a high chance to upgrade.",
+                    "displayAssetPath": "",
+                    "itemGrants": [
+                        {
+                            "templateId": "CardPack.cardpack_jackpot",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CurrencyStorefront",
+            "catalogEntries": [
+                {
+                    "offerId": "A094F1D14BAE8DA77114DAAE76AFCA83",
+                    "devName": "Medium Currency Pack",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "RealMoney",
+                            "currencySubType": "",
+                            "regularPrice": 2499,
+                            "finalPrice": 2499,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 2499
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "appStoreId": [
+                        "",
+                        "559f2ba95f874ec987d0ebfd2cc9c70a",
+                        "ios_vbucks_medium",
+                        "10200",
+                        "google_vbucks_medium",
+                        "",
+                        "MTX03K0000000000",
+                        "cee19aa0-5238-4656-9e52-c8bd0765eb53",
+                        "c-virtualcurrency0-MTX2800"
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "MtxQuantity",
+                            "value": "2800"
+                        },
+                        {
+                            "key": "MtxBonus",
+                            "value": "300"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 2,
+                    "title": "Medium Currency Pack",
+                    "shortDescription": "",
+                    "description": "This in-game currency can be used to purchase new customization items for your Hero, glider, or pickaxe.",
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack2800.DA_MtxPack2800",
+                    "itemGrants": []
+                },
+                {
+                    "offerId": "E2BD4F70498AF13ADAA071B04F885292",
+                    "devName": "Small Currency Pack",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "RealMoney",
+                            "currencySubType": "",
+                            "regularPrice": 999,
+                            "finalPrice": 999,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 999
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "appStoreId": [
+                        "",
+                        "ede05b3c97e9475a8d9be91da65750f0",
+                        "ios_vbucks_small",
+                        "10100",
+                        "google_vbucks_small",
+                        "",
+                        "MTX01K0000000000",
+                        "6caed040-72dc-499a-9337-a165f1ec0a26",
+                        "c-virtualcurrency0-MTX1000"
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "MtxQuantity",
+                            "value": "1000"
+                        },
+                        {
+                            "key": "MtxBonus",
+                            "value": "0"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 3,
+                    "title": "Small Currency Pack",
+                    "shortDescription": "",
+                    "description": "This in-game currency can be used to purchase new customization items for your Hero, glider, or pickaxe.",
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack1000.DA_MtxPack1000",
+                    "itemGrants": []
+                },
+                {
+                    "offerId": "425FDD804D9D61AC2530CE8F31398BCD",
+                    "devName": "Large Currency Pack",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "RealMoney",
+                            "currencySubType": "",
+                            "regularPrice": 5999,
+                            "finalPrice": 5999,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 5999
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "appStoreId": [
+                        "",
+                        "3b4c5df9efa5415b941cf74262865e4e",
+                        "ios_vbucks_large",
+                        "10300",
+                        "google_vbucks_large",
+                        "",
+                        "MTX08K0000000000",
+                        "d299e00d-811e-4b57-85c1-ec06cbc40074",
+                        "c-virtualcurrency0-MTX7500"
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "MtxQuantity",
+                            "value": "7500"
+                        },
+                        {
+                            "key": "MtxBonus",
+                            "value": "1500"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 1,
+                    "title": "Large Currency Pack",
+                    "shortDescription": "",
+                    "description": "This in-game currency can be used to purchase new customization items for your Hero, glider, or pickaxe.",
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack7500.DA_MtxPack7500",
+                    "itemGrants": []
+                },
+                {
+                    "offerId": "50DC69A74BC4B8D10AF8D5B17A4BF8D4",
+                    "devName": "Jumbo Currency Pack",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "RealMoney",
+                            "currencySubType": "",
+                            "regularPrice": 9999,
+                            "finalPrice": 9999,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 9999
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "appStoreId": [
+                        "",
+                        "4daadb392f1c4ee2b5a3af443e614d2a",
+                        "ios_vbucks_jumbo",
+                        "10400",
+                        "google_vbucks_jumbo",
+                        "",
+                        "MTX14K0000000000",
+                        "d15248c0-acf6-48b7-9632-c9638cba4b37",
+                        "c-virtualcurrency0-MTX13500"
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "MtxQuantity",
+                            "value": "13500"
+                        },
+                        {
+                            "key": "MtxBonus",
+                            "value": "3500"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 4,
+                    "title": "Jumbo Currency Pack",
+                    "shortDescription": "",
+                    "description": "This in-game currency can be used to purchase new customization items for your Hero, glider, or pickaxe.",
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_MtxPack13500.DA_MtxPack13500",
+                    "itemGrants": []
+                }
+            ]
+        }
+    ]
+}

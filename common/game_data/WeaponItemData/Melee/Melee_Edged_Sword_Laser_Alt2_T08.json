@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "FortWeaponMeleeItemDefinition",
+    "Name": "Melee_Edged_Sword_Laser_Alt2_T08",
+    "Class": "UScriptClass'FortWeaponMeleeItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Melee/Blueprints/Edged/B_Melee_Edged_Sword_Laser.B_Melee_Edged_Sword_Laser_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Sword_Advanced'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Melee/Meshes/SK_Sword_Advanced.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'MeleeWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/MeleeWeapons.0"
+        },
+        "RowName": "Edged_Sword_Laser_T08"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_EdgedDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_EdgedDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_Combo.GAB_Melee_Sword_Combo_C",
+      "SecondaryFireAbility": "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_HeavyAttack.GAB_Melee_Sword_HeavyAttack_C",
+      "EquippedAbilities": [
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack1.GAB_Melee_Sword_ComboAttack1_C",
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack2.GAB_Melee_Sword_ComboAttack2_C",
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack3.GAB_Melee_Sword_ComboAttack3_C",
+        "/Game/Abilities/Weapons/Melee/Sword/GAB_Melee_Sword_ComboAttack4.GAB_Melee_Sword_ComboAttack4_C"
+      ],
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Edged-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Edged-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Melee/Meshes/SK_Sword_Advanced.SK_Sword_Advanced",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Sword_Pickup_Cue.Sword_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Sword_Drop_Cue.Sword_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Melee_Sword_08",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "4FF6CA5245FF4BB32BC604AA8BA90276",
+        "SourceString": "Laserblade [Prime]",
+        "LocalizedString": "Laserblade [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "DFD0AD324ECC8B59989CBD951A40F582",
+        "SourceString": "Sword (Edged Weapon). Intended entirely for combat, this sword has fast standard attacks.",
+        "LocalizedString": "Sword (Edged Weapon). Intended entirely for combat, this sword has fast standard attacks."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "CF6F75784F2B23BCE325E98169BA5A03",
+        "SourceString": "Melee Edged Sword Blade Lasersword Laserblade Combat",
+        "LocalizedString": "Melee Edged Sword Blade Lasersword Laserblade Combat"
+      },
+      "GameplayTags": [
+        "Weapon.Melee.Edged.Sword",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Sword_Advanced'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Melee/SK_Sword_Advanced.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::VIII",
+      "Rarity": "EFortRarity::Epic"
+    }
+  }
+]

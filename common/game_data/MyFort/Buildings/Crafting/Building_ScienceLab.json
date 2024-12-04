@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_ScienceLab",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Crafting",
+      "BuildingTag": [
+        "Homebase.Building.ScienceLab"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ScienceLab_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ScienceLab_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ScienceLab_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ScienceLab_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ScienceLab_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Crafting/Sub/Building_ScienceLab_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ScienceLab_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Crafting/Sub/Building_ScienceLab_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ScienceLab_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Crafting/Sub/Building_ScienceLab_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ScienceLab_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Crafting/Sub/Building_ScienceLab_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ScienceLab_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Crafting/Sub/Building_ScienceLab_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ScienceLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ScienceLab.0"
+        }
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_ScienceLab_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_ScienceLab_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_ScienceLab_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_ScienceLab_Cue.0"
+      },
+      "bHideInUI": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "561BEAA24032FC60FE1FA395597B1664",
+        "SourceString": "Science Laboratory",
+        "LocalizedString": "Science Laboratory"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "63B1587F438075412CC57DA934B8E6E6",
+        "SourceString": "The Science Laboratory imrpoves crafting of VinderTech items.",
+        "LocalizedString": "The Science Laboratory imrpoves crafting of VinderTech items."
+      }
+    }
+  }
+]

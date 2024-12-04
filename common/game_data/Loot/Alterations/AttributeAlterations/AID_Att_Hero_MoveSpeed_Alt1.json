@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Hero_MoveSpeed_Alt1",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Hero_MoveSpeed_Alt1'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Hero_MoveSpeed_Alt1.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2C705C9C465EA8B6B1A78CA73D4BE3B0",
+        "SourceString": "Movement Speed [Upgraded]",
+        "LocalizedString": "Movement Speed [Upgraded]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C9261E1A47269BAB92B0749A27041AC1",
+        "SourceString": "+9% Movement Speed",
+        "LocalizedString": "+9% Movement Speed"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Uncommon"
+    }
+  }
+]

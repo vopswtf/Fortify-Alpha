@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_0",
+    "Outer": "Logs",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "EB56E90B45B0DEB75AEF379A587FDD23",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 18473,
+        "SizeOnDisk": 18473,
+        "OffsetInFile": "0xFE81"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_24",
+    "Outer": "Logs",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1470E"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Logs",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Wood_Drop'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Wood_Drop.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.42046738,
+          "Y": 0.015937805,
+          "Z": 9.978399
+        },
+        "BoxExtent": {
+          "X": 18.57891,
+          "Y": 16.801659,
+          "Z": 10.063528
+        },
+        "SphereRadius": 18.57891
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Logs:RB_BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Logs.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Logs:NavCollision_24'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Logs.1"
+    },
+    "LightingGuid": "63338191-46260CDD-D0EDF1B7-99AB0F74",
+    "RenderData": null
+  }
+]

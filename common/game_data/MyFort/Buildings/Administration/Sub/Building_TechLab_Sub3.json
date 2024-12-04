@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_TechLab_Sub3",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.TechLab.SBThree"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:TechLab_SubBuildingThree_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub3_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub3_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub3_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub3_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub3_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub3_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub3_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub3_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_TechLab_Sub3_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/TechLab/GE_Homebase_Static_TechLab_Sub3_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_TechLab'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_TechLab.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Constructor_3_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Constructor_3.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "B792D22F4F7EDDC54DE8EDA50883EFF7",
+          "SourceString": "Level 1 : Increases maximum shield based on Constructor Site Rating. Each level thereafter increases power flow to B.A.S.E. structures, increasing it's visibility.",
+          "LocalizedString": "Level 1 : Increases maximum shield based on Constructor Site Rating. Each level thereafter increases power flow to B.A.S.E. structures, increasing it's visibility."
+        },
+        {
+          "Namespace": "",
+          "Key": "FEF6782B4CEE28B1F7CC6D853ECD6EB7",
+          "SourceString": "Level 2 : Lofty Architecture : Increase the health of B.A.S.E. connected structures by 20%.",
+          "LocalizedString": "Level 2 : Lofty Architecture : Increase the health of B.A.S.E. connected structures by 20%."
+        },
+        {
+          "Namespace": "",
+          "Key": "562AFBAF460F2EEA8D34D0B66EF3C4D8",
+          "SourceString": "Level 3 : Increases energy regeneration based on Constructor Site Rating. ",
+          "LocalizedString": "Level 3 : Increases energy regeneration based on Constructor Site Rating. "
+        },
+        {
+          "Namespace": "",
+          "Key": "4A0039414988053F4BCCDFBEC85B1B1F",
+          "SourceString": "Level 4 : Safety Protocols: Increase the damage resistance of B.A.S.E. connected structures by 15% ",
+          "LocalizedString": "Level 4 : Safety Protocols: Increase the damage resistance of B.A.S.E. connected structures by 15% "
+        },
+        {
+          "Namespace": "",
+          "Key": "5E641C28481FA4AE922AE88ECA879004",
+          "SourceString": "Level 5 : Neuro Stimulus Loop : Allies within the area of B.A.S.E. regenerate 1% of total Energy per second while inside the area of B.A.S.E. ",
+          "LocalizedString": "Level 5 : Neuro Stimulus Loop : Allies within the area of B.A.S.E. regenerate 1% of total Energy per second while inside the area of B.A.S.E. "
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "047F3E324B4A6BE0B3A3D8AF6A1982FF",
+        "SourceString": "Dynamo",
+        "LocalizedString": "Dynamo"
+      }
+    }
+  }
+]

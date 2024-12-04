@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Ranged_Incendiary",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": [
+            "CosmeticMod.Elemental.Fire",
+            "Gameplay.Damage.Elemental.Fire"
+          ]
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Ranged'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Ranged.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "05BF2A444BC512C1C4897A8A169E76AC",
+        "SourceString": "Incendiary Rounds",
+        "LocalizedString": "Incendiary Rounds"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "06344E3749AAD124AD98C098CE6C63A1",
+        "SourceString": "+7.5% Weapon Damage. Changes damage to Fire, which is more effective vs Ice but less effective vs Lightning enemies.",
+        "LocalizedString": "+7.5% Weapon Damage. Changes damage to Fire, which is more effective vs Ice but less effective vs Lightning enemies."
+      },
+      "IconBrush": {}
+    }
+  }
+]

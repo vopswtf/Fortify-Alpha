@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "RB_BodySetup_144",
+    "Outer": "Apple",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "PhysicsType": "PhysType_Kinematic"
+    },
+    "BodySetupGuid": "5EC213D84F8C9501C0C9919FEE3F23A4",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 8757,
+        "SizeOnDisk": 8757,
+        "OffsetInFile": "0x8F89"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_116",
+    "Outer": "Apple",
+    "Class": "UScriptClass'NavCollision'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Null'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xB222"
+      }
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Null'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Apple",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FORT_Wood_Drop'",
+          "ObjectPath": "FortniteGame/Content/Loot/Art/Materials/MI_FORT_Wood_Drop.0"
+        }
+      ],
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.123503685,
+          "Y": -1.4954224,
+          "Z": 13.3168125
+        },
+        "BoxExtent": {
+          "X": 10.437469,
+          "Y": 10.297059,
+          "Z": 13.319895
+        },
+        "SphereRadius": 13.319895
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Apple:RB_BodySetup_144'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Apple.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Apple:NavCollision_116'",
+      "ObjectPath": "FortniteGame/Content/Loot/Art/Meshes/Apple.1"
+    },
+    "LightingGuid": "0787BC4C-4A93CCF6-C7C4B895-A0D75AA4",
+    "RenderData": null
+  }
+]

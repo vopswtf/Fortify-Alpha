@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "Alteration_Attribute_StaminaCostReduction_Alt2",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Melee_StaminaCostReduction_Alt2'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Melee_StaminaCostReduction_Alt2.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F448BFA44CFBE834B52531B60DB7D889",
+        "SourceString": "Lightweight Construction [Prime]",
+        "LocalizedString": "Lightweight Construction [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3C63488C42B730CF7C0E2CB224E52AA3",
+        "SourceString": "-45% Heavy Attack Energy Cost",
+        "LocalizedString": "-45% Heavy Attack Energy Cost"
+      },
+      "IconBrush": {},
+      "Quality": "EFortQuality::Rare"
+    }
+  }
+]

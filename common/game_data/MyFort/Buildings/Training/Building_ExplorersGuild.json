@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_ExplorersGuild",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingBonusTable": {
+        "ObjectName": "FortHomebaseBuildingDataTable'FHBDT_ExplorersGuild'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Rating/FHBDT_ExplorersGuild.0"
+      },
+      "BuildingTag": [
+        "Homebase.Building.ExplorersGuild"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ExplorersGuild_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "RatingAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ExplorersGuild_Rating'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "WorkerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ExplorersGuild_WorkerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "ManagerSlotsAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:ExplorersGuild_ManagerSlots'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_ExplorersGuild_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_Static_ExplorersGuild_5.0"
+        }
+      ],
+      "WorkerGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Homebase_ExplorersGuild_WorkerBonus_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/ExplorersGuild/GE_Homebase_ExplorersGuild_WorkerBonus.0"
+      },
+      "AbilityKitsByLevel": [
+        {
+          "ObjectName": "FortAbilityKit'Kit_SupplyDrop'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/SupplyDrop/Kit_SupplyDrop.0"
+        }
+      ],
+      "SubBuildingsWithIcons": [
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ExplorersGuild_Sub1'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_ExplorersGuild_Sub1.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ExplorersGuild_Sub2'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_ExplorersGuild_Sub2.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ExplorersGuild_Sub3'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_ExplorersGuild_Sub3.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ExplorersGuild_Sub4'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_ExplorersGuild_Sub4.0"
+          }
+        },
+        {
+          "SubBuilding": {
+            "ObjectName": "MyTownBuildingDefinitionData'Building_ExplorersGuild_Sub5'",
+            "ObjectPath": "FortniteGame/Content/MyFort/Buildings/Training/Sub/Building_ExplorersGuild_Sub5.0"
+          }
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ExplorersGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ExplorersGuild.0"
+        }
+      },
+      "BuildingVideo": {
+        "ObjectName": "MediaTexture'Preview_Gadget_SupplyDrop_Tex'",
+        "ObjectPath": "FortniteGame/Content/Movies/Preview_Gadget_SupplyDrop_Tex.0"
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_ExplorersGuild_0_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_ExplorersGuild_0.0"
+      },
+      "BuyCue": {
+        "ObjectName": "SoundCue'Homebase_B_Buy_ExplorersGuild_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Buy_ExplorersGuild_Cue.0"
+      },
+      "UpgradeCue": {
+        "ObjectName": "SoundCue'Homebase_B_Upgrade_ExplorersGuild_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Upgrade_ExplorersGuild_Cue.0"
+      },
+      "SelectCue": {
+        "ObjectName": "SoundCue'Homebase_B_Select_ExplorersGuild_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/Homebase_B_Select_ExplorersGuild_Cue.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BAE523774619FD26D80419B0F212C29B",
+        "SourceString": "Explorer's Guild",
+        "LocalizedString": "Explorer's Guild"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8BC8A58E44DE142010E774B870C6BE75",
+        "SourceString": "Collect more wood, stone, and metal when harvesting. Increase your chances of finding double loot! Unlocks the Supply Drop gadget.",
+        "LocalizedString": "Collect more wood, stone, and metal when harvesting. Increase your chances of finding double loot! Unlocks the Supply Drop gadget."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_ExplorersGuild'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_ExplorersGuild.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-ExplorersGuild-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-ExplorersGuild-M.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Stamp-ExplorersGuild-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/Icon-HBBuildings-Stamps/Icon-Stamp-ExplorersGuild-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

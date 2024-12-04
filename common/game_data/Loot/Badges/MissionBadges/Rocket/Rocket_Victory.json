@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FortBadgeItemDefinition",
+    "Name": "Rocket_Victory",
+    "Class": "UScriptClass'FortBadgeItemDefinition'",
+    "Properties": {
+      "DisplayImage": {
+        "ObjectName": "SlateBrushAsset'Icon-Badge-D-_T3__Brush'",
+        "ObjectPath": "FortniteGame/Content/Loot/Badges/MissionBadges/Art/Icon-Badge-D-_T3__Brush.0"
+      },
+      "DisplayText": {
+        "Namespace": "",
+        "Key": "A6EDD7B04351C24F6097049C75A70488",
+        "SourceString": "You successfully launched the Rocket!",
+        "LocalizedString": "You successfully launched the Rocket!"
+      },
+      "BadgeScoringValuesHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'BadgeScoring'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/BadgeScoring.0"
+        },
+        "RowName": "MissionBadge_LTR_Victory"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B835054A4F8CDB5C9919FF804EF60EA7",
+        "SourceString": "Rocket Launched!",
+        "LocalizedString": "Rocket Launched!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "DA27E6284B0C5369207A6D9969695D4D",
+        "SourceString": "You successfully launched the Rocket!",
+        "LocalizedString": "You successfully launched the Rocket!"
+      },
+      "IconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-D-_T3_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-D-_T3_.0"
+        }
+      }
+    }
+  }
+]

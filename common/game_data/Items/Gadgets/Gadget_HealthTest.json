@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "FortGadgetItemDefinition",
+    "Name": "Gadget_HealthTest",
+    "Class": "UScriptClass'FortGadgetItemDefinition'",
+    "Properties": {
+      "GameplayAbility": {
+        "ObjectName": "BlueprintGeneratedClass'FortGameplayAbility_Heal_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Items/FortGameplayAbility_Heal.0"
+      },
+      "ActivationAnimation": {
+        "ObjectName": "AnimMontage'throw_down_Montage'",
+        "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Gadgets/throw_down_Montage.0"
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": null
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F18308914040D899E887FCAD5B82124D",
+        "SourceString": "Healing Bombs",
+        "LocalizedString": "Healing Bombs"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5794AB504C3C702F40BF948E3354BD74",
+        "SourceString": "Throw three explosive healing vials.\\nRegenerate 16 health per second for 3 seconds\\n+25% damage resist for 3 seconds",
+        "LocalizedString": "Throw three explosive healing vials.\\nRegenerate 16 health per second for 3 seconds\\n+25% damage resist for 3 seconds"
+      },
+      "AttributeTemplate": "/Game/Loot/AttributeTemplates/DefaultGadgetAttributeTemplate.DefaultGadgetAttributeTemplate",
+      "IconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Trait_Utility_Icon_Doctor'",
+          "ObjectPath": "FortniteGame/Content/UI/UI_Icons/Trait_Utility_Icon_Doctor.0"
+        }
+      },
+      "Rarity": "EFortRarity::Masterwork"
+    }
+  }
+]

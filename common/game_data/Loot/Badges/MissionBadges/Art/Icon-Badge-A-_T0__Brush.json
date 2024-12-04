@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "SlateBrushAsset",
+    "Name": "Icon-Badge-A-_T0__Brush",
+    "Class": "UScriptClass'SlateBrushAsset'",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ImageType": "ESlateBrushImageType::FullColor",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Badge-A-_T0_'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Badges/Icon-Badge-A-_T0_.0"
+        },
+        "bIsDynamicallyLoaded": true
+      }
+    }
+  }
+]

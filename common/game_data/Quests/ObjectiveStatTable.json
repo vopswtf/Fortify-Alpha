@@ -1,0 +1,575 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ObjectiveStatTable",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FortQuestObjectiveStatTableRow'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "collect_test": {
+        "Type": "EFortQuestObjectiveType::Collect",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_outpost_1_1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg1",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_1_2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg2",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_1_3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg3",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_1_4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg4",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_1_5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg5",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_1_6": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg6",
+        "SourceTags": "Stat.Source.IsWorldOwner",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_2_1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg1",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_outpost_2_2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg2",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_outpost_2_3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg3",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_outpost_2_4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg4",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_outpost_2_5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg5",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_outpost_2_6": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg6",
+        "SourceTags": "Stat.Source.IsWorldOwner",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_outpost_3_1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg1",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_outpost_3_2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg2",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_outpost_3_3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg3",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_outpost_3_4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg4",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_outpost_3_5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg5",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_outpost_3_6": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg6",
+        "SourceTags": "Stat.Source.IsWorldOwner",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_outpost_4_1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg1",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "complete_outpost_4_2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg2",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "complete_outpost_4_3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg3",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "complete_outpost_4_4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg4",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "complete_outpost_4_5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg5",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "complete_outpost_4_6": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Outpost.Leg6",
+        "SourceTags": "Stat.Source.IsWorldOwner",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "complete_outpost_harvesting": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Secondary.Outpost.HarvestingUpgrade",
+        "SourceTags": "Stat.Source.IsWorldOwner",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_outpost_fabricator": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Secondary.Outpost.Fabricator",
+        "SourceTags": "Stat.Source.IsWorldOwner",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "win_test": {
+        "Type": "EFortQuestObjectiveType::Win",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "levelup_test": {
+        "Type": "EFortQuestObjectiveType::LevelUp",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "custom_test": {
+        "Type": "EFortQuestObjectiveType::Custom",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_gate": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.Gate",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_constructor": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Homebase.Class.IsConstructor",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_ninja": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Homebase.Class.IsNinja",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_commando": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Homebase.Class.IsCommando",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_outlander": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Homebase.Class.IsOutlander",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_pve03": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "complete_pve02": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "complete_pve01": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "complete_pve01_diff1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty01",
+        "IntParameter": 0
+      },
+      "complete_pve01_diff2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty02",
+        "IntParameter": 0
+      },
+      "complete_pve01_diff3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty03",
+        "IntParameter": 0
+      },
+      "complete_pve01_diff4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty04",
+        "IntParameter": 0
+      },
+      "complete_pve01_diff5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty05",
+        "IntParameter": 0
+      },
+      "complete_pve02_diff1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02.Difficulty01",
+        "IntParameter": 0
+      },
+      "complete_pve02_diff2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02.Difficulty02",
+        "IntParameter": 0
+      },
+      "complete_pve02_diff3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02.Difficulty03",
+        "IntParameter": 0
+      },
+      "complete_pve02_diff4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02.Difficulty04",
+        "IntParameter": 0
+      },
+      "complete_pve02_diff5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE02.Difficulty05",
+        "IntParameter": 0
+      },
+      "complete_pve03_diff1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03.Difficulty01",
+        "IntParameter": 0
+      },
+      "complete_pve03_diff2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03.Difficulty02",
+        "IntParameter": 0
+      },
+      "complete_pve03_diff3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03.Difficulty03",
+        "IntParameter": 0
+      },
+      "complete_pve03_diff4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03.Difficulty04",
+        "IntParameter": 0
+      },
+      "complete_pve03_diff5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE03.Difficulty05",
+        "IntParameter": 0
+      },
+      "complete_pve04_diff1": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04.Difficulty01",
+        "IntParameter": 0
+      },
+      "complete_pve04_diff2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04.Difficulty02",
+        "IntParameter": 0
+      },
+      "complete_pve04_diff3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04.Difficulty03",
+        "IntParameter": 0
+      },
+      "complete_pve04_diff4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04.Difficulty04",
+        "IntParameter": 0
+      },
+      "complete_pve04_diff5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04.Difficulty05",
+        "IntParameter": 0
+      },
+      "complete_retrievedata": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.RetrieveData",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "quick_complete_pve03": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Stat.Source.OnCriticalMission",
+        "ContextTags": "Stat.Theater.PvE03",
+        "IntParameter": 0
+      },
+      "quick_complete_pve02": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Stat.Source.OnCriticalMission",
+        "ContextTags": "Stat.Theater.PvE02",
+        "IntParameter": 0
+      },
+      "quick_complete_pve01": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Stat.Source.OnCriticalMission",
+        "ContextTags": "Stat.Theater.PvE01",
+        "IntParameter": 0
+      },
+      "kill_husk_constructor": {
+        "Type": "EFortQuestObjectiveType::Kill",
+        "TargetTags": "NPC.CharacterType.Husk",
+        "SourceTags": "Homebase.Class.IsConstructor",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "kill_husk": {
+        "Type": "EFortQuestObjectiveType::Kill",
+        "TargetTags": "NPC.CharacterType.Husk",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "kill_husk_ninja": {
+        "Type": "EFortQuestObjectiveType::Kill",
+        "TargetTags": "NPC.CharacterType.Husk",
+        "SourceTags": "Homebase.Class.IsNinja",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "kill_husk_commando": {
+        "Type": "EFortQuestObjectiveType::Kill",
+        "TargetTags": "NPC.CharacterType.Husk",
+        "SourceTags": "Homebase.Class.IsCommando",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "kill_husk_outlander": {
+        "Type": "EFortQuestObjectiveType::Kill",
+        "TargetTags": "NPC.CharacterType.Husk",
+        "SourceTags": "Homebase.Class.IsOutlander",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "custom_login": {
+        "Type": "EFortQuestObjectiveType::Custom",
+        "TargetTags": "Stat.Account.Login",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "hbonboarding_completezone": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary.OnboardingFort",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "hbonboarding_watchsatellitecine": {
+        "Type": "EFortQuestObjectiveType::Client",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "hbonboarding_namehomebase": {
+        "Type": "EFortQuestObjectiveType::Client",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "hbonboarding_buildherobuilding": {
+        "Type": "EFortQuestObjectiveType::Client",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "hbonboarding_recruithero": {
+        "Type": "EFortQuestObjectiveType::Client",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "hbonboarding_watchoutpostunlock": {
+        "Type": "EFortQuestObjectiveType::Client",
+        "TargetTags": "",
+        "SourceTags": "",
+        "ContextTags": "",
+        "IntParameter": 0
+      },
+      "complete_pve01_hb1_diff2": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty02",
+        "IntParameter": 0
+      },
+      "complete_pve01_hb2_diff3": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty03",
+        "IntParameter": 0
+      },
+      "complete_pve01_hb3_diff4": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty04",
+        "IntParameter": 0
+      },
+      "complete_pve01_hb4_diff5": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE01.Difficulty05",
+        "IntParameter": 0
+      },
+      "complete_pve04": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      },
+      "quick_complete_pve04": {
+        "Type": "EFortQuestObjectiveType::Complete",
+        "TargetTags": "Stat.Mission.Primary",
+        "SourceTags": "Stat.Source.OnCriticalMission",
+        "ContextTags": "Stat.Theater.PvE04",
+        "IntParameter": 0
+      }
+    }
+  }
+]

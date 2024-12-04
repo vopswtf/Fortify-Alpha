@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Daily_Mission_Specialist_Plankerton",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Properties": {
+      "QuestType": "EFortQuestType::DailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": "/Game/Loot/Currency/MtxGiveaway.MtxGiveaway",
+          "Quantity": 75
+        }
+      ],
+      "Objectives": [
+        {
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_pve02"
+          },
+          "AlternativeStatHandles": [],
+          "Description": {
+            "Namespace": "",
+            "Key": "7AC91C904BF7B7AD6B9E9D88008E7A36",
+            "SourceString": "Complete 3 Missions in Plankerton",
+            "LocalizedString": "Complete 3 Missions in Plankerton"
+          },
+          "Count": 3,
+          "ScriptedAction": ""
+        }
+      ],
+      "PrerequisiteQuest": {
+        "ObjectName": "FortQuestItemDefinition'OutpostQuest_T2_L1'",
+        "ObjectPath": "FortniteGame/Content/Quests/Outpost/OutpostQuest_T2_L1.0"
+      },
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Daily"
+      },
+      "RewardDescription": {
+        "Namespace": "",
+        "Key": "E739B87547AA26290BCE97AB20606BE5",
+        "SourceString": "V-Bucks",
+        "LocalizedString": "V-Bucks"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "AABA58134B41DB3445F8498FDA185B15",
+        "SourceString": "Mission Specialist (Plankerton)",
+        "LocalizedString": "Mission Specialist (Plankerton)"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Theater-2-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-2-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-XS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-2-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-2-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-2-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-2-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-Theater-2-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Theater/Icon-Theater-2-XL.0"
+          }
+        }
+      }
+    }
+  }
+]

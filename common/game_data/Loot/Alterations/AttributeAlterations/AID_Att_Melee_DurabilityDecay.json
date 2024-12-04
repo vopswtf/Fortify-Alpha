@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_Att_Melee_DurabilityDecay",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'AS_Att_Shared_DurabilityDecay'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/AttributeAlterations/AS_Att_Shared_DurabilityDecay.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "353EC3CB4BDF3C42DDF5129600E7BE42",
+        "SourceString": "Sturdy Construction",
+        "LocalizedString": "Sturdy Construction"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "41D34229463BB8B875A56DBF7C888D2A",
+        "SourceString": "-12% Durability Decay",
+        "LocalizedString": "-12% Durability Decay"
+      },
+      "IconBrush": {}
+    }
+  }
+]

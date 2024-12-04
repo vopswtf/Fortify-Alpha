@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortPersistentResourceItemDefinition",
+    "Name": "ConstructionPlans_Advanced",
+    "Class": "UScriptClass'FortPersistentResourceItemDefinition'",
+    "Properties": {
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "02D6942B4995C3B78D4D809EB079F6DB",
+        "SourceString": "Construction Plans [Advanced Building]",
+        "LocalizedString": "Construction Plans [Advanced Building]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "97639BCD4F21597E56EB1EB0EE38A4C1",
+        "SourceString": "Used to expand your Homebase with one of the following buildings: Engineering School, Firing Range, Martial Arts Academy or Explorer's Guild. Acquired by completing Outpost Quests in Plankerton.",
+        "LocalizedString": "Used to expand your Home Base with one of the following buildings: Engineering School, Firing Range, Martial Arts Academy or Explorer's Guild. Acquired by completing Outpost Quests in Plankerton."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 104.0,
+          "Y": 104.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-XL'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-XL.0"
+        }
+      },
+      "MultiSizeIconBrush": {
+        "Brush_XXS": {
+          "ImageSize": {
+            "X": 12.0,
+            "Y": 12.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-XXS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-XXS.0"
+          }
+        },
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-XS'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-XS.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-S'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-S.0"
+          }
+        },
+        "Brush_M": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-M'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-M.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 64.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-L'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-L.0"
+          }
+        },
+        "Brush_XL": {
+          "ImageSize": {
+            "X": 104.0,
+            "Y": 104.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'Icon-ConstructionPlan-Silver-XL'",
+            "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Construction-Plans/Icon-ConstructionPlan-Silver-XL.0"
+          }
+        }
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

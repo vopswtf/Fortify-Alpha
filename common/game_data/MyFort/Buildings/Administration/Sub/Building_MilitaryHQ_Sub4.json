@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "MyTownBuildingDefinitionData",
+    "Name": "Building_MilitaryHQ_Sub4",
+    "Class": "UScriptClass'MyTownBuildingDefinitionData'",
+    "Properties": {
+      "BuildingCategory": "EMyFortBuildingCategory::Administration",
+      "BuildingTag": [
+        "Homebase.Building.MilitaryHQ.SBFour"
+      ],
+      "LevelAttribute": {
+        "Attribute": {
+          "ObjectName": "FloatProperty'FortHomebaseSet:MilitaryHQ_SubBuildingFour_Level'",
+          "ObjectPath": "/Script/FortniteGame"
+        }
+      },
+      "StaticGameplayEffectsByLevel": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub4_1_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub4_1.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub4_2_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub4_2.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub4_3_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub4_3.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub4_4_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub4_4.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Homebase_Static_MilitaryHQ_Sub4_5_C'",
+          "ObjectPath": "FortniteGame/Content/Abilities/Homebase/Static/MilitaryHQ/GE_Homebase_Static_MilitaryHQ_Sub4_5.0"
+        }
+      ],
+      "BuildingSymbolNormal": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'MyTownBuildingIcon_MilitaryHQ'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-HBBuildings/MyTownBuildingIcon_MilitaryHQ.0"
+        }
+      },
+      "BuildingActor": {
+        "ObjectName": "BlueprintGeneratedClass'HB_Hero_Commando_4_C'",
+        "ObjectPath": "FortniteGame/Content/Environments/Homebase/Blueprints/HB_Hero_Commando_4.0"
+      },
+      "MultilineDescription": [
+        {
+          "Namespace": "",
+          "Key": "5537E3534698B14F832454A4CA3F1C06",
+          "SourceString": "Level 1 : Increases Maximum health based on Soldier HQ Rating.",
+          "LocalizedString": "Level 1 : Increases Maximum health based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "4CA3D97F44767EACEBD94A8C1BB40E3D",
+          "SourceString": "Level 2 : Increases chance to craft extra ammo based on Soldier HQ Rating.",
+          "LocalizedString": "Level 2 : Increases chance to craft extra ammo based on Soldier HQ Rating."
+        },
+        {
+          "Namespace": "",
+          "Key": "BE9814D947E88F7B8C1B138EE168CD59",
+          "SourceString": "Level 3 : Increases chance to find ammo based on Soldier HQ Rating",
+          "LocalizedString": "Level 3 : Increases chance to find ammo based on Soldier HQ Rating"
+        },
+        {
+          "Namespace": "",
+          "Key": "68260E7A49188F0E52DCB7A59F59A8A8",
+          "SourceString": "Level 4 : Increases Damage Resist based on Soldier HQ Rating",
+          "LocalizedString": "Level 4 : Increases Damage Resist based on Soldier HQ Rating"
+        },
+        {
+          "Namespace": "",
+          "Key": "67E68B714C85ABDFFE03C9923E325929",
+          "SourceString": "Level 5 : No Time to Bleed  : Triples the heal amount from Advanced Tactics IV",
+          "LocalizedString": "Level 5 : No Time to Bleed  : Triples the heal amount from Advanced Tactics IV"
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7AB87ED8425DEF412D0CB398FA67CD26",
+        "SourceString": "Veteran's Lodge",
+        "LocalizedString": "Veteran's Lodge"
+      }
+    }
+  }
+]

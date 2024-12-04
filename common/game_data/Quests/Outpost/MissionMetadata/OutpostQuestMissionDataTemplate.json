@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "LegTag",
+    "Outer": "OutpostQuestMissionDataTemplate_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "OutpostQuestMissionDataTemplate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'FortMissionConfigData'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'OutpostQuestMissionDataTemplate_C:LegTag'",
+        "ObjectPath": "FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionDataTemplate.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "OutpostQuestMissionDataTemplate_C'Default__OutpostQuestMissionDataTemplate_C'",
+      "ObjectPath": "FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionDataTemplate.2"
+    }
+  },
+  {
+    "Type": "OutpostQuestMissionDataTemplate_C",
+    "Name": "Default__OutpostQuestMissionDataTemplate_C",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Quests/Outpost/MissionMetadata/OutpostQuestMissionDataTemplate.OutpostQuestMissionDataTemplate_C'",
+    "Properties": {
+      "LegTag": {
+        "TagName": "None"
+      }
+    }
+  }
+]

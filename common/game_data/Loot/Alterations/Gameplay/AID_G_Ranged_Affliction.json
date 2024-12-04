@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "FortAlterationItemDefinition",
+    "Name": "AID_G_Ranged_Affliction",
+    "Class": "UScriptClass'FortAlterationItemDefinition'",
+    "Properties": {
+      "AlterationType": "EFortAlteration::GameplaySlot",
+      "AdditionalGameplayTags": [
+        {
+          "ConditionTags": [],
+          "IncludeTags": []
+        }
+      ],
+      "AlterationAbilitySet": {
+        "ObjectName": "FortAbilitySet'Aset_G_Ranged_Affliction'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/Gameplay/Aset_G_Ranged_Affliction.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "07FC58F4407B9496CAA28EBCA3726C7E",
+        "SourceString": "Afflicting Rounds",
+        "LocalizedString": "Afflicting Rounds"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D0AB38634B3199E22C5CBA941DB7BFF2",
+        "SourceString": "+7.5% Weapon Damage. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target.",
+        "LocalizedString": "+7.5% Weapon Damage. Causes affliction for 6 seconds, dealing damage every second. Cannot be applied more than once every 7 seconds per target."
+      },
+      "IconBrush": {}
+    }
+  }
+]

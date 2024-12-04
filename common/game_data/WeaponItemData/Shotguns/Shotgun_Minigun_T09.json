@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Shotgun_Minigun_T09",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Shotguns/Blueprints/B_Shotgun_Minigun.B_Shotgun_Minigun_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_AutoShotgun'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Shotguns/Mesh/SK_AutoShotgun.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Shotgun_Minigun_T09"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataShells'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataShells.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "ReticleImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_Frame'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.0"
+      },
+      "ReticleCornerAngles": [
+        45.0,
+        135.0,
+        225.0,
+        315.0
+      ],
+      "ReticleCenterImage": {
+        "ObjectName": "Texture2D'HUD_Xhair_Shotgun_CntDot'",
+        "ObjectPath": "FortniteGame/Content/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.0"
+      },
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Shotgun-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Shotgun-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Shotguns/Mesh/SK_AutoShotgun.SK_AutoShotgun",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Pickup_Cue.Shotgun_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Shotgun_Drop_Cue.Shotgun_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_09",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BCA21E0341C52B236BFA769421BA982F",
+        "SourceString": "Room Sweeper",
+        "LocalizedString": "Room Sweeper"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "35BA9C534D32211D0006C88A3C47C6D3",
+        "SourceString": "Shotgun. Fires a wide spread buckshot spread at an incredible rate of fire.",
+        "LocalizedString": "Shotgun. Fires a wide spread buckshot spread at an incredible rate of fire."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "29938BAE4E74291603ECF8BBBC9958BC",
+        "SourceString": "Guns Ranged Shotgun Shells Slugs AOE Automatic",
+        "LocalizedString": "Guns Ranged Shotgun Shells Slugs AOE Automatic"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.shotgun",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_AutoShotgun'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Shotguns/SK_AutoShotgun.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Tier": "EFortItemTier::IX",
+      "Rarity": "EFortRarity::Badass"
+    }
+  }
+]

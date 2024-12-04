@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Rifle_Auto_Alt2_T10",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Properties": {
+      "WeaponActorClass": "/Game/Weapons/FORT_Sniper/Blueprints/B_Exterminator.B_Exterminator_C",
+      "WeaponMeshOverride": {
+        "ObjectName": "SkeletalMesh'SK_Sniper_Exterminator'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Sniper/Meshes/SK_Sniper_Exterminator.0"
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'RangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Weapons/DataTables/RangedWeapons.0"
+        },
+        "RowName": "Rifle_Auto_T10"
+      },
+      "BaseAlteration": {
+        "ObjectName": "FortAlterationItemDefinition'BaseAlteration_BallisticDamage'",
+        "ObjectPath": "FortniteGame/Content/Loot/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.0"
+      },
+      "PrimaryFireAbility": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+      "AmmoData": {
+        "ObjectName": "FortAmmoItemDefinition'AmmoDataBulletsMedium'",
+        "ObjectPath": "FortniteGame/Content/Weapons/AmmoItemData/AmmoDataBulletsMedium.0"
+      },
+      "TriggerType": "EFortWeaponTriggerType::Automatic",
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "MiniMapIconBrush": {
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Sniper-XS'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Sniper-XS.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Loot/DataTables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Default"
+      },
+      "PickupStaticMesh": "",
+      "PickupSkeletalMesh": "/Game/Weapons/FORT_Sniper/Meshes/SK_Sniper_Exterminator.SK_Sniper_Exterminator",
+      "PickupSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Pickup_Cue.Rifle_Pickup_Cue",
+      "DropSound": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Rifle_Drop_Cue.Rifle_Drop_Cue",
+      "DisassemblyLootTierKey": "Disassemble_Ranged_10",
+      "DisassembleDurabilityDegradePercentBegin": 1.0,
+      "DisassembleDurabilityDegradeMinLootPercent": 0.35,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7FDAF1A44652955DB165C9844EC95CFB",
+        "SourceString": "Exterminator [Prime]",
+        "LocalizedString": "Exterminator [Prime]"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BD1C0B1B4E0F79D6CF6E4CBAF0EA6525",
+        "SourceString": "Sniper Rifle (SR). Automatic long-range rifle, but slow fire for an automatic weapon.",
+        "LocalizedString": "Sniper Rifle (SR). Automatic long-range rifle, but slow fire for an automatic weapon."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "9F6F812D47C021C5055CF4AB71596A6F",
+        "SourceString": "Guns Ranged Sniper Rifles MediumBullets Automatic",
+        "LocalizedString": "Guns Ranged Sniper Rifles MediumBullets Automatic"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.sniper",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "AttributeTemplate": "/Game/Weapons/AttributeTemplates/DefaultRangedWeaponAttributeTemplate.DefaultRangedWeaponAttributeTemplate",
+      "IconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SK_Exterminator'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Weapons/Rifles/SK_Exterminator.0"
+        }
+      },
+      "bCalculateRarityFromQualityAndTier": true,
+      "Quality": "EFortQuality::Rare",
+      "Tier": "EFortItemTier::X",
+      "Rarity": "EFortRarity::Legendary"
+    }
+  }
+]

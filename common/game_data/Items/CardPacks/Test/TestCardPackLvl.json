@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "TestCardPackLvl",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "LevelUp_Account_03",
+      "PackImage": {
+        "ObjectName": "Texture2D'Act_Encampment'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Adventures/ActivityFlag/Icons/ActivityType/Act_Encampment.0"
+      },
+      "PackColor": {
+        "R": 1.0,
+        "G": 0.026519,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF2D00"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "320952AB4431D1A14BD406916169EA6B",
+        "SourceString": "Test Level Pack",
+        "LocalizedString": "Test Level Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6E92CCF144D98701307485904E3DBAD4",
+        "SourceString": "Just a test pack of static + random rewards",
+        "LocalizedString": "Just a test pack of static + random rewards"
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

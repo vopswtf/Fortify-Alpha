@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Silver_Weapons",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Silver_Weapons",
+      "DisplayRarityLevel": 1,
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Happy_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Happy_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "FBC066994A264F915FB23DABE6E2DB7D",
+        "SourceString": "Silver Weapons Pack",
+        "LocalizedString": "Silver Weapons Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F35E21F146C3AEF8CACE73B94949DDFF",
+        "SourceString": "Full of high quality stuff.",
+        "LocalizedString": "Full of high quality stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]
