@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Bronze_Ranged",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Bronze_Ranged",
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Ranged_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Ranged_IconMask.0"
+      },
+      "PackColor": {
+        "R": 0.525,
+        "G": 0.036637,
+        "B": 0.046664,
+        "A": 1.0,
+        "Hex": "FFC0363D"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_Happy_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_Happy_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "85C6B3B54B3D562195FFAC820A3DDCB7",
+        "SourceString": "Ranged Weapon Pack",
+        "LocalizedString": "Ranged Weapon Pack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A4F50DAA4E04CDCC62008D84C0FE8C2B",
+        "SourceString": "Full of useful stuff.",
+        "LocalizedString": "Full of useful stuff."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

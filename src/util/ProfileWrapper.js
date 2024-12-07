@@ -1,11 +1,21 @@
 const crypto = require('crypto');
 const { generateAttributes } = require('./gameData');
+const ProfileModel = require('../model/profile');
 
 const infiniteSize = [
     "AccountResource",
     "Token",
-    "Resource"
+    "Resource",
+    "Currency"
 ]
+
+// this is also the remove priority
+const MtxCurrency = [
+    "currency.mtxcomplimentary",
+    "currency.mtxpurchasebonus",
+    "currency.mtxpurchased",
+    "currency.mtxgiveaway",
+];
 
 module.exports = class ProfileWrapper {
     constructor(profile) {
@@ -105,7 +115,11 @@ module.exports = class ProfileWrapper {
         let maxStackSize = item?.MaxStackSize;
 
         if (!maxStackSize || maxStackSize === -1) {
-            if (maxStackSize === -1 || infiniteSize.includes(prefix)) maxStackSize = Number.MAX_SAFE_INTEGER;
+            if (maxStackSize === -1 || infiniteSize.includes(prefix)) {
+                maxStackSize = Number.MAX_SAFE_INTEGER
+            } else {
+                maxStackSize = 1;
+            }
         };
 
         let attributes = generateAttributes(templateId)
@@ -191,6 +205,30 @@ module.exports = class ProfileWrapper {
         }
     }
 
+    removeItemQuantity(itemKey, quantityToRemove, ApplyProfileChanges = []) {
+        const item = this.profile.items[itemKey];
+        if (!item) return;
+
+        if (item.quantity <= quantityToRemove) {
+            delete this.profile.items[itemKey];
+            this.profile.markModified(`items.${itemKey}`);
+
+            ApplyProfileChanges.push({
+                "changeType": "itemRemoved",
+                "itemId": itemKey
+            })
+        } else {
+            item.quantity -= quantityToRemove;
+            this.profile.markModified(`items.${itemKey}`);
+
+            ApplyProfileChanges.push({
+                "changeType": "itemQuantityChanged",
+                "itemId": itemKey,
+                "quantity": item.quantity
+            })
+        }
+    }
+
     removeQuantity(templateId, quantityToRemove, ApplyProfileChanges = []) {
         const entries = Object.entries(this.profile.items).filter(([key, item]) =>
             item.templateId.toLowerCase() === templateId.toLowerCase() || key === templateId
@@ -225,5 +263,47 @@ module.exports = class ProfileWrapper {
             if (remainingQuantity === 0) break;
         }
     }
-}
 
+    getMtx() {
+        let mtx = 0;
+        for (const item of Object.values(this.profile.items)) {
+            if (MtxCurrency.includes(item.templateId.toLowerCase())) {
+                mtx += item.quantity;
+            }
+        }
+
+        return mtx;
+    }
+
+    removeMtx(amount, ApplyProfileChanges = []) {
+        if (amount <= 0) return;
+        this.profile.markModified(`items`);
+
+        let remainingAmount = amount;
+        for (const [key, item] of Object.entries(this.profile.items)) {
+            if (MtxCurrency.includes(item.templateId.toLowerCase())) {
+                const amountToRemove = Math.min(item.quantity, remainingAmount);
+
+                item.quantity -= amountToRemove;
+                remainingAmount -= amountToRemove;
+
+                if (item.quantity === 0) {
+                    delete this.profile.items[key];
+
+                    ApplyProfileChanges.push({
+                        "changeType": "itemRemoved",
+                        "itemId": key
+                    })
+                } else {
+                    ApplyProfileChanges.push({
+                        "changeType": "itemQuantityChanged",
+                        "itemId": key,
+                        "quantity": item.quantity
+                    })
+                }
+
+                if (remainingAmount === 0) break;
+            }
+        }
+    }
+}

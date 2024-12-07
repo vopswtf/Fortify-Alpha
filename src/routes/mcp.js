@@ -40,11 +40,25 @@ module.exports = (app) => {
             if (!profile) return res.status(404).json({ error: "profile_id_not_found" });
 
             req.mcp = { profileChanges: [] };
+            req.mcpError = (message, status = 400) => res.status(status).json({
+                errorCode: "errors.fortify.mcp.operation_failed",
+                errorMessage: message,
+                messageVars: [],
+                numericErrorCode: 0,
+                originatingService: "fortify-alpha",
+                intent: "prod"
+            });
 
             const BaseRevision = profile.rvn || 0;
             const QueryRevision = req.query.rvn || -1;
 
-            await operation.handle(req, res, profile);
+            try {
+                await operation.handle(req, res, profile);
+            } catch (error) {
+                console.error(`[MCP] ${operationName} errored:`, error);
+                return res.status(500).json({ error: "internal_server_error" });
+            }
+
             if (res.headersSent) {
                 console.log(`[MCP] ${operationName} already sent response.`);
                 return;

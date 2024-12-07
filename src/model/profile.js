@@ -13,7 +13,7 @@ const stats = {
             dailyQuestRerolls: 1,
         },
         daily_rewards: {
-            lastClaimDate: null,
+            lastClaimDate: new Date().toISOString(),
             totalDaysLoggedIn: 1,
             nextDefaultReward: 1
         },
@@ -49,6 +49,16 @@ ProfileSchema.pre('save', function (next) {
     this.updated = new Date().toISOString();
     next();
 });
+
+ProfileSchema.pre('save', function (next) {
+    if (this.isNew) {
+        this.stats.attributes.daily_rewards.lastClaimDate = new Date().toISOString();
+        this.stats.attributes.quest_manager.dailyLoginInterval = new Date().toISOString();
+    }
+
+    next();
+});
+
 
 const ProfileModel = model('profileSchema', ProfileSchema);
 

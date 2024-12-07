@@ -24,17 +24,17 @@ module.exports = {
         
         profile.markModified(`items.${questId}.attributes`);
 
-        // TODO: move this to OT notifications
         const notification = {
-            type: "questClaim",
-            primary: true,
-            questId: questId,
+            client_request_id: "",
+            questId: quest.templateId,
             loot: {
-                items: []
-            }
+                persistentItems: [],
+                worldItems: [],
+                tierGroupName: quest.templateId.split(".")[1]
+            },
+            primary: true,
+            type: "questClaim"
         }
-
-        console.log(`Claiming quest reward for ${quest.templateId}`);
 
         for (const reward of questData.Properties.Rewards) {
             const { ItemDefinition, Quantity } = reward;
@@ -47,12 +47,13 @@ module.exports = {
             } else {
                 const attributes = generateAttributes(item.templateId);
                 profileWrapper.addQuantity(item.templateId, Quantity, req.mcp.profileChanges, attributes);
-
-                notification.loot.items.push({
-                    item: item,
-                    templateId: item.templateId,
+                const guid = profileWrapper.findTemplateId(item.templateId);
+                
+                notification.loot.persistentItems.push({
+                    itemGuid: guid.key,
+                    itemType: item.templateId,
                     quantity: Quantity,
-                    attributes: attributes
+                    attributes
                 });
             }
 

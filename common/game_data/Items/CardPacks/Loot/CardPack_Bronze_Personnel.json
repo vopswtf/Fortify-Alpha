@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "FortCardPackItemDefinition",
+    "Name": "CardPack_Bronze_Personnel",
+    "Class": "UScriptClass'FortCardPackItemDefinition'",
+    "Properties": {
+      "LootTierGroup": "CardPack_Bronze_Personnel",
+      "PackImage": {
+        "ObjectName": "Texture2D'T_CardPack_Crew_IconMask'",
+        "ObjectPath": "FortniteGame/Content/FrontEnd/Store/Pinata/Assets/CardPackType/T_CardPack_Crew_IconMask.0"
+      },
+      "PackColor": {
+        "R": 0.38282,
+        "G": 0.68,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFA6D700"
+      },
+      "PackPersonality": {
+        "ObjectName": "FortPackPersonality'Llama_OlTimey_PersonalityPack'",
+        "ObjectPath": "FortniteGame/Content/Characters/Feedback/Llama_OlTimey_PersonalityPack.0"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A12BABDB48D9E46EB56261A94E298A69",
+        "SourceString": "Survivor Llama",
+        "LocalizedString": "Survivor Llama"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5A8073D34AEF421653A461973F7C5BF5",
+        "SourceString": "Yes, it's a people delivery llama. Just make your purchase and move along. Contains at least 5 people. Somehow.",
+        "LocalizedString": "Yes, it's a people delivery llama. Just make your purchase and move along. Contains at least 5 people. Somehow."
+      },
+      "IconBrush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Pinata-L'",
+          "ObjectPath": "FortniteGame/Content/UI/Store/Icon-Pinata-L.0"
+        }
+      }
+    }
+  }
+]

@@ -1,16 +1,5 @@
 const ProfileWrapper = require("../../../util/ProfileWrapper");
 
-/*
-    {
-    heroId: '4417a190-fd48-451e-96b7-1d733a4e3572',
-    primaryTraitAbilities: 5,
-    secondaryTraitAbilities_Alpha: 0,
-    secondaryTraitAbilities_Beta: 0,
-    secondaryTraitAbilities_Gamma: 0,
-    secondaryTraitAbilities_Delta: 0
-    }
-*/
-
 module.exports = {
     name: "SetHeroAbilities",
     handle: async (req, res, profile) => {
