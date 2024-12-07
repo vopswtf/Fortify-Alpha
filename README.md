@@ -17,9 +17,9 @@ done
 - tutorial functional (outpost mission is skipped)
 - cloudstorage (uses ztsd to compress and stick in in mongo, not production worthy use an s3 bucket for that)
 - hero creation and perk stuff, currently when you create a hero it will start at max level
+- basic llama system (needs to be expanded)
 
 not done
 - missing some mcp operations probably
-- llamas
 - world info is a newer version then intended, i cant be bothered to make one (if someone wants to go for it, you can find all the missiongens and zonethemes in the ot files)
 - outposts work differently in ot not sure but idk i'll probably look into it eventually
