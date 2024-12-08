@@ -9,7 +9,7 @@ important
 - uses mongodb
 
 done
-- quest progression (almost, still need to finish notifications)
+- quest progression (finished notifications)
 - building survivor slots
 - profile system
 - creating buildings
