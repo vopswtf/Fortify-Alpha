@@ -1,6 +1,9 @@
 # Fortify-Alpha
 backend for OT6.5 that uses game data to be more accurate
 
+credit @notpies for og research about OT6
+https://github.com/NOTPIES
+
 important
 - to make an account just login with the username you want before the @
 - passwords are hashed and are enforced based on said username
