@@ -437,7 +437,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_Filler_1_D2.StonewoodQuest_Filler_1_D2'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -606,7 +606,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_LaunchRocket_D5.StonewoodQuest_LaunchRocket_D5'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -715,7 +715,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_Filler_2_D5.StonewoodQuest_Filler_2_D5'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -825,7 +825,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/ReactiveQuests/ReactiveQuest_DistressCalls.ReactiveQuest_DistressCalls'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -859,14 +859,14 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/ReactiveQuests/ReactiveQuest_DistressCalls.ReactiveQuest_DistressCalls'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
               }
             },
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_Filler_2_D4.StonewoodQuest_Filler_2_D4'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -1002,7 +1002,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_Filler_2_D5.StonewoodQuest_Filler_2_D5'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -1014,7 +1014,7 @@
           "missionWeightOverrides": [
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C"
             }
           ],
           "difficultyWeightOverrides": [],
@@ -1048,19 +1048,19 @@
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_RtD.MissionGen_T1_VHT_RtD_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C"
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_EvacuateTheSurvivors.MissionGen_T1_VHT_EvacuateTheSurvivors_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C"
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_BuildtheRadarGrid.MissionGen_BuildtheRadarGrid_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C"
             }
           ],
           "difficultyWeightOverrides": [],
@@ -1090,7 +1090,7 @@
           "missionWeightOverrides": [
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_DestroyTheEncampments.MissionGen_DestroyTheEncampments_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_PVP_Tower.MissionGen_PVP_Tower_C"
             }
           ],
           "difficultyWeightOverrides": [],
@@ -1124,19 +1124,19 @@
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C"
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_RtD.MissionGen_T1_VHT_RtD_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_EvacuateTheSurvivors.MissionGen_T1_VHT_EvacuateTheSurvivors_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C"
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_BuildtheRadarGrid.MissionGen_BuildtheRadarGrid_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C"
             }
           ],
           "difficultyWeightOverrides": [],
@@ -1228,7 +1228,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_LaunchBalloon_D1.StonewoodQuest_LaunchBalloon_D1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -1296,7 +1296,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/ReactiveQuests/ReactiveQuest_Transmitters.ReactiveQuest_Transmitters'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -1486,7 +1486,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/ReactiveQuests/ReactiveQuest_DistressCalls.ReactiveQuest_DistressCalls'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -1524,7 +1524,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Challenges/Challenge_WeaponUpgrade_1.Challenge_WeaponUpgrade_1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -1533,7 +1533,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_Filler_1_D2.StonewoodQuest_Filler_1_D2'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -1552,7 +1552,7 @@
           "missionWeightOverrides": [
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_LT_Cat1FtS.MissionGen_T1_LT_Cat1FtS_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C"
             }
           ],
           "difficultyWeightOverrides": [],
@@ -1737,7 +1737,7 @@
           "missionWeightOverrides": [
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_RtD.MissionGen_T1_VHT_RtD_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
             },
             {
               "weight": 1,
@@ -1745,7 +1745,7 @@
             },
             {
               "weight": 1,
-              "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C"
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C"
             }
           ],
           "difficultyWeightOverrides": [],
@@ -1787,7 +1787,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_Filler_2_D4.StonewoodQuest_Filler_2_D4'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2131,13 +2131,13 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Onboarding/BP_ZT_Onboarding_Forest_a.BP_ZT_Onboarding_Forest_a_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
-            "activeQuestDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_LaunchBalloon_D1.StonewoodQuest_LaunchBalloon_D1'",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Onboarding/HomebaseQuest_SlotEMTWorker.HomebaseQuest_SlotEMTWorker'",
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2146,7 +2146,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_LaunchBalloon_D1.StonewoodQuest_LaunchBalloon_D1'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -2194,13 +2194,13 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Outposts/BP_ZT_Homebase_06.BP_ZT_Homebase_06_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Hero/HeroQuest_ConstructorLeadership.HeroQuest_ConstructorLeadership'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2328,7 +2328,7 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Onboarding/BP_ZT_Onboarding_Suburban_a.BP_ZT_Onboarding_Suburban_a_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
@@ -2896,13 +2896,13 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Outposts/BP_ZT_Homebase_02.BP_ZT_Homebase_02_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Hero/HeroQuest_ConstructorLeadership.HeroQuest_ConstructorLeadership'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2921,13 +2921,13 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Outposts/BP_ZT_Homebase_03.BP_ZT_Homebase_03_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Hero/HeroQuest_ConstructorLeadership.HeroQuest_ConstructorLeadership'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2971,13 +2971,13 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Outposts/BP_ZT_Homebase_05.BP_ZT_Homebase_05_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Hero/HeroQuest_ConstructorLeadership.HeroQuest_ConstructorLeadership'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2996,7 +2996,7 @@
         },
         {
           "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Outposts/BP_ZT_Homebase_07.BP_ZT_Homebase_07_C",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
           "requirements": {
             "commanderLevel": 0,
             "personalPowerRating": 0,
@@ -3338,80 +3338,7 @@
             "gameplayTags": []
           },
           "tileIndices": [
-            2,
-            4,
-            5,
-            6,
-            7,
-            9,
-            10,
-            11,
-            13,
-            15,
-            25,
-            26,
-            27,
-            31,
-            32,
-            33,
-            34,
-            35,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56,
-            57,
-            58,
-            59,
-            60,
-            62,
-            63,
-            66,
-            67,
-            68,
-            69,
-            70,
-            71,
-            72,
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79,
-            80,
-            81,
-            82,
-            83,
-            84,
-            85,
-            87,
-            88,
-            89,
-            90,
-            91,
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99
+            2
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -3444,9 +3371,7 @@
             ]
           },
           "tileIndices": [
-            3,
-            29,
-            38
+            3
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -3496,12 +3421,7 @@
             ]
           },
           "tileIndices": [
-            8,
-            21,
-            22,
-            23,
-            24,
-            45
+            8
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -3559,8 +3479,7 @@
             ]
           },
           "tileIndices": [
-            12,
-            30
+            12
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -3571,11 +3490,11 @@
               },
               {
                 "weight": 1,
-                "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C"
+                "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C"
               },
               {
                 "weight": 1,
-                "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_RtD.MissionGen_T1_VHT_RtD_C"
+                "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C"
               }
             ],
             "difficultyWeights": [
@@ -3583,7 +3502,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone1"
+                  "rowName": "TheaterNormalZone1"
                 }
               }
             ],
@@ -3650,7 +3569,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/ReactiveQuests/ReactiveQuest_DistressCalls.ReactiveQuest_DistressCalls'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -3855,7 +3774,7 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_LaunchRocket_D5.StonewoodQuest_LaunchRocket_D5'",
+          "questDefinition": "None",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -4118,7 +4037,7 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/Stonewood/StonewoodQuest_LaunchRocket_D5.StonewoodQuest_LaunchRocket_D5'",
+          "questDefinition": "None",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -8850,7 +8769,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone1"
+                  "rowName": "TheaterNormalZone1"
                 }
               }
             ],
@@ -9069,7 +8988,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone2"
+                  "rowName": "TheaterNormalZone2"
                 }
               }
             ],
@@ -9160,7 +9079,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone5"
+                  "rowName": "TheaterNormalZone5"
                 }
               }
             ],
@@ -9276,7 +9195,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone4"
+                  "rowName": "TheaterNormalZone4"
                 }
               }
             ],
@@ -9339,7 +9258,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone3"
+                  "rowName": "TheaterNormalZone3"
                 }
               }
             ],
@@ -9422,7 +9341,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone3"
+                  "rowName": "TheaterNormalZone3"
                 }
               }
             ],
@@ -9548,7 +9467,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone2"
+                  "rowName": "TheaterNormalZone2"
                 }
               }
             ],
@@ -9611,7 +9530,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone4"
+                  "rowName": "TheaterNormalZone4"
                 }
               }
             ],
@@ -9678,7 +9597,7 @@
                 "weight": 1,
                 "difficultyInfo": {
                   "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-                  "rowName": "Theater_Normal_Zone5"
+                  "rowName": "TheaterNormalZone5"
                 }
               }
             ],
@@ -19852,7 +19771,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone5"
@@ -19898,7 +19817,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_BuildtheRadarGrid.MissionGen_BuildtheRadarGrid_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone4"
@@ -20059,7 +19978,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_LT_Cat1FtS.MissionGen_T1_LT_Cat1FtS_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone2"
@@ -20082,7 +20001,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone5"
@@ -20105,7 +20024,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_EvacuateTheSurvivors.MissionGen_T1_VHT_EvacuateTheSurvivors_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone5"
@@ -20128,7 +20047,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_DestroyTheEncampments.MissionGen_DestroyTheEncampments_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PVP_Tower.MissionGen_PVP_Tower_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone5"
@@ -20151,7 +20070,7 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_EvacuateTheSurvivors.MissionGen_T1_VHT_EvacuateTheSurvivors_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone5"
@@ -20174,10 +20093,10 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_LtB.MissionGen_T1_VHT_LtB_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 12,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20197,10 +20116,10 @@
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_VHT_RtD.MissionGen_T1_VHT_RtD_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 30,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20399,7 +20318,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtS_Tutorial.MissionGen_T2_R2_RtS_Tutorial_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 8,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20422,7 +20341,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtS.MissionGen_T2_R3_RtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 44,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20445,7 +20364,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_RtL.MissionGen_T2_R1_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 1,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20468,7 +20387,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_RtL.MissionGen_T2_R1_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 7,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20491,7 +20410,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtD.MissionGen_T2_R3_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 21,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20514,7 +20433,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 39,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20537,7 +20456,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_BuildtheRadarGrid.MissionGen_T2_R1_BuildtheRadarGrid_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 132,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20560,7 +20479,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_BuildtheRadarGrid.MissionGen_T2_R1_BuildtheRadarGrid_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 34,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20583,7 +20502,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_DtE.MissionGen_T2_R1_DtE_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 43,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20606,7 +20525,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtD.MissionGen_T2_R2_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 16,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20629,7 +20548,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_BuildtheRadarGrid.MissionGen_T2_R2_BuildtheRadarGrid_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 23,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20652,7 +20571,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_RtL.MissionGen_T2_R5_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 36,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20675,7 +20594,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_3Gates.MissionGen_T2_R5_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 60,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20698,7 +20617,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_EtSurvivors.MissionGen_T2_R3_EtSurvivors_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 32,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20721,7 +20640,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 30,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20744,7 +20663,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 143,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20767,7 +20686,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_RtL.MissionGen_T2_R1_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 2,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20790,7 +20709,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_2Gates.MissionGen_T2_R1_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 3,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20813,7 +20732,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_EtSurvivors.MissionGen_T2_R1_EtSurvivors_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 35,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20836,7 +20755,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_EtSurvivors.MissionGen_T2_R1_EtSurvivors_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone1"
+            "rowName": "TheaterNormalZone1"
           },
           "tileIndex": 4,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20859,7 +20778,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_DtE.MissionGen_T2_R2_DtE_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 14,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20882,7 +20801,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtS.MissionGen_T2_R2_RtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 15,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20905,7 +20824,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtD.MissionGen_T2_R2_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 26,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20928,7 +20847,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtD.MissionGen_T2_R2_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 140,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -20951,7 +20870,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtD.MissionGen_T2_R2_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 13,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20974,7 +20893,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_EtShelter.MissionGen_T2_R5_EtShelter_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 9,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -20997,7 +20916,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_3Gates.MissionGen_T2_R5_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 18,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21020,7 +20939,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_RtD.MissionGen_T2_R5_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 20,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -21043,7 +20962,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_PtS.MissionGen_T2_R5_PtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 37,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21066,7 +20985,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_DtB.MissionGen_T2_R5_DtB_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 42,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21089,7 +21008,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_RtS.MissionGen_T2_R5_RtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 41,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -21112,7 +21031,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_RtS.MissionGen_T2_R5_RtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 45,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21135,7 +21054,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_5/MissionGen_T2_R5_LtR.MissionGen_T2_R5_LtR_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 38,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21158,7 +21077,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_4/MissionGen_T2_R4_EtShelter_Tutorial.MissionGen_T2_R4_EtShelter_Tutorial_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 19,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -21181,7 +21100,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtD.MissionGen_T2_R3_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 22,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21204,7 +21123,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_1Gate.MissionGen_T2_R3_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 29,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21227,7 +21146,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/ParentMissionGens/MissionGen_T2_DtB.MissionGen_T2_DtB_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 31,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21250,7 +21169,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_2Gates.MissionGen_T2_R3_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 154,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21273,7 +21192,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtD.MissionGen_T2_R3_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 33,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21296,7 +21215,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 160,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -21319,7 +21238,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtD.MissionGen_T2_R2_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 102,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21342,7 +21261,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_2/MissionGen_T2_R2_RtS.MissionGen_T2_R2_RtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 24,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21365,7 +21284,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtS.MissionGen_T2_R3_RtS_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 40,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21388,7 +21307,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_DtB_Tutorial.MissionGen_T2_R3_DtB_Tutorial_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 144,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -21411,7 +21330,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_EtSurvivors.MissionGen_T2_R3_EtSurvivors_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 151,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21434,7 +21353,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 27,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21457,7 +21376,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_1Gate.MissionGen_T2_R3_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 28,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -21480,7 +21399,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone3"
+            "rowName": "TheaterNormalZone3"
           },
           "tileIndex": 145,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21549,7 +21468,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_RtD.MissionGen_T2_R1_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 130,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21572,7 +21491,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_1/MissionGen_T2_R1_RtD.MissionGen_T2_R1_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone2"
+            "rowName": "TheaterNormalZone2"
           },
           "tileIndex": 134,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21595,7 +21514,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_1Gate.MissionGen_T2_R3_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 153,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21618,7 +21537,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtL.MissionGen_T2_R3_RtL_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone4"
+            "rowName": "TheaterNormalZone4"
           },
           "tileIndex": 149,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21641,7 +21560,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtD.MissionGen_T2_R3_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 161,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -21664,7 +21583,7 @@
           "missionGenerator": "/Game/World/MissionGens/Plankerton/Region_3/MissionGen_T2_R3_RtD.MissionGen_T2_R3_RtD_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "Theater_Normal_Zone5"
+            "rowName": "TheaterNormalZone5"
           },
           "tileIndex": 155,
           "availableUntil": "2017-07-22T04:19:45.000Z"
