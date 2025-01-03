@@ -74,7 +74,7 @@ module.exports = (app) => {
             return res.json({
                 profileRevision: profile.rvn || 0,
                 profileId: profile.profileId,
-                profileChangesBaseRevision: profile.rvn || 0,
+                profileChangesBaseRevision: BaseRevision,
                 ...req.mcp,
                 profileCommandRevision: profile.commandRevision || 0,
                 serverTime: new Date().toISOString(),
