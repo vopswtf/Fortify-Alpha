@@ -17738,7 +17738,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 0,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17784,7 +17784,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone5"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 1,
           "availableUntil": "2017-07-22T04:19:45.000Z"
@@ -17807,7 +17807,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 3,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17876,7 +17876,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 2,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17899,7 +17899,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 4,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17922,7 +17922,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 5,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17945,7 +17945,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 6,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17968,7 +17968,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 7,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -17991,7 +17991,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 8,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18014,7 +18014,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 9,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18037,7 +18037,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 10,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18060,7 +18060,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 11,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18083,7 +18083,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 12,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18106,7 +18106,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 13,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18129,7 +18129,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 14,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18152,7 +18152,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 15,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18175,7 +18175,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 16,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18198,7 +18198,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 17,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18221,7 +18221,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 18,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18244,7 +18244,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 19,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18267,7 +18267,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 20,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18290,7 +18290,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 21,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18313,7 +18313,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 22,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18336,7 +18336,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 23,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18359,7 +18359,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 24,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18382,7 +18382,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 25,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18405,7 +18405,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 26,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18428,7 +18428,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 27,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18451,7 +18451,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 28,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18474,7 +18474,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_PVP_Tower.MissionGen_PVP_Tower_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 29,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18497,7 +18497,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 30,
           "availableUntil": "9999-12-31T23:59:59.999Z"
@@ -18520,7 +18520,7 @@
           "missionGenerator": "/Game/World/MissionGens/MissionGen_Onboarding_Fort.MissionGen_Onboarding_Fort_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterNormalZone1"
+            "rowName": "TheaterStartZone1"
           },
           "tileIndex": 31,
           "availableUntil": "9999-12-31T23:59:59.999Z"
