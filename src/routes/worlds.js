@@ -8,13 +8,16 @@ module.exports = (app) => {
         res.json({})
     });
 
-    app.get('/fortnite/api/world/worlds/:somethingId-:accountId-outpost', verifyToken, async (req, res) => {
+    app.get('/fortnite/api/world/worlds/:wuid-:accountId-outpost', verifyToken, async (req, res) => {
         res.json({})
     });
 
-    app.post('/fortnite/api/world/worlds/:somethingId-:accountId-outpost/lock', verifyToken, async (req, res) => {
-        console.log(req.body);
-        res.json({})
+    app.post('/fortnite/api/world/worlds/:wuid-:accountId-outpost/lock', verifyToken, async (req, res) => {
+        res.json({ lockState: true })
+    });
+
+    app.delete('/fortnite/api/world/worlds/:wuid-:accountId-outpost/lock', verifyToken, async (req, res) => {
+        res.json({ lockState: false })
     });
 
     app.post('/fortnite/api/matchmaking/session/matchMakingRequest', verifyToken, async (req, res) => {
