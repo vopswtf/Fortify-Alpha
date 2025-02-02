@@ -26,6 +26,9 @@ const createAccess = async (user, clientId, grant_type, deviceId, expiresIn) => 
     const accessToken = jwt.sign({
         "sub": user.accountId,
         "dn": user.username,
+        "creation_date": new Date(),
+        "hours_expire": expiresIn
+
     }, process.env.JWT_SECRET, { expiresIn: `${expiresIn}h` });
 
     await createToken("access", user.accountId, `eg1~${accessToken}`);
@@ -36,6 +39,8 @@ const createAccess = async (user, clientId, grant_type, deviceId, expiresIn) => 
 const createRefresh = async (user, clientId, grant_type, deviceId, expiresIn) => {
     const refreshToken = jwt.sign({
         "sub": user.accountId,
+        "creation_date": new Date(),
+        "hours_expire": expiresIn
     }, process.env.JWT_SECRET, { expiresIn: `${expiresIn}h` });
 
     await createToken("refresh", user.accountId, `eg1~${refreshToken}`);
