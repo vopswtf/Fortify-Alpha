@@ -8,14 +8,11 @@ async function verifyToken(req, res, next) {
     const token = req.headers.authorization.replace("bearer ", "").replace("eg1~", "");
 
     try {
-        const decodedToken = jwt.decode(token);
+        const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+        if (!decodedToken) throw new Error("Invalid token.");
 
         const accessToken = await getTokenByToken(`eg1~${token}`);
         if (!accessToken) throw new Error("Invalid token.");
-
-        if (DateAddHours(new Date(decodedToken.creation_date), decodedToken.hours_expire).getTime() <= new Date().getTime()) {
-            throw new Error("Expired access token.");
-        }
 
         req.user = await UserModel.findOne({ accountId: decodedToken.sub }).lean();
         if (!req.user) throw new Error("Invalid user.");
@@ -37,15 +34,12 @@ async function verifyClient(req, res, next) {
     const token = req.headers.authorization.replace("bearer eg1~", "");
 
     try {
-        const decodedToken = jwt.decode(token);
+        const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+        if (!decodedToken) throw new Error("Invalid token.");
 
         const accessToken = await getTokenByToken(`eg1~${token}`);
         const clientToken = await getTokenByToken(`eg1~${token}`);
         if (!accessToken && !clientToken) throw new Error("Invalid token.");
-
-        if (DateAddHours(new Date(decodedToken.creation_date), decodedToken.hours_expire).getTime() <= new Date().getTime()) {
-            throw new Error("Expired access/client token.");
-        }
 
         next();
     } catch (err) {

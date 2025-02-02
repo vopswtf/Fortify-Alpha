@@ -24,22 +24,8 @@ const createClient = async (clientId, grant_type, ip, expiresIn) => {
 
 const createAccess = async (user, clientId, grant_type, deviceId, expiresIn) => {
     const accessToken = jwt.sign({
-        "app": "fortnite",
         "sub": user.accountId,
-        "dvid": deviceId,
-        "mver": false,
-        "clid": clientId,
         "dn": user.username,
-        "am": grant_type,
-        "p": Buffer.from(crypto.randomUUID()).toString("base64"),
-        "iai": user.accountId,
-        "sec": 1,
-        "clsvc": "fortnite",
-        "t": "s",
-        "ic": true,
-        "jti": crypto.randomUUID().replace(/-/ig, ""),
-        "creation_date": new Date(),
-        "hours_expire": expiresIn
     }, process.env.JWT_SECRET, { expiresIn: `${expiresIn}h` });
 
     await createToken("access", user.accountId, `eg1~${accessToken}`);
@@ -50,13 +36,6 @@ const createAccess = async (user, clientId, grant_type, deviceId, expiresIn) => 
 const createRefresh = async (user, clientId, grant_type, deviceId, expiresIn) => {
     const refreshToken = jwt.sign({
         "sub": user.accountId,
-        "dvid": deviceId,
-        "t": "r",
-        "clid": clientId,
-        "am": grant_type,
-        "jti": crypto.randomUUID().replace(/-/ig, ""),
-        "creation_date": new Date(),
-        "hours_expire": expiresIn
     }, process.env.JWT_SECRET, { expiresIn: `${expiresIn}h` });
 
     await createToken("refresh", user.accountId, `eg1~${refreshToken}`);
