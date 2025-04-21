@@ -70,7 +70,7 @@ module.exports = (app) => {
         session.lastUpdated = new Date().toISOString();
         await session.save();
 
-        res.status(204).end();
+        res.json({ success: true });
     });
 
     // Stop Session
@@ -123,6 +123,10 @@ module.exports = (app) => {
             privatePlayers: session.privatePlayers
         });
     });
+
+    app.post("/fortnite/api/matchmaking/session/:sessionId/join", verifyToken, async (req, res) => {
+        res.status(204).end();
+    });
     
     // Delete players
     app.delete("/fortnite/api/matchmaking/session/:sessionId/players", verifyToken, verifyDedicated, async (req, res) => {
@@ -149,16 +153,6 @@ module.exports = (app) => {
         });
     });
 
-    // not doing much here
-    app.get("/fortnite/api/matchmaking/session/:sessionId", verifyToken, async (req, res) => {
-        const session = await getSession(req.params.sessionId);
-        if (!session) return res.status(404).end();
-
-        res.status(204).end();
-    });
-
-
-    
     app.get('/fortnite/api/matchmaking/session/findPlayer/:accountId', verifyToken, async (ctx) => {
         const accountId = ctx.params.accountId;
         if (!accountId) return ctx.status(400).end();

@@ -99,4 +99,13 @@ module.exports = (app) => {
     app.get("/fortnite", (req, res) => {
         res.status(200).end();
     });
+
+    const debugET = true;
+    app.post("/ET2/CollectData.1", (req, res) => {
+        if (!debugET) return res.status(200).end();
+        const { Events } = req.body;
+        console.log("CollectData: ", Events.map(event => event.EventName).join(", "));
+
+        res.status(200).end();
+    });
 }
