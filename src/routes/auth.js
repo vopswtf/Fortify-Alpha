@@ -126,14 +126,14 @@ const createProfiles = async (user) => {
 
 module.exports = (app) => {
     app.post('/account/api/oauth/token', async (req, res) => {
-        let clientId = "fff"
+        let clientId;
         try {
             clientId = Buffer.from(req.headers.authorization.split(" ")[1], "base64").toString("utf-8").split(":")
             if (!clientId[1]) throw new Error("invalid client id");
 
             clientId = clientId[0];
         } catch {
-            // return res.status(400).send("invalid client id");
+            return res.status(400).send("invalid client id");
         }
 
         switch (req.body.grant_type) {
