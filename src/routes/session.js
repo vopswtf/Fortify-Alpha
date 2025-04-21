@@ -86,7 +86,7 @@ module.exports = (app) => {
     });
 
     // Matchmaking
-    app.post("/fortnite/api/matchmaking/session/matchMakingRequest", verifyToken, verifyDedicated, async (req, res) => {
+    app.post("/fortnite/api/matchmaking/session/matchMakingRequest", verifyToken, async (req, res) => {
         const criteria = req.body;
         if (!criteria) return res.status(400).end();
     
