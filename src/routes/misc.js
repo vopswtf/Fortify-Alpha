@@ -11,7 +11,7 @@ module.exports = (app) => {
         res.end();
     });
 
-    app.get('/fortnite/api/game/v2/world/validate', (req, res) => {
+    app.post('/fortnite/api/game/v2/world/validate', (req, res) => {
         const { theaterId, theaterMissionId, zoneThemeClass } = req.query;
 
         if (!theaterId || !theaterMissionId || !zoneThemeClass) return res.status(400).end();
