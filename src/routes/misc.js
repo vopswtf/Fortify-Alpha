@@ -11,6 +11,30 @@ module.exports = (app) => {
         res.end();
     });
 
+    app.get('/fortnite/api/game/v2/world/validate', (req, res) => {
+        const { theaterId, theaterMissionId, zoneThemeClass } = req.query;
+
+        if (!theaterId || !theaterMissionId || !zoneThemeClass) return res.status(400).end();
+        const theater = worldInfo.missions.find((theater) => theater.theaterId === theaterId);
+        if (!theater) return res.status(404).end();
+
+        const mission = theater.availableMissions.find((mission) => mission.missionGuid === theaterMissionId);
+        if (!mission) return res.status(404).end();
+
+        const missionData = {
+            theaterId,
+            theaterMissionId,
+            zoneThemeClass,
+            missionRewards: mission.missionRewards,
+            missionGenerator: mission.missionGenerator,
+            zoneDifficultyInfo: mission.missionDifficultyInfo,
+            tileIndex: mission.tileIndex,
+            zoneModifiers: []
+        };
+
+        res.json(missionData);
+    });
+
     app.get('/fortnite/api/storefront/v2/catalog', (req, res) => {
         res.writeHead(200, { "Content-Type": "application/json" });
         res.write(JSON.stringify(catalog));
