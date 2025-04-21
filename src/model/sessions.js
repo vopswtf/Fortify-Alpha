@@ -34,12 +34,13 @@ const SessionSchema = new Schema({
 SessionSchema.index({ lastUpdated: 1 }, { expireAfterSeconds: 45 });
 
 SessionSchema.pre('save', function (next) {
-    this.session.privatePlayers = [...new Set(session.privatePlayers)];
-    this.session.publicPlayers = [...new Set(session.publicPlayers)];
+    const session = this.toObject();
+    this.privatePlayers = [...new Set(session.privatePlayers)];
+    this.publicPlayers = [...new Set(session.publicPlayers)];
 
-    this.session.totalPlayers = session.privatePlayers.length + session.publicPlayers.length;
-    this.session.openPrivatePlayers = session.maxPrivatePlayers - session.privatePlayers.length;
-    this.session.openPublicPlayers = session.maxPublicPlayers - session.publicPlayers.length;
+    this.totalPlayers = session.privatePlayers.length + session.publicPlayers.length;
+    this.openPrivatePlayers = session.maxPrivatePlayers - session.privatePlayers.length;
+    this.openPublicPlayers = session.maxPublicPlayers - session.publicPlayers.length;
 
     next();
 });

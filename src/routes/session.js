@@ -6,7 +6,7 @@ module.exports = (app) => {
     app.post("/fortnite/api/matchmaking/session", verifyToken, verifyDedicated, async (req, res) => {
         const session = req.body;
     
-        session.id = genUUID().replace(/-/g, "").toLowerCase();
+        session.id = crypto.randomUUID().replace(/-/g, "").toLowerCase();
         session.serverAddress = process.env.LOCALHOST_SESSIONS ? "127.0.0.1" : req.headers["x-forwarded-for"] || req.socket.remoteAddress;
         session.lastUpdated = new Date().toISOString();
         session.started = false;
