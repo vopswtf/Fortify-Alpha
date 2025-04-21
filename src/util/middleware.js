@@ -55,7 +55,13 @@ async function verifyClient(req, res, next) {
     }
 }
 
+async function verifyDedicated(req, res, next) {
+    if (!req.user || !req.user.isDedicated) return res.status(401).json({ error: "not_dedicated" });
+    next();
+}
+
 module.exports = {
     verifyToken,
-    verifyClient
+    verifyClient,
+    verifyDedicated,
 }

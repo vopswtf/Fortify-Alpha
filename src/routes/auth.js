@@ -7,11 +7,12 @@ const quests = require('../util/quests');
 const { getAllItems, generateAttributes, getItem, getItemsStartingWith } = require('../util/gameData');
 const ProfileWrapper = require('../util/ProfileWrapper');
 
-const createUser = async (username, password) => {
+const createUser = async (username, password, isDedicated = false) => {
     const user = new UserModel({
         accountId: crypto.randomUUID().replace(/-/ig, ""),
         username,
-        password: await bcrypt.hash(password, 10)
+        password: await bcrypt.hash(password, 10),
+        isDedicated,
     });
     await user.save();
 
@@ -125,17 +126,27 @@ const createProfiles = async (user) => {
 
 module.exports = (app) => {
     app.post('/account/api/oauth/token', async (req, res) => {
-        let clientId;
+        let clientId = "fff"
         try {
             clientId = Buffer.from(req.headers.authorization.split(" ")[1], "base64").toString("utf-8").split(":")
             if (!clientId[1]) throw new Error("invalid client id");
 
             clientId = clientId[0];
         } catch {
-            return res.status(400).send("invalid client id");
+            // return res.status(400).send("invalid client id");
         }
 
         switch (req.body.grant_type) {
+            case "exchange_code": 
+                if (process.env.DEDICATED_EXCHANGE_CODE !== req.body.exchange_code) return res.status(401).json({ error: "invalid_auth" });
+
+                req.user = await UserModel.findOne({ username: "DedicatedServer" }).lean();
+
+                if (!req.user) {
+                    req.user = await createUser("DedicatedServer", process.env.DEDICATED_EXCHANGE_CODE, true);
+                    await createProfiles(req.user);
+                }
+                break;
             case "client_credentials":
                 const ip = req.ip;
 

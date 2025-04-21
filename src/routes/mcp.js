@@ -24,19 +24,23 @@ const operations = {};
 })();
 
 module.exports = (app) => {
-    // client operation handler
-    app.post("/fortnite/api/game/v2/profile/:accountId/client/:operation", verifyToken, async (req, res) => {
+    app.post("/fortnite/api/game/v2/profile/:accountId/:operationType/:operation", verifyToken, async (req, res) => {
+        const operationType = req.params.operationType;
+        if (!operations[operationType]) return res.status(404).json({ error: "operation_not_valid" });
+        if (operationType === "dedicated" && !req.user.isDedicated) return res.status(404).json({ error: "no_access" });
+
         const profileId = req.query.profileId?.toString();
         if (!profileId) return res.status(400).json({ error: "invalid_profile_id" });
 
         const operationName = req.params.operation;
+        const accountId = operationType === "client" ? req.user.accountId : req.params.accountId;
 
         // Handle operations that have implementations
-        if (operations.client[operationName]) {
-            const operation = operations.client[operationName];
+        if (operations[operationType][operationName]) {
+            const operation = operations[operationType][operationName];
             if (operation.allowedProfiles && !operation.allowedProfiles.includes(profileId)) return res.status(404).json({ error: "operation_not_valid" });
 
-            const profile = await ProfileModel.findOne({ accountId: req.user.accountId, profileId: profileId });
+            const profile = await ProfileModel.findOne({ accountId: accountId, profileId: profileId });
             if (!profile) return res.status(404).json({ error: "profile_id_not_found" });
 
             req.mcp = { profileChanges: [] };
