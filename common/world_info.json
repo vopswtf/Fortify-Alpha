@@ -1995,7 +1995,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D1.PlankertonQuest_Filler_1_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2020,7 +2019,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D1.PlankertonQuest_Filler_2_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2052,15 +2050,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D1.PlankertonQuest_Filler_3_D1'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 7,
           "yCoordinate": 10,
           "missionWeightOverrides": [
@@ -2090,15 +2080,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D1.PlankertonQuest_Filler_1_D1'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 8,
           "yCoordinate": 10,
           "missionWeightOverrides": [
@@ -2121,7 +2103,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D1.PlankertonQuest_Filler_3_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2196,7 +2177,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_4_D1.PlankertonQuest_Filler_4_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2220,7 +2200,6 @@
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
-            "activeQuestDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D2.PlankertonQuest_Filler_1_D2'",
             "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
@@ -2228,15 +2207,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D2.PlankertonQuest_Filler_1_D2'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 7,
           "yCoordinate": 8,
           "missionWeightOverrides": [
@@ -2266,15 +2237,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D5.PlankertonQuest_Filler_2_D5'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 10,
           "yCoordinate": 10,
           "missionWeightOverrides": [
@@ -2404,22 +2367,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D2.PlankertonQuest_Filler_2_D2'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            },
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_4_D2.PlankertonQuest_Filler_4_D2'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 7,
           "yCoordinate": 7,
           "missionWeightOverrides": [
@@ -2442,7 +2390,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D2.PlankertonQuest_Filler_2_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2467,7 +2414,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_4_D2.PlankertonQuest_Filler_4_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2608,15 +2554,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D5.PlankertonQuest_Filler_1_D5'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 10,
           "yCoordinate": 9,
           "missionWeightOverrides": [
@@ -2638,7 +2576,6 @@
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
-            "activeQuestDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D4.PlankertonQuest_Filler_1_D4'",
             "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
@@ -2646,15 +2583,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D4.PlankertonQuest_Filler_1_D4'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 10,
           "yCoordinate": 8,
           "missionWeightOverrides": [
@@ -2684,15 +2613,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D5.PlankertonQuest_Filler_3_D5'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 11,
           "yCoordinate": 9,
           "missionWeightOverrides": [
@@ -2715,7 +2636,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_4_D4.PlankertonQuest_Filler_4_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2803,7 +2723,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D2.PlankertonQuest_Filler_2_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2853,7 +2772,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D2.PlankertonQuest_Filler_3_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2903,7 +2821,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_4_D3.PlankertonQuest_Filler_4_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -2966,7 +2883,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D3.PlankertonQuest_Filler_3_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -3029,7 +2945,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D4.PlankertonQuest_Filler_3_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -3054,7 +2969,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D4.PlankertonQuest_Filler_2_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -3111,15 +3025,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D1.PlankertonQuest_Filler_2_D1'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 8,
           "yCoordinate": 11,
           "missionWeightOverrides": [
@@ -3232,15 +3138,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_LaunchRocket_D5.PlankertonQuest_LaunchRocket_D5'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 13,
           "yCoordinate": 9,
           "missionWeightOverrides": [
@@ -3339,7 +3237,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D5.PlankertonQuest_Filler_2_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -3465,7 +3362,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D5.PlankertonQuest_Filler_1_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -3695,7 +3591,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D5.PlankertonQuest_Filler_3_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -4908,7 +4803,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D2.PlankertonQuest_Filler_3_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5608,7 +5502,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D1.PlankertonQuest_Filler_2_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5665,15 +5558,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_4_D1.PlankertonQuest_Filler_4_D1'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 6,
           "yCoordinate": 11,
           "missionWeightOverrides": [
@@ -5721,7 +5606,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D1.PlankertonQuest_Filler_3_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5771,7 +5655,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D2.PlankertonQuest_Filler_1_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5946,7 +5829,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D3.PlankertonQuest_Filler_2_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5970,23 +5852,13 @@
             "commanderLevel": 0,
             "personalPowerRating": 0,
             "partyPowerRating": 0,
-            "activeQuestDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D3.PlankertonQuest_Filler_2_D3'",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D3.PlankertonQuest_Filler_1_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D3.PlankertonQuest_Filler_2_D3'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 10,
           "yCoordinate": 5,
           "missionWeightOverrides": [
@@ -6109,7 +5981,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D3.PlankertonQuest_Filler_2_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6209,7 +6080,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D3.PlankertonQuest_Filler_3_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6272,7 +6142,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D4.PlankertonQuest_Filler_2_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6397,7 +6266,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_1_D4.PlankertonQuest_Filler_1_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6422,7 +6290,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_3_D4.PlankertonQuest_Filler_3_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6547,7 +6414,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D5.PlankertonQuest_Filler_2_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7212,7 +7078,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D2.PlankertonQuest_Filler_2_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7366,7 +7231,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D5.PlankertonQuest_Filler_2_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7421,7 +7285,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D1.CannyValleyQuest_Filler_2_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7484,7 +7347,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D3.PlankertonQuest_Filler_2_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7551,7 +7413,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_Filler_2_D4.PlankertonQuest_Filler_2_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7622,7 +7483,6 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_LaunchRocket_D5.PlankertonQuest_LaunchRocket_D5'",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -7885,7 +7745,6 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/Plankerton/PlankertonQuest_LaunchRocket_D5.PlankertonQuest_LaunchRocket_D5'",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -8086,13 +7945,6 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D1.CannyValleyQuest_Filler_1_D1'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            },
-            {
               "questDefinition": "FortQuestItemDefinition'/Game/Quests/Daily/Daily_High_Priority.Daily_High_Priority'",
               "objectiveStatHandle": {
                 "dataTable": "None",
@@ -8117,7 +7969,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D2.CannyValleyQuest_Filler_4_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8162,15 +8013,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D2.CannyValleyQuest_Filler_1_D2'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 9,
           "yCoordinate": 10,
           "missionWeightOverrides": [
@@ -8218,22 +8061,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D1.CannyValleyQuest_Filler_3_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D1.CannyValleyQuest_Filler_4_D1'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 7,
           "yCoordinate": 11,
           "missionWeightOverrides": [
@@ -8256,7 +8090,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D1.CannyValleyQuest_Filler_4_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8281,7 +8114,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D1.CannyValleyQuest_Filler_2_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8515,7 +8347,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D2.CannyValleyQuest_Filler_2_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8615,7 +8446,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_5_D4.CannyValleyQuest_Filler_5_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8640,7 +8470,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_6_D4.CannyValleyQuest_Filler_6_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8678,22 +8507,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D2.CannyValleyQuest_Filler_3_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D2.CannyValleyQuest_Filler_4_D2'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 10,
           "yCoordinate": 9,
           "missionWeightOverrides": [
@@ -8741,7 +8561,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D2.CannyValleyQuest_Filler_1_D2'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -8816,22 +8635,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D4.CannyValleyQuest_Filler_3_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_5_D4.CannyValleyQuest_Filler_5_D4'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 8,
           "yCoordinate": 7,
           "missionWeightOverrides": [
@@ -9179,7 +8989,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D1.CannyValleyQuest_Filler_1_D1'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -9729,7 +9538,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -9754,7 +9562,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D5.CannyValleyQuest_Filler_1_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -9791,15 +9598,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 4,
           "yCoordinate": 8,
           "missionWeightOverrides": [
@@ -9897,7 +9696,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D5.CannyValleyQuest_Filler_4_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -10527,22 +10325,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D4.CannyValleyQuest_Filler_2_D4'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D4.CannyValleyQuest_Filler_3_D4'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 7,
           "yCoordinate": 6,
           "missionWeightOverrides": [
@@ -10640,22 +10429,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D3.CannyValleyQuest_Filler_3_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D3.CannyValleyQuest_Filler_4_D3'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 11,
           "yCoordinate": 6,
           "missionWeightOverrides": [
@@ -10685,15 +10465,7 @@
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D3.CannyValleyQuest_Filler_1_D3'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 12,
           "yCoordinate": 7,
           "missionWeightOverrides": [
@@ -10766,22 +10538,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D3.CannyValleyQuest_Filler_1_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D3.CannyValleyQuest_Filler_2_D3'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 12,
           "yCoordinate": 6,
           "missionWeightOverrides": [
@@ -10804,7 +10567,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D3.CannyValleyQuest_Filler_2_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -11054,7 +10816,6 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D3.CannyValleyQuest_Filler_4_D3'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -12743,7 +12504,6 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -13006,7 +12766,6 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -13740,22 +13499,13 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/TwinePeaks/TwinePeaksQuest_LaunchRocket_D5.TwinePeaksQuest_LaunchRocket_D5'",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
             },
             "itemDefinition": "None"
           },
-          "linkedQuests": [
-            {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/TwinePeaks/TwinePeaksQuest_LaunchRocket_D5.TwinePeaksQuest_LaunchRocket_D5'",
-              "objectiveStatHandle": {
-                "dataTable": "None",
-                "rowName": "None"
-              }
-            }
-          ],
+          "linkedQuests": [],
           "xCoordinate": 12,
           "yCoordinate": 10,
           "missionWeightOverrides": [
