@@ -9,13 +9,10 @@ async function verifyToken(req, res, next) {
 
     try {
         const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
-        if (!decodedToken) throw new Error("Invalid token.");
-
-        const accessToken = await getTokenByToken(`eg1~${token}`);
-        if (!accessToken) throw new Error("Invalid token.");
+        if (!decodedToken) throw new Error("Invalid token. JWT");
 
         req.user = await UserModel.findOne({ accountId: decodedToken.sub }).lean();
-        if (!req.user) throw new Error("Invalid user.");
+        if (!req.user) throw new Error("Invalid user. User");
 
         next();
     } catch (err) {
