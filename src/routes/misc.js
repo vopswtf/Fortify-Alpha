@@ -12,7 +12,7 @@ module.exports = (app) => {
     });
 
     app.post('/fortnite/api/game/v2/world/validate', (req, res) => {
-        const { theaterId, theaterMissionId, zoneThemeClass } = req.query;
+        const { theaterId, theaterMissionId, zoneThemeClass, worldId } = req.body;
 
         if (!theaterId || !theaterMissionId || !zoneThemeClass) return res.status(400).end();
         const theater = worldInfo.missions.find((theater) => theater.theaterId === theaterId);
@@ -22,6 +22,7 @@ module.exports = (app) => {
         if (!mission) return res.status(404).end();
 
         const missionData = {
+            worldId,
             theaterId,
             theaterMissionId,
             zoneThemeClass,
