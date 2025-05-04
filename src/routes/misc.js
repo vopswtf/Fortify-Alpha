@@ -114,7 +114,7 @@ module.exports = (app) => {
     });
 
     app.get("/friends/api/public/list/fortnite/:accountId/recentPlayers", (req, res) => {
-        res.json({recentPlayers: {}})
+        res.json({ recentplayers: [] })
     });
 
     app.get("/account", (req, res) => {

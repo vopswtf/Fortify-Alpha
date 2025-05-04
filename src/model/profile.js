@@ -12,10 +12,8 @@ const stats = {
             dailyLoginInterval: new Date().toISOString(),
             dailyQuestRerolls: 1,
         },
-        daily_rewards: {
-            lastClaimDate: new Date().toISOString(),
-            totalDaysLoggedIn: 1,
-            nextDefaultReward: 1
+        login_reward: {
+            last_claim_time: new Date().toISOString()
         },
         gameplay_stats: []
     }

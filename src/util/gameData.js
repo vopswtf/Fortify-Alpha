@@ -74,6 +74,8 @@ function generateTemplateId(data) {
 const getItem = (name) => {
     if (!name) return null;
     if (gameData[name]) return gameData[name];
+    if (name.includes("/") && name.includes(".")) name = name.split(".")[1];
+
 
     for (const key in gameData) {
         if (gameData[key].Name.toLowerCase() === name.toLowerCase()) return gameData[key];
