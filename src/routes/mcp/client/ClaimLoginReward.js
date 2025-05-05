@@ -6,13 +6,20 @@ module.exports = {
     name: "ClaimLoginReward",
     handle: async (req, res, profile) => {
         const profileWrapper = new ProfileWrapper(profile);
-        
+         
         const login_reward = profile.stats.attributes.login_reward;
-        if (!login_reward) return res.status(400).json({ error: "missing_login_reward" });
+        if (!login_reward) profile.stats.attributes.login_reward = { next_level: 0, last_claim_time: null };
 
         if (!login_reward.next_level || login_reward.next_level >= 335) {
             login_reward.next_level = 0;
         }
+
+        if (login_reward.last_claim_time) {
+            const last_claim_time = login_reward.last_claim_time.split("T")[0];
+            const current_time = new Date().toISOString().split("T")[0];
+            if (last_claim_time === current_time) return res.status(400).json({ error: "already_claimed_daily_reward" });
+        }
+            
 
         login_reward.next_level += 1;
 

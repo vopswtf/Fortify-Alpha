@@ -23,7 +23,6 @@ const createProfiles = async (user) => {
     const profile0 = new ProfileModel({ accountId: user.accountId, profileId: "profile0" });
     const wrapper = new ProfileWrapper(profile0);
 
-
     const guid = quests.addQuest(profile0, "Quest.homebaseonboarding");
     profile0.items[guid].attributes.completion_hbonboarding_completezone = 1;
     profile0.items[guid].attributes.completion_hbonboarding_watchsatellitecine = 1;
@@ -122,6 +121,9 @@ const createProfiles = async (user) => {
     })
 
     await profile0.save();
+
+    const theater0 = new ProfileModel({ accountId: user.accountId, profileId: "theater0" });
+    await theater0.save();
 }
 
 module.exports = (app) => {
