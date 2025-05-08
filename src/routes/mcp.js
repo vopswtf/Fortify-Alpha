@@ -25,7 +25,8 @@ const operations = {};
 
 module.exports = (app) => {
     app.post("/fortnite/api/game/v2/profile/:accountId/:operationType/:operation", verifyToken, async (req, res) => {
-        const operationType = req.params.operationType;
+        let operationType = req.params.operationType;
+        if (operationType === "dedicated_server") operationType = "dedicated";
         if (!operations[operationType]) return res.status(404).json({ error: "operation_not_valid" });
         if (operationType === "dedicated" && !req.user.isDedicated) return res.status(404).json({ error: "no_access" });
 
