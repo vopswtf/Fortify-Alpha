@@ -50,7 +50,10 @@ ProfileSchema.pre('save', function (next) {
 
 ProfileSchema.pre('save', function (next) {
     if (this.isNew) {
-        this.stats.attributes.daily_rewards.lastClaimDate = new Date().toISOString();
+        this.stats.attributes.daily_rewards = { 
+            last_claim_time: new Date().toISOString(),
+            next_level: 0,
+        }
         this.stats.attributes.quest_manager.dailyLoginInterval = new Date().toISOString();
     }
 
