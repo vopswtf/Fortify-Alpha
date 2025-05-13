@@ -305,839 +305,7 @@
       },
       "tiles": [
         {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 1,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 9,
-          "yCoordinate": 7,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 1,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 1,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 1,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 2,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 2,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 2,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 2,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 3,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 3,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 3,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 3,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 4,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 4,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 4,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 4,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 5,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 5,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 5,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 5,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 6,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 6,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 6,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 6,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 7,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 7,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 7,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 7,
-          "yCoordinate": 4,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/PvP/BP_ZT_PVP.BP_ZT_PVP_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 8,
-          "yCoordinate": 1,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 8,
-          "yCoordinate": 2,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
-          "zoneTheme": "/Game/World/ZoneThemes/Onboarding/ZT_OnboardingFort/BP_ZT_Onboarding_Fort.BP_ZT_Onboarding_Fort_C",
-          "requirements": {
-            "commanderLevel": 0,
-            "personalPowerRating": 0,
-            "partyPowerRating": 0,
-            "activeQuestDefinition": "None",
-            "questDefinition": "None",
-            "objectiveStatHandle": {
-              "dataTable": "None",
-              "rowName": "None"
-            },
-            "itemDefinition": "None"
-          },
-          "linkedQuests": [
-          ],
-          "xCoordinate": 8,
-          "yCoordinate": 3,
-          "missionWeightOverrides": [],
-          "difficultyWeightOverrides": [],
-          "canBeMissionAlert": true,
-          "tileTags": {
-            "gameplayTags": []
-          }
-        },
-        {
-          "tileType": "Normal",
+          "tileType": "Outpost",
           "zoneTheme": "/Game/World/ZoneThemes/Outposts/BP_ZT_TheOutpost_PvE_01.BP_ZT_TheOutpost_PvE_01_C",
           "requirements": {
             "commanderLevel": 0,
@@ -1152,9 +320,1300 @@
             "itemDefinition": "None"
           },
           "linkedQuests": [
+            
           ],
+          "xCoordinate": 9,
+          "yCoordinate": 8,
+          "missionWeightOverrides": [
+            {
+              "weight": 1,
+              "missionGenerator": "/Game/World/MissionGens/MissionGen_TheOutpost_PvE_02.MissionGen_TheOutpost_PvE_02_C"
+            }
+          ],
+          "difficultyWeightOverrides": [
+            {
+              "weight": 1,
+              "difficultyInfo": {
+                "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+                "rowName": "OutpostNormalZone1"
+              }
+            }
+          ],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 7,
+          "yCoordinate": 9,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "CriticalMission",
+          "zoneTheme": "/Game/World/ZoneThemes/CriticalMission/BP_ZT_CriticalMission.BP_ZT_CriticalMission_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "FortQuestItemDefinition'/Game/Quests/Outpost/OutpostQuest_T3_L1.OutpostQuest_T3_L1'",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [
+            
+          ],
+          "xCoordinate": 9,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 5,
+          "yCoordinate": 9,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 5,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 4,
+          "yCoordinate": 11,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 7,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 6,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 6,
+          "yCoordinate": 9,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 4,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 6,
+          "yCoordinate": 11,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 5,
+          "yCoordinate": 11,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 7,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 7,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 5,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 4,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 4,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 6,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 6,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 5,
+          "yCoordinate": 4,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 3,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 5,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 9,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 9,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 10,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 8,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 9,
+          "yCoordinate": 4,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 9,
+          "yCoordinate": 3,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 11,
+          "yCoordinate": 4,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 10,
+          "yCoordinate": 4,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
           "xCoordinate": 8,
           "yCoordinate": 4,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 10,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 11,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 12,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 12,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 13,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 13,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 13,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 14,
+          "yCoordinate": 6,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 14,
+          "yCoordinate": 7,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 15,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 14,
+          "yCoordinate": 5,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 11,
+          "yCoordinate": 9,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 12,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 12,
+          "yCoordinate": 11,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 14,
+          "yCoordinate": 12,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheIndustrialPark/BP_ZT_TheIndustrialPark.BP_ZT_TheIndustrialPark_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 11,
+          "yCoordinate": 11,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 13,
+          "yCoordinate": 10,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheSuburbs/BP_ZT_TheSuburbs.BP_ZT_TheSuburbs_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 13,
+          "yCoordinate": 9,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheForest/BP_ZT_TheForest.BP_ZT_TheForest_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 14,
+          "yCoordinate": 11,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheCity/BP_ZT_TheCity.BP_ZT_TheCity_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 12,
+          "yCoordinate": 9,
+          "missionWeightOverrides": [],
+          "difficultyWeightOverrides": [],
+          "canBeMissionAlert": true,
+          "tileTags": {
+            "gameplayTags": []
+          }
+        },
+        {
+          "tileType": "Normal",
+          "zoneTheme": "/Game/World/ZoneThemes/ZT_TheGrasslands/BP_ZT_TheGrasslands.BP_ZT_TheGrasslands_C",
+          "requirements": {
+            "commanderLevel": 0,
+            "personalPowerRating": 0,
+            "partyPowerRating": 0,
+            "activeQuestDefinition": "None",
+            "questDefinition": "None",
+            "objectiveStatHandle": {
+              "dataTable": "None",
+              "rowName": "None"
+            },
+            "itemDefinition": "None"
+          },
+          "linkedQuests": [],
+          "xCoordinate": 11,
+          "yCoordinate": 10,
           "missionWeightOverrides": [],
           "difficultyWeightOverrides": [],
           "canBeMissionAlert": true,
@@ -1175,8 +1634,7 @@
           },
           "tileIndices": [
             141,
-            116,
-            57
+            116
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -1230,7 +1688,7 @@
             ]
           },
           "tileIndices": [
-            1
+            100
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -1280,7 +1738,26 @@
             "gameplayTags": []
           },
           "tileIndices": [
-            2
+            1,
+            3,
+            4,
+            9,
+            10,
+            13,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            26,
+            29,
+            30,
+            31,
+            37,
+            38,
+            40,
+            49
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -1531,7 +2008,6 @@
           "tileIndices": [
             172,
             193,
-            37,
             86
           ],
           "regionThemeIcon": "None",
@@ -1629,7 +2105,37 @@
             "gameplayTags": []
           },
           "tileIndices": [
-            36
+            8,
+            2,
+            6,
+            5,
+            7,
+            11,
+            12,
+            14,
+            15,
+            16,
+            21,
+            22,
+            23,
+            24,
+            25,
+            27,
+            28,
+            32,
+            33,
+            34,
+            36,
+            39,
+            41,
+            42,
+            43,
+            44,
+            51,
+            45,
+            46,
+            47,
+            48
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -1658,7 +2164,7 @@
             "gameplayTags": []
           },
           "tileIndices": [
-            64
+            0
           ],
           "regionThemeIcon": "None",
           "missionData": {
@@ -3942,7 +4448,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D1.CannyValleyQuest_Filler_2_D1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -4634,7 +5140,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D1.CannyValleyQuest_Filler_1_D1'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -4665,7 +5171,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D2.CannyValleyQuest_Filler_4_D2'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -4712,7 +5218,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D2.CannyValleyQuest_Filler_1_D2'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -4766,7 +5272,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D1.CannyValleyQuest_Filler_3_D1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -4775,7 +5281,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D1.CannyValleyQuest_Filler_4_D1'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -4804,7 +5310,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D1.CannyValleyQuest_Filler_4_D1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -4829,7 +5335,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D1.CannyValleyQuest_Filler_2_D1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5063,7 +5569,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D2.CannyValleyQuest_Filler_2_D2'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5163,7 +5669,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_5_D4.CannyValleyQuest_Filler_5_D4'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5188,7 +5694,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_6_D4.CannyValleyQuest_Filler_6_D4'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5226,7 +5732,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D2.CannyValleyQuest_Filler_3_D2'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5235,7 +5741,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D2.CannyValleyQuest_Filler_4_D2'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -5289,7 +5795,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D2.CannyValleyQuest_Filler_1_D2'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5364,7 +5870,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D4.CannyValleyQuest_Filler_3_D4'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -5727,7 +6233,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D1.CannyValleyQuest_Filler_1_D1'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6277,7 +6783,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6302,7 +6808,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D5.CannyValleyQuest_Filler_1_D5'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -6341,7 +6847,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -6445,7 +6951,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D5.CannyValleyQuest_Filler_4_D5'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7075,7 +7581,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D4.CannyValleyQuest_Filler_2_D4'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7084,7 +7590,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D4.CannyValleyQuest_Filler_3_D4'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -7188,7 +7694,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_3_D3.CannyValleyQuest_Filler_3_D3'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7197,7 +7703,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D3.CannyValleyQuest_Filler_4_D3'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -7235,7 +7741,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D3.CannyValleyQuest_Filler_1_D3'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -7314,7 +7820,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_1_D3.CannyValleyQuest_Filler_1_D3'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7323,7 +7829,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D3.CannyValleyQuest_Filler_2_D3'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -7352,7 +7858,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_2_D3.CannyValleyQuest_Filler_2_D3'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -7602,7 +8108,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_Filler_4_D3.CannyValleyQuest_Filler_4_D3'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -9291,7 +9797,7 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
+          "questDefinition": "None",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -9554,7 +10060,7 @@
           "personalPowerRating": 0,
           "partyPowerRating": 0,
           "activeQuestDefinition": "None",
-          "questDefinition": "FortQuestItemDefinition'/Game/Quests/CannyValley/CannyValleyQuest_LaunchRocket_D5.CannyValleyQuest_LaunchRocket_D5'",
+          "questDefinition": "None",
           "objectiveStatHandle": {
             "dataTable": "None",
             "rowName": "None"
@@ -10288,7 +10794,7 @@
             "personalPowerRating": 0,
             "partyPowerRating": 0,
             "activeQuestDefinition": "None",
-            "questDefinition": "FortQuestItemDefinition'/Game/Quests/TwinePeaks/TwinePeaksQuest_LaunchRocket_D5.TwinePeaksQuest_LaunchRocket_D5'",
+            "questDefinition": "None",
             "objectiveStatHandle": {
               "dataTable": "None",
               "rowName": "None"
@@ -10297,7 +10803,7 @@
           },
           "linkedQuests": [
             {
-              "questDefinition": "FortQuestItemDefinition'/Game/Quests/TwinePeaks/TwinePeaksQuest_LaunchRocket_D5.TwinePeaksQuest_LaunchRocket_D5'",
+              "questDefinition": "None",
               "objectiveStatHandle": {
                 "dataTable": "None",
                 "rowName": "None"
@@ -14200,343 +14706,21 @@
       "theaterId": "33A2311D4AE64B361CCE27BC9F313C8B",
       "availableMissions": [
         {
-          "missionGuid": "f0f99052-6e14-4d86-973d-8fd113e21408",
+          "missionGuid": "24c9ab75-fs67-4113-8b58-8e1512agacb9",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T03",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t03",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t03",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_T1_MT_LtB.MissionGen_T1_MT_LtB_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone3"
-          },
-          "tileIndex": 86,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "3e99d8c0-e60f-48b1-8785-138c48bff1aa",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T05",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t05",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_ore_silver_minimal",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone5"
-          },
-          "tileIndex": 45,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "21567023-9e59-4166-bf09-a1e58beec0a9",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 65,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "4f6a3278-3aaf-4a05-9559-f1f1bfaeab92",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 0,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "04984fe9-ffac-4436-9983-60489353081b",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T04",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_personnelxp_t04",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t04",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone4"
-          },
-          "tileIndex": 46,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "d95970e9-e1f3-4265-886d-26968535912d",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T05",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t05",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_heroxp_t05",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 1,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "1f6a3987-3aaf-4a05-9559-f1f1bfaeab92",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 3,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "b32326e5-381a-4f08-8709-65bd1f1152ae",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T02",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t02",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_schematicxp_t02",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone2"
-          },
-          "tileIndex": 38,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "672bda67-fbe4-43ba-af14-ccf6d6bbb432",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T04",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t04",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_reagent_c_t01_verylow",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone4"
-          },
-          "tileIndex": 66,
-          "availableUntil": "2017-07-22T04:19:45.000Z"
-        },
-        {
-          "missionGuid": "4f9a2279-3aaf-4a05-9559-f1f1bfaeab92",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 2,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "2458f413-6c47-4f29-b5c1-85be5594b591",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 4,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "88116067-8f9a-41e7-988d-a6cc06e2b7bb",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 5,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "1c24b2c5-6a34-480c-a227-80cfade4d707",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 6,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "2f158e71-f501-472e-a582-7d0ef269df3a",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 7,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "941f6eb3-d132-4699-91ac-18abc85e637f",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone1"
@@ -14545,67 +14729,67 @@
           "availableUntil": "9999-12-31T23:59:59.999Z"
         },
         {
-          "missionGuid": "2cb32da3-529b-4bd9-bc99-a6c981c75ce8",
+          "missionGuid": "24s9ag75-as67-4113-8b58-8e1592zgagb9",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t01",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t01",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone1"
           },
-          "tileIndex": 9,
+          "tileIndex": 6,
           "availableUntil": "9999-12-31T23:59:59.999Z"
         },
         {
-          "missionGuid": "79e1eb3f-b4a2-4d95-a074-8f4d1d2e428b",
+          "missionGuid": "24s9ag75-as67-4113-8b58-8e1592zgagb9",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t01",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t01",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone1"
           },
-          "tileIndex": 10,
+          "tileIndex": 7,
           "availableUntil": "9999-12-31T23:59:59.999Z"
         },
         {
-          "missionGuid": "489ce2b7-5d09-4baf-a46e-37c4fe24683f",
+          "missionGuid": "24s9ag75-as67-4113-8b58-8e1592zgagb9",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t01",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t01",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone1"
@@ -14614,430 +14798,16 @@
           "availableUntil": "9999-12-31T23:59:59.999Z"
         },
         {
-          "missionGuid": "4b36a804-f347-4af4-bb88-693c0116c7d3",
+          "missionGuid": "22z9ag75-as67-4p13-8b58-8e1592zgagb9",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t01",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 12,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "651bda97-fbe4-43ba-af14-ccf6d6bbb432",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 13,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "b17826e5-381a-4f08-8709-65bd1f1152ae",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 14,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "fcfbcb5e-5873-48b4-a0cf-eb96f91517e1",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 15,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "64ca2e8f-e819-4834-9c17-d8051cc7c91f",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_4Gates.MissionGen_4Gates_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 16,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "659bd0b7-89fc-4779-ad46-b9876c1c165c",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 17,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "1f6ed0b4-cf4f-45ed-bc96-798995c5d2a6",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 18,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "560db042-7ac6-4eba-abd2-b21a97449772",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 19,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "1d2881a3-ce24-4be0-8765-758537087f25",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 20,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "3344af9d-4edf-4c28-a71c-16709b5994ca",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 21,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "773310bd-2604-41e4-8e19-da5ff4b77d71",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 22,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "0f0409fc-c66d-4d39-887a-f71478e3d2a7",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 23,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "5b36a004-f347-4af4-bb88-693c0116c7d3",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 24,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "9dbdb9dd-3c0e-42c0-959f-e6db979df419",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 25,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "83183067-8f9a-41e7-988d-a6cc06e2b7bb",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 26,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "8c1871b2-65d2-425a-97f3-f64bfa5c2b17",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 27,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "f205296b-9d07-4445-a2da-6a9222e91c10",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 28,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "758974d4-3979-439f-88d0-58264f075abb",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
-                "quantity": 1
-              }
-            ]
-          },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_PVP_Tower.MissionGen_PVP_Tower_C",
-          "missionDifficultyInfo": {
-            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
-          },
-          "tileIndex": 29,
-          "availableUntil": "9999-12-31T23:59:59.999Z"
-        },
-        {
-          "missionGuid": "80f3add7-9c74-4810-a816-fd44af4be546",
-          "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
-            "items": [
-              {
-                "itemType": "CardPack:zcp_heroxp_t01",
-                "quantity": 1
-              },
-              {
-                "itemType": "CardPack:zcp_personnelxp_t01",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
@@ -15047,53 +14817,605 @@
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
             "rowName": "TheaterStartZone1"
           },
-          "tileIndex": 30,
+          "tileIndex": 5,
           "availableUntil": "9999-12-31T23:59:59.999Z"
         },
         {
-          "missionGuid": "79856d10-4c4a-4b46-9ad4-fbc29597575c",
+          "missionGuid": "1a3c5e7f-b4d8-1234-9f0b-a7b8c9d0e1f2",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t01",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t01",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_Onboarding_Fort.MissionGen_Onboarding_Fort_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "TheaterStartZone1"
+            "rowName": "TheaterStartZone2"
           },
-          "tileIndex": 31,
+          "tileIndex": 21,
           "availableUntil": "9999-12-31T23:59:59.999Z"
         },
         {
-          "missionGuid": "51f97106-ad84-45e4-a24b-91236a2fcf4c",
+          "missionGuid": "9b8c7a6d-c3f2-5678-a0b1-23456789abcd",
           "missionRewards": {
-            "tierGroupName": "Mission_Select_T01",
+            "tierGroupName": "Mission_Select_T07",
             "items": [
               {
-                "itemType": "CardPack:zcp_heroxp_t01",
+                "itemType": "CardPack:zcp_heroxp_t07",
                 "quantity": 1
               },
               {
-                "itemType": "CardPack:zcp_personnelxp_t01",
+                "itemType": "CardPack:zcp_schematicxp_t07",
                 "quantity": 1
               }
             ]
           },
-          "missionGenerator": "/Game/World/MissionGens/MissionGen_TheOutpost_PvE_01.MissionGen_TheOutpost_PvE_01_C",
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
           "missionDifficultyInfo": {
             "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
-            "rowName": "OutpostStartZone1"
+            "rowName": "TheaterStartZone2"
+          },
+          "tileIndex": 12,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "c745c5c0-3a1d-4d18-8ab8-eadf1bf60bbe",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone2"
+          },
+          "tileIndex": 18,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "631bdcb4-f31e-4c18-ad8c-5af37996770c",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone2"
+          },
+          "tileIndex": 19,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "631bdcb4-f31e-4c18-ad8c-5af37996770c",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone2"
+          },
+          "tileIndex": 16,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "2bfcbe1f-6365-469b-a4cf-ac19ef4d2ab4",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone3"
+          },
+          "tileIndex": 23,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "7cafb83e-6e6f-43dc-9f75-811f5ed844b8",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone3"
+          },
+          "tileIndex": 24,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "6f849e98-8213-4324-bb42-fc694be32ec8",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone3"
+          },
+          "tileIndex": 22,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "98ddde5f-9883-4869-97ee-ef0c9e9452f9",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone3"
+          },
+          "tileIndex": 29,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "35d5540c-d2db-49f3-8b87-4643b65899aa",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone3"
+          },
+          "tileIndex": 25,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "b70431c5-6a1e-4f80-9a4e-d8aad167cbe6",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone3"
+          },
+          "tileIndex": 28,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "f29cb566-06ef-4047-87ac-9c4d3d6891c2",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
           },
           "tileIndex": 32,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "7b062c09-f8df-4af4-b64f-59147629737c",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
+          },
+          "tileIndex": 33,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "59779dff-c599-4243-948c-4faeb89435ea",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
+          },
+          "tileIndex": 34,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "df81082f-4e8a-479a-897f-36fd1efe580e",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
+          },
+          "tileIndex": 41,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "618d99dc-09cb-4be5-8b87-9747db665041",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
+          },
+          "tileIndex": 36,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "2cf74413-b3c7-4aa4-8a7f-a2345f921069",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
+          },
+          "tileIndex": 40,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "78a8185f-24c6-4467-9494-6d9fcfc24349",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_2Gates.MissionGen_2Gates_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone4"
+          },
+          "tileIndex": 39,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "ae83e24f-8379-408b-9a66-e21d92421907",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_DeliverTheGoods.MissionGen_DeliverTheGoods_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 42,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "34e64641-61d2-4540-ac4d-f891c04fcf31",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_1Gate.MissionGen_1Gate_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 43,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "408eb3cc-16da-40db-9e65-0373565d0308",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_LaunchTheRocket.MissionGen_LaunchTheRocket_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 51,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "1d2f75d5-cb5d-40e5-a2db-1918f618827d",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 45,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "86417605-52d3-4ac7-b97c-ee25e9c96d55",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_3Gates.MissionGen_3Gates_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 46,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "c94c0a93-9aa5-4abe-97ba-c08da3f064a8",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_RetrieveTheData.MissionGen_RetrieveTheData_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 47,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "c8060515-55ab-42da-9a98-506e01c32003",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 48,
+          "availableUntil": "9999-12-31T23:59:59.999Z"
+        },
+        {
+          "missionGuid": "c2c62e46-0a28-4d6d-8811-e7a4c070471d",
+          "missionRewards": {
+            "tierGroupName": "Mission_Select_T07",
+            "items": [
+              {
+                "itemType": "CardPack:zcp_heroxp_t07",
+                "quantity": 1
+              },
+              {
+                "itemType": "CardPack:zcp_schematicxp_t07",
+                "quantity": 1
+              }
+            ]
+          },
+          "missionGenerator": "/Game/World/MissionGens/MissionGen_PowerTheStormShield.MissionGen_PowerTheStormShield_C",
+          "missionDifficultyInfo": {
+            "dataTable": "DataTable'/Game/Balance/DataTables/GameDifficultyGrowthBounds.GameDifficultyGrowthBounds'",
+            "rowName": "TheaterStartZone5"
+          },
+          "tileIndex": 44,
           "availableUntil": "9999-12-31T23:59:59.999Z"
         }
       ],
