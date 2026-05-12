@@ -140,7 +140,7 @@ function checkForCompleteQuests(questProfile, ApplyProfileChanges = []) {
         for (const objective of questData.Properties.Objectives) {
             let backendName = objective.ObjectiveStatHandle.RowName.toLowerCase();
 
-            if (quest.attributes[`completion_${backendName}`] !== objective.Count) {
+            if (quest.attributes[`completion_${backendName}`] < objective.Count) {
                 bIncomplete = true;
             }
         }
